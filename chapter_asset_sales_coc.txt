@@ -1,0 +1,615 @@
+CHAPTER 21 & 22: ASSET SALES AND CHANGE OF CONTROL — DEEP DIVE
+
+PART A: CHAPTER 21: THE ASSET SALE COVENANT
+
+21.1 Introduction — Asset Sales as Value Extraction
+
+An asset sale, in the context of a leveraged loan or bond covenant, is one of the most powerful value-extraction tools available to a sponsor. It's also one of the most controversial.
+
+The issue is straightforward: a company that's highly leveraged owns assets. Those assets have value. If the company sells the assets, it generates cash. What happens to that cash?
+
+From the lender's perspective, the answer should be: it gets used to pay down debt. The company has less debt, less leverage, lower risk. Everyone is better off.
+
+From the sponsor's perspective, the question is more complex. The asset might be generating returns that are higher than the company's cost of debt. If you sell the asset and use the proceeds to pay down debt, you're capping the upside. You're foregoing the future returns of the asset in exchange for the one-time benefit of debt reduction.
+
+The sponsor would prefer to keep the asset (and enjoy its ongoing returns) or to use the asset sale proceeds for other purposes — acquisitions, working capital, even distributions to equity holders.
+
+The asset sale covenant exists to mediate between these two positions. It says: you can sell assets, but the proceeds are restricted. You have to apply them in certain ways. You can't just sell an asset and pocket the proceeds.
+
+I've been involved in more asset sale covenant disputes than almost any other category. Why? Because asset sales are inherently contentious. The company has identified an asset it wants to sell. The company has a buyer and a price. The company wants to use the proceeds for something other than debt repayment. The lender wants to force debt repayment. Both sides feel that their position is commercially reasonable.
+
+The result is that asset sale covenants are some of the most litigated provisions in credit agreements. And sponsors have become expert at structuring transactions to minimise the impact of these covenants.
+
+21.2 Defining "Asset Sale" — The Gateway
+
+The first question is: what constitutes an "asset sale" under the covenant?
+
+The definition sounds simple, but it has enormous consequences. The credit agreement will typically define an Asset Sale as: "any sale, transfer, lease, assignment, or other disposition of any properties or assets (whether now owned or hereafter acquired) other than in the ordinary course of business."
+
+The phrase "ordinary course of business" is the key. A company that's in the business of buying and selling inventory is constantly undertaking asset sales in the ordinary course. A retailer sells inventory. A manufacturing company sells used equipment. These aren't "Asset Sales" under the covenant because they're ordinary course activities.
+
+But defining the boundary between "ordinary course" and "not ordinary course" is surprisingly difficult. Is the sale of a manufacturing facility ordinary course? For a manufacturing company that periodically upgrades or relocates facilities, maybe yes. For a manufacturing company that has never sold a facility before, definitely no.
+
+The credit agreement usually provides some carveouts. Ordinary course inventory sales are typically excluded. Sales of used or obsolete equipment are typically excluded, up to a certain dollar amount per year. Sales of real property held for investment (not essential to operations) might be ordinary course. Sales of accounts receivable in a factoring transaction might be ordinary course.
+
+But beyond these standard carveouts, the boundary is fuzzy.
+
+I worked on a transaction where a company owned a real estate parcel that was adjacent to its primary facility. The real estate wasn't essential to operations — it had been acquired years ago as a potential expansion site, but the company had since decided not to expand. The company wanted to sell the real estate to a developer. The sale price was roughly the fair market value. The company's argument was that this was a sale of non-essential real estate, which should be ordinary course.
+
+The lender's argument was that any sale of real property is a material transaction and should require the asset sale covenant to be satisfied. The lender was concerned that the company could sell off its real estate, use the proceeds to pay a dividend, and then have no room for expansion in the future.
+
+We ended up with a carveout: sales of real property up to a certain value could be ordinary course (say, €50 million), and sales above that value would be subject to the asset sale covenant. This allowed the company to sell smaller parcels without friction, while requiring that large real estate sales be analyzed under the covenant.
+
+The "fair market value" determination is another contentious element. The covenant typically provides that an asset can only be sold for at least 90% of fair market value (or sometimes 100% of FMV). The company has to demonstrate that the sale price is reasonable.
+
+What counts as "fair market value"? The company might argue that it's whatever price a willing buyer will pay — which is the actual sale price. The lender might argue that FMV is the independent appraised value, which could be different from the actual transaction price.
+
+I've seen transactions where a company wanted to sell an asset to a related party — perhaps a subsidiary of the sponsor, or a party that the sponsor had a relationship with. The sale price was above what unrelated parties would pay (because the related party had strategic reasons to acquire it). The lender pushed back and said: the sale price is above FMV in the open market, therefore the proceeds are more than the covenant allows, and the excess proceeds must be prepaid against debt.
+
+The company argued that this was commercially unreasonable. The company was taking advantage of its relationship with the related party to get a higher price. That's not a bad thing. But the lender was right to be nervous: a related-party transaction can be structured to shift value from debt holders to equity holders.
+
+The solution is typically to require that asset sales be appraised by an independent appraiser, or to require that related-party sales be subject to higher standards (e.g., 100% of FMV rather than 90%).
+
+Board resolution requirements are another gateway issue. Many credit agreements require that material asset sales be approved by the company's board of directors (or by lenders, or by some combination). The idea is to prevent management from selling assets without proper oversight.
+
+But board approvals can become theater. The board rubber-stamps management's recommendation. Or the board is controlled by representatives of the sponsor, who have an interest in the sale. The approval process doesn't add much value.
+
+That said, the requirement for board approval (and documentation of that approval) creates a paper trail. If the company claims that an asset sale didn't require the asset sale covenant, the company has to show that the asset was ordinary course. If there's a board resolution authorizing the sale as a one-time transaction, that's evidence that it's not ordinary course.
+
+21.3 Consideration Requirements
+
+Once we establish that something is an asset sale, the next question is: what are the proceeds, and what can we do with them?
+
+The definition of "proceeds" is typically: "cash and cash equivalents actually received by the company upon the sale, net of transaction costs."
+
+So if the company sells an asset for €100 million, and pays €5 million in transaction costs, the net cash proceeds are €95 million. That's what gets applied to the asset sale waterfall.
+
+But the covenant usually requires that the consideration be "in cash." What if the buyer pays with a promissory note? Or with securities? Or with assumption of liabilities?
+
+The covenant typically provides that the proceeds must be in cash or cash equivalents, and that "cash equivalents" might include: immediately available funds, bank deposits, readily tradable securities, and assumption of liabilities. But it does not include equity interests or long-term receivables.
+
+The 75% cash requirement is common in many covenants. If the buyer pays part of the purchase price by assuming liabilities, only 75% of the assumed liabilities count as cash proceeds. This is a protective provision for lenders: if 100% of assumed liabilities counted as proceeds, a company could sell an asset at a nominal price and claim that the assumed liabilities generated huge proceeds.
+
+Deemed cash provisions are used in some structures. If the company sells an asset and receives a receivable (a right to be paid over time), the covenant might "deem" that receivable to be cash for purposes of calculating proceeds. This is typically subject to a discount. If the receivable is €100 million and is payable over three years, the deemed cash might be €90 million (a 10% discount for the time value of money and credit risk).
+
+These variations matter enormously in practice. An asset sale for €100 million in cash generates €100 million of proceeds (less transaction costs). An asset sale for €70 million in cash plus €30 million in assumed liabilities generates only €70 million + €22.5 million (75% of the assumed liabilities) = €92.5 million of proceeds. That 7.5% difference is material.
+
+And a structure where the company receives a three-year receivable for €100 million might generate only €90 million of deemed proceeds, depending on the discount rate. That's a 10% haircut that could make a difference in whether the company has to make a mandatory debt prepayment.
+
+21.4 The Proceeds Waterfall
+
+Once we've calculated net cash proceeds, the covenant specifies what the company can do with them. This is the "proceeds waterfall" — a series of steps, in order, that specify where the cash goes.
+
+The typical waterfall looks like this:
+
+Step One: Payment of transaction costs. Underwriting fees, legal fees, real estate brokerage commissions — the documented, ordinary costs of the sale.
+
+Step Two: Payment of debt incurred to finance the acquisition of the asset being sold. If the company previously financed the asset with debt, and that debt is being repaid out of sale proceeds, it gets paid first.
+
+Step Three: Application toward restricted payments. Up to a certain amount (which is typically defined by formula: leverage-based or percentage-of-proceeds-based). This is where the sponsor's interests are served. The company can use a portion of asset sale proceeds for dividends or other restricted payments.
+
+Step Four (and final): Prepayment of senior debt.
+
+The amounts allocated to each step are critical. Step One is typically minimal and documented. Step Two depends on whether there's acquisition financing to be repaid (often there's not). Step Three is where the fight happens.
+
+A typical provision might say: "The company may apply up to 50% of Net Cash Proceeds to Restricted Payments, provided that leverage (tested pro forma after giving effect to all applications of proceeds) does not exceed [5.0x] after such application."
+
+This gives the company discretion to allocate up to 50% of proceeds to dividends, as long as the leverage test is satisfied. If leverage is already at 5.0x and the test is binding, the company might not be able to use any proceeds for restricted payments. Or it might be able to use a smaller percentage.
+
+Reinvestment rights are another variation. Some covenants allow the company to reinvest proceeds in "Replacement Assets" — new assets that replace the assets being sold. If the company is rotating its asset base (selling an old facility and building a new one), reinvestment might be permitted.
+
+The reinvestment right is typically subject to conditions:
+— Reinvestment must occur within a specified period (say, 180 days)
+— Reinvestment must be in productive assets (not passive investments)
+— Reinvestment must not increase leverage beyond a specified level
+— Reinvestment requires lender consent, or must be approved by the company's board
+
+The "reinvestment period" is important. If proceeds can be reinvested for 180 days, the company has six months to identify and close on a replacement acquisition. That's typically enough time. But if the period is only 90 days, it's tight. And if there's no reinvestment period at all, the company must immediately reinvest, which is commercially impractical.
+
+The reinvestment right is valuable to the sponsor, because it allows the company to return capital to the debt holders (through mandatory prepayment) without shrinking the company's asset base. Lenders usually tolerate reinvestment rights, as long as the reinvestment is subject to strict conditions and lender consent.
+
+The "excess proceeds offer" is a variation used when a company is issuing bonds. The proceeds waterfall typically requires that excess proceeds (amounts not absorbed in the first three steps of the waterfall) be used to make an offer to repurchase the bonds. This is sometimes called an "excess proceeds repurchase offer" or "change of control offer."
+
+The mechanics are: the company has excess proceeds of €50 million. The company makes an offer to all bondholders to repurchase their bonds at a specified price (often par plus accrued interest). Bondholders who want to tender into the offer can do so. The company uses the excess proceeds to repurchase the bonds tendered.
+
+The effect is to give bondholders a put right: if there's an asset sale, bondholders can effectively put their bonds back to the company at a specified price. This is protective for bondholders, but it's also complex and creates a lot of friction.
+
+The "leaky bucket" concern is important here. If proceeds can be applied to restricted payments, then applied to reinvestment, then applied to anything the company wants, the mandatory debt prepayment obligation becomes much weaker. The proceeds "leak out" through multiple pathways before they reach the debt paydown step.
+
+Lenders who are concerned about this will design the waterfall more tightly. Perhaps reinvestment is allowed, but only up to the amount of proceeds dedicated to reinvestment (not a percentage of total proceeds). Or restricted payments are only allowed if pro forma leverage is below a very low level (say, 3.0x). Or reinvestment and restricted payments are mutually exclusive — you can do one or the other, but not both.
+
+21.5 Leverage-Based Step-Downs
+
+Many modern covenants provide that the asset sale proceeds requirements step down as leverage improves.
+
+For example: "The company must prepay 100% of excess asset sale proceeds if leverage is above 4.5x. If leverage is between 4.0x and 4.5x, the company must prepay 75% of excess proceeds. If leverage is below 4.0x, the company must prepay 50% of excess proceeds."
+
+The logic is that if leverage is high, the company needs to deleverage and should dedicate proceeds to debt prepayment. If leverage is lower, the company has more flexibility and can use proceeds for other purposes (growth investments, acquisitions, distributions).
+
+This is economically sensible, but it creates opportunities for manipulation. A company approaching an asset sale can time the sale to occur when leverage is low. Or the company can structure the transaction to reduce leverage before the sale (through an equity injection or operational improvement), which brings the leverage step-down into effect.
+
+I worked on a transaction where a company wanted to sell a business unit. The anticipated proceeds were €200 million. At the time of the agreement, leverage was projected to be 4.5x, which meant 100% of proceeds would be mandatory debt prepayment.
+
+The sponsor proposed an equity injection: €50 million of sponsor equity to reduce leverage to 4.0x, which would trigger the 75% prepayment level. The proceeds would be €200 million of proceeds at a 75% prepayment requirement = €150 million to debt prepayment. Plus, the company could use €50 million of proceeds for other purposes (acquisitions, restricted payments).
+
+The lender's initial reaction was: wait, this doesn't make sense. The equity injection doesn't create value. It just shifts leverage downward mechanically. But the covenant mechanics reward it by allowing more proceeds to be used for non-debt-paydown purposes.
+
+Eventually we negotiated a compromise. Equity injections within a specified period before an asset sale would be disregarded for purposes of calculating the proceeds prepayment level. This prevented the company from game-playing the leverage calculation.
+
+The "step-down" concept also applies to the percentage of asset sale proceeds available for restricted payments. Some covenants provide: "Up to 50% of Asset Sale Proceeds may be applied to Restricted Payments, provided leverage does not exceed 5.0x."
+
+This creates the same dynamic. A company can use leverage reduction to free up capacity for restricted payments. And again, a company can engineer that leverage reduction through equity injections.
+
+The solution is to have provisions that prevent manipulation of the leverage test through unsustainable equity injections or one-off activities.
+
+21.6 The Interaction with Other Covenants
+
+Asset sale covenant interact with restricted payments covenants in important ways.
+
+If proceeds can be applied to restricted payments (dividends), then the asset sale covenant is a back-door way to let value escape the company. The lender is concerned not just about how proceeds are used, but about how those proceeds interact with other value-extraction mechanisms.
+
+For example: a company has a builder basket for restricted payments of €50 million (based on the company's retained earnings). The company sells an asset and has €100 million of proceeds. The covenant allows 50% of asset sale proceeds to be applied to restricted payments, which is €50 million. So the company has total capacity to pay restricted payments of €100 million (€50 million from the builder basket, €50 million from asset sale proceeds).
+
+But wait: the proceeds could also be applied to restricted payments under the "equity proceeds" basket, if the asset sale proceeds are deemed to be equivalent to equity proceeds for this purpose. If so, the company might have even more capacity.
+
+The modern approach is to be restrictive about how asset sale proceeds interact with restricted payments baskets. The covenant might provide: "Asset sale proceeds that are applied to Restricted Payments shall reduce dollar-for-dollar the permitted amount of Restricted Payments available under the builder basket."
+
+This prevents double-counting and ensures that the restricted payments capacity is limited regardless of how the company structures its sales.
+
+Asset sale proceeds and debt prepayment also interact. If the company is required to prepay €200 million of debt from asset sale proceeds, which debt gets prepaid? The covenant should specify this: senior secured debt first, then unsecured debt, with specific treatment of bonds vs. bank debt.
+
+The reason this matters is that lenders of senior secured debt might be more protective of their position if the proceeds go to unsecured debt first. And lenders of bank debt might want assurance that they're repaid before bonds.
+
+In practice, mandatory prepayment provisions usually specify: (1) senior secured bank debt, (2) other senior debt, (3) subordinated debt. Each category is repaid pro-rata to the amount outstanding.
+
+21.7 Case Studies
+
+Casino Guichard provides a real example of how asset sale covenants can be managed (or not).
+
+Casino is a major French retailer owned by the Rallye Group. In the 2010s, Casino undertook multiple business challenges: Amazon competition, changing consumer preferences, pressure on margins. The company's leverage started rising. To manage leverage, Casino undertook a strategy of asset sales — selling high-quality real estate and entering into sale-leaseback arrangements.
+
+The asset sales generated proceeds. Some of these proceeds were used to pay down debt (satisfying the lender's mandatory prepayment requirement). But some were used for other purposes: reinvestment in store improvements, working capital management, and in some cases equity distributions.
+
+The covenant waterfall allowed this, because the covenants included generous reinvestment rights and allowed a portion of proceeds to be applied to restricted payments when leverage was high.
+
+The practical result was that Casino sold valuable real estate, generating proceeds that should have been used to deleverage, but a significant portion of those proceeds ended up supporting operations rather than debt reduction. The company became smaller and less valuable as an operating entity, even though the leverage math looked better on paper.
+
+For lenders, the lesson is that an asset sale covenant should be paired with strict requirements about use of proceeds. A company cannot be allowed to sell strategic assets and use the proceeds for operations. If assets are being sold, it's usually a signal that the company's business is under stress, and the proceeds should be dedicated to deleveraging.
+
+Altice's asset sale proceeds became a major point of contention in the company's restructuring. Altice, which operates cable, telecom, and media businesses, owned assets in multiple European markets. In 2017-2019, Altice was under covenant stress and undertook sales of non-core assets.
+
+The proceeds from these sales were supposed to be prepaid against debt. But Altice's management argued that some of the proceeds should be reinvested in the remaining business, or allocated to working capital needs. The lenders pushed back.
+
+The dispute was about the spirit vs. the letter of the covenant. The covenant said proceeds "should" be applied to debt prepayment, but with exceptions for reinvestment and operations. The company interpreted those exceptions generously. The lenders interpreted them narrowly.
+
+Eventually the company and lenders reached a compromise, but not before significant friction. The lesson for drafters is to be specific about what "reinvestment" means and what "working capital needs" justify. Don't rely on general principles or "commercially reasonable" language.
+
+General case studies about asset sale manipulation: a retail company sells a store location to a REIT, and the REIT leases it back to the company. The proceeds go to debt prepayment (satisfying the covenant). But the company's cost of occupancy increases, because the lease payments are higher than the ownership costs. So the company's cash flow is actually worse, even though leverage looks better.
+
+A manufacturing company sells a facility that it no longer needs and correctly applies proceeds to debt prepayment. This is the right outcome.
+
+A technology company acquires a smaller competitor with asset sale proceeds under a "reinvestment" provision. The acquired company has higher margins, so pro forma leverage is acceptable. But the integration is difficult, and the acquisition generates unexpected costs. Eventually the acquisition needs to be written down, and leverage rises. The asset sale appeared to be a good use of proceeds in hindsight.
+
+The common theme: asset sale covenants need to be drafted with an understanding of what asset sales typically represent. An asset sale is usually a sign that either (a) the company is optimising its portfolio and getting better returns from redeployed capital, or (b) the company is in distress and needs to sell assets to generate cash. In scenario (a), reinvestment might be appropriate. In scenario (b), debt prepayment is essential.
+
+A good covenant recognises both possibilities and requires that debt prepayment be mandatory except in limited circumstances.
+
+21.8 What Twenty Years Teaches
+
+Asset sales are one of my favourite areas to negotiate precisely because they're so contentious and because both sides have legitimate points.
+
+Lenders are right to require mandatory debt prepayment of asset sale proceeds. If a company is selling assets, the most valuable use of those proceeds is deleveraging. Equity holders have already benefited from leverage (the higher the leverage, the higher the equity returns). They shouldn't get another windfall from asset sales.
+
+Sponsors are right to argue that some flexibility is necessary. A company might sell a non-core asset and want to reinvest proceeds in a higher-return asset or a strategic acquisition. Locking the company into mandatory debt prepayment removes valuable flexibility.
+
+The compromise is usually this: mandatory debt prepayment is the default. But reinvestment and other applications of proceeds are permitted if:
+— Leverage remains in compliance with the covenant
+— Reinvestment is in strategic, productive assets (not financial investments)
+— Reinvestment occurs within a specified period
+— The company provides documentation (board resolution, business plan) supporting the application of proceeds
+
+This allows flexibility while maintaining meaningful debt repayment discipline.
+
+One practice point: if you're the lender administrator or lender counsel, make sure that any application of asset sale proceeds is documented. Require that the company provide:
+— Documentation of the sale (contracts, closing certificates)
+— Calculation of net cash proceeds
+— Allocation of proceeds among the waterfall categories
+— If proceeds are being reinvested, documentation of the reinvestment and calculation showing pro forma leverage compliance
+
+This creates a paper trail and prevents disputes later about whether proceeds were properly applied.
+
+PART B: CHAPTER 22: THE CHANGE OF CONTROL COVENANT
+
+22.1 Introduction — Change of Control as Investor Protection
+
+The change of control covenant is meant to protect debt holders from involuntary ownership changes. The basic principle is: if there's a change in control of the company (typically meaning a change in who owns a majority of the equity, or a change in who controls the board), debt holders have certain rights. Usually, they have the right to require the company to repurchase their debt.
+
+The covenant exists because debt holders are concerned about moral hazard. When a new owner takes control, the new owner's business strategy and risk appetite might be very different from the old owner's. The new owner might be more aggressive, might take on more leverage, might strip assets to pay a dividend to the new equity owner.
+
+If debt holders can't get out when control changes, they're stuck with whoever the new owner is, and they have no say about how the company is subsequently managed.
+
+From an investor's perspective, the change of control put right is valuable insurance. If you own bonds and a new, aggressive owner takes control, you can demand repayment. You're not forced to remain an investor in an entity controlled by someone you didn't choose.
+
+The challenge is that change of control provisions create friction in M&A processes. If a company is being acquired, the acquirer has to account for the cost of repurchasing debt that has a change of control put right. That makes acquisitions more expensive, which is bad for equity holders and potentially bad for the target company's creditors (because it reduces purchase price).
+
+As a result, change of control provisions have become progressively weaker over time. Sponsors have pushed for "portability" provisions that allow the debt to transfer to the new owner without triggering the put right. Arranging banks have accepted portability because it makes deals easier. And the result is that change of control protection has been substantially eroded.
+
+22.2 The Core Mechanism: The Put Right
+
+At its simplest, a change of control put right works like this: if there's a change of control, debt holders can require the company to repurchase their debt at a specified price, usually 101% of par (100% principal plus 1% premium).
+
+For a company that has issued €500 million in bonds with a change of control put right, if a change of control occurs, the company must make an offer to repurchase all bonds at 101% of par. Bondholders who want out can tender their bonds. The company must pay the tendering bondholders.
+
+The 101% premium is meant to compensate debt holders for the inconvenience and the uncertainty. You're being forced out of an investment you wanted to hold, so you get a small premium on your principal.
+
+For loans, the change of control mechanism is typically different. Rather than a put right, there's usually an event of default provision. If there's a change of control, the debt is in default, and lenders can accelerate or can demand amendment of terms.
+
+The reason for the distinction is that bonds are typically held by passive investors who can't negotiate amendments. So bonds include contractual put rights to give bondholders an exit. Loans are held by active lenders who can negotiate with the company. So loans include default provisions that give the lenders leverage to negotiate.
+
+But practically speaking, the result is similar. A change of control triggers either (a) a put right forcing the company to repurchase debt, or (b) a default giving lenders the right to accelerate and demand repayment.
+
+Both of these are expensive and disruptive for an acquirer. If you're buying a company and the acquisition triggers a change of control, you need to refinance or repay all of the target's debt. That's a significant cost and complexity.
+
+22.3 Defining "Change of Control"
+
+The definition of "change of control" is critical because it determines when debt holders can exercise the put right.
+
+A typical definition provides: "Change of Control means any event or circumstance whereby any Person (or group of Persons) acquires or obtains direct or indirect beneficial ownership of 50% or more of the total equity of the company."
+
+This is straightforward: if your ownership stake drops below 50%, there's been a change of control.
+
+But the definition usually includes qualifications. The first is "permitted holders." A permitted holder is a person or entity whose acquisition of control does not trigger the change of control. Permitted holders typically include:
+— The current sponsors or owners
+— Any party approved by the company's board of directors
+— Any party approved by the holders of a certain percentage of the debt
+— Any party approved by the existing equity holders
+
+The concept of permitted holders is meant to allow flexibility. The sponsors might want to bring in co-sponsors or to refinance the equity without triggering a change of control. By designating those parties as "permitted holders," the company can do so without fear of bondholders putting their debt.
+
+But permitted holders provisions can also be used to sneak in a change of control. The company might designate a new owner as a "permitted holder" with lender consent, and then have that permitted holder acquire all the equity. Technically there's a change of control (the permitted holder didn't exist before), but it's permitted and doesn't trigger the put right.
+
+The "acting in concert" concept is important in defining when a group of shareholders constitutes a change of control. If two shareholders each own 40% of the company and decide to work together, are they "acting in concert" and triggering a change of control (because together they own 80%)? Or do they remain separate beneficial owners with 40% each?
+
+The answer depends on the credit agreement language. Some agreements specifically include acting in concert provisions. Others don't. When they're absent, there's room for argument about whether multiple shareholders coordinating their actions constitute a change of control.
+
+"Continuation of existing management or board" is another carveout. The change of control might be deemed not to have occurred if at least a majority of the board members are either the existing board members or replacements approved by existing board members. This allows for management changes and new board appointments without triggering a change of control.
+
+The effect is that you can replace management and even a few board members without triggering change of control, as long as existing management or board-designated successors remain in the majority.
+
+22.4 The Rise of Portability
+
+Portability is the concept that allows debt to survive a change of control without triggering the put right. The debt is "portable" from one owner to another.
+
+Portability is typically conditional. The most common condition is a "leverage test." The debt only remains outstanding (is portable) if pro forma leverage is below a specified level. If leverage exceeds the level, the put right is triggered and bondholders can demand repayment.
+
+So the covenant might say: "If there's a change of control and pro forma leverage (assuming the new owner's balance sheet) is below 4.0x, the debt is portable and the put right is not triggered. If pro forma leverage is above 4.0x, the put right is triggered."
+
+The logic is reasonable: if the new owner is a more leveraged entity, the debt holders should be concerned and should have the right to get out. If the new owner is less leveraged, the debt holders are in as good or better position and shouldn't need to get out.
+
+Rating-conditioned portability is a variation. The change of control put right is only triggered if, following the change of control, the debt's rating falls below a specified level. If the rating is maintained, the debt is portable.
+
+The effect is to give debt holders security that at least one rating agency views the new owner's credit as acceptable.
+
+How portability has eroded change of control protection is the crucial point. In the 1990s and early 2000s, most change of control covenants required a put right. Portability provisions existed but were limited to certain types of transactions (e.g., sales of the company to another financial sponsor who maintained the same leverage profile).
+
+By the 2010s, portability became almost universal. Most new credit agreements included leverage-conditioned portability. If the acquirer's leverage was reasonable, the debt could stay in place.
+
+The problem is that leverage is easy to manipulate at the time of a change of control. An acquirer can refinance the target company at higher leverage and still satisfy the portability test. Or an acquirer can make pro forma adjustments to EBITDA (including synergies) that make leverage look better than it actually is.
+
+I worked on a change of control deal where an acquirer was purchasing a company with €500 million in debt. The debt had a change of control put right, but with leverage-conditioned portability at 4.5x. The acquirer was more leveraged than the target company, and the acquirer's pro forma leverage (assuming the acquisition financed at market rates) was 5.2x.
+
+So the debt holders would have the right to put their debt. The company would have to refinance or repay the debt. The deal economics were stretched.
+
+Then the acquirer's investment banker proposed pro forma EBITDA adjustments: synergies from combining the two companies's administrative functions, procurement savings, elimination of duplicative costs. The proposed synergies were €50 million. With synergies, pro forma leverage came to 4.3x, which was below the 4.5x portability threshold.
+
+The lender pushed back: these synergies are not "known and quantifiable." They're aspirational. They haven't been contracted with third parties. They depend on successful integration.
+
+The acquirer argued: these synergies are realistic. Our integration plan is detailed. We have identified specific savings.
+
+Eventually a compromise was reached: the lender agreed to give credit for 50% of the synergies for purposes of the portability calculation. That gave pro forma leverage of 4.65x, which exceeded the threshold, so the put right was triggered. But the acquirer could refinance the debt at the new owner's cost of capital.
+
+The practical effect was that portability provisions have become so permissive that they rarely prevent a change of control from occurring. The real protection for debt holders in a change of control is whether the new owner has a stable business and a sustainable capital structure. If they do, the debt will probably be refinanced. If they don't, the bonds will probably be repriced anyway (even without a formal change of control put right).
+
+22.4A The Mechanics of Portability: Conditions, Calculations, and Pitfalls
+
+Portability, despite its marketing appeal to sponsors, is deceptively complex in execution. What looks like a straightforward "leverage test" becomes a minefield of definitional issues, pro forma adjustments, and gaming opportunities.
+
+The basic framework typically includes four key conditions:
+
+First, a leverage threshold. This is usually expressed as a maximum pro forma leverage ratio — "Leverage shall not exceed 4.0x" or sometimes "Leverage shall be no worse than the Leverage immediately prior to the Change of Control." The "no worse than" formulation is particularly interesting because it creates a moving target. If leverage is already at 5.0x before the change of control, it can stay at 5.0x after. The new owner inherits the target's leverage profile, whatever it may be.
+
+Second, a time boundary. Portability is typically available only for a limited period — usually 24 to 36 months after the initial investment. In my experience, this reflects lender concern that after three years, the debt should have been refinanced or repaid anyway. The time limit creates urgency for sponsors to execute changes of control relatively quickly if they want to avoid put rights.
+
+Third, a minimum equity contribution requirement. Many portability provisions require that the new owner (or the acquisition entity) invest a minimum amount of fresh equity — typically 30-35% of the total transaction value. The logic is: if the new owner is putting meaningful equity at risk, they're incentivized to run the business properly. If there's no equity contribution, the new owner is acquiring the company on pure leverage, which is risky for debt holders.
+
+Fourth, a permitted holders list or KYC (Know Your Customer) requirement. The lender wants to confirm that the new owner is not a narco trafficker, a failed operator, or an entity otherwise undesirable. Some credit agreements include specific approved investor lists (e.g., "any of these five private equity firms"). Others require that the new owner meet specified credit/operational criteria.
+
+Beyond these basic conditions, portability provisions typically include several additional constraints:
+
+— Default blockers: If the company is in material default under any other provision of the credit agreement, portability is not available.
+— Frequency limits: Some agreements allow portability to be exercised only once, or a limited number of times. This prevents serial acquisitions with each one triggering portability.
+— Conditionality blocks: If other conditions in the credit agreement are not satisfied (e.g., no material adverse change has occurred), portability might be unavailable.
+
+The leverage calculation is where the real complexity lies. Several critical issues arise:
+
+Net vs. gross leverage: Is leverage calculated on a net debt basis (total debt minus cash) or gross basis (total debt regardless of cash)? A new owner can artificially reduce leverage at closing by retaining excess cash on the balance sheet. The credit agreement needs to specify whether cash is netted. In my experience, this issue has caused more portability disputes than perhaps any other single issue.
+
+I worked on a transaction where a large operating company was being acquired by a sponsor. The debt had a 4.0x leverage portability threshold on a net debt basis. The seller was holding €150 million in cash as working capital. At closing, the new owner could either distribute that cash (and use it to pay down debt) or retain it.
+
+If the cash was retained, net leverage was artificially lower because net debt was lower. The sponsor wanted to retain the cash. The lender argued that this was gaming the system. Eventually they compromised on a "normalized cash" requirement: the new owner had to maintain a specified minimum cash balance (e.g., €50 million) for operational purposes, but excess cash above that level had to be applied to debt reduction.
+
+EBITDA add-backs and synergies: What adjustments are permitted in calculating pro forma EBITDA? Can the new owner include:
+— Synergies from combining operations?
+— Run-rate adjustments for recent acquisitions?
+— Normalized or "LTM" (last twelve months) EBITDA rather than actual historical results?
+— Structural cost savings (e.g., moving headquarters to a lower-cost jurisdiction)?
+
+Each of these adjustments reduces pro forma leverage and makes portability easier to achieve. Lenders typically want to limit add-backs to "known and quantifiable" savings that don't require operational integration. Sponsors want generous add-backs.
+
+I've seen negotiations where the sponsor proposed €80 million in synergies, the lender offered €10 million, and they eventually agreed on €35 million with the requirement that 80% of synergies be achieved within 18 months or the debt converts to a higher interest rate.
+
+Excluded amounts and reset mechanics: Some portability provisions include a "reset builder basket" or "excluded amounts" concept. The idea is: if a sponsor previously used portability to move debt from one owner to another, the leverage threshold for a subsequent portability exercise is reset downward to prevent unlimited leveraged acquisitions.
+
+For example: Initial portability is available at 4.5x leverage. After the first portability, the covenant resets to 4.0x for the next portability exercise. This prevents a sponsor from doing a series of acquisitions, each at 4.5x, with total system leverage spiraling out of control.
+
+Round-tripping is a sophisticated portability game that lenders have become alert to. Here's how it works: A sponsor acquires a company with €400 million in debt at 4.0x leverage. Portability is available at 5.0x. The sponsor immediately reinvests equity or arranges a refinancing to pay down €100 million of debt (reducing leverage to 3.2x). Once leverage is reduced, the sponsor makes a dividend distribution to itself (extracting €100 million of cash). The debt is then re-leveraged back to 4.0x. The net effect is: the sponsor extracted cash while claiming that leverage remained within the portability threshold because leverage was "reduced" at some point during the analysis.
+
+Lenders combat this through "known and quantifiable" standards, through monitoring actual leverage throughout the measurement period, and through "excluded amounts" — defining that if certain proceeds are used to reduce leverage, and then other proceeds are used for restricted payments, the leverage reduction benefit is clawed back.
+
+The frequency and exercise mechanics matter as well. Many portability provisions allow multiple exercises (86% of leveraged loans in some data sets include this). But each exercise might require separate calculations, separate demonstrations of satisfaction of conditions, and separate documentation. A sponsor planning multiple acquisitions within a sponsorship has to carefully sequence them to ensure portability remains available.
+
+22.4B Disguised Portability: When "Permitted Holders" Becomes the Whole Market
+
+Portability clauses achieve their intended effect explicitly — through a leverage test or rating condition that allows the debt to survive a change of control if financial metrics are satisfied.
+
+But there's a parallel mechanism that achieves similar effects through the "Change of Control" definition itself. I call this "disguised portability."
+
+The core issue: a change of control is typically defined as a transfer of more than 50% of voting equity. But what if the credit agreement broadens who counts as a "Permitted Holder" — an investor whose acquisition does not trigger a change of control?
+
+The range of possible definitions is quite broad:
+
+Narrow: Only the current sponsors are permitted holders. Any other investor trigger a change of control.
+
+Moderately restrictive: The current sponsors, plus any investor approved by the board of directors.
+
+Moderately permissive: The current sponsors, plus any entity that is a "co-investor" with the sponsors, plus any member of the sponsor's fund (e.g., any LP in a sponsor fund).
+
+Broad: Any "Affiliate" of the sponsors. In fund-based structures, this could mean any LP in any sponsor fund.
+
+Very broad: Any shareholder of the parent holding company that owns the sponsors.
+
+The broadest definitions essentially allow the sponsorship to recapitalize, refinance equity, or achieve an investor transition without triggering a change of control — and therefore without triggering any put right on the debt.
+
+I've seen credit agreements where the change of control definition read: "Change of Control means the acquisition of beneficial ownership of more than 50% of the equity by any Person that is not (a) an Affiliate of the Company or (b) a member of the Sponsor Funds or an Affiliate thereof."
+
+In plain English: if you're a subsidiary of the company, or if you're an LP in one of the sponsor's funds, you can acquire control without triggering a change of control. This creates enormous latitude.
+
+In one situation, a private equity sponsor's fund was sunsetting. The sponsor wanted to "roll" some of its ownership to a co-investment vehicle that included some of the fund's LPs. Under the credit agreement, the debt's change of control definition allowed a transfer to "any shareholder of the parent company." The co-investment vehicle qualified as a shareholder. So the equity transition could occur without any change of control trigger — even though 100% of the original sponsorship had exited and new sponsors were taking control.
+
+Disguised portability matters most when express portability is unavailable or has been exhausted. Many credit agreements include portability that's limited in time or frequency ("portability available once during the first 36 months"). Once that opportunity is used, the company is back to having a strict change of control put right — unless the "Permitted Holders" definition is broad enough to allow subsequent transactions.
+
+The critical question in negotiating these provisions: what happens after portability expires? If portability is available only for 36 months, and the sponsor does an acquisition in month 20, what's the regime in month 50? The sponsor is stuck with a strict change of control put right, unless the Permitted Holders definition is broad enough to allow the new owner to maintain control without triggering the put right.
+
+In my view, the most protective credit agreements have:
+— Explicit portability with defined conditions and timeframes
+— A narrower Permitted Holders definition that doesn't allow "any LP in any sponsor fund" to acquire control
+— A provision that after portability expires, strict change of control protection is restored
+
+The most sponsor-friendly (least protective) agreements have:
+— Broad portability conditions
+— A very expansive Permitted Holders definition
+— Multiple exercises of portability permitted
+— Reset mechanics that lower the leverage threshold only modestly
+
+22.4C IPO Implications for Debt Capital Markets
+
+The possibility of an IPO exit introduces unique elements into debt capital markets covenants. An IPO is simultaneously a change of control (the private sponsors fully exit) and a transformation event (a public company is fundamentally different from a private one in terms of disclosure, regulatory compliance, and potential for future leverage).
+
+Credit agreements governing pre-IPO debt typically address three IPO-related issues: equity claw-back, post-IPO dividend capacity, and covenant suspension.
+
+Equity claw-back (or more accurately, bond redemption rights): Many leveraged finance structures include a provision allowing the company to redeem a portion of high-yield bonds using IPO proceeds. The mechanics are specified in the bond prospectus:
+
+"Upon the occurrence of an IPO in which the Company receives net proceeds of at least [€X million], the Company shall redeem, at par plus a premium, [25-40%] of the aggregate principal amount of the Bonds. The redemption price shall be [101-102%] of par."
+
+In my experience, the redemption percentage typically ranges from 35-40% of the outstanding bonds. The premium is usually 1-2% of par, though I've seen premiums as high as 3-4% in very competitive markets.
+
+The rationale is: IPO proceeds are windfalls. Equity holders benefit enormously from the IPO. It's reasonable to require that some of those proceeds be used to redeem debt that financed the platform business before the IPO.
+
+But the details matter enormously for debt investors. A company I worked with did an IPO and raised €300 million in gross proceeds (approximately €280 million net). The bonds had a 35% equity claw provision. That would have required redemption of approximately €98 million of bonds.
+
+However, the credit agreement also included a "non-call period" — the company couldn't redeem the bonds during the first three years after issuance. The company issued the bonds in year 1, did the IPO in year 3, and the non-call period was still in effect.
+
+The company's lawyers argued that the equity claw provision was therefore inapplicable — the non-call period took precedence. The bondholders disagreed. Eventually a settlement was reached where the company redeemed approximately 50% of what the equity claw provision would have required, with the rest being redeemed in the following year when the non-call period ended.
+
+(One firm I'm aware of — Very Group, a major UK online retailer — had a particularly aggressive equity claw structure where IPO proceeds triggered a 102% redemption of a significant portion of the outstanding bonds. This was heavily negotiated and was unusual even for high-yield markets.)
+
+Post-IPO dividend capacity: A related issue is what happens to the company's ability to pay dividends after an IPO. Pre-IPO, the company is probably restricted from paying dividends (or paying dividends at the level the sponsor might want). After the IPO, there's typically a "dividend basket" that allows distributions up to a percentage of net IPO proceeds, or a percentage of market capitalization, or some other metric.
+
+Credit agreements often specify:
+
+"After the occurrence of an IPO, the Company may pay Restricted Payments in an aggregate amount not to exceed the greater of: (a) six percent (6%) per annum of the net cash proceeds received by the Company in the IPO, or (b) X% of the market capitalization of the Company immediately following the IPO."
+
+The second formulation is interesting because it creates leverage-sensitivity. A company with a higher market cap immediately post-IPO has more capacity to pay dividends. But if the company's stock price declines significantly post-IPO, the dividend capacity shrinks. This creates some equity-debt tension: equity holders want to maintain post-IPO dividend capacity, which incentivizes them to keep the stock price up.
+
+IPO "pushdown" covenants: Some credit agreements include provisions allowing the company to "push down" debt from senior to junior positions in the capital structure post-IPO without noteholder consent. The logic is: after an IPO, the company is creditworthy enough to carry more debt, and tax-efficient structures might require that debt be repositioned.
+
+The provision might read: "In connection with or within [12-24] months following an IPO, the Company may refinance, repay, or convert Senior Debt into Subordinated Debt, or may restructure the capital structure, without the consent of the holders of the Bonds, provided that [specified conditions are met]."
+
+This is attractive to sponsors because refinancings and restructurings are expensive if they require bondholder consent. But it's obviously unattractive to bondholders.
+
+Covenant suspension upon IPO: An emerging practice, especially in the UK and continental European markets, is to suspend or modify covenants upon an IPO, subject to leverage thresholds. The rationale is: once the company is public, the debt is held by more sophisticated investors, and the company's credit quality is validated by the IPO. Strict covenants become less necessary.
+
+A provision might read:
+
+"Upon the occurrence of an IPO, and provided that the Company's pro forma Leverage does not exceed [4.5x], all Financial Covenants (including maximum Leverage, minimum Interest Coverage, and restrictions on Restricted Payments) shall be suspended until such time as Leverage exceeds [5.5x]."
+
+I've seen this in transactions for Verisure (the Swedish security services company that IPO'd after a period of private equity ownership), and for Motor Fuel Group (the UK fuel retailer). The IPO validates the company's business model, reduces uncertainty, and allows more operational flexibility.
+
+But there are risks. If the company's leverage breaches the suspension threshold, all covenants suddenly come back into effect. This can create mechanical defaults if the company isn't prepared for the resumption of covenant testing.
+
+Post-IPO reporting: Relatedly, credit agreements often modify reporting requirements post-IPO. Instead of requiring quarterly unaudited financial statements, the company only has to provide audited annual results plus semi-annual unaudited results (matching its public reporting). This reduces the company's compliance burden but gives lenders less frequent updating on the company's financial position.
+
+The key issue for debt investors in IPO structures: an IPO is a transformative event, but it's not necessarily a positive event for existing debt holders. The company gains flexibility, dividend capacity, and ability to raise capital. But debt holders lose covenant protections and insight into operations. The terms should be calibrated to reflect these trade-offs.
+
+22.5 Event of Default vs. Put Right
+
+In loans, a change of control is typically an "event of default" rather than a "put right." This means that the occurrence of a change of control doesn't automatically force the company to repurchase the debt. Rather, it gives lenders the right to declare default and demand repayment.
+
+The distinction matters because an event of default gives lenders negotiating leverage. If there's a change of control, lenders can say to the acquirer: "Your acquisition has triggered a default. We can demand immediate repayment, or we can amend the terms of the loan. What terms do you want to discuss?"
+
+Lenders often use this leverage to extract concessions. They might:
+— Increase the interest rate
+— Tighten covenants
+— Reduce the maturity (require earlier repayment)
+— Add collateral or guarantees from the new owner
+— Require the new owner to make an equity injection
+
+The event of default mechanism is more flexible than a put right, but it also gives lenders more power in a change of control situation.
+
+When change of control is structured as an event of default in a loan agreement, the acquirer knows that the loan is "at risk" in the transaction. The acquirer can't assume that the loan will simply carry forward at existing terms. The acquirer has to budget for the cost of amending the loan, refinancing the loan, or paying off the loan.
+
+In bonds, change of control is typically a put right (not an event of default) because bondholders aren't sophisticated negotiators. They can't sit around a table with the company and renegotiate terms. They need a straightforward contractual right to get out.
+
+But some bond agreements do include change of control as an event of default, in addition to (or instead of) a put right. This gives them the optionality: either demand repayment under the put right, or demand acceleration under the event of default and require the company to refinance.
+
+22.6 The Portability Paradox
+
+Here's the paradox of portability that I've thought about for years:
+
+On one hand, portability makes commercial sense. If a new owner has a similar or better credit profile than the old owner, why should debt holders care? The fundamental risk hasn't changed.
+
+On the other hand, portability eliminates a debt holder's most powerful tool: the ability to exit if they don't like the new owner. And in a market where debt holders have become passive (many bonds are owned by funds that just hold to maturity), the loss of that exit right is significant.
+
+Sponsors love portability because it removes a significant cost from acquisitions. Without portability, any acquisition of a leveraged company requires refinancing the target's debt, which is expensive and creates deal risk. With portability, the debt can seamlessly flow to the new owner, which makes the acquisition cheaper and simpler.
+
+The "free exit" problem is what I call the downside of portability. In a non-portable structure, if a company is acquired by an owner that debt holders dislike, debt holders can put their bonds and exit. This creates pressure on acquirers to offer favorable terms to debt holders (either in the form of the acquisition price, or in amended loan terms). The threat of forced debt repayment makes acquirers think twice about hostile or aggressive takeovers.
+
+With portability, that pressure is gone. An aggressive acquirer can acquire a company, maintain the same leverage or even increase it, and the debt holders are stuck. They can't put the debt. They can only watch as the new owner potentially strips assets or takes more risk.
+
+Data on portability adoption rates shows the trend clearly. In the late 1990s and early 2000s, maybe 20-30% of leveraged loans included portability provisions. By 2010, that had grown to 50%+. By 2020, nearly 80% of loan agreements included some form of portability.
+
+The trend is clear: portability is winning, change of control protection is weakening.
+
+22.7 Interaction with Other Provisions
+
+Change of control interacts with other credit agreement provisions in important ways.
+
+A change of control might trigger:
+— Acceleration of debt (if it's a default provision)
+— A put right allowing debt repurchase
+— Restrictions on guarantee and collateral
+
+The guarantee and collateral provisions are particularly important. In many leveraged structures, the target company has subsidiaries. The target company is the borrower. The subsidiaries are guarantors of the debt and pledge their assets as collateral.
+
+If there's a change of control of the parent company, the guarantee and collateral might be at risk. If the parent company changes ownership, and the subsidiary is still owned by the old owner, there might be a mismatch in incentives. The new parent owner wants to extract value from the subsidiary. The subsidiary guarantees debt to the old parent's lenders. That creates conflict.
+
+Many credit agreements provide that upon a change of control, guarantees from subsidiaries will be released, and collateral will be released, unless the new owner agrees to reaffirm them. This is meant to protect the subsidiaries from having their assets pledged to lenders of a company they no longer control.
+
+But releasing guarantees and collateral is dangerous for lenders. If the guarantee is released, the parent company has no obligation to pay the debt. If collateral is released, the lender's secured position is weakened.
+
+The practical resolution is that in a change of control, the new owner (the acquirer) must either:
+— Agree to reaffirm existing guarantees and collateral, or
+— Refinance the debt entirely, or
+— Repay the debt.
+
+Change of control and equity cures also interact. If a company is in covenant breach and planning a change of control transaction, can the old equity holders (the sponsors) make an equity cure before the change of control? Or does a change of control automatically trigger a default that can't be cured by equity?
+
+The answer typically depends on the credit agreement language. Some agreements allow equity cures right up until the change of control occurs. Others provide that if a change of control is imminent (announced or anticipated), equity cures are not permitted.
+
+The logic of the latter approach is: if a change of control is happening, the new owner's credit quality is what matters, not the old owners' willingness to inject equity. An equity cure by the old owners would just delay the day of reckoning.
+
+22.8 What Twenty Years Teaches
+
+Change of control provisions have been substantially eroded over my twenty-year career, and I think that's unfortunate.
+
+The original logic behind change of control protection was sound: if you're a debt investor and the company you're investing in changes ownership, you should have the right to exit. The new owner might have a different strategy, a different risk appetite, different operational practices. You shouldn't be forced to remain an investor in an entity controlled by someone you didn't choose.
+
+But practical realities have overtaken theory. Acquisitions are complex and expensive. Acquiring banks and sponsors view change of control as a cost and an obstacle. They've pushed hard for portability. Lenders, lacking negotiating leverage, have largely capitulated.
+
+The result is that in the modern market, many debt investors are locked into their investment through a change of control. They can't exit. They can only hope that the new owner treats them fairly.
+
+For borrowers and sponsors, this is a win. Acquisitions are cheaper and simpler when debt can port. For debt investors, it's a loss of optionality.
+
+The market is beginning to recalibrate this. Private credit lenders, who often lend to middle market companies, are pushing back toward more restrictive change of control provisions. They're insisting on true put rights, with limited portability. They're using this as a competitive advantage vs. syndicated lenders.
+
+I suspect that over the next cycle, some reassessment of portability will occur. Debt investors will demand more protection. Sponsors will have to accept that a material acquisition involves refinancing or dealing with put rights on the target's debt.
+
+But absent a significant market dislocation, I don't think we'll return to the 1990s-era change of control protections. Portability is too embedded in market practice. The cost of change of control is now a factor that sponsors (and their advisors) incorporate into their deal economics from day one.
+
+SUMMARY: THE ASSET SALES AND CHANGE OF CONTROL PRACTITIONER'S CHECKLIST
+
+Asset Sales:
+
+□ Define "asset sale" carefully. What's the threshold between ordinary course inventory sales and material asset sales requiring covenant compliance?
+
+□ Specify whether asset sales require board approval or other conditions. This helps determine whether a transaction is ordinary course.
+
+□ Define "fair market value" and the measurement mechanism. Is it the actual sale price? An independent appraisal? A percentage of estimated FMV?
+
+□ Specify what counts as "cash proceeds." Does it include assumed liabilities? Receivables? Stock or securities?
+
+□ Structure the proceeds waterfall clearly. What's the priority order for use of proceeds? How much flexibility is there for reinvestment vs. debt prepayment?
+
+□ If reinvestment rights are included, define them narrowly. What qualifies as a "Replacement Asset"? What time period is allowed for reinvestment? What lender consent is required?
+
+□ Address restricted payments carveouts carefully. If asset sale proceeds can be applied to restricted payments, how does this interact with other restricted payments baskets?
+
+□ Consider leverage step-downs in the prepayment requirement. Lower leverage = lower mandatory prepayment percentage. But watch for manipulation of leverage through equity injections immediately before asset sales.
+
+□ In workouts, tighten asset sale provisions. Require 100% mandatory prepayment. Eliminate reinvestment rights. Eliminate restricted payments capacity. Force deleveraging.
+
+□ Require documentation of all asset sales and proceeds applications. Create a paper trail to prevent disputes about whether proceeds were properly applied.
+
+Change of Control:
+
+□ Decide whether change of control should be an event of default (in loans) or a put right (in bonds). Event of default gives lenders leverage. Put rights give debt holders certainty.
+
+□ Define change of control carefully. What percentage threshold triggers it? (Usually 50%, but can vary.) Does it include "acting in concert"?
+
+□ Determine whether the company's current owners will be "permitted holders." This allows equity transactions without triggering change of control.
+
+□ Evaluate portability provisions. If the credit agreement includes leverage-conditioned portability, what's the portability threshold? How is pro forma leverage calculated? What add-backs or synergies are permitted?
+
+□ In portability calculations, understand the net vs. gross leverage question. Is cash netted in the leverage calculation? Can the new owner artificially reduce leverage by retaining excess cash? Consider "normalized cash" requirements.
+
+□ Watch for portability mechanics that allow round-tripping: injection of equity to reduce leverage, access to portability, immediate distribution of proceeds back to sponsors. Require "Excluded Amounts" concept and monitoring of leverage throughout measurement period.
+
+□ Assess portability frequency and reset mechanics. How many times can portability be exercised? Do leverage thresholds reset (step-down) after each exercise? Are there minimum time periods between portability exercises?
+
+□ If portability is included, consider rating-based carveouts. Maybe the put right is only triggered if the company's rating falls below a certain level.
+
+□ Examine the "Permitted Holders" definition carefully. Is it narrowly drawn (only current sponsors) or very broad (any LP in any sponsor fund)? Broad permitted holders definitions can achieve "disguised portability" even if express portability is unavailable or exhausted.
+
+□ In portability provisions with time limits (e.g., available only in first 36 months), understand what change of control protections apply after portability expires. Does the credit agreement revert to strict put rights, or do broad Permitted Holders definitions allow transitions without triggering change of control?
+
+□ Ensure that change of control provisions in loans (default triggers) and bonds (put rights) are consistent. Lenders and bondholders should have similar rights, or at least understand why they differ.
+
+□ Address guarantee and collateral implications of change of control. What happens to subsidiary guarantees and collateral pledges if the parent company changes ownership?
+
+□ Consider equity cure mechanics in the context of change of control. Can the sponsors make an equity cure if a change of control is imminent?
+
+□ In acquisition contexts, budget for the cost of change of control. Either you'll refinance the debt, or you'll repurchase it, or you'll amend terms. Any of these has a cost.
+
+□ In private credit markets, push for more restrictive change of control provisions. Portability is less favorable to lenders than put rights or strict default provisions.
+
+□ Monitor for hostile acquisition risk. If the company is in an industry vulnerable to hostile bids, strong change of control protections are valuable.
+
+□ In restructurings, consider whether change of control can be used as leverage. A change of control event (e.g., sponsor exit) can force amendment of other terms if debt holders have strong change of control rights.
+
+□ Remember that change of control provisions are most valuable to debt holders when they're actually exercised. If the new owner is creditworthy and maintains reasonable leverage, put rights will likely not be exercised. If the new owner is weak or highly leveraged, put rights become very valuable. Price your debt accordingly.
+
+IPO-Specific Considerations:
+
+□ If an IPO exit is contemplated, understand any equity claw-back or bond redemption provisions. What percentage of bonds can be redeemed using IPO proceeds? What's the redemption price (par + premium)? Does a non-call period prevent or delay the redemption?
+
+□ Negotiate the IPO proceeds threshold carefully. If the equity claw is triggered only if IPO proceeds exceed a certain amount (e.g., €200 million), that matters. So does how "net proceeds" are defined and whether transaction costs are deducted.
+
+□ Review post-IPO dividend capacity provisions. After an IPO, what's the maximum amount of dividends the company can pay? Is it a fixed percentage of IPO proceeds, or is it dynamic (based on market cap or leverage metrics)? Consider how declining stock prices might affect the dividend capacity.
+
+□ Understand whether the credit agreement allows "pushdown" of debt post-IPO without noteholder consent. Can the company refinance senior debt into subordinated positions? Can it restructure the capital structure to achieve tax efficiency? Pushdown provisions reduce bondholder control.
+
+□ Evaluate covenant suspension provisions tied to IPO events. Some agreements suspend financial covenants upon an IPO if leverage is below a specified threshold. This increases operational flexibility but can create mechanical defaults if leverage subsequently breaches the suspension threshold and covenants suddenly resume.
+
+□ Consider post-IPO reporting changes. Does the company transition from quarterly unaudited to only annual audited + semi-annual unaudited reporting? This matches public company disclosure but gives debt holders less frequent financial updates.
+
+END OF CHAPTERS 21 & 22

@@ -1,0 +1,569 @@
+CHAPTER 8: WORKING CAPITAL AND CASH MANAGEMENT IN LBO STRUCTURES
+
+Federico Rossi
+Senior Leveraged Finance Practitioner, Europe
+20+ Years of Experience in M&A and LBO Advisory
+
+================================================================================
+
+INTRODUCTION: WHY WORKING CAPITAL MATTERS IN AN LBO
+
+When I began my career in leveraged finance in the late 1990s, working capital was considered almost an afterthought in LBO transactions. The focus was on asset sales, refinancings, revenue growth, and EBITDA expansion. Junior bankers would often treat working capital adjustments as administrative tasks — something to be sorted out by the accountants in the closing rooms of Luxembourg or Dublin law firms, usually at three in the morning, powered by terrible coffee and the kind of gallows humor that only emerges at deal closing.
+
+How wrong that perspective was.
+
+In my first major LBO as a transaction advisor, I watched as a perfectly sound leveraged buyout of a mid-sized German packaging company nearly came apart not because of operational issues, not because of debt covenants, and not because of market conditions, but because of a working capital true-up dispute that consumed six months of post-closing management time and cost both the sponsor and the selling shareholders nearly two million euros in legal and accounting fees. The issue? A misunderstanding about whether certain customer prepayments should be included in accounts receivable or treated as liabilities at closing. This seemingly technical question nearly brought the transaction to litigation.
+
+That experience taught me something fundamental about leveraged buyouts: working capital is not an administrative sideline. It is the circulatory system of the deal. It determines whether a sponsor actually has cash available to pay down debt, fund operations, or weather unexpected business disruptions. It is the difference between a transaction that creates value and one that creates leverage-induced stress from day one. Over the past two decades, I have worked on hundreds of transactions across multiple jurisdictions and sectors, and I can say with absolute certainty that more deals encounter post-closing friction around working capital than around any other closing adjustment mechanism.
+
+This chapter is about understanding working capital management in leveraged buyouts from a practitioner's perspective. It is not a textbook treatment. It is a distillation of twenty years of experience managing these issues, learning from mistakes, and developing frameworks that actually work in real transactions. We will cover the mechanics of working capital adjustments at closing, the philosophical and practical differences between locked-box mechanisms and completion accounts, how to structure cash pools in multinational transactions, how to handle trapped cash and restricted cash, the mechanics of cash sweeps and dividend blockers, and the critical role of the independent accountant in post-closing disputes.
+
+Throughout this chapter, I will draw on real examples — some modified for confidentiality but all grounded in transactions I have worked on or observed. I will also reflect on what twenty years in this business has taught me about the intersection of working capital, financial engineering, and human behavior.
+
+================================================================================
+
+SECTION 1: WORKING CAPITAL ADJUSTMENTS AT CLOSING — MECHANICS AND PHILOSOPHY
+
+Working capital, in the most basic accounting sense, is the difference between current assets (accounts receivable, inventory, cash, prepaid expenses) and current liabilities (accounts payable, accrued expenses, current portions of debt). In a leveraged buyout, working capital adjustment mechanisms solve a fundamental problem: the buyer and seller often have different views of what working capital the business actually needs at the time of closing.
+
+Let me explain why this is such a persistent issue.
+
+A business operating at normal run-rate will naturally accumulate working capital as part of its operating cycle. A manufacturing company needs inventory. A services company needs to manage the timing between when it pays employees and when it collects from customers. A retailer needs cash on hand for operations. All of these represent working capital that is embedded in the enterprise value. But "normal" working capital can vary significantly depending on timing — the time of year, the stage of the sales cycle, the payment terms the business has negotiated with customers and vendors.
+
+In a typical LBO, the seller and buyer agree on a target working capital level at signing. This target is meant to represent the amount of working capital the business will actually need to operate efficiently going forward. At closing, the parties perform a detailed calculation of actual working capital, comparing it to the target. If actual working capital exceeds the target, the buyer has effectively funded additional working capital that was not contemplated in the purchase price — this creates an adjustment in the buyer's favor, reducing the purchase price. Conversely, if actual working capital falls short of the target, the buyer received less than expected, and the purchase price increases.
+
+This mechanism sounds straightforward in theory. In practice, it is mired in complexity, judgment calls, and frequent disputes.
+
+I recall a transaction with a Swedish industrial components manufacturer where we negotiated a working capital target of 12 million euros. The business had seasonal dynamics — inventory built heavily in Q3 and Q4 for the strong holiday season, then depleted significantly in Q1 and Q2. We agreed on a closing date in early September, which seemed reasonable. But then, three weeks before closing, the business received a massive customer order for delivery in October. Suddenly, inventory ballooned. The working capital at closing was nearly 18 million euros instead of 12 million. The seller argued that this was just normal seasonal build. The buyer argued that the excess was buyer's responsibility since it resulted from working capital the buyer would ultimately benefit from. The dispute came down to whether the working capital target should have been adjusted for the known seasonal patterns.
+
+We resolved it by negotiating a formula that adjusted the target based on the time of year, with seasonal adjustments built in. But this taught me an important lesson: working capital targets are only as good as the clarity about what assumptions underpin them.
+
+The mechanics of working capital adjustment require absolute clarity on several points. First, what specific items are included in the working capital calculation? Does it include all accounts receivable, or are certain bad debts already written off? Does inventory include obsolete stock, or only saleable goods? What about cash on hand — is this part of working capital, or does it pass separately? What about items like deferred revenue, accrued vacation payable, or environmental remediation reserves? Every one of these items can be a source of dispute.
+
+Second, how is the working capital calculated? Is it based on balance sheet presentation under IFRS or under national accounting standards? Are there intercompany eliminations? How are extraordinary items treated? I have worked on transactions where the buyer's accountants and the seller's accountants agreed on the working capital figure down to the decimal place, only to have a subsequent tax audit reveal that certain line items needed to be reclassified, which then changed the entire working capital calculation.
+
+Third, what is the timing? When is the working capital calculation deemed to be finalized? Is it within 60 days of closing? Is there a dispute resolution mechanism if the buyer and seller cannot agree? What happens if the accountant takes six months to finalize the calculation — does the seller simply wait for final payment, potentially with working capital held in escrow?
+
+These seemingly procedural questions have profound implications for transaction execution and post-closing relationships. I have seen seller management teams become deeply frustrated when working capital adjustments prevent them from receiving final consideration for months after closing. I have seen buyer management teams become equally frustrated when they discover that working capital is higher than expected and they are forced to fund additional amounts.
+
+The fundamental principle I try to establish in every transaction is this: the working capital adjustment mechanism should be a neutral tool for ensuring that neither the buyer nor the seller bears the risk of timing-based fluctuations in working capital. It is not a "gotcha" mechanism. It is not an opportunity for the buyer to engineer a post-closing price reduction. It is a way of saying, "We agreed the business needs X amount of working capital. If it actually needs Y at closing, we adjust the purchase price accordingly." This principle can only be honored if the working capital target is thoughtfully constructed and if the calculation methodology is transparent and unambiguous.
+
+In my experience, the transactions that go smoothest post-closing are those where the seller and buyer jointly reviewed the working capital target calculation methodology before signing — where they agreed on which items would be included, how they would be measured, and what assumptions would underpin the target. I have conducted numerous pre-signing workshops where I walk both the buyer and seller accounting teams through a line-by-line build of the working capital target, with each item explained and justified. These workshops take time, but they prevent months of friction post-closing.
+
+One distinction that has become increasingly important over the years is whether the working capital adjustment applies only to specific balance sheet line items, or whether it is a true "net working capital" calculation. Some sponsors prefer to define working capital narrowly, excluding certain items they view as operating liabilities (like deferred revenue, which they see as a benefit to the buyer because it represents cash already received). Others prefer a comprehensive working capital definition. The financial impact can be material. I worked on a transaction with a European software-as-a-service company where excluding deferred revenue from the working capital definition meant that the buyer received the benefit of millions of euros of customer prepayments but did not have to fund them as part of working capital. The seller objected vehemently, arguing correctly that the true cash consumed by the business was higher when deferred revenue was high. We ultimately settled on a hybrid approach where deferred revenue was included but valued at a haircut reflecting the cost of fulfilling the service obligations.
+
+The psychological element of working capital adjustments should not be underestimated. Sellers view working capital adjustments as attempts by buyers to claw back purchase price after signing. Buyers view working capital adjustments as necessary mechanisms to protect themselves against overstating the actual cash needed by the business. Sponsors view working capital as an opportunity to improve their equity return — they want working capital targets to be aggressive (requiring lower funding at closing) so that any positive working capital adjustment post-closing increases cash available for debt paydown. These conflicting perspectives mean that working capital negotiations often become the most contentious aspect of deal documentation.
+
+I try to reframe these conversations by focusing on the operational reality of what the business needs, not on the financial engineering implications. I ask both parties: "What amount of accounts receivable, inventory, and cash does this business legitimately need to operate? What amount of payables and accruals can it sustainably manage?" These operational questions often defuse the more adversarial financial discussions.
+
+================================================================================
+
+SECTION 2: LOCKED-BOX MECHANISM VS. COMPLETION ACCOUNTS — A COMPARATIVE FRAMEWORK
+
+In my early years in leveraged finance, nearly every transaction used what is now called a "completion accounts" mechanism. The seller and buyer would agree on a working capital target, the buyer would wire the initial purchase price at closing, and then, within a defined period (typically 60-90 days), the buyer's accountants would prepare a detailed completion statement calculating actual working capital and any resulting adjustment.
+
+In the mid-2000s, locked-box mechanisms began gaining traction, particularly in European transactions. Under a locked-box approach, working capital is "locked in" as of a specified prior date (typically 30-90 days before closing). This locked-in figure becomes binding. The purchase price is adjusted for the variance between the locked-in working capital and the target, and that is final — no further true-up. Any working capital changes between the locked-box date and closing are the seller's responsibility (or the buyer's, depending on the structure).
+
+I have now worked extensively with both mechanisms, and I can say that each has genuine advantages and genuine drawbacks. The choice between them should be based on a clear-eyed assessment of which model better serves the particular transaction.
+
+The completion accounts mechanism works well when the business has relatively stable working capital dynamics and when both the buyer and seller have incentives to reach a fair assessment. The primary advantage is that it locks in the economic reality of working capital at the actual closing date. There are no surprises about what the business actually needed. The buyer funds the actual amount required. The seller receives consideration based on the actual working capital burn or generation between signing and closing.
+
+However, the completion accounts mechanism has significant drawbacks. First, it introduces post-closing uncertainty about the purchase price. The seller does not know for certain what total consideration they will receive until the completion accounts are finalized — potentially months after closing. This uncertainty can interfere with post-closing due diligence, transition services, and other matters where management attention is needed. Second, it creates a mechanism for disputes. If the buyer's accountants and the seller's accountants cannot agree on the working capital calculation, the parties must engage in potentially expensive dispute resolution. I have been involved in completion account disputes that consumed six months and hundreds of thousands of euros in legal and accounting costs. The underlying economic amounts were often trivial — disputes of 200,000 euros or 300,000 euros on a transaction price of 50 million euros. But because the principle felt important to both sides, they litigated.
+
+Third, completion accounts create post-closing monitoring burden. The buyer's finance team must track the completion accounts process, coordinate with accountants, respond to seller inquiries, and manage the reconciliation process. In a typical LBO where the buyer is trying to integrate the business, implement operational improvements, and prepare for the next deal, this administrative burden can be surprisingly distracting.
+
+The locked-box mechanism eliminates much of this post-closing uncertainty. Working capital is fixed as of the locked-box date. The purchase price is final at closing. The seller knows exactly what they are receiving. There is no post-closing working capital adjustment. This provides closure.
+
+However, locked-box mechanisms create a different problem: what is the seller's incentive to manage working capital between the locked-box date and closing? If a seller knows that any working capital decline between locked-box and closing is their loss, they have an incentive to run down inventory, delay purchases, and minimize investments in working capital. This can harm the business operationally. I worked on a transaction with a French logistics company where we used a locked-box mechanism with the locked-box date 45 days before closing. In that 45-day window, the seller's finance team stopped replenishing inventory, deferred warehouse maintenance, and minimized purchasing. The business was operationally stressed by the time we took over, and it took us three months to get inventory levels back to normal and relationships with key vendors restored. The "savings" the seller had engineered in working capital were far outweighed by the operational damage.
+
+Moreover, locked-box mechanisms can be unfair in environments with volatile working capital. If a business experiences significant working capital swings during the period between locked-box and closing — perhaps due to seasonal factors, customer payment delays, or genuine business changes — one party is simply absorbing that swing without recourse. I prefer locked-box mechanisms only when the period between locked-box and closing is very short (two weeks or less) and when the business is not materially impacted by seasonal factors.
+
+In my experience, the best approach is often a hybrid. We agree on a working capital target at signing. We agree that, as of the locked-box date (typically 30-45 days before closing), we will calculate actual working capital. That locked-in figure becomes binding, but only for working capital movements between locked-box and closing that are within an acceptable range — perhaps 3-5 percent of the target. Any movements outside that range are true-up items. This hybrid approach protects the seller from being penalized for genuine business fluctuations they cannot control, while protecting the buyer from being surprised by working capital shocks in the final weeks before closing.
+
+The locked-box versus completion accounts decision also depends on the nature of the seller. If the seller is a financial sponsor exiting a previous LBO, they are typically sophisticated and comfortable with completion accounts because they understand the mechanics. If the seller is a founder-owner or a traditional corporation divesting a business unit, completion accounts can be more contentious — these sellers are less accustomed to post-closing uncertainty about purchase price.
+
+I also consider the jurisdictional context. In some European jurisdictions, locked-box mechanisms are the clear market standard. In others, completion accounts are more traditional. The transaction party expectations are shaped by what they have seen in prior transactions. I try to assess what the other side is familiar with and propose a mechanism that feels natural to them, while protecting my client's interests.
+
+Documentation of these mechanisms requires precision. For a completion accounts structure, the purchase agreement must contain a detailed definition of working capital, the methodology for calculating it, the timing for delivery of completion accounts, the process for the seller to review and comment on accounts, and the dispute resolution mechanism if the parties cannot agree. I typically insist on a specific accounting firm being named as the "independent accountant" who will determine working capital in the event of disagreement, with the parties agreeing in advance that the independent accountant's determination will be final and binding.
+
+For a locked-box mechanism, the documentation must clearly identify the locked-box date, specify how working capital will be calculated as of that date, establish that the locked-in figure is final and binding, and address what happens to changes in working capital between locked-box and closing (are they retained by the seller, absorbed by the buyer, or subject to a collar arrangement?). I have found that locked-box documentation often contains dangerous ambiguities about what "balance sheet date" means and what accounting policies apply. A single sentence stating "Working capital as of the locked-box date, calculated on the same basis as has been applied historically by the seller" can create massive disputes if the seller's historical accounting practices are themselves unclear or have changed over time.
+
+The most important lesson I have learned about locked-box versus completion accounts is this: both mechanisms work fine if they are clearly documented and if both parties understand the mechanics and the risks. What does not work is ambiguity. I have seen transactions fail or create post-closing friction because the parties agreed "in principle" on a working capital adjustment mechanism but left critical details undefined. They assumed they could sort these out at closing. Then, when the actual working capital numbers emerged, they discovered that their assumptions had been divergent.
+
+My standard practice is now to prepare a worked example at signing. I say to the parties: "Here is what we think working capital will be. Here is what we think the adjustment will be. Here is how we arrived at these figures." I then walk through the entire calculation methodology using actual data from the business. This forces both parties to test the mechanism on real numbers and to surface disagreements before they become actual disputes.
+
+================================================================================
+
+SECTION 3: WORKING CAPITAL TARGETS AND TRUE-UP MECHANICS
+
+Establishing the right working capital target is one of the most overlooked and underestimated challenges in LBO structuring. I have seen deals where enormous effort was devoted to building financial models to three decimal places, yet the working capital target was based on a casual comment from the chief financial officer that "we usually need about 10 million euros to run the business."
+
+The working capital target should be an operational question, not a financial engineering question. It should answer a fundamental question: What amount of investment in accounts receivable, inventory, and cash does this business legitimately require to operate efficiently at its current scale?
+
+My approach is to build the working capital target from first principles. For accounts receivable, I examine the business's historical days sales outstanding (DSO) — the average number of days it takes to collect from customers. If the business has typically maintained a DSO of 45 days, and annual revenue is 100 million euros, then the appropriate accounts receivable target is roughly (100 million ÷ 365) × 45 = 12.3 million euros. I then adjust this for any changes in customer mix, payment terms, or collection practices that might change the DSO going forward.
+
+For inventory, I examine the business's historical inventory turnover and the nature of inventory. If the business is a just-in-time manufacturing operation, it needs less inventory relative to revenue. If it is a retailer with seasonal peaks, it needs more. I calculate the target as (Cost of Goods Sold ÷ Turnover Ratio) or, if more appropriate, as (Annual Revenue ÷ Inventory Turnover Ratio). I then examine whether the business has experienced any recent improvements in supply chain management or whether it plans any, which might lower the inventory requirement going forward.
+
+For cash, I typically target an amount sufficient to cover 10-15 days of operating expenditures, plus any regulatory or covenant-driven minimum cash balances. For accounts payable and accrued expenses, I work through the company's vendor relationships and estimate how many days the company typically carries outstanding payables (days payable outstanding, or DPO), then calculate the target as (Cost of Goods Sold + Operating Expenses) ÷ 365 × DPO.
+
+The result is typically a detailed build of working capital targets that reflects the operational reality of the business. I have found that sponsors appreciate this rigor because it forces them to think carefully about how the business actually operates, and it makes them confident in the working capital assumptions embedded in their financial model.
+
+Once a working capital target is established, the true-up mechanics determine what happens when actual working capital at closing differs from the target. The most straightforward true-up mechanism is a dollar-for-dollar adjustment. If actual working capital exceeds the target by 1 million euros, the purchase price is reduced by 1 million euros. If actual working capital falls short of the target by 1 million euros, the purchase price is increased by 1 million euros.
+
+However, many transactions now include collar arrangements or thresholds in the working capital true-up. A typical collar might work as follows: If actual working capital is between 95 percent and 105 percent of the target, there is no adjustment. If actual working capital is more than 105 percent of the target, the buyer receives a dollar-for-dollar adjustment downward for any excess. If actual working capital is less than 95 percent of the target, the seller receives a dollar-for-dollar adjustment downward (meaning the buyer pays more).
+
+The rationale for collars is that they reduce post-closing disputes about trivial variances. Working capital can naturally fluctuate by several percentage points depending on the exact timing of collections, payments, and inventory movements. Rather than fighting over whether accounts receivable was 12.1 million euros or 12.3 million euros, the parties accept that a band of variance is normal and only true-up if the variance is material.
+
+I have implemented many collars in my career, and I have found they are most effective when the collar width is carefully calibrated to reflect the natural volatility of the specific business. For stable businesses with predictable working capital, I use a narrower collar — perhaps 2-3 percent. For volatile businesses or those with significant seasonality, I use a wider collar — perhaps 5-7 percent. The key is to ensure that the collar is not so wide that it effectively prevents any adjustment, and not so narrow that it creates disputes over trivial amounts.
+
+There is also the question of whether collars are symmetric or asymmetric. A symmetric collar applies the same threshold to favorable and unfavorable adjustments. An asymmetric collar might apply a lower threshold for unfavorable adjustments (favorable to the buyer) and a higher threshold for favorable adjustments (favorable to the seller). Asymmetric collars are often advocated by sponsors who argue that they should benefit from favorable working capital developments but should not be penalized for unfavorable ones. However, sellers rightly view asymmetric collars as unfair. My practice is to use symmetric collars that are fair to both sides.
+
+The mechanics of how adjustments flow to the parties must also be specified. In a typical structure, if the completion accounts show that working capital exceeded the target, the seller retains that excess cash at closing and the buyer does not need to fund it (the purchase price is reduced accordingly). If working capital fell short of the target, the buyer funds the shortfall at closing (the purchase price increases). This structure typically requires that the seller escrows an amount of the purchase price sufficient to cover any potential adverse working capital adjustment — essentially creating a holdback that will be released to the seller once the completion accounts are finalized and no adjustment is owed.
+
+I worked on a German industrial company acquisition where we initially agreed that any working capital adjustment would come entirely from an escrow held by the buyer. This created a dynamic where the seller had minimal incentive to ensure working capital calculations were accurate — they were not going to collect the escrow anyway. We restructured so that any favorable adjustment went directly to the seller from the unescrow funds, while any unfavorable adjustment came from the escrow. This created a more balanced set of incentives.
+
+One element of working capital true-up mechanics that is often overlooked is the treatment of cash itself. Some purchase agreements define working capital to include cash, while others exclude it. This distinction is critical. If cash is included in working capital, then the seller's closing cash balance is directly included in the working capital calculation. If the seller ends with 5 million euros of cash, and the target assumed 3 million euros, the buyer receives a 2 million euro adjustment. However, if cash is excluded from working capital, the seller can retain all closing cash and the working capital adjustment is based only on operating working capital items.
+
+From the buyer's perspective, it is usually preferable to exclude cash from working capital. This is because the buyer typically wants to control the closing cash position — they want to fund the transaction with the minimum amount of cash from the seller (to maximize the purchase price paid in cash, which becomes the tax basis) and they want to retain excess cash for debt paydown or operations. From the seller's perspective, it is usually preferable to include cash in working capital so that if they have accumulated excess cash at closing, they are not simply giving it to the buyer.
+
+The resolution depends on the specific transaction. If the seller is retaining significant obligations or if there are concerns about restricted cash or cash in subsidiaries, I favor including cash in working capital so that the seller cannot simply run up excess cash and claim it as "their" money. If the business is stable and cash is freely available to the buyer, I am comfortable excluding cash so that the seller has certainty about the cash they are retaining at closing.
+
+A critical element of working capital true-up mechanics is the treatment of extraordinary items and one-off events. Suppose a business normally carries 15 million euros of accounts receivable but, at the closing date, has just billed a major customer a 10 million euro order that will be collected in 45 days. Is that customer receivable part of "normal" working capital? Or is it an extraordinary item that should be excluded from the working capital adjustment mechanism?
+
+This issue consumed weeks of negotiation in a transaction I worked on with a Benelux chemicals distributor. The buyer argued that a large customer prepayment for year-end inventory purchases was an extraordinary item that should be excluded from working capital because it was driven by one-off customer behavior. The seller argued that the customer order was entirely ordinary — the customer ordered the same quantity every year. We resolved it by creating an "extraordinary items" schedule that listed items of any type that exceeded a certain threshold (1 million euros), which then required mutual agreement on whether they represented normal or extraordinary working capital.
+
+The true-up mechanics also need to address how different types of adjustments interact. For example, if the working capital true-up generates a payment from the buyer to the seller (because working capital fell short of target), is that payment subject to the same indemnification caps and baskets that apply to other purchase price adjustments? Or is it treated separately, with full payment certainty? I favor treating working capital adjustments separately from other purchase price adjustments and indemnification claims, with full payment certainty (no caps or baskets), because working capital is not an indemnification issue — it is a measurement of the actual balance sheet position at closing.
+
+================================================================================
+
+SECTION 4: CASH POOLING STRUCTURES IN MULTINATIONAL LBOs
+
+One of the most complex and high-stakes issues I regularly encounter in multinational LBOs is the treatment of cash held by operating subsidiaries in foreign jurisdictions. In a multinational business, cash can be scattered across multiple entities, bank accounts, and jurisdictions. From an operational perspective, this fragmented cash is problematic — it prevents the business from efficiently deploying capital where needed. From a financing perspective, it creates structural complications because lenders generally require that all material cash be swept up to a senior cash pool where it can be deployed for debt paydown.
+
+However, in many jurisdictions, moving cash up from a subsidiary to a parent company triggers tax consequences (withholding taxes on dividend distributions), regulatory consequences (restrictions on capital movement, restrictions on intercompany dividends), or both. The goal of a multinational cash pooling structure is to achieve something approaching a legal cash pool while managing these complications.
+
+Let me work through a concrete example that I encountered in a 2019 LBO of a Pan-European manufacturing business. The target company had operating entities in Germany, France, the Netherlands, and Spain, with treasury centralization in the Netherlands. The buyer wanted to establish a cash pool so that excess cash generated in any subsidiary could be swept to a central treasury to pay down the acquisition debt. However, the French subsidiary was restricted by the Commercial Code from distributing dividends beyond certain thresholds without maintaining specific capital ratios. The Spanish subsidiary was restricted by Spanish company law regarding intercompany loans. The German subsidiary had recent tax audit issues and the finance team was nervous about aggressive intercompany transactions.
+
+The solution involved a multi-layer approach. First, we established a formal intercompany treasury policy that governed how cash would flow between entities. This policy documented the economic rationale for any intercompany transfers (avoiding ad-hoc restructuring that might create transfer pricing issues). Second, we created a formal cash pooling facility, often called a "notional cash pool," at the group level. This pool did not physically consolidate cash (which would have created complications in some jurisdictions) but instead created a virtual account where each subsidiary's interest-bearing balance was netted, and a single interest rate applied.
+
+Third, we established a formal intercompany loan agreement that allowed the group to sweep excess operating cash from subsidiaries up to the Dutch holding company, which would then distribute those funds to the lenders. The intercompany loan agreement specified interest rates at or above arms' length rates to satisfy transfer pricing documentation. Fourth, we negotiated with the relevant tax and regulatory authorities, where required, to confirm that the cash pooling structure would not trigger adverse tax consequences. This was particularly important in France, where we needed to confirm that the dividend withholding tax rules would not create complications.
+
+The lender documentation for this transaction created a careful waterfall that governed how cash would flow and where it could be trapped. This brings me to one of the most critical aspects of multinational cash management: understanding where cash can actually flow, and where it is trapped by regulation or structure.
+
+In the structure I just described, the lenders received a "cash sweep" commitment that meant excess cash generated by operating subsidiaries would be swept to the Dutch holding company and used to pay down debt. However, the commitment included certain carve-outs — the lenders recognized that each subsidiary needed to maintain certain minimum cash levels for working capital and regulatory reasons. For the French subsidiary, we carved out a minimum cash balance equivalent to two weeks of operating expenses. For the Spanish subsidiary, we carved out a minimum sufficient to satisfy the Commercial Code requirements.
+
+What makes multinational cash pooling genuinely complex is that different jurisdictions have different rules about how much cash a subsidiary needs to maintain, how dividends can be distributed, and what documentation is required. Moreover, rules change. I worked on a transaction where, midway through the integration process, a change in Spanish law restricted how aggressively cash could be swept up from Spanish entities. The business had already been operating with significant cash flowing from Spain to the Dutch parent company. Suddenly, that flow created a compliance issue. We had to retrofit the structure with additional local minority shareholders in the Spanish entity, which created new complications.
+
+The lesson I have learned is that multinational cash pooling structures require deep expertise in the specific jurisdictions where operating entities are located. I always insist on involving local lawyers early in the structuring process. These lawyers can explain the specific restrictions, quirks, and opportunities in their jurisdiction. I also insist on having local accountants review the cash pooling documentation and the intercompany loan agreements to ensure they will not create transfer pricing or tax documentation issues.
+
+In my experience, the cleanest multinational cash pooling structures are achieved when there is a legitimate operational reason for the cash pooling (not simply a financial engineering exercise) and when the structure respects local corporate law requirements rather than trying to work around them. A business that has a genuine need to centralize cash for treasury management will have an easier time defending a cash pooling structure to local regulators and tax authorities than a business that is trying to achieve an aggressive financial structure.
+
+One increasingly common approach I see in modern LBOs is the use of cross-border cash pooling arrangements offered by international banks. These allow subsidiaries to maintain separate legal accounts but to link them in a transparent way that allows netting of balances. The subsidiary keeps its local account (satisfying local regulatory requirements), but excess balances are automatically invested in an intercompany loan or sweep mechanism that achieves the economic benefit of a centralized pool. These bank-facilitated structures are more expensive (the bank charges fees for managing the pooling mechanics) but they simplify documentation and reduce transfer pricing risk.
+
+Another consideration is whether to pursue a formal "cash pooling" approach or a "dividend and loan" approach. Under a cash pooling approach, the group tries to establish a virtual unified account where all balances are netted together and interest is calculated on the net position. Under a dividend and loan approach, subsidiaries distribute cash as dividends up to a parent company (subject to legal restrictions), and the parent company then uses those funds for debt paydown or makes intercompany loans back down to subsidiaries as needed for operations.
+
+Cash pooling approaches are typically more efficient from a cash management perspective because they minimize the timing delays associated with multiple dividend distributions and avoid situations where one subsidiary has excess cash but another subsidiary is temporarily in a deficit position. However, dividend and loan approaches are sometimes simpler from a legal and tax perspective because dividend distributions are more straightforward under most jurisdictions' corporate law, and intercompany loans are well-understood mechanisms with established transfer pricing documentation.
+
+In my experience, the choice depends on the sophistication of the local legal and tax teams, the amount of cash likely to be managed, and the complexity of the multinational structure. For complex structures with significant cross-border cash flows, I favor cash pooling. For simpler structures with light cash movements, I favor dividend and loan approaches.
+
+I also need to address the related issue of whether the lenders are comfortable with cash pooling structures. Increasingly, lenders are sophisticated about multinational structures, but some lenders remain skeptical of arrangements that could reduce cash available for debt paydown. In these cases, I have advocated for explicit "cash flow sweep" provisions in the loan agreement that specify exactly how cash will flow from subsidiaries to the parent company and then to the lenders. These provisions give lenders confidence that cash will be deployed for debt reduction and not trapped in the operating entities.
+
+The credit agreement documentation needs to address cash pooling with precision. The agreement should define:
+
+• Which entities participate in the cash pool (all operating subsidiaries, or only primary ones)
+• What minimum cash balances each entity must maintain for working capital or regulatory purposes
+• How often cash is swept (daily, weekly, monthly)
+• What the sweep target is (the amount of cash available for sweep after maintaining minimum balances)
+• What happens if a subsidiary is in a net borrowing position (whether the group will fund it or allow it to borrow from the cash pool, and at what interest rate)
+• How the sweep interacts with covenant testing (is sweep applied before or after calculating financial covenants)
+• What events would permit the lenders to block or suspend the sweep (covenant breach, event of default, or simply lender discretion)
+
+I worked on a transaction where the credit agreement included a discretionary cash sweep — the lenders could elect whether to sweep excess cash or leave it with operating subsidiaries for flexibility. In practice, this created ongoing tension between lenders and the sponsor about whether the conditions for voluntary sweep existed. The sponsor wanted maximum cash in the subsidiaries for operational flexibility. The lenders wanted maximum cash swept for debt paydown. This discretion created friction at every covenant test. In subsequent transactions, I have advocated for mandatory sweep mechanisms with clearly defined triggers, so that both parties know exactly what will happen to excess cash.
+
+================================================================================
+
+SECTION 5: RESTRICTED CASH AND ITS TREATMENT IN CREDIT AGREEMENTS
+
+Restricted cash represents one of the most commonly misunderstood elements of LBO cash management. Restricted cash is cash that is legally or contractually limited to specific purposes and cannot be used freely for general corporate purposes. A typical example is cash held in escrow as collateral for a customer refund obligation, or cash held in a segregated account as collateral for a loan facility.
+
+In many transactions, I encounter situations where the operating business maintains material restricted cash that the lenders and sponsor have not properly accounted for in their financing structure. This causes problems both at closing and during operations.
+
+Let me illustrate with a real example. I worked on a transaction with a European construction company that regularly entered into large contracts requiring customer deposits held in escrow. At any point in time, the company held 15-20 million euros of customer deposit cash that was restricted to fulfilling contract obligations. At closing, the buyer's accounting team measured "cash and equivalents" at 45 million euros, without clearly distinguishing between the 25 million euros of unrestricted cash and the 20 million euros of restricted cash that could not be used for debt paydown or general operations.
+
+The lenders' first advance was sized based on 45 million euros of available cash. In practice, only 25 million euros was available. The business closed with an immediate funding gap because not enough unrestricted cash was available to fund operations and pay the senior debt.
+
+This situation taught me a crucial lesson: in every transaction, you must carefully distinguish between unrestricted cash and restricted cash, and you must value restricted cash explicitly in the transaction structure.
+
+The specific types of restricted cash that appear in different industries vary considerably. In financial services businesses, restricted cash often includes segregated customer deposit accounts or collateral accounts for derivative trades. In retail, restricted cash might include gift card liability reserves. In manufacturing, restricted cash might include collateral for supplier credit arrangements. In real estate, restricted cash might include tenant security deposits or escrow accounts for property acquisitions. In insurance, restricted cash might include collateral for reinsurance arrangements.
+
+The fundamental issue is that restricted cash cannot be used to pay down debt or fund operations. Therefore, it should be explicitly carved out when calculating the amount of cash available to the business. In the documentation, this is typically achieved through one of two approaches:
+
+First, in the balance sheet definitions used in the credit agreement, "cash and equivalents" is defined to exclude restricted cash explicitly. The definition might read: "Cash and equivalents means cash on hand and demand deposits with commercial banks, net of restricted cash." The credit agreement then typically requires that restricted cash be excluded from the calculation of leverage ratios and other financial covenants.
+
+Second, some credit agreements create a separate "restricted cash" line item that is tracked separately from unrestricted cash. This allows the parties to monitor restricted cash levels over time and to ensure that restrictions are being properly managed. For example, a restriction might be expected to be released at a certain time (when a customer contract is completed), and the parties want to verify that this actually occurs.
+
+The treatment of restricted cash in leverage and interest coverage calculations is critical. Suppose the business has 100 million euros of debt and 50 million euros of total cash, of which 30 million euros is restricted. What is the appropriate net leverage ratio? If you use the gross debt of 100 million euros divided by EBITDA, you get gross leverage. Some lenders want to see this. However, a more meaningful calculation deducts unrestricted cash from debt, so net leverage would be 70 million euros of debt divided by EBITDA. The restricted cash is not deducted because it is not available for debt paydown.
+
+I worked on a transaction where this distinction created a covenant breach issue. The credit agreement specified that leverage could not exceed 5.0x gross leverage. The business was operating at 4.8x gross leverage. However, the lenders discovered that 40 percent of the cash on the balance sheet was restricted. They wanted to recalculate leverage using only unrestricted cash. On that basis, the company was actually at 5.2x leverage. The company and lenders had a contentious discussion about the appropriate way to measure leverage given the high amount of restricted cash.
+
+We ultimately resolved this by restructuring the credit agreement to define two leverage metrics: one using gross debt and total cash (both restricted and unrestricted) as a "gross leverage" measure, and one using net debt (gross debt minus unrestricted cash only) as a "net leverage" measure. The covenants applied to both metrics. This created greater transparency about the actual financial position.
+
+Another complexity arises when restricted cash is released over time. Suppose a business held restricted customer deposits, and these are expected to be released as contracts are completed and delivered over the next two years. How should the lenders account for this in covenant testing? If they assume the cash will be released (reducing leverage as the cash is freed up), they are making an operational assumption that might not prove correct. I typically advocate for a conservative approach where restricted cash is assumed to remain restricted unless and until there is clear evidence that it has been released.
+
+The documentation of restricted cash also needs to address the reserves or liabilities associated with restricted cash. When a business holds customer deposit cash, it typically also carries a liability on the balance sheet representing the customer deposit payable. At closing, the business might have 20 million euros of restricted cash and 20 million euros of customer deposit liability. These items net to zero in terms of working capital impact, but the buyer and lenders need to understand this clearly. I have worked on transactions where this was not clearly documented and post-closing disputes arose about whether the restricted cash should have been included in working capital calculations.
+
+Restricted cash also raises practical questions about how the business is operated. If the business has 20 million euros of restricted cash that cannot be touched, but it is held in a subsidiary's bank account, the subsidiary cannot simply treat this as unavailable — the cash is on the balance sheet. The subsidiary's finance team needs to manage the restricted account separately and ensure that operations do not inadvertently draw on restricted cash for general purposes.
+
+In some transactions, the parties establish a formal "restricted cash account" or "segregated reserve" to hold restricted cash separately. This account is governed by documentation (often a separate restricted cash account agreement) that specifies exactly what amounts are in the account, why they are restricted, and what the conditions are for their release. This documentation approach provides clarity to lenders and operational teams about restricted cash and its treatment.
+
+One particularly complex situation arises when restricted cash is held at a subsidiary level and needs to be reflected in a consolidated leverage calculation at the parent company. Suppose the parent company has 100 million euros of debt, a subsidiary has 30 million euros of unrestricted cash and 20 million euros of restricted cash, and the rest of the group has 10 million euros of cash. What is the appropriate leverage calculation? The conservative approach is to use only the 10 million euros of unrestricted cash at the parent plus the 30 million euros from the subsidiary, netting these against the 100 million euros of debt. The restricted cash is not deducted. Some sponsors argue that the restricted cash should eventually be freed up and therefore should be partially deducted from debt, but I typically advocate against this because it creates assumptions about future events that may not materialize.
+
+================================================================================
+
+SECTION 6: TRAPPED CASH IN OPERATING SUBSIDIARIES — REGULATORY AND STRUCTURAL CAUSES
+
+"Trapped cash" is one of the most frustrating phenomena in multinational LBOs. It refers to cash that is legally held within an operating subsidiary but cannot be accessed by the parent company for debt paydown or shareholder distributions due to regulatory or contractual restrictions.
+
+The causes of trapped cash vary by jurisdiction and by business model. In some jurisdictions, statutory law restricts the ability to distribute cash. In others, regulatory bodies restrict cash movements. In still others, contractual restrictions (supplier agreements, customer contracts) prevent cash from being moved.
+
+Let me start with statutory restrictions, which are perhaps the most common cause of trapped cash in Europe. Many jurisdictions impose capital maintenance rules that restrict the amount of cash a company can distribute. For example, in Germany, the GmbH (limited liability company) structure imposes restrictions on distributions if the distribution would reduce shareholder equity below a certain level. In France, Société par Actions Simplifiées (SAS) structures have requirements that retained earnings be maintained at certain levels. In the Netherlands, Dutch B.V. structures have specific rules about what constitutes "freely distributable profits."
+
+I worked on a German acquisition where the operating company was structured as a GmbH. German law restricts GmbH distributions to the extent that the company's equity would fall below the nominal amount of registered capital (typically 25,000 euros). However, if the company has accumulated losses due to integration costs, depreciation, or operational challenges, its equity can be significantly eroded. Once equity drops to the nominal level, no further cash distributions are permitted, regardless of whether the company is profitable.
+
+In this specific case, the operating company started with 100 million euros of equity. Within the first post-closing year, the company incurred 40 million euros of integration costs and depreciation, reducing equity to 60 million euros. The business was profitable and generating positive cash flow. But the lenders had modeled cash sweeps of 15 million euros per year, based on free cash flow calculations. Legally, only about 5 million euros per year could be distributed because the company needed to maintain its shrinking equity base. The trapped cash represented a material shortfall against the lenders' expectations for debt paydown.
+
+We resolved this in two ways. First, we restructured the German entity before closing, capitalizing the equity by injecting new funds. This increased the equity base and the allowable distribution capacity. Second, we negotiated with the lenders to reduce the expected annual sweep amount, recognizing that the trapped cash issue was real.
+
+Capital maintenance restrictions are endemic in Europe, and I now flag them in every transaction by involving local lawyers early to understand exactly how much cash is distributable from each operating entity. The calculation can be complex because it depends on factors like audited equity levels, accumulated deficits, and whether certain items (like fair value adjustments) are treated as equity or as reserves.
+
+Another source of trapped cash in operating subsidiaries is dividend withholding tax. Many jurisdictions impose withholding taxes on dividend distributions from local entities to foreign parent companies. These taxes can be substantial — often 15-30 percent, depending on the jurisdiction and whether tax treaty relief applies. I worked on a Spanish acquisition where Spanish law imposed a 19 percent withholding tax on dividends paid from the Spanish operating company to the Dutch parent company. While there was a US-Spain tax treaty that provided some relief, the combined Spanish tax withholding created an effective cost of 8-10 percent on any cash distribution. The lenders had modeled a full cascade of cash from Spain to the Netherlands to the Luxembourg holding company to the debt holders, with no haircut for withholding taxes. In reality, every euro of cash that moved from Spain was reduced by withholding tax.
+
+I now include detailed withholding tax analysis in every multinational transaction. I calculate, for each major operating jurisdiction, what the effective after-tax dividend distribution rate is. So if a jurisdiction has a 19 percent withholding tax, I treat any dividend from that jurisdiction as being reduced by 19 percent. I build this tax cost into the financial model and make sure the lenders understand it clearly.
+
+A third major source of trapped cash is regulatory restrictions on intercompany transactions or cash movements. Some jurisdictions restrict the ability to move cash between subsidiaries unless the transaction meets specific requirements. For example, in some Eastern European jurisdictions, central bank rules require advance notification or approval of significant intercompany cash flows. In China, regulatory restrictions on foreign exchange mean that cash generated in Chinese subsidiaries cannot be freely moved offshore.
+
+I worked on a large European retailer acquisition that included significant operations in Poland and Hungary. Polish banking regulations required advance notification of any cash sweep arrangements, and the central bank could object if it deemed the structure to be circumventing foreign exchange controls. Hungarian tax authorities had specific rules about intercompany cash transfers and required detailed documentation of the economic rationale. These regulatory requirements meant that the cash sweep mechanics had to be modified in these jurisdictions, with formal approvals obtained and documentation prepared.
+
+A fourth source of trapped cash is contractual restrictions imposed by third parties. A business might have agreements with major customers, suppliers, or lenders that restrict its ability to distribute cash. For example, I worked on a transaction with a business that had significant outstanding supplier credit agreements. The suppliers had imposed covenants that the company must maintain minimum cash balances or minimum working capital levels. These covenants effectively trapped cash in the operating company — that cash could not be distributed to the parent company without violating the supplier agreements.
+
+Customer contracts can also restrict cash. In subscription or service businesses, customers sometimes require the service provider to maintain minimum financial conditions (minimum net worth, minimum cash, maximum leverage). Violating these conditions could give the customer the right to terminate the contract. In one transaction, a major customer of a managed services company had a contract right to terminate if the company's leverage exceeded 5.0x or if cash fell below a certain threshold. This customer contract effectively capped how aggressively the buyer could sweep cash for debt paydown — aggressive sweeping could trigger a covenant breach in the customer contract, which could trigger customer termination, which could collapse the business.
+
+These kinds of contractual restrictions are often buried in schedules of customer and supplier contracts that are provided in due diligence but not carefully reviewed by the finance team. I now insist on having a detailed review of major customer and supplier contracts specifically focused on identifying any financial covenants or restrictions on cash movements.
+
+The treatment of trapped cash in financial modeling and credit facilities is complex. The clean approach is to identify all material sources of trapped cash, quantify them, and exclude them from the cash available for debt paydown. So if the business is expected to generate 100 million euros of free cash flow annually, but 30 million euros of that is trapped due to withholding taxes, equity maintenance restrictions, or regulatory restrictions, the buyer and lenders should model that only 70 million euros of cash is actually available for debt reduction.
+
+In practice, this is often where negotiations become difficult. Sponsors want to assume that trapped cash will eventually be released and therefore should be counted toward debt paydown. Lenders want to be conservative and assume cash that is trapped stays trapped. I try to reach an economic truth somewhere in the middle, where trapped cash is explicitly recognized and modeled, with clear assumptions about when and how it will be released.
+
+In some transactions, trapped cash becomes the impetus for structural changes. If a business has 30 million euros of trapped cash due to withholding taxes, the parties might consider restructuring so that the operating company distributes cash to a parent company domiciled in a jurisdiction with more favorable withholding tax rules, or they might establish a holding company in a third jurisdiction that has favorable tax treaties with the operating company's jurisdiction.
+
+These kinds of restructurings can be expensive and complex, but they can create material value if the trapped cash is significant. I worked on a Northern European acquisition where we saved 5 million euros annually in withholding taxes by restructuring the ownership of the operating company to route distributions through a jurisdiction with favorable tax treaties.
+
+The bottom line on trapped cash is this: it is real, it is material in many transactions, and it is often underestimated in financial models. The only way to manage it is to identify it explicitly early in the process, quantify it, and build it into financial models and covenant testing.
+
+================================================================================
+
+SECTION 7: DIVIDEND BLOCKERS AND DOCUMENTATION
+
+Dividend blockers are contractual mechanisms that restrict a company's ability to distribute cash as dividends. In the context of an LBO, dividend blockers are typically found in the senior credit facilities and are designed to ensure that cash generated by the business is deployed for debt paydown rather than distributed to equity holders.
+
+The mechanics are straightforward: a credit agreement contains a covenant restricting the company's ability to pay dividends unless specified financial and operational conditions are satisfied. The restrictions ensure that debt is reduced to certain leverage targets before dividends can be paid. This aligns incentives — the sponsors cannot extract cash until they have deleveraged to a safe level.
+
+Dividend blockers come in several varieties. The most stringent version is an absolute prohibition on dividends until leverage falls below a specified threshold (often 3.5x to 4.0x). Once leverage reaches the threshold, dividends become permitted. A slightly more flexible version is a "debt sweep first" structure where dividends are permitted only after cash sweep obligations have been satisfied. The most flexible version is a "dividend capacity" formula where the credit agreement explicitly calculates how much cash can be distributed as a dividend without violating financial covenants.
+
+The dividend blocker documentation requires precision. The covenant must be clear about:
+
+• What constitutes a "dividend" (just cash distributions, or also stock buybacks, related party transactions at inflated prices, etc.)
+• What the trigger is (leverage ratio, EBITDA, cash flow, some combination)
+• Whether the restriction applies only to dividends to equity holders, or also to distributions to management or other related parties
+• What events would permit dividends (scheduled debt reduction, achievement of leverage targets, shareholder approval)
+• What happens if the company cannot distribute dividends — can the cash accumulate, or are there minimum cash balance requirements that would require mandatory debt reduction
+
+I worked on a transaction where the dividend blocker was not carefully drafted. The credit agreement restricted "dividends and other distributions," but did not clearly define "distributions." A year after closing, the sponsor wanted to refinance existing management equity with new equity. They structured this as a "repurchase" of old equity and issuance of new equity, funded by cash at the parent company level. The lenders argued this was a disguised dividend (cash leaving the company), violating the dividend blocker. The sponsor argued that it was a refinancing of equity, not a dividend. The dispute tied up financing for months.
+
+We ultimately resolved it by amending the credit agreement to explicitly clarify what kinds of equity transactions were permitted without triggering the dividend blocker, and what kinds required the leverage trigger to be satisfied. But this could have been avoided with careful drafting at signing.
+
+The psychological element of dividend blockers deserves attention. Sponsors view dividend blockers as overly restrictive constraints on their ability to manage the equity. They argue that if the company is generating positive free cash flow, equity holders should be able to receive some return on their investment. Lenders view dividend blockers as essential protections — they want assurance that cash will be deployed for debt reduction, not distributed to equity holders.
+
+This tension is real and legitimate. Over time, what I have found is that the most successful transaction documents include dividend blockers that are restrictive in the early years (when leverage is high and debt reduction is the priority) but gradually become more flexible as leverage falls and the business proves its operational stability. This creates a graduated return of cash to equity holders as the sponsor's risk decreases.
+
+For example, a typical structure might be:
+
+• Year 1-2: No dividends permitted (absolute blocker)
+• Year 3-4: Dividends permitted if leverage is below 4.0x
+• Year 5-6: Dividends permitted if leverage is below 3.5x
+• Year 7+: Dividends permitted if leverage is below 3.0x (or some other target)
+
+This structure incentivizes the sponsor to focus on debt reduction early while eventually allowing equity returns as the business stabilizes.
+
+The documentation also needs to address what happens if the company wants to refinance its debt prior to reaching the leverage threshold that would permit dividends. This is a common scenario — after 3-4 years, the business has improved, refinancing terms are attractive, and the sponsor wants to refinance the old debt at lower rates. The new lenders typically have less stringent dividend blockers. How does this interact with the old lenders' dividend blockers?
+
+The answer is typically that the old debt's dividend restrictions remain in place until the old debt is repaid. So if the sponsor refinances, they must satisfy both the old lenders' dividend restrictions (until the old debt is gone) and the new lenders' restrictions. This can create situations where the sponsor cannot distribute dividends to equity holders even though the new refinanced debt has less restrictive blockers.
+
+I worked on a transaction where the sponsor refinanced after five years, transitioning from a leveraged bank facility with strict dividend blockers to a cov-lite facility with much more flexible dividend provisions. However, a portion of the original debt was retained and subordinated. The sponsor could not distribute dividends to equity because the subordinated debt still had the original dividend blocker in place. The sponsor had to pay down that subordinated debt (with cash that otherwise would have gone to equity holders) before dividends could be distributed. This was a strategic mistake in the refinancing process, and I now always ensure that dividend blockers are carefully reconciled when refinancing occurs.
+
+Another documentation issue arises when the company has multiple classes of investors. Some LBOs involve sponsors, management equity holders, seller note holders, and various classes of equity. The dividend blocker documentation needs to specify whether the restriction applies to all equity holders equally, or whether certain classes (like management) can receive dividends on different terms than others. I generally favor equal treatment, as preferential dividend treatment for management can create tax and corporate governance complications.
+
+Dividend blocker documentation also needs to address the timing of testing. Are dividends restricted at the time they are declared, or at the time they are paid? A subtle distinction, but important. If dividends are restricted based on leverage at declaration date, but then the company's leverage improves materially by payment date, should the dividend be blocked anyway? Most credit agreements test based on the date the dividend is paid, which creates more flexibility.
+
+The documentation should also specify the mechanics of enforcement if a dividend is paid in violation of the dividend blocker. Is paying a prohibited dividend an event of default? Can the lenders require repayment of the dividend? Most credit agreements treat it as a technical default but with a cure right — the company can cure by immediately repaying the dividend plus interest. This provides some flexibility while maintaining lender protections.
+
+One practical issue I encounter is that dividend blockers can create conflicts between parent company and subsidiary-level management. If the parent company is restricted from declaring dividends due to leverage, but subsidiary-level management believe the subsidiary could safely distribute cash (because the subsidiary is unlevered or has low leverage), tensions arise. The subsidiary management wants cash distributed so they have operational flexibility. The parent company cannot permit this because it would reduce cash available to service parent-level debt.
+
+I address this by ensuring clear documentation about cash management and sweep mechanics at closing, so that all parties understand that subsidiary cash is subject to parent-level debt service obligations and cannot be independently deployed.
+
+================================================================================
+
+SECTION 8: CASH SWEEP MECHANICS — EXCESS CASH FLOW SWEEPS, STEP-DOWNS, AND CALCULATION METHODOLOGY
+
+Cash sweep mechanics are among the most consequential and complex elements of LBO documentation. A cash sweep is a commitment that excess cash generated by the business will be applied to reduce outstanding debt. The mechanics determine how much cash must be swept, how often, and under what conditions sweeps can be suspended.
+
+I will start with the fundamental principle: cash sweeps exist because lenders want assurance that cash generated by the business will be deployed for debt reduction, not for distributions to equity holders or other uses. The sweep mechanism aligns incentives — the sponsor benefits from excess cash only after debt is reduced to safe levels.
+
+There are several types of cash sweeps, varying in complexity and aggressiveness. The simplest is an "excess cash" sweep, which requires that all cash above a specified minimum operating balance be swept. The formula is straightforward: each quarter, the company calculates total unrestricted cash on hand. If this exceeds the minimum balance (typically 30-45 days of operating expenses), the excess is swept to debt paydown. This is mechanically simple and easy to administer.
+
+However, excess cash sweeps can be problematic because they do not account for the timing of cash flows. A business might have high cash balances temporarily due to the timing of customer collections, even though cash will be needed for operations in the coming weeks. If the excess is swept, the company might face a cash shortage and need to borrow. So pure excess cash sweeps can create operational inefficiency.
+
+More sophisticated is a "free cash flow" sweep, which requires that all free cash flow be swept to debt paydown. Free cash flow is typically defined as operating cash flow less capital expenditures and less net change in working capital. This approach is more economically meaningful because it is based on actual cash generated by operations, not just cash on the balance sheet.
+
+However, free cash flow sweeps require detailed calculation methodologies. The documentation must specify:
+
+• What is included in operating cash flow (is it from the cash flow statement, or calculated as EBITDA less taxes, interest, and change in working capital)
+• How capital expenditures are measured (including whether certain maintenance capital is carved out)
+• How change in working capital is calculated (is it based on balance sheet movement, or is there a normalized level)
+• Whether one-time items are included or normalized out
+
+I worked on a transaction where the credit agreement defined a free cash flow sweep but did not clearly specify the methodology for calculating working capital changes. The company's business was seasonal, with significant working capital swings throughout the year. In some quarters, working capital decreased (generating cash), increasing the calculated free cash flow and requiring a sweep. In other quarters, working capital increased (consuming cash), reducing free cash flow and reducing the sweep requirement. The lenders and company disagreed about whether the working capital changes should be calculated on a quarter-by-quarter basis (which was volatile) or on a year-to-date basis (which smoothed out seasonality). The disagreement led to disputes about the appropriate sweep amount in several quarters.
+
+We resolved this by implementing an approach where working capital was measured against a normalized level — we would calculate the company's "normal" working capital based on historical levels and typical operating patterns. Any variance from this normal level would be treated as a working capital swing for sweep purposes. This smoothed out seasonal variations and created more stable sweep calculations.
+
+Another key feature of cash sweep mechanics is the "step-down" or "de-leverage step-down." This is a formula that reduces the sweep requirement as leverage improves. The intuition is that once the company is substantially deleveraged, aggressive cash sweeps are no longer necessary — some cash can be retained for operations, growth, or distributions to equity.
+
+A typical step-down formula might look like:
+
+• If leverage is above 5.0x: sweep 100% of free cash flow
+• If leverage is between 4.0x and 5.0x: sweep 75% of free cash flow
+• If leverage is between 3.0x and 4.0x: sweep 50% of free cash flow
+• If leverage is below 3.0x: sweep 25% of free cash flow
+• If leverage is below 2.0x: no mandatory sweep
+
+Step-downs create graduated reduction in sweep requirements as the business deleverages. The benefit is that they incentivize debt reduction (lower leverage leads to lower sweep requirements, freeing cash for other uses). The drawback is that they add complexity to calculation and can create disputes about the measured leverage level that determines the step-down.
+
+I worked on a transaction where the leverage-based step-down created significant tension. The company was operating at exactly 4.0x leverage — right at the threshold between the 100 percent sweep category and the 75 percent sweep category. A difference in how EBITDA was calculated (whether certain one-time costs should be normalized, whether management fees should be deducted) could move leverage between categories, changing the sweep requirement by approximately 5 million euros. The lenders and company spent weeks debating the precise leverage calculation to determine which sweep category applied.
+
+I now prefer to avoid single-point leverage thresholds in step-down formulas. Instead, I use ranges or linear interpolation that avoid creating cliff effects. So instead of "if leverage is between 4.0x and 5.0x, sweep 75%," I might specify "sweep percentage = 100% - (20% × (leverage - 4.0x)), with a minimum of 25% and maximum of 100%." This creates a smooth transition rather than a cliff effect.
+
+Another critical element of sweep mechanics is what happens if the company cannot achieve the required sweep. This can occur if the company does not generate enough free cash flow or if cash is needed for operations, working capital, or capital expenditures. The credit agreement typically permits "carving out" of required sweeps for these reasons — the company can retain cash for necessary operational purposes without violating the sweep obligation.
+
+The documentation of carve-outs requires precision. I typically specify:
+
+• Amount needed for working capital (calculated as the amount required to operate the business, not including buffer or excess)
+• Amount needed for capital expenditures (including whether there is a minimum maintenance capex required)
+• Amount needed for debt service and taxes
+• Reasonable cash balance for operations (typically 30-45 days of expenses)
+• Amount required for covenant compliance (if maintaining certain cash balances is necessary to comply with other covenants)
+
+The sweep mechanism also needs to address the timing of sweeps. Are sweeps required monthly, quarterly, or annually? Monthly sweeps are more aggressive (lenders get cash faster) but more administratively burdensome. Quarterly sweeps are more common and represent a reasonable middle ground. Annual sweeps are easier to administer but push cash reduction further into the future.
+
+I also consider the banking mechanics. When a sweep is required, how is it executed? In a typical structure, the company's operating accounts are swept daily or weekly to a "concentration account" maintained by the agent bank. Periodically (typically quarterly), available cash in the concentration account (after carve-outs) is swept to debt paydown. The credit agreement specifies which lenders receive the sweep funds (typically, all lenders pro rata based on their outstanding exposure).
+
+One sophisticated variation is the "excess cash flow sweep," which applies only to cash in excess of specific levels. For example, "Any excess cash flow above 25 million euros in a quarter must be swept." This protects the company's operational cash balances while still sweeping material excess cash. The threshold must be set carefully — it should be enough to ensure healthy operations but not so high that meaningful cash accumulates without being swept.
+
+I worked on a transaction where the excess cash flow sweep threshold was set at 15 million euros per quarter. In one quarter, the company generated 35 million euros of cash, and 20 million euros was swept. This was appropriate. But in another quarter, the company generated only 8 million euros of cash (below the 15 million euro threshold), and nothing was swept, even though the company was generating positive cash flow. The lenders felt that they were not getting full participation in the company's cash generation. This created disputes about whether the threshold was appropriate.
+
+In my subsequent transactions, I have advocated for sweep mechanics that balance lender protections with company flexibility. The ideal structure, in my view, is a free cash flow sweep with leverage-based step-downs and clear carve-outs for working capital, capex, and operational needs. This creates a predictable sweep obligation that does not create operational stress.
+
+The documentation must also address what happens if sweep obligations conflict with other covenants. For example, if a cash sweep would cause the company to violate a minimum cash balance covenant, can the sweep be suspended? Or if a sweep would cause the company to violate a leverage ratio covenant (by reducing cash and therefore reducing available liquidity), can it be suspended? I typically document that operational and covenant-driven carve-outs take precedence over the sweep obligation.
+
+================================================================================
+
+SECTION 9: THE INTERPLAY BETWEEN WORKING CAPITAL AND EBITDA ADJUSTMENTS
+
+One of the most subtle and consequential issues in LBO documentation is how working capital adjustments interact with EBITDA adjustments. Both mechanisms adjust the purchase price or the measured financial performance of the business. If they are not carefully coordinated, they can create inequitable outcomes.
+
+Let me illustrate the issue. Suppose a business is acquired for a purchase price with an earn-out or a working capital adjustment. The purchase agreement specifies that if actual working capital at closing exceeds the target, the buyer receives a dollar-for-dollar reduction in the purchase price. It also specifies that certain one-time costs will be "added back" in calculating EBITDA for covenant testing — so if the company incurs 5 million euros of integration costs, these are excluded from the EBITDA calculation.
+
+Here is where the complication arises: suppose the company incurs 3 million euros of inventory obsolescence charges at closing. Should this be treated as a working capital adjustment (reducing the purchase price because inventory declined) or as an EBITDA adjustment (added back because it is a one-time cost)? If it is treated as a working capital adjustment, the buyer receives a 3 million euro purchase price reduction. If it is treated as an EBITDA adjustment, the company's reported EBITDA is higher (by 3 million euros), which could impact covenant testing or earn-out calculations. If it is treated as both (both a working capital reduction and an EBITDA add-back), the buyer receives a double benefit.
+
+This kind of double-counting can occur in several scenarios. I worked on a transaction where the company took a large inventory reserve at closing because certain inventory was determined to be obsolete. The reserve reduced the working capital at closing, creating a favorable adjustment for the buyer. However, the inventory reserve was also recorded as an operating expense, which reduced EBITDA. When the company subsequently disposed of the obsolete inventory for scrap value, those proceeds went through the P&L and offset the initial reserve. This created a timing mismatch where the buyer benefited from the working capital adjustment but the benefit was partially offset by EBITDA impacts months later.
+
+To prevent this kind of double-counting, I insist on clear coordination between working capital and EBITDA adjustments in the documentation. Specifically:
+
+• The working capital definition should exclude one-time or extraordinary items
+• The EBITDA definition should specify what adjustments are made
+• Any item that receives an EBITDA adjustment should be explicitly carved out of the working capital calculation
+• The parties should agree on specific examples of items that will receive EBITDA adjustments, so there is no ambiguity at closing
+
+I prefer to structure transactions where working capital adjustments are applied to "normalized" or "run-rate" working capital, not to working capital that reflects temporary positions or one-time events. So if the company has 15 million euros of accounts receivable normally but 20 million euros at closing (because a major customer payment was delayed), the working capital target would be adjusted to 15 million euros, not 20 million euros. The temporary 5 million euro increase is treated as transient, not structural.
+
+This requires judgment and can be a source of dispute. The buyer might argue that the delayed customer payment is "normal" given the customer's typical payment patterns. The seller might argue it is a one-time delay that will be caught up in the following month. I address this by gathering historical payment data and establishing a pattern. If the customer has always paid within 45 days, but this one payment is delayed to 75 days, the delay is probably temporary.
+
+Another interplay between working capital and EBITDA adjustments arises in the treatment of accruals. Suppose the company accrues 2 million euros for environmental cleanup costs that will be paid in the following year. Is this included in working capital as a liability (which would increase working capital and potentially increase the purchase price)? Or is it excluded because it is an accrual for a future obligation that was not contemplated in the target?
+
+The answer depends on whether the environmental cleanup was foreseeable and included in the original valuation. If both parties understood that environmental cleanup would be required and did not exclude it from the valuation, then the accrual should be included in working capital. If the cleanup was a surprise discovered during closing diligence, the parties might agree to exclude it from working capital as a separate adjustment.
+
+I worked on a manufacturing company acquisition where environmental remediation liabilities were discovered during closing diligence. The buyer argued that these remediation costs should be deducted from the purchase price separate from working capital. The seller argued they should be included in working capital as accrued liabilities. The distinction mattered because the credit agreement limited the amount of indemnification claims available to reduce the purchase price, but working capital adjustments were not subject to these limits. We ultimately resolved it by creating a separate "environmental adjustment" outside of working capital, with agreed-upon mechanics for how the adjustment would be calculated as the remediation costs were actually incurred.
+
+The interplay between working capital and EBITDA adjustments is also critical in earn-outs. Many LBOs now include earn-outs where a portion of the purchase price is contingent on achieving specified EBITDA or revenue targets. If working capital adjustments can inflate EBITDA (by excluding one-time working capital changes from EBITDA), this can artificially inflate earn-out payouts. I always ensure that earn-out EBITDA is clearly defined and that working capital changes are either included or excluded consistently.
+
+================================================================================
+
+SECTION 10: SEASONAL BUSINESSES AND WORKING CAPITAL VOLATILITY
+
+Seasonal businesses present unique working capital challenges in LBOs. A business with significant seasonal variation in revenues and cash flows will have corresponding variation in working capital needs. The buyer and seller need to agree on a working capital target that represents an appropriate level given the seasonal patterns.
+
+Let me work through a concrete example. I advised on the acquisition of a European garden supply business with very significant seasonality. The business generated roughly 50 percent of annual revenues in Q1 and Q2 (spring planting season) and only 10 percent in Q4 (after the fall/winter season ends). Working capital requirements tracked this seasonal pattern closely. In Q1, the company built inventory heavily to support the spring selling season. By Q4, inventory had declined significantly.
+
+At signing, we agreed on a working capital target of 12 million euros. But what does this target mean in a seasonal business? Is it the target on a particular date (e.g., year-end)? Or is it an average across the year? Or is it the peak working capital requirement needed to operate the business?
+
+The answer has profound implications. If the target was the year-end working capital (which might be only 6 million euros in this seasonal business), then at closing in March (peak season), actual working capital might be 18 million euros. The buyer would face a massive working capital adjustment and would need to fund 12 million euros more than expected. Conversely, if the target was the peak working capital requirement, then if closing occurred at year-end when working capital was lower, the buyer would receive a substantial adjustment.
+
+To address this, we established a methodology where the working capital target was adjusted based on the timing of closing within the seasonal cycle. We calculated the seasonal pattern using two years of historical data, showing what working capital had been at each month-end. We then modeled the expected working capital at the anticipated closing date. If the closing date changed (which it did — we originally expected to close in February but actually closed in April), the working capital target was adjusted accordingly.
+
+The documentation specified: "The working capital target shall be adjusted to reflect the seasonal working capital profile of the business, with the adjustment calculated as follows: [detailed methodology]. Provided that actual working capital at closing shall not be adjusted for temporary fluctuations or timing differences, but only for structural changes in the business's working capital requirement."
+
+This proved workable, though it required the parties to trust each other's historical working capital calculations and seasonal patterns. I worked on another seasonal business acquisition where the seller's historical data showed a working capital peak in September, but during closing due diligence the buyer discovered that September working capital was actually understated in the seller's data (the seller had not fully captured customer payables due to a payment processing delay). This timing issue would have created a 5 million euro adjustment if not caught.
+
+Seasonal businesses also create challenges for cash sweep mechanics. A business with seasonal working capital might generate substantial free cash flow in off-season months (when working capital decreases, freeing up cash) but negative free cash flow in peak season months (when working capital increases, consuming cash). If the credit agreement requires monthly or quarterly cash sweeps without accounting for seasonality, the company might be forced to sweep cash in off-season months, only to find itself short on cash during peak season.
+
+I address this by building seasonality into the sweep calculation. I calculate expected monthly free cash flow based on the seasonal pattern, and I establish carve-outs that account for the working capital build required during peak season. For example, I might specify: "The company may retain cash in an amount equal to the expected working capital increase during the next quarter, to ensure adequate liquidity during peak season."
+
+Seasonal businesses also benefit from more careful leverage testing mechanics. If leverage is measured at a point in the seasonal cycle when working capital is at its peak (and therefore the cash balance is lower), leverage will appear worse than at other points in the year. Some seasonal businesses advocate for "normalized" leverage calculations that adjust for expected seasonality. However, lenders resist this because it requires judgment and can be manipulated.
+
+My preferred approach is to establish leverage testing at consistent points in the seasonal cycle. So if the business closes in March, I specify that leverage will be tested as of June 30 and December 31 each year, capturing both off-peak and peak points in the cycle. This allows the parties to see how leverage moves through the seasons and to manage accordingly.
+
+I also recommend that businesses with significant seasonality establish minimum liquidity requirements that account for seasonal cash needs. Rather than specifying an absolute minimum cash balance, I specify a seasonal minimum that is higher during peak season months and lower during off-season months. This gives the business confidence that it will have adequate liquidity throughout the year.
+
+One challenge with seasonal business acquisitions is that the purchase agreement often specifies a particular closing date, but the buyer and seller each have different views of what working capital will be at that date based on differing assumptions about seasonality. I address this by gathering granular monthly or weekly working capital data (not just annual data), plotting it over multiple years to establish the seasonal pattern, and then forecasting what working capital should be at the anticipated closing date. This provides both parties with a fact-based estimate rather than a guess.
+
+================================================================================
+
+SECTION 11: WORKING CAPITAL FACILITIES AND SUPER-SENIOR STRUCTURES
+
+Working capital facilities are a distinct form of financing within an LBO structure. Rather than the senior or mezzanine debt that finances the acquisition, working capital facilities provide liquidity for the day-to-day operations of the business. These facilities sit alongside the acquisition debt and are sized to provide adequate liquidity for working capital fluctuations.
+
+In typical LBO structures, the acquisition is financed with senior term debt (a term loan) and perhaps mezzanine debt (subordinated loans). Working capital needs are typically funded through a revolving credit facility (a revolver), which is drawn and repaid as working capital needs fluctuate. This revolver sits on top of the term debt in the liability structure.
+
+The question of how to size and document the working capital revolver is consequential. Too small a revolver, and the company may not have adequate liquidity during peak working capital periods. Too large a revolver, and lenders are uncomfortable because it represents potential additional leverage.
+
+I typically size the working capital revolver at approximately 1.0x to 1.5x of monthly operating expenses, or alternatively, at approximately 10-15 percent of trailing twelve-month revenues. This provides liquidity for typical working capital fluctuations while not creating an oversized facility.
+
+However, in the past 10-15 years, I have seen the emergence of "super-senior" working capital structures where the working capital revolver is secured by first-lien security in all assets of the company, providing it priority over the senior term loan. This structure is now fairly common in European LBOs and has become increasingly common in US transactions as well.
+
+The super-senior structure works as follows: The working capital revolver has first-lien security on all assets (accounts receivable, inventory, equipment, real estate). The senior term debt has second-lien security on the same assets. If the company faces a liquidity crisis or bankruptcy, the working capital revolver would be paid in full before the senior term debt receives anything.
+
+From the working capital lenders' perspective, super-senior status is attractive because it provides them with higher recovery. From the term lenders' perspective, super-senior status is problematic because it reduces their recovery in a downside scenario. How much should term lenders be compensated for accepting second-lien status?
+
+Typically, super-senior working capital facilities are priced at a higher margin than would otherwise be typical. A revolving credit facility might normally carry a margin of 250-350 basis points. A super-senior facility might carry a margin of 350-450 basis points because of the enhanced security. Additionally, the senior term loan might be priced 50-75 basis points higher than it would be in a traditional structure where working capital has parity with term debt.
+
+The documentation of super-senior facilities requires careful coordination with the senior term loan documentation. The documents must specify:
+
+• That the super-senior facility has first-lien priority over all assets
+• That the term loan has second-lien security and is subordinated
+• The mechanics of how the security interest will be recorded and enforced
+• What happens if both facilities compete for collateral proceeds (clearly, the super-senior facility gets paid first)
+• How the credit facilities interact with each other (typically, strict limitations on drawing the revolver beyond certain thresholds unless debt service is covered by unencumbered cash flow)
+
+I have worked on super-senior transactions where the documentation was not sufficiently clear about priority, creating disputes about whether certain assets were subject to the first lien of the revolver or the second lien of the term loan. In one transaction, a trade receivable from a major customer was the subject of dispute — the super-senior lenders asserted first lien priority, but the term lenders argued the receivable should be held for term loan recovery. We ultimately had to amend the facilities to clearly specify that all receivables were subject to the super-senior lien.
+
+Another complication with super-senior structures is that they make refinancing more complex. If the company wants to refinance the term debt while leaving the working capital revolver in place, the new term lenders must agree to second-lien status relative to the existing super-senior revolver. Some lenders will not accept second-lien status, making refinancing impossible without refinancing both the term loan and the revolver.
+
+I also need to flag a practical issue with super-senior structures: they can create operational friction. The working capital lender, having superior security, will have superior leverage in negotiations about covenant amendments, pricing, and other terms. Term lenders sometimes resent this power imbalance.
+
+In my experience, super-senior working capital structures work best when both the super-senior lender and the term lenders are sophisticated and understand the implications. They work less well when the super-senior lender is a smaller regional bank unfamiliar with LBO mechanics, or when there are many term lenders with divergent interests.
+
+Over the past several years, I have seen some reversion toward traditional pari passu structures where the working capital revolver and term loan have equal security and no super-senior element. This structure is simpler to document and operate, even if the working capital facility is priced slightly higher.
+
+The specific structure — super-senior versus pari passu — should be determined based on the specific transaction. If working capital requirements are highly volatile or if there is significant bankruptcy risk, super-senior working capital makes sense to protect the working capital lender's recovery. If working capital is stable and bankruptcy risk is low, pari passu structures are acceptable.
+
+================================================================================
+
+SECTION 12: THE ROLE OF THE INDEPENDENT ACCOUNTANT IN WORKING CAPITAL DISPUTES
+
+I have left this section for near the end because, in my experience, it is one of the most important and most commonly overlooked aspects of working capital management. The independent accountant is often the critical actor in determining how working capital disputes are resolved.
+
+In most LBO documentation, the credit agreement and purchase agreement specify that if the buyer and seller cannot agree on the working capital calculation, the determination will be made by an "independent accountant" — typically a Big Four accounting firm or another major accounting firm. The independent accountant reviews the buyer and seller positions on the disputed items and makes a final determination, which is binding on both parties.
+
+The independent accountant mechanism sounds clean and fair. In practice, it is fraught with complexity and opportunity for dispute.
+
+First, the independent accountant must be named and agreed to before the dispute arises. This is critical. I have seen situations where the parties cannot agree on which independent accountant to use. One party prefers a Big Four firm. The other prefers a regional firm. One party prefers a firm with deep industry expertise. The other prefers a firm without prior client relationships that might create bias.
+
+In my standard purchase agreements, I specify in advance which accounting firm will serve as independent accountant, with the understanding that this firm will be jointly selected by the buyer and seller at signing. Both parties should interview the candidate firm and agree that it is acceptable. I also specify that if the firm becomes unavailable or if circumstances change, the parties can mutually agree to substitute another firm, but absent mutual agreement, the originally-named firm is the independent accountant.
+
+Second, the independent accountant must understand the working capital adjustment mechanism clearly. The purchase agreement should provide the independent accountant with a detailed brief explaining:
+
+• The working capital target and how it was calculated
+• The accounting policies and methodologies to be applied in the calculation
+• Specific line items that have been contested
+• The buyer's position on each contested item
+• The seller's position on each contested item
+• Examples of how specific items should be treated
+
+I worked on a transaction where the independent accountant received incomplete information from the parties and made a determination that neither party found acceptable. The buyer and seller both felt the accountant had misunderstood the working capital definition. We had to go back and ask the accountant to reconsider, providing much more detailed documentation. This was expensive and time-consuming.
+
+Third, the independent accountant process requires that both parties submit detailed position papers explaining their views on the disputed items. These position papers should include:
+
+• Clear statement of the accounting treatment being advocated
+• Explanation of why this treatment is appropriate
+• References to the purchase agreement and any relevant accounting standards
+• Examples and calculations showing how the treatment would apply
+
+I typically require that these position papers be submitted within a specified time frame (e.g., 30 days after the working capital calculation is disputed), and that each party has the right to submit a response to the other party's position.
+
+Fourth, the independent accountant decision process can be structured in different ways. The most common is a "baseball arbitration" or "final offer" structure where each party submits a final position and the independent accountant chooses one party's position in its entirety (or chooses a middle position). This creates incentives for each party to submit a reasonable position — if you submit an extreme position and the accountant chooses your opponent's position, you lose entirely.
+
+However, not all transactions use baseball arbitration. Some transactions allow the independent accountant to split the difference on each disputed item, choosing a middle position. Others allow the accountant to make item-by-item determinations, where the accountant chooses one party's position on each item.
+
+I prefer baseball arbitration because it creates better incentives for reasonable positions. However, I recognize it can be psychologically difficult for parties because there is a winner and a loser, and one party's position is completely rejected. In some transactions, the parties prefer a "soccer arbitration" approach where the accountant issues a determination but each side is told they are "equally correct" — this softens the blow of losing.
+
+Fifth, the timeline for the independent accountant process must be specified. How much time does the independent accountant have to make a determination? I typically specify 30-45 days from the date they receive the position papers. However, if the accountant believes they need more time, they may request an extension. The credit agreement should specify what happens to covenant testing during the period when working capital is being determined — typically, the parties use a preliminary calculation for covenant purposes, with adjustment back to the final calculation once the independent accountant makes a determination.
+
+Sixth, the cost of the independent accountant process is significant and must be allocated. Accountant fees for a detailed working capital review can easily exceed 100,000 euros for a significant transaction. The purchase agreement typically specifies that each party bears its own costs for preparing position papers and that the costs of the independent accountant are shared equally by the buyer and seller (unless the independent accountant rules predominantly in favor of one party, in which case that party might bear a larger share).
+
+In my experience, the independent accountant process works best when the parties truly try to reach agreement before invoking the independent accountant. I always recommend to my clients that they make good-faith efforts to negotiate a settlement on disputed working capital items before going to the independent accountant. This saves time, costs, and preserves the buyer-seller relationship.
+
+I worked on a transaction where the buyer and seller invoked the independent accountant on a disputed item involving treatment of accrued expenses. Rather than trying to negotiate, they each submitted absolutist position papers staking out the extreme positions. The independent accountant had to choose between the positions, and chose the seller's position entirely. This cost the buyer several hundred thousand euros. In retrospect, had the parties negotiated, they likely could have compromised on a middle position that would have been acceptable to both.
+
+Seventh, the independent accountant decision should include explanation of their reasoning. Some accountants provide terse determinations with no explanation. I always advocate for detailed reasoning so that both parties understand why the accountant reached a particular conclusion. This reduces the chance of post-determination disputes about whether the accountant properly applied the agreed-upon methodology.
+
+Eighth, the finality of the independent accountant determination must be clear. Is the determination binding and final, or can it be appealed? Most transaction documents make the determination final and binding, with no appeal. However, some documents allow for a limited appeal if the party believes the accountant made a clear mathematical error or misunderstood the working capital definition. I typically allow for appeal on narrow grounds (mathematical error or clear misapplication of stated methodology) but not on broader grounds (disagreement with the accountant's interpretation of the working capital definition).
+
+The independent accountant process is critical to managing working capital disputes, but it is only as good as the front-end work done in defining the working capital target and methodology. If the purchase agreement and the working capital template are detailed and clear, the independent accountant process rarely needs to be invoked — most disputes can be resolved through good-faith negotiation. If the purchase agreement is vague, the independent accountant process becomes a much more contentious arbitration that can be costly and time-consuming.
+
+================================================================================
+
+WHAT TWENTY YEARS TEACHES
+
+I have now worked on hundreds of transactions spanning multiple jurisdictions, industries, and economic cycles. I have seen many transactions succeed spectacularly and many others falter or fail. In every case, working capital management has been either a source of smooth execution or a source of significant friction.
+
+Here is what twenty years in this business has taught me about working capital and cash management in LBOs.
+
+First, working capital is not a technical afterthought — it is central to the economic value of the transaction. A business that is poorly managed from a working capital perspective will fail to generate the cash flow that equity and debt holders expect. Years of operational improvements can be undermined by working capital that is mismanaged or poorly understood. I have seen LBOs that delivered exactly the revenue and EBITDA growth the buyer anticipated, but failed to deliver expected cash flow because working capital consumed more cash than modeled.
+
+Second, the buyer and seller have fundamentally different perspectives on working capital, and these differences are legitimate. The seller views working capital as part of the business and wants to ensure they are not penalized for timing-based fluctuations. The buyer views working capital as an investment that should be minimized to maximize cash available for debt paydown. These perspectives are not inherently contradictory, but they require careful alignment through clear working capital documentation.
+
+Third, working capital targets must be rooted in operational reality. A target that does not reflect the true working capital needs of the business is an accident waiting to happen. I have seen transactions where working capital targets were set based on casual estimates or back-of-the-envelope calculations. When the actual business was compared to these targets, the differences were material. Taking time before signing to carefully build working capital targets based on detailed analysis of historical data and operational requirements is time well-invested.
+
+Fourth, working capital mechanisms must be clearly documented. Ambiguity about how working capital is calculated, what the sweep mechanics are, or what restrictions apply to distributions is a virtual guarantee of post-closing friction. Clear, detailed documentation takes time and effort, but it is essential. The most successful transactions I have been involved with have had meticulous documentation of working capital mechanics.
+
+Fifth, seasonality matters enormously. A business with seasonal working capital dynamics requires special attention and careful documentation. Targets that do not account for seasonality will create unfair or unworkable outcomes. Time spent understanding and documenting seasonal patterns is essential.
+
+Sixth, multinational complexity is real and requires specialized expertise. Cash pooling, trapped cash, withholding taxes, and regulatory restrictions create challenges that require deep knowledge of specific jurisdictions. Bringing in local lawyers and accountants early is not an optional nice-to-have — it is essential.
+
+Seventh, the independent accountant is critical to managing disputes. Naming the independent accountant in advance, providing clear instruction about how they should approach the working capital calculation, and attempting good-faith negotiation before invoking the independent accountant can mean the difference between quick resolution and protracted dispute.
+
+Eighth, working capital flexibility becomes increasingly valuable as the business matures. In early years post-closing, aggressive working capital management (tight targets, strict sweep mechanics) may be appropriate because debt reduction is the priority. Over time, as leverage improves, working capital can become more flexible. Step-down mechanisms that gradually relax working capital requirements as leverage improves create incentives for debt reduction while eventually freeing up cash for operations or distributions.
+
+Ninth, trust matters. I have worked on transactions with high levels of trust between buyer and seller, where working capital disputes were resolved quickly through dialogue. I have worked on transactions with low trust, where every working capital calculation became a negotiation. The trust level is partly shaped by whether the parties feel the working capital mechanism is fair. If both parties believe the mechanism is designed to protect each of them fairly, trust is higher.
+
+Tenth, flexibility and contingency planning are valuable. Every transaction will encounter working capital surprises — customer payment delays, inventory obsolescence, regulatory changes, or operational challenges that create working capital stress. Transactions with adequate liquidity buffers and flexibility in the financing structure are able to absorb these surprises. Transactions that are tightly structured with minimal flexibility can fail when unexpected working capital challenges emerge.
+
+After two decades, my perspective on working capital in LBOs is this: it is neither a technical afterthought nor an opportunity for financial engineering. It is the circulatory system of the business. Manage it well, and the transaction thrives. Mismanage it, and even an operationally successful business can struggle to service its debt and create value for equity holders. The practitioners who understand working capital deeply, who take the time to document working capital mechanics precisely, and who think carefully about how working capital relates to the operational reality of the business are the ones whose transactions execute smoothly and deliver value.
+
+This is the knowledge I try to bring to every transaction. This is the experience I try to share with the sponsors, lenders, and other professionals I work with. And this is what I hope this chapter conveys to others entering or working within the leveraged finance space.
+
+================================================================================
+
+END OF CHAPTER
+
+Word Count: Approximately 12,400 words
+

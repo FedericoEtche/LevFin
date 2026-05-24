@@ -1,0 +1,391 @@
+CHAPTER — LIABILITY MANAGEMENT EXERCISES: THE NEW FRONTLINE OF LEVERAGED FINANCE
+
+========================================
+
+INTRODUCTION: THE MORNING EVERYTHING CHANGED
+
+I remember the first time I saw an LME executed against a lender group I was advising. It was 2020, and the company—a mid-market European retailer with about €800 million of first-lien term loans—was struggling through the early months of COVID. Cash was burning, covenants were tight, and the sponsor was running out of runway. We expected an amendment request. What we got instead was something none of us had seen before in a European context.
+
+A majority group of lenders—holding just over fifty per cent of the outstanding commitments—agreed to exchange their existing first-lien debt for new super-priority facilities. Overnight, the remaining lenders found themselves structurally and contractually subordinated, their first-lien paper transformed into something that sat below debt that hadn't existed forty-eight hours earlier. No consent had been sought. No vote had been lost. The documents, it turned out, permitted it.
+
+That transaction reshaped how I think about leveraged finance documentation. Not because it was unprecedented in concept—Serta Simmons in the US had already blazed the trail—but because it demonstrated that European credit agreements, long considered better protected than their American cousins, contained the same vulnerabilities. The covenants we had spent weeks negotiating were, in a crisis, irrelevant. What mattered was the amendment mechanics, the intercreditor agreement, and the capacities hidden inside baskets that nobody had expected to be used for anything like this.
+
+Liability Management Exercises—LMEs—are not a covenant. They are not a single clause. They are the exploitation of multiple interacting provisions to achieve outcomes that the original documentation was never designed to permit. Understanding LMEs is now as fundamental to leveraged finance as understanding the debt covenant or the restricted payments basket. If you don't understand how assets can be moved, how debt can be primed, and how lender protections can be circumvented, you don't understand the documents you're signing.
+
+This chapter covers the mechanics, the case law, the blockers, and the enablers. It is, by necessity, the most technical chapter in this book. It is also the most important for anyone who will hold leveraged credit over the next decade.
+
+
+========================================
+
+1. WHAT IS A LIABILITY MANAGEMENT EXERCISE?
+
+At its core, an LME is any transaction in which a borrower uses existing contractual flexibility to restructure its liabilities in a way that disadvantages some or all of its existing creditors—without those creditors' consent.
+
+That definition is deliberately broad. An LME can take many forms: an uptier exchange that creates new super-priority debt, a drop-down financing that moves assets outside the restricted group, a value transfer that strips collateral from secured creditors, or a combination of all three executed simultaneously. The common thread is that the borrower (typically at the direction of its private equity sponsor) identifies contractual capacity in the existing documentation and uses it to change the economic reality for creditors—sometimes dramatically.
+
+The key categories are:
+
+**Uptier Transactions.** A majority group of lenders agrees to exchange their existing debt for new debt that ranks senior in payment priority, security, or both. The non-participating minority is left holding subordinated paper.
+
+**Drop-Down Financings.** The borrower transfers valuable assets—often intellectual property, key operating subsidiaries, or crown-jewel businesses—to an unrestricted subsidiary or a non-guarantor restricted subsidiary. Once outside the credit group, those assets are used to raise new debt that is structurally senior to the existing facilities.
+
+**Value Leakage Transactions.** The borrower uses restricted payment and permitted investment capacity to move value—sometimes gradually, sometimes in a single transaction—outside the reach of existing creditors. This can fund dividends, repay sponsor-level debt, or simply weaken the collateral package.
+
+**Double Dip Structures.** A newer innovation in which a creditor (often a sponsor affiliate or cooperative lender) achieves two claims on the same cash flows by combining an intercompany loan with a guarantee from the restricted group—effectively getting paid twice before other creditors see a penny.
+
+The reason LMEs have become the defining issue in leveraged finance is straightforward: documentation has grown more permissive over the past decade, creating larger baskets, more flexible reclassification mechanics, and weaker consent thresholds. At the same time, the credit cycle has delivered more stress situations. The combination of loose docs and tight liquidity is the petri dish in which LMEs thrive.
+
+
+========================================
+
+2. THE UPTIER EXCHANGE: HOW LENDERS GET PRIMED
+
+The uptier exchange is the transaction that started the LME revolution, and its mechanics deserve careful explanation because every blocker and enabler in the market today is a response to this structure.
+
+Here is how it works, step by step.
+
+**Step One: Identify the Amendment Threshold.** The borrower (typically with sponsor guidance) reviews the credit agreement to determine what consent is required to amend key provisions—particularly the pro rata sharing clause, the lien priority provisions, and the payment waterfall. In most US syndicated loans, amendments to these provisions require "Required Lender" consent—typically a simple majority of outstanding commitments. In some documents, certain provisions are designated as "sacred rights" requiring unanimous or all-affected-lender consent, but in many pre-2020 credit agreements, the scope of these protections was narrower than lenders assumed.
+
+**Step Two: Assemble a Majority.** The borrower approaches selected lenders—typically those with the largest positions, the most appetite for continued exposure, or the most willingness to cooperate. It offers them a deal: exchange your existing first-lien loans for new super-priority loans with better economics (tighter pricing, additional security, priority in the payment waterfall). In exchange, the participating lenders agree to amend the credit agreement to permit the new super-priority facility.
+
+**Step Three: Execute the Exchange.** Participating lenders exchange their existing loans for the new super-priority debt. The credit agreement is amended—with the participating lenders constituting the required majority—to permit the new facility and to modify the intercreditor arrangements so that the new debt sits above the existing debt in the priority waterfall.
+
+**Step Four: The Morning After.** Non-participating lenders wake up to find that their first-lien debt is no longer first-lien in any meaningful sense. A new tranche of debt has been inserted above them, absorbing recovery value that would previously have flowed to their paper. Their documentation has been amended without their consent. Their collateral position has been diluted or subordinated.
+
+The brutality of this mechanism is what drives the intensity of the blocker debate. Non-participating lenders have not agreed to anything. They have been primed—their position subordinated—by the combined action of the borrower and a cooperating majority.
+
+
+2.1 THE US EXPERIENCE: SERTA SIMMONS AND THE FIFTH CIRCUIT
+
+The case that defined the uptier debate is Serta Simmons Bedding. In 2020, the company (a mattress manufacturer in financial difficulty) executed an uptier exchange in which a majority of its first-lien lenders agreed to exchange their existing debt for new super-priority term loans. The company relied on the "open market purchase" exception to the pro rata sharing provisions—arguing that the exchange constituted an open market purchase because it was conducted among willing participants at agreed prices.
+
+The excluded minority lenders sued. The litigation wound through the courts for nearly five years before the Fifth Circuit issued its landmark ruling on December 31, 2024.
+
+The court's reasoning was decisive. An "open market" is a specific, designated market—not simply the backdrop of free negotiations between willing parties. If "open market purchase" were interpreted to mean any private transaction between consenting counterparties, the separate exception for "Dutch auction" purchases would be rendered superfluous—a result that violates basic principles of contract interpretation. The open market purchase exception, the court concluded, "will often not justify an uptier."
+
+The decision sent shockwaves through the leveraged finance market for several reasons.
+
+First, it validated what many lenders had long argued: that pro rata sharing was a fundamental structural protection, not a default rule that could be casually amended away. The court treated it as a "background norm of corporate finance" and a "sacred right" under syndicated loan mechanics.
+
+Second, it exposed the vulnerability of hundreds of pre-2020 credit agreements that contained open market purchase exceptions without Serta blockers. The court itself acknowledged this: "While the loan market has seen an increase in [Serta blockers], there are doubtless still many contracts with open market purchase exceptions to ratable treatment."
+
+Third—and perhaps most importantly for practitioners—it demonstrated that the market would need to find new ways to achieve the same economic outcomes. Sponsors reacted almost immediately with contractual innovations designed to work around the ruling.
+
+
+2.2 THE EUROPEAN EXPERIENCE: A DIFFERENT PATH TO THE SAME DESTINATION
+
+European loan documents have historically been more resistant to uptier exchanges than their US counterparts. This is not because European drafters were more prescient about LMEs—it is because the structural architecture of European documentation is fundamentally different.
+
+In a typical European leveraged loan governed by an LMA-style Senior Facilities Agreement, the consent thresholds for intercreditor agreement amendments are generally higher. Changes to lien priority and the intercreditor payment waterfall typically require the consent of all lenders within a creditor group—not merely a simple majority. This makes the US-style "majority lenders amend the docs over minority objections" playbook significantly harder to execute.
+
+But harder does not mean impossible.
+
+There are two primary methods for achieving an uptier in a European context, and understanding the distinction between them is critical.
+
+**Method One: Through the Intercreditor Agreement.** The borrower seeks to introduce a new super-senior tranche into the intercreditor agreement's ranking and payment waterfall. This can be achieved by utilizing an existing "hollow" super-senior tranche (written into the ICA at inception but never drawn) or by amending the ICA to introduce one. The advantage of this approach is that it achieves priority across ALL creditor groups governed by the ICA. The disadvantage is that the consent thresholds are typically very high—often unanimity within each creditor group—making it difficult to execute without broad creditor support.
+
+In some top-tier European sponsor deals, however, the introduction of a super-senior tranche requires only 66⅔% super-majority consent. Where this threshold exists, the economics of a European uptier begin to resemble the US playbook.
+
+**Method Two: Through the Individual Debt Documents.** The ICA is left untouched. Instead, the borrower focuses on the payment mechanics within individual debt instruments—typically the Senior Facilities Agreement or the bond indenture. The agent or trustee is directed to apply proceeds according to a modified payment waterfall within that single instrument.
+
+This approach was illustrated by the Victoria transaction, where holders of 2026 bonds directed the trustee to enter into a subordination and turnover deed that gave their bonds payment priority over 2028 bonds issued under a separate indenture. The ICA was not amended; the priority shift was achieved entirely through the indenture mechanics.
+
+The practical lesson is this: European documentation provides stronger protections against uptiers than US documentation, but those protections are not absolute. The growing sophistication of European LME mechanics means that lenders cannot rely on structural defences alone—they need contractual blockers.
+
+
+========================================
+
+3. THE DROP-DOWN: MOVING ASSETS OUTSIDE THE RESTRICTED GROUP
+
+If the uptier exchange attacks the priority of claims, the drop-down financing attacks the value of what those claims attach to. It is, in many respects, the more insidious of the two core LME structures because it can be executed incrementally, through a series of individually permitted transactions that only become alarming when viewed together.
+
+
+3.1 THE J.CREW TRANSACTION: THE CASE THAT NAMED THE PLAY
+
+J.Crew is the defining example, and it deserves detailed explanation because its mechanics reveal how multiple covenant baskets interact to enable value extraction.
+
+J.Crew Group held its most valuable asset—the J.Crew trademark—within its restricted group. The company's credit documentation contained standard covenants: a restricted payments test, permitted investment baskets, and provisions governing unrestricted subsidiaries. Nothing unusual.
+
+What happened next was a masterclass in documentation exploitation.
+
+First, the company transferred its trademark to a non-loan party—a restricted subsidiary that was not a guarantor and did not pledge its assets as collateral. This transfer was arguably permitted under the existing investment baskets; the asset moved within the restricted group, so no restricted payment was triggered, and the receiving entity remained a restricted subsidiary.
+
+Second, the company relied on an ambiguous "proceeds" provision—which permitted non-loan parties to use "proceeds" from permitted investments to make investments in unrestricted subsidiaries—to move the trademark from the non-loan party to a newly designated unrestricted subsidiary. The key ambiguity: does "proceeds" mean the original invested amount, or the returns generated by the investment? The company took the broader reading.
+
+Third, with the trademark safely in an unrestricted subsidiary—outside the restricted group, beyond the reach of the existing covenants, and free from any guarantees or security obligations—the unrestricted subsidiary raised new secured debt against the trademark and used the proceeds to repay PIK notes at the holding company level.
+
+The lenders who had financed J.Crew on the basis of a collateral package that included the company's core intellectual property found that their security had been materially diminished—all without breaching a single covenant.
+
+
+3.2 VARIATIONS ON THE DROP-DOWN
+
+The J.Crew structure has since been replicated and elaborated across multiple transactions. Several variations deserve attention.
+
+**The Intralot Drop-Down.** A European high-yield bond example that demonstrated how drop-downs work in a bond context. The company incurred new unsecured debt at a guarantor restricted subsidiary (its US crown jewel, representing approximately 70% of group EBITDA). The subsidiary was then designated as an unrestricted subsidiary—which required restricted payment capacity equal to the subsidiary's fair market value. Critically, the new unsecured debt reduced the fair market value calculation, arguably manufacturing the capacity needed for the designation. Once unrestricted, the subsidiary was released from its guarantee obligations, and its new debt became structurally senior to the existing bonds.
+
+**The Neiman Marcus Two-Step Dividend.** Here, the borrower combined restricted payment and permitted investment capacity to designate an asset-holding restricted subsidiary as unrestricted, then used a carve-out that permitted proceeds flowing from unrestricted subsidiaries to be distributed to shareholders. The result was a dividend funded by assets that had been placed beyond the reach of existing creditors—without triggering the default or ratio tests that would have applied to a direct restricted payment.
+
+**The Lycra Variant.** A more creative structure in which assets were moved outside the restricted group, but new debt was incurred within the restricted group—benefiting from the same security and guarantees as existing debt, plus additional security over the transferred assets. This gave the new debt a superior position not by subordinating existing creditors, but by adding collateral that existing creditors could not access.
+
+
+3.3 THE "BLACK HOLE" PROVISION
+
+The most aggressive variation of the drop-down is what practitioners call the "black hole"—a provision that permits unlimited value leakage through a chain of permitted transfers.
+
+The structure works as follows. There is no limit on transfers from guarantor to non-guarantor restricted subsidiaries. If a "trapdoor" provision exists (permitting non-guarantors to invest outside the restricted group using amounts that have been invested in them), then the chain is complete: unlimited amounts can flow from guarantors to non-guarantors to unrestricted subsidiaries, with each step individually permitted but the cumulative effect being the complete hollowing out of the restricted group's asset base.
+
+This provision has appeared in a small number of US loans. In the Superior Industries US high-yield bond, it was included in the initial draft but removed in the final version after investor pushback. Its existence in draft form, however, demonstrates that the boundaries of acceptable documentation continue to be tested.
+
+
+========================================
+
+4. LME BLOCKERS: THE LENDER'S DEFENSIVE TOOLKIT
+
+The market's response to the LME wave has been the development of blocker provisions—contractual protections designed to prevent or limit specific types of liability management transactions. These blockers are named after the deals that first exposed each vulnerability.
+
+
+4.1 THE SERTA BLOCKER
+
+**What it prevents:** Uptier exchanges that subordinate minority lenders by using open market purchase exceptions or majority amendment powers to create super-priority debt.
+
+**Core mechanism:** Designates the introduction of any debt ranking senior to the existing facilities as an "all lender matter" requiring unanimous consent—not merely Required Lender consent.
+
+**Standard language:** Requires express all-lender consent for any amendment that would "introduce additional loans or facilities ranking senior to the existing Facilities."
+
+**Key vulnerability:** The blocker itself must be housed in a provision that cannot be amended by majority consent. If the anti-subordination protection sits within a clause that is amendable by Required Lenders—rather than being designated as an all-lender or sacred right matter—then a cooperating majority can simply amend the blocker away before executing the uptier.
+
+**Post-Fifth Circuit evolution:** Despite the court's ruling that open market purchase exceptions "will often not justify an uptier," market practice has not abandoned Serta blockers. Sponsors are expected to react with contractual innovations (modified language, new exceptions, reclassification of refinancing definitions), and lenders rightly maintain belt-and-braces protections.
+
+**Market language variations post-Fifth Circuit:**
+
+The market has seen a proliferation of modified language attempting to preserve the economic flexibility that the open market purchase exception previously provided:
+
+- "Open market purchases or other purchases on pro rata or non-pro rata basis"
+- "Open market purchases or other negotiated transactions"
+- "Open market purchases (including pursuant to bilateral negotiated arrangements)"
+- "Open purchases" (dropping the word "market" entirely—begging the question of what a "closed purchase" might be)
+
+Each formulation raises its own interpretive questions, and none has been tested in court. The prudent lender treats every variation with scepticism and insists on explicit anti-subordination protections regardless of the purchase exception language.
+
+
+4.2 THE J.CREW BLOCKER
+
+**What it prevents:** Transfer of material intellectual property to unrestricted subsidiaries.
+
+**Core mechanism:** Prohibits the transfer, directly or indirectly, of material IP to any unrestricted subsidiary.
+
+**Where it sits:** Typically in the permitted investment definition, at the end of the restricted payments covenant, or within the unrestricted subsidiary definition itself. The most robust formulations appear in all three locations.
+
+**Common deficiencies:**
+
+*Coverage gaps.* Many J.Crew blockers only prevent IP transfers via permitted investments. A company can still transfer IP using restricted payment capacity, the builder basket, or disposal provisions. The strongest formulations use "or otherwise" language that captures all transfer mechanisms.
+
+*Designation gap.* A blocker that prevents "transfer" of IP to an unrestricted subsidiary may not prevent the designation of an IP-holding restricted subsidiary as unrestricted. The IP never moves—the boundary moves around it. Newer formulations address this by adding: "No Restricted Subsidiary may be designated an Unrestricted Subsidiary if such Subsidiary owns or has an exclusive license to any Intellectual Property."
+
+*Definition scope.* Some J.Crew blockers define "material IP" narrowly—tied to specific brand names, patents generating more than a percentage threshold of revenue, or IP existing at the date of issuance. A company that develops new IP post-issuance, or that holds material assets that are not intellectual property, falls outside the blocker's scope.
+
+**Market adoption:** Approximately 80% of H1 2024 European leveraged loans included J.Crew blockers. Virtually every new US deal includes one.
+
+
+4.3 THE CHEWY BLOCKER
+
+**What it prevents:** Automatic release of guarantor obligations when a subsidiary ceases to be wholly owned.
+
+**Origin:** PetSmart spun off a portion of its equity in Chewy. Because Chewy was no longer wholly owned, standard guarantee provisions—which only required wholly-owned subsidiaries to be guarantors—automatically released Chewy from all obligations. The guarantee fell away without any lender consent or even notification.
+
+**Core mechanism:** Prevents automatic release of guarantee obligations upon a change in ownership status, unless specific conditions are met.
+
+**Key vulnerability: The "primary purpose" test.** Many Chewy blockers prohibit release only if the change in ownership status occurred "for the primary purpose of" circumventing the security principles. In PetSmart's case, the release of Chewy was a consequence—arguably a secondary benefit—of a legitimate IPO. If the primary purpose was the IPO (a bona fide business transaction), the blocker would not bite.
+
+**Formulation spectrum:**
+
+*Borrower-favourable:* "Good faith determination" that the disposition was for bona fide business purposes and not to circumvent. Entirely subjective; nearly impossible to challenge.
+
+*Lender-favourable:* Lists specific objective conditions (no Default, no previously transferred Collateral, compliance with debt baskets, no other Permitted Debt guarantees) that must be satisfied before release is permitted. No "primary purpose" language; no subjectivity.
+
+**Market adoption:** Included in over 50% of H1 2024 new broadly syndicated European loans. Virtually all new US deals include Chewy blockers, even where technically unnecessary, because the cost to the borrower is minimal and the reputational signal of refusing one is negative.
+
+
+4.4 BEYOND THE BIG THREE: PLURALSIGHT, ENVISION, AND TOTAL LME BLOCKERS
+
+The Serta, J.Crew, and Chewy blockers address the most common LME structures. But the market has continued to evolve, and newer blockers address more sophisticated strategies.
+
+**The Pluralsight Blocker.** Restricts transfers not only to unrestricted subsidiaries but also to non-guarantor restricted subsidiaries. This addresses the intermediate step in many drop-down transactions, where assets are first moved to a non-guarantor (still within the restricted group, so no restricted payment is triggered) before being moved outside. The Pluralsight blocker closes the first step.
+
+The name comes from Vista Equity Partners' Pluralsight transaction, in which a non-guarantor restricted subsidiary received a loan secured on IP that had originally been pledged to existing lenders—without the loan ever leaving the restricted group. By targeting non-guarantor transfers as well as unrestricted subsidiary transfers, the Pluralsight blocker addresses this vulnerability.
+
+**The Envision Blocker.** The most restrictive approach to unrestricted subsidiary investment capacity. Rather than blocking specific asset types (IP, material assets), the Envision blocker limits all investments in unrestricted subsidiaries to a single dedicated basket—with no exceptions, no reclassification, and no cross-basket flexibility. Every other investment basket is converted to "legitimate business purposes only." This eliminates the ability to aggregate multiple baskets to build sufficient capacity for a drop-down.
+
+**The Total LME Blocker.** The most aggressive defensive provision in the market. Rather than targeting individual transaction types, the Total LME Blocker defines a broad category of prohibited transactions—"Priming Financing" or "Liability Management Transactions"—and prohibits any activity in connection with such transactions.
+
+Typical language defines a "Priming Financing/Liability Management Transaction" as any exchange, refinancing, amendment, or extension (including circumvention transactions) that directly or indirectly results in existing debt being exchanged for, or subordinated to, new debt that is contractually, effectively, temporally, or structurally senior—except for specifically enumerated permitted transactions.
+
+The Sinclair Broadcasting Group term loan is cited as an example of this approach. It represents the "boss-level" blocker—a provision that attempts to anticipate every LME variation rather than playing whack-a-mole with individual transaction types.
+
+
+========================================
+
+5. LME ENABLERS: THE SPONSOR'S OFFENSIVE TOOLKIT
+
+For every blocker, there is an enabler. Sponsors and their counsel have been at least as creative in building flexibility into documentation as lenders have been in constraining it. Understanding the enabler playbook is essential for any practitioner evaluating a new credit agreement.
+
+
+5.1 DECOY BASKETS AND CAPACITY RECLASSIFICATION
+
+The concept of a "decoy basket" is elegant in its cynicism. A documentation provision creates a basket that appears to serve a legitimate purpose but whose primary utility is as a reclassification vehicle for LME capacity.
+
+The most common example is the Restricted Debt Payment (RDP) basket. In most credit agreements, RDP capacity governs the ability to make payments on debt that is contractually subordinated in right of payment to the loans. For most companies, no such debt exists and none is likely to be incurred—making the basket seemingly irrelevant.
+
+But modern credit agreements often permit the reclassification of RDP capacity as restricted payment or permitted investment capacity. Suddenly, a basket that appeared to serve no purpose becomes a significant source of value-leakage capacity. In some documents, the reclassification is even more generous: converting RDP capacity to debt capacity on a 1:2 basis (the "double decoy"), effectively doubling the available capacity through the act of reclassification.
+
+The defence against decoy baskets is conceptually simple—eliminate reclassification mechanisms—but practically difficult because sponsors present basket flexibility as a legitimate tool for efficient capital management, and lenders face competitive pressure to accept documentation terms that permit allocation of capacity across baskets.
+
+
+5.2 DISREGARDED DEBT AND RATIO MANIPULATION
+
+Another category of enabler operates on the ratio tests that gate incurrence capacity. If a company can manipulate how leverage is calculated, it can create headroom for debt incurrence, asset transfers, or restricted payments that would otherwise be unavailable.
+
+**Disregarded debt provisions** permit the borrower to exclude certain categories of debt from leverage calculations. In their most benign form, these provisions exclude revolving credit facility drawings made for working capital purposes—a reasonable adjustment that prevents seasonal working capital fluctuations from constraining long-term capital structure decisions.
+
+In their most aggressive form, disregarded debt provisions permit the borrower to exclude debt up to a fixed multiple of EBITDA from all ratio tests. The QXO transaction illustrated the extreme: debt up to 1.0x EBITDA could be "disregarded" for acquisition financing tests, converting a "ratio no worse" test into an effective "no worse than one turn worse" test. Even more aggressively, the same exclusion was extended to all debt and liens ratio tests—a wholesale obfuscation of the company's actual leverage.
+
+In one documented US deal, the borrower could expressly choose which debt and interest expense to disregard, selecting the highest-interest-rate obligations to minimise the impact on coverage tests.
+
+
+5.3 SUPER GROWERS AND HIGH WATER MARKING
+
+Super grower provisions permanently increase dollar-denominated baskets if EBITDA rises above a historical high. Unlike standard grower baskets (which recalculate as a percentage of current EBITDA), super grower provisions ratchet in one direction only: up. If EBITDA peaks at €500 million before declining to €300 million, all baskets remain calibrated to the €500 million high-water mark.
+
+The Arxada transaction demonstrated the material impact: super grower provisions meant that even after a significant EBITDA decline, the company retained debt incurrence capacity that bore no relationship to its current earnings power. The provisions effectively immunised the borrower from covenant discipline during downturns—precisely when that discipline is most needed.
+
+Super grower provisions have been more prevalent in European documentation than in US deals, though their frequency has declined over the past two years as lenders have become more alert to their implications.
+
+
+5.4 EVERGREEN BASKETS AND CAPACITY RECYCLING
+
+An evergreen basket resets or replenishes its capacity each time it is used, rather than depleting permanently. The most extreme example comes from a European loan in which the credit facilities basket was defined as: (day-one commitments) + (100% EBITDA grower for the revolving facility) + (maximum incremental facilities amount) + (any debt incurred after the SFA date under the credit facilities basket or incremental clause).
+
+The recursive element of this definition means that each use of the basket preserves the original capacity. Incur €200 million under the credit facilities basket, and the definition adds that €200 million back to the available amount. In theory, capacity is infinite.
+
+Similarly, reclassification provisions that allow capacity recycling can create situations where the same euro of capacity is used multiple times. The Chuck E. Cheese secured notes included a reclassification provision that would have allowed the issuer to reclassify the entire notes quantum on the day after issuance if sufficient ratio headroom existed—recycling €660 million of capacity that was supposed to have been consumed.
+
+
+========================================
+
+6. COOPERATION AGREEMENTS: THE LENDER'S COLLECTIVE DEFENCE
+
+When individual contractual protections prove insufficient—or when existing documentation lacks adequate blockers—lenders have increasingly turned to cooperation agreements as a collective defence mechanism.
+
+A cooperation agreement is a contract among creditors that prevents any signatory from entering into side deals with the borrower. It becomes effective when lenders holding more than 50% of the relevant debt class sign on, and its core prohibition is simple: no participating lender may negotiate, agree, or enter into any transaction with the borrower outside the cooperation framework.
+
+**How they differ from other creditor arrangements:**
+
+A cooperation agreement is not a lock-up agreement. Lock-up agreements commit creditors to support a specific agreed transaction (typically a restructuring plan). A cooperation agreement does the opposite—it commits creditors to not support any transaction that hasn't been agreed by the group.
+
+A cooperation agreement is also not an ad hoc group or coordination committee. Those structures interface directly with the company and are typically formed to negotiate amendments, waivers, or restructuring terms. Cooperation groups explicitly prohibit communications with the borrower—the entire purpose is to prevent the divide-and-conquer strategy that sponsors use to assemble a cooperating majority for LMEs.
+
+**Key mechanics:**
+
+Transfer restrictions ensure that participating lenders cannot sell their positions to non-signatories (which would undermine the group's blocking position). Enforcement provisions typically include specific performance rights and injunctive relief. Duration is usually limited to six months with extension options—reflecting the reality that holding creditors together indefinitely is impractical.
+
+**Vulnerabilities:**
+
+Cooperation agreements are powerful but imperfect. Their primary weakness is creditor unity. Sponsors exploit this by approaching individual lenders with side deals that are genuinely attractive—particularly cross-holders whose interests in one part of the capital structure conflict with their interests in another. If enough creditors defect, the cooperation group loses its blocking majority and the agreement becomes unenforceable.
+
+There are also technical limitations. Cooperation agreements are more effective against uptier exchanges (which require lender participation) than against drop-downs (which the borrower can execute unilaterally if sufficient basket capacity exists). If a company has the contractual capacity to transfer assets to an unrestricted subsidiary, a cooperation agreement among lenders cannot prevent it—only a blocker in the credit documentation can.
+
+Finally, enforceability under English law remains uncertain. Agreements to agree are traditionally void for uncertainty, and the question of whether English courts would grant specific performance for a cooperation agreement has not been tested. The MNPI implications under the Market Abuse Regulation add further complexity: creditors who receive material non-public information through the cooperation framework may be unable to trade their positions until the information is cleansed.
+
+
+========================================
+
+7. EUROPEAN VERSUS US LME MECHANICS: THE STRUCTURAL DIFFERENCES THAT MATTER
+
+The temptation is to treat LMEs as a single global phenomenon. They are not. The structural differences between US and European documentation create fundamentally different risk profiles, and practitioners who fail to appreciate these distinctions will misassess their exposure.
+
+**Intercreditor architecture.** In the US, the credit agreement typically governs both the facility terms and the intercreditor arrangements. Amendments to intercreditor provisions often require only Required Lender (majority) consent. In Europe, the intercreditor agreement is a separate document, and changes to lien priority and payment waterfall typically require all-lender consent within each creditor class. This structural separation makes European uptiers harder to execute—but the existence of super-majority (66⅔%) consent thresholds in some top-tier sponsor deals narrows the gap.
+
+**Debt buyback mechanics.** European loan documents approach debt buybacks differently from US agreements. European LMA-style agreements typically offer three buyback mechanisms: solicitation (the borrower solicits offers from each lender, selecting lowest-price offers first), open order (the borrower sets a price and amount, lenders respond, with pro rata allocation if oversubscribed), and bilateral purchases (permitted after a solicitation or open order, within a set period and subject to price caps). US agreements historically relied on the "open market purchase" exception—now significantly constrained by the Fifth Circuit's Serta ruling.
+
+**Sacred rights scope.** The definition of what constitutes an "all lender matter" or "sacred right" is typically broader in European documentation than in US agreements. Payment waterfall changes, for example, are more commonly protected as all-lender matters in European deals. However, the boundaries are not always clear, and the distinction between "manner of proceeds distribution" (which may require only super-majority consent) and "payment waterfall changes" (which may require all-lender consent) has been the subject of intense negotiation in several recent European transactions.
+
+**Guarantee and security release.** European documentation generally provides stronger protections against guarantee stripping, but the wholly-owned subsidiary requirement (which gave rise to the Chewy vulnerability) is common in both markets. The practical difference is that European intercreditor agreements typically require higher consent thresholds for guarantee release, reducing the risk that a majority can strip protections over minority objections.
+
+
+========================================
+
+8. WHAT TWENTY YEARS TEACHES
+
+I have negotiated credit agreements on every side of these transactions. I have represented sponsors seeking flexibility, lenders demanding protection, and distressed investors trying to understand what their paper is actually worth. Here is what that experience has taught me about LMEs.
+
+**One: Documentation matters more than credit quality.** A well-documented BBB credit with robust LME blockers is a safer investment than a loosely documented B credit with stronger current cash flows. Cash flows change; documentation doesn't (unless you let it). The single most important analytical step in evaluating a leveraged credit is reading the covenants—not the financial model.
+
+**Two: Every blocker has a half-life.** The J.Crew blocker was state-of-the-art in 2018. By 2022, sponsors had found ways around it through designation gaps, scope limitations, and narrow definitions of "material IP." The Serta blocker was the gold standard for uptier protection until sponsors began housing anti-subordination protections in provisions that could be amended by majority consent. The lesson is that blockers are necessary but not sufficient. They must be drafted with specificity, placed in provisions protected by all-lender consent thresholds, and reviewed in light of the latest market innovations.
+
+**Three: The enabler playbook reveals the blocker gaps.** If you want to understand where your documentation is vulnerable, read the enabler provisions. Decoy baskets, disregarded debt, capacity reclassification, and evergreen provisions all point to the places where future LMEs will be executed. The enabler and the blocker are in constant co-evolution, and falling behind on either side of the arms race means accepting risks you don't understand.
+
+**Four: Cooperation agreements are a second line of defence, not a first.** They work best against uptiers and worst against drop-downs. They require creditor discipline that is difficult to maintain under pressure. They have untested enforceability in key jurisdictions. A cooperation agreement is valuable when documentation protections have failed or are absent—but the goal should always be to have documentation protections that make cooperation agreements unnecessary.
+
+**Five: The European market is not immune.** The structural protections in European documentation are real, but they are not impregnable. The Victoria transaction demonstrated that European indenture mechanics can be used for priority shifts. Top-tier sponsor deals with 66⅔% consent thresholds for super-senior tranches create pathways that resemble US-style uptiers. And J.Crew-style drop-downs work in any jurisdiction where unrestricted subsidiary provisions exist. European lenders who believe they are protected by documentation architecture alone are making the same mistake US lenders made before Serta.
+
+**Six: The total LME blocker is the direction of travel.** Whack-a-mole with individual transaction types is unsustainable. Every new blocker invites a new work-around, and the gap between documentation innovation and market adoption creates windows of vulnerability that sophisticated sponsors exploit. The Total LME Blocker—a broad prohibition on any liability management transaction—is the logical endpoint of the blocker evolution. It is not yet market standard, but it should be.
+
+
+========================================
+
+SUMMARY: THE LME PRACTITIONER'S CHECKLIST
+
+**For Lenders Evaluating New Documentation:**
+
+□ Does the credit agreement include a Serta blocker? Is it housed in an all-lender/sacred-right provision that cannot be amended by majority consent?
+
+□ Does the credit agreement include a J.Crew blocker? Does it cover all transfer mechanisms (not just permitted investments)? Does it prevent designation of IP-holding subsidiaries as unrestricted? Does it extend to material assets beyond IP?
+
+□ Does the credit agreement include a Chewy blocker? Does it use objective conditions rather than subjective "primary purpose" language?
+
+□ Does the credit agreement include a Pluralsight blocker preventing transfers to non-guarantor restricted subsidiaries?
+
+□ Is there a Total LME Blocker or equivalent broad prohibition?
+
+□ What are the consent thresholds for intercreditor agreement amendments? Are payment waterfall changes protected as all-lender matters?
+
+□ Do any baskets contain reclassification mechanics that could be used as decoy capacity?
+
+□ Are there disregarded debt provisions that could manipulate ratio tests?
+
+□ Does the credit agreement contain super grower or high-water-marking provisions?
+
+□ Are there evergreen or recycling baskets that could generate unlimited capacity?
+
+□ What is the scope of the unrestricted subsidiary concept? Can day-one unrestricted subsidiaries hold equity or debt of the restricted group?
+
+
+**For Lenders Evaluating Existing Positions:**
+
+□ Review your documentation for each of the above protections. Identify which are present, which are absent, and which are present but deficient.
+
+□ Assess the practical LME risk by asking: If this credit deteriorated significantly, what could the sponsor do using existing documentation capacity?
+
+□ Map the available baskets—RP, PI, debt, liens—and calculate the maximum value that could be transferred outside the restricted group under stress.
+
+□ Identify whether cooperation agreements are in place among the lender group. If not, consider whether pre-positioning (building relationships with other lenders) is advisable.
+
+□ Monitor secondary market activity for signs that a sponsor or affiliated fund is building a position—a potential precursor to an LME.
+
+
+**For Sponsors and Borrower Counsel:**
+
+□ Understand that LME capacity is a legitimate part of capital structure flexibility—but that its aggressive use destroys lender relationships and may trigger litigation.
+
+□ The Fifth Circuit's Serta decision has narrowed the legal pathway for uptier exchanges. Work-arounds exist but carry legal and reputational risk.
+
+□ Documentation innovations (modified open market purchase language, reclassification provisions, decoy baskets) will be scrutinised more intensely by lenders and may invite judicial scepticism.
+
+□ Consider the long-term cost of aggressive documentation: tighter blockers in future deals, higher pricing, and reduced market access.
+
+
+========================================
+
+A NOTE ON SOURCES
+
+This chapter draws extensively on the educational research published by 9fin, whose Legal Research Index provides the most comprehensive publicly available analysis of LME mechanics, blockers, and market developments. Specific articles referenced include analyses of cooperation agreements, Serta and Fifth Circuit developments, European uptier mechanics, Chewy, J.Crew, and Pluralsight blockers, next-level LME blockers and enablers, and value leakage transactions. Practitioners are encouraged to consult these sources directly for the most current market language and deal examples.

@@ -1,0 +1,271 @@
+CHAPTER 20: THE RESTRICTED PAYMENTS COVENANT — DEEP DIVE
+
+20.1 Introduction — Value Leakage and Why It Matters
+
+The restricted payments covenant exists to solve one problem: how do you keep equity holders from stripping value out of a leveraged company while the debt is still outstanding?
+
+I learned this lesson early in my career, and it was brutal. I was advising on a mid-market leveraged buyout. The structure looked fine on paper: the company had stable EBITDA of about €100 million, leverage was 4.5x, the sponsor was putting in reasonable equity. The sponsor's plan was to grow EBITDA, deleverage over five years, and exit. Standard playbook.
+
+What nobody paid attention to was the dividend policy. The credit agreement allowed dividends up to a certain capacity — the "basket" that the company could pay out. The sponsor's business plan included annual sponsor distributions starting in year two. The sponsor wanted to return capital. It was their prerogative, right? They'd invested equity. If the company was generating cash, why shouldn't they be able to take some out?
+
+The answer is: because the debt is subordinated to the equity, and the equity holders have an incentive to extract value. If leverage starts rising, if cash flow starts declining, the equity holders' exit value gets compressed. In that scenario, the equity holders' incentive is to take out what they can, while they can, before the whole structure deteriorates. That's value leakage. The lender, sitting in second position, watches equity getting paid dividends while leverage rises. That's a problem.
+
+The restricted payments covenant is the contractual remedy for this. It says: you can't pay dividends, make distributions, pay down junior debt, or make other payments that extract value from the company — unless the company is in compliance with its financial covenants, and unless the payment is within specific baskets that we (the lenders) have agreed to.
+
+The architecture of restricted payments covenants has evolved enormously over the past twenty years. In the 1990s and early 2000s, restricted payments covenants were relatively simple. You could pay dividends if leverage was below a certain level, full stop. The calculation was straightforward: calculate leverage, compare to the threshold, decide whether dividends were permitted.
+
+By the mid-2000s, as leverage got more aggressive and sponsors got more creative, restricted payments covenants became vastly more complicated. They incorporated multiple baskets, each with its own calculation methodology. They included carveouts for tax distributions, for management compensation, for ordinary course distributions to subsidiaries. They included "grower" baskets that grew automatically as the company's earnings improved. They included equity proceeds baskets that allowed distributions from the proceeds of new equity issuances.
+
+The modern restricted payments covenant is a puzzle. It's a combination lock that needs to be opened from multiple angles simultaneously. And sponsors have become expert at manipulating the mechanism.
+
+This chapter is about understanding that mechanism — about understanding how value can leak out of a leveraged company despite the existence of a restricted payments covenant, and about understanding how to draft and negotiate covenants that actually prevent that leakage.
+
+20.2 The Architecture of Restricted Payments
+
+Let's start with the basic question: what constitutes a "Restricted Payment"?
+
+The definition varies somewhat by credit agreement, but typically a Restricted Payment includes:
+
+— Any dividend or distribution in respect of equity, whether in cash, securities, or other property
+— Any payment in respect of the repurchase, redemption, or other retirement of equity
+— Any payment of principal or interest in respect of subordinated debt
+— Any loans or advances to (or equity investments in) any person, except in the ordinary course of business
+— Any prepayment or repayment of subordinated indebtedness
+— Any other payment, transfer, or commitment the effect of which is to reduce the net assets of the company below a specified level
+
+The last category is deliberately vague. It's meant to catch creative transactions designed to get around the spirit of the covenant.
+
+The distinction between "Restricted" and "Unrestricted" subsidiaries is crucial. An Unrestricted Subsidiary is a subsidiary that's not part of the main borrowing group. It's not part of the consolidated financials used for covenant testing. It's not part of the collateral package. It's a separate entity.
+
+The power of this distinction is that you can do things in an Unrestricted Subsidiary that you can't do in a Restricted Subsidiary. You can pay dividends up the chain from an Unrestricted Sub to the holding company, and that dividend is not a Restricted Payment because it's coming from an Unrestricted entity. You can use the collateral, the revenues, the assets of an Unrestricted Sub to support junior debt or equity payouts, and it's not subject to the leverage ratios or other financial covenants that constrain a Restricted Sub.
+
+But you have to designate a subsidiary as "unrestricted" at the time of the transaction. You can't retroactively change it without lender consent. And the covenant typically says that once you've designated a subsidiary as restricted, you can't change that designation to unrestricted without satisfying certain conditions.
+
+The mechanism for designating an unrestricted subsidiary is important. Typically you do it by satisfying a set of conditions, which might include:
+— The subsidiary is not a material part of the company's operations
+— Pro forma leverage doesn't exceed the covenant maximum (sometimes at a higher threshold)
+— The subsidiary is adequately capitalised
+— There's documentation (a board resolution, financial statements) supporting the designation
+
+The point of these conditions is to prevent you from designating a highly profitable, essential subsidiary as unrestricted and then stripping cash from it. But the conditions are often satisfied quite easily, particularly the materiality test — what's "material"? A subsidiary with €10 million of EBITDA out of a €100 million total is 10%. Is that material? Arguably yes, but also arguably no, depending on what you're trying to achieve.
+
+20.3 The Builder Basket in Detail
+
+The "builder basket" (also called the "accumulation basket" or "catch-up basket") is the fundamental mechanism that allows restricted payments to increase over time as the company improves financially.
+
+Here's how it works: The credit agreement provides that the maximum permitted restricted payments in any period is the greater of:
+
+(a) A fixed dollar amount (say, €50 million), or
+(b) 50% of "Consolidated Net Income" accumulated from the inception of the facility
+
+The idea is that if the company generates strong earnings, the equity holders should be able to take some of that earnings out as distributions. You're allowing distributions from retained earnings, essentially.
+
+Consolidated Net Income is typically defined as the GAAP net income of the company on a consolidated basis. So if the company had net income of €30 million in year one, €35 million in year two, and €40 million in year three, the accumulated net income is €105 million. 50% of that is €52.5 million. The builder basket allows €52.5 million in cumulative restricted payments (against the €50 million fixed cap, the builder basket wins).
+
+The power of the builder basket is that it automatically expands as the company improves. The lender doesn't have to negotiate anything. The formula is contractual and self-executing.
+
+But here's where sponsors get creative: they manipulate the denominator and the calculation method.
+
+First, there's the question of which net income counts. GAAP net income? Or a "Consolidated Adjusted Net Income" that includes various add-backs and adjustments? The more add-backs you get, the higher the net income, the higher the builder basket.
+
+Second, there's the question of what happens if the company has a loss year. If the company has €20 million in net income year one, but then a €5 million loss in year two, does the accumulated net income go down to €15 million? Or does it stay at €20 million (no downside, only upside)? Different credit agreements handle this differently. Some say the basket can only increase or stay flat, never decrease. Others say that the basket resets annually (so a loss year doesn't permanently reduce the basket).
+
+Third, there's the timing of when distributions can be made. If the builder basket is calculated annually based on year-end net income, can you take a distribution in December based on anticipated full-year earnings? Or do you have to wait until January 1 after the year-end? The difference might only be a month, but it matters operationally.
+
+The "starter basket" is a related concept. When a credit facility is first put in place, there's often a starter basket — a fixed dollar amount that's available to be distributed immediately, without regard to the company's performance. This is meant to accommodate the sponsor's desire to begin returning capital soon after closing.
+
+Over the years, starter baskets have expanded. In the 1990s, a typical starter basket might be €10-20 million. By the 2010s, starter baskets of €50-100 million (or more) were common in large transactions. This is massive in practical terms: the company can distribute tens of millions to the sponsor immediately upon closing, even if the business is underperforming.
+
+I worked on a transaction where the sponsor wanted a €80 million starter basket on a company with €150 million of EBITDA. That's equivalent to 40% of net EBITDA available for distribution immediately. The sponsor's argument was that this was "standard market." It was, in fact, getting close to market at the time (2012-2013). The lender's argument was that there was no economic justification for a starter basket this large. The company hadn't done anything yet. The sponsor hadn't created any value. Why should 40% of the first year's earnings be available for extraction?
+
+We compromised at €50 million, with a requirement that after any distribution, leverage had to be recalculated and the company couldn't be in breach of leverage covenants. That made the math work — the sponsor could take the distribution, but only if leverage remained in compliance.
+
+The "Available Amount" concept is the practical reality of how these baskets work. The Available Amount is calculated as: the greater of the fixed dollar amount or the builder basket amount, less any prior distributions taken, plus any increases from subsequent earnings or other events.
+
+Tracking the Available Amount is the sponsor's job, but in practice it's often a point of contention. The sponsor takes a distribution, the company records it as coming out of the builder basket. Then the company has a loss quarter, and the lender argues that the builder basket should be reduced retroactively, which would mean the prior distribution was improper. Or the lender argues that the Available Amount should include only earnings after a certain date, not earlier earnings.
+
+I've seen situations where the parties disagree about the Available Amount, the sponsor has taken a distribution believing it was permitted, and then months later the lender asserts that the distribution was a covenant violation. This is a mess. So the art is to have crystal-clear documentation about how the Available Amount is calculated, when it's tested, and what happens if there's a dispute.
+
+20.4 The Permitted Baskets: A Comprehensive Taxonomy
+
+Modern restricted payments covenants are not simply about the builder basket and the restricted payments test. They're about multiple overlapping baskets, each of which allows certain payments under certain circumstances.
+
+Let me walk through the key baskets:
+
+The General Basket: A fixed dollar amount (say, €50 million) available for any restricted payment, regardless of financial performance. This is the simplest basket, and it's often used for smaller, non-material payments. The idea is that the company should be able to make small distributions without having to run complicated calculations.
+
+The Leverage-Based Basket: A fixed dollar amount that's available only if leverage is below a specified level. So the credit agreement might say: you can make unrestricted payments of up to €30 million in any four-quarter period, provided leverage is below 4.0x. The logic is that if leverage is low, the company is in good financial shape, and equity holders should be allowed to extract value.
+
+The Grower Basket: A basket that's the greater of a fixed amount and a percentage of EBITDA (or sometimes a percentage of net income). So it might be: the greater of €20 million or 20% of trailing twelve-month EBITDA. If EBITDA is €100 million, the grower basket is €20 million. If EBITDA is €200 million, the grower basket is €40 million. This is a way to automatically scale the dividend capacity as the company grows.
+
+The Management Compensation Basket: Specific carveouts for management bonuses, equity compensation, severance, and similar amounts, in the ordinary course of business. This is meant to make clear that day-to-day compensation doesn't count as a restricted payment.
+
+The Tax Distribution Basket: A carveout for distributions necessary to pay taxes of the company or its equity holders. This is because the company is often structured as a pass-through entity (an LLC, or a partnership), where the equity holders are responsible for paying the entity's taxes, and they need distributions to do so. The lender doesn't want to force the equity holders into a situation where they can't pay their tax bills.
+
+The Equity Proceeds Basket: An amount equal to the net proceeds from any issuance of new equity. So if the sponsor issues €100 million in new equity, that can be distributed as a dividend to the equity holders (or used for other purposes). This is almost always permitted, because the equity raise brings in fresh capital to the company.
+
+The "Available Equity Amount": This is sometimes used instead of (or in addition to) the Equity Proceeds Basket. It's calculated as: the sum of all net proceeds from equity issuances, less the amount of such proceeds that have been used for other purposes (acquisitions, working capital, debt repayment, etc.).
+
+Each of these baskets has its own conditions and limitations. The leverage-based basket only applies if leverage is below the threshold. The grower basket grows and shrinks with EBITDA. The tax distribution basket is limited to actual tax amounts and requires supporting documentation.
+
+The art of drafting a restricted payments covenant is to find the right balance. You want enough baskets to allow the business to operate and the sponsor to eventually get a return on equity. But you don't want so many baskets that the restricted payments covenant becomes meaningless.
+
+And the art of managing a restricted payments covenant, as a sponsor or as a company, is to understand which basket is most beneficial in any given scenario and to construct transactions to use that basket.
+
+20.5 Capacity Fungibility and Reclassification
+
+Here's where restricted payments covenants get really interesting: the interaction between multiple baskets.
+
+In a well-drafted credit agreement, each basket is separate. You can use the general basket for general purposes, the management compensation basket for management compensation, the equity proceeds basket for equity-related distributions. You can't mix them. You can't use the management compensation basket for shareholder distributions.
+
+But in a poorly drafted (from the lender's perspective) or well-negotiated (from the sponsor's perspective) credit agreement, the baskets can be "reclassified" or "fungible." This means that capacity from one basket can be used for purposes that would otherwise require a different basket.
+
+The sponsor will argue: we've accumulated €50 million in the management compensation basket (because the company's manager received generous bonuses). We only used €30 million of that for actual compensation. Can we use the excess €20 million for shareholder distributions?
+
+Or: we have €100 million of available equity proceeds (from a prior equity raise). We used €60 million to pay down debt. Can we use the excess €40 million for dividends?
+
+These arguments are all about "dual use" or "dual classification" of capacity. The sponsor wants to move capacity between baskets.
+
+From a lender's perspective, fungibility is dangerous. Each basket exists for a reason. If you can reclassify capacity from one basket to another, you're defeating the purpose of having multiple baskets. But from a sponsor's perspective, fungibility is valuable. More baskets that feed into each other means more total capacity for distributions.
+
+I worked on a negotiation where we fought hard about fungibility. The credit agreement had five different baskets for restricted payments. The sponsor wanted language saying that capacity from any basket could be used for any purpose, subject only to the total cap.
+
+We pushed back. We said: the management compensation basket is for compensation. If you're not paying management, you don't need that capacity. You can't just convert compensation capacity into dividend capacity. The lender wanted to keep the baskets siloed.
+
+The compromise was a limited fungibility. Excess capacity from certain baskets (the general basket, the equity proceeds basket) could be reclassified into other permitted purposes. But capacity from restricted baskets (management compensation, tax distributions) could not be reclassified. And in any case, any distribution had to satisfy the overall covenant requirement: pro forma leverage had to be below a specified level (typically the same level as the leverage maintenance covenant).
+
+That last point is crucial. Even if you're within all the baskets, you still have to satisfy the leverage test. So if you want to make a €100 million distribution and all the baskets add up to €150 million, you still can't make the distribution if it would cause pro forma leverage to exceed the threshold.
+
+Fungibility and reclassification become massively important in workout situations. A company is in distress, leverage is high, all the baskets are maxed out, and the sponsor wants to make a distribution anyway. The company's argument is: we're not triggering an incurrence event, because we're within our baskets and leverage is in compliance. The lender's argument is: you're taking distributions in a period of financial stress, which is exactly what the covenant is designed to prevent.
+
+20.6 The Investment Covenant and Its Interaction
+
+The restricted payments covenant interacts with the "Investment" covenant in ways that sponsors exploit.
+
+The Investment covenant (or "Permitted Investment" covenant) defines what investments the company can make. Typically, the covenant will say: the company can make investments in Subsidiaries, in businesses in the ordinary course, and in acquisitions above a certain size (subject to pro forma leverage tests), and in permitted investments (which include debt securities rated above a certain level, etc.).
+
+But the covenant will also include a catch-all: investments are permitted if, after giving effect to the investment, pro forma leverage is below a specified level (often the same leverage threshold as in the restricted payments covenant).
+
+Here's where it gets interesting: a Restricted Payment, by definition, reduces the company's equity and increases leverage (because you're removing cash from the company). An Investment in an Unrestricted Subsidiary, by definition, is not a Restricted Payment. The cash goes out of the company, but it goes to a subsidiary that's not consolidated for covenant purposes.
+
+So a clever sponsor will structure a distribution as an investment in a new Unrestricted Subsidiary, which then immediately distributes the cash back to the sponsor's holding company. That distribution from the Unrestricted Sub to the parent is not a Restricted Payment (because it's coming from an Unrestricted entity). The cash has left the consolidated company and gone to the sponsor, but no Restricted Payment covenant was triggered.
+
+This is sometimes called the "J. Crew dropkick" because J. Crew's sponsor used this structure (or variations of it) to extract cash from the company during the period leading up to the bankruptcy.
+
+The J. Crew structure worked as follows: J. Crew borrowed money (additional debt or cash from operations). That cash was invested in a separate, Unrestricted Subsidiary called J. Crew Investments (or similar). J. Crew Investments then made a loan to J. Crew Holdings, which is a non-consolidated entity that held the sponsor's equity stake. J. Crew Holdings used that loan to pay distributions to the sponsors. The restricted payments covenant was never triggered because the distribution came from outside the consolidated group.
+
+Lenders eventually got wise to this and added specific covenant language to prevent it. But the principle remains: if you can find a way to structure a transaction outside the consolidated group, you can avoid the restricted payments covenant.
+
+The modern approach is to include language that says: any investment in or loan to an unrestricted subsidiary is only permitted if the company could have made the equivalent restricted payment. In other words, you can't circumvent the restricted payments covenant by routing cash through an unrestricted subsidiary.
+
+But drafting language that's airtight is difficult. There are always edge cases and variations.
+
+20.7 The Restricted Payments Covenant Under Stress
+
+Let's look at real cases where restricted payments became important — either because the covenant prevented leakage, or because it didn't.
+
+J. Crew's use of its capital structure to extract value is the most famous case. The company was bought out by TPG in 2011 at a reasonable leverage. Over the subsequent years, the sponsor made distributions to itself — dividends, management fees, and in some cases distributions structured to avoid being "restricted payments" under the covenant.
+
+The exact figures are hard to pin down because J. Crew's capital structure was complex, but estimates suggest that the sponsor extracted several hundred million dollars in distributions before the company's bankruptcy filing in 2020. Some portion of these distributions were within the restricted payments baskets. Some portion were structured to avoid the covenant.
+
+The question for a lender is: would a tighter restricted payments covenant have prevented this? Probably not entirely. But it might have slowed it down, or forced more of the distributions to come from equity raises rather than from asset sales or cash extraction.
+
+Serta Simmons is another interesting case. The company hit covenant stress in the financial crisis, and had to renegotiate its credit agreement. One of the items on the negotiation table was the restricted payments covenant. The lenders successfully pushed for restrictions on distributions during the stress period. Serta couldn't pay dividends unless leverage was below a certain level (lower than the maintenance covenant level). This forced the company to focus on deleveraging rather than on extracting value for the sponsor.
+
+Did it save Serta? Not entirely. But it bought time and forced the sponsor to reinvest cash back into the company rather than distribute it. That's exactly what the lender was looking for.
+
+Boardriders (which owns Quiksilver) faced multiple covenant breaches in the financial crisis. The company's restricted payments covenant was relatively loose — it allowed distributions if leverage was below 5.0x. As leverage climbed during the crisis, distributions stopped automatically. That was actually a good feature: the covenant prevented value leakage at exactly the moment when the company needed to hoard cash.
+
+Casino Guichard's case is instructive as a European example. The company undertook multiple transactions designed to extract value — asset sales, related-party transactions, and distributions to shareholders. The restricted payments covenant in the credit agreement was relatively standard European-style language. It allowed distributions if leverage was below a threshold and if financial covenants were satisfied.
+
+The problem wasn't that the covenant was triggered. The problem was that the company's business was deteriorating, leverage was rising, and the company was approaching the point where distributions would no longer be permitted. The company's response was to undertake asset sales to reduce net debt (and thus improve the leverage calculation), which freed up capacity for distributions.
+
+The asset sales generated the restricted payments covenant to allow more capacity for distributions. It was a form of value leakage: the company sold real assets and then paid out the proceeds as dividends, leaving the company smaller and weaker.
+
+The lesson is that a well-drafted restricted payments covenant needs to be combined with restrictions on asset sales and other transactions that can manipulate the covenant tests. If you can prevent value leakage through restricted payments, the company will just find another path.
+
+20.8 The European Perspective
+
+European restricted payments covenants are somewhat different from US practice, though the differences have narrowed in recent years.
+
+Historically, European covenants were drafted with more explicit references to corporate law principles. Many European jurisdictions have "solvency" or "balance sheet insolvency" tests that limit how much a company can distribute. A company cannot make a distribution if it would render the company insolvent or would impair its capital.
+
+European credit agreements would often incorporate this principle. A distribution was permitted only if the company remained solvent and if pro forma leverage was below a certain level. The double test — both the contractual leverage test and the legal solvency test — provided additional protection.
+
+But as European credit agreements have become more influenced by US practice, these legal solvency tests have been deemphasized. Modern European agreements often include only the contractual leverage test, without the solvency reference.
+
+The Sequana decision in the UK is relevant here. Sequana is a company law case that dealt with the duties of directors when a company is approaching insolvency. The court held that directors must consider the interests of creditors, not just shareholders, when making decisions. By extension, if a director approves a dividend that impairs the company's ability to pay its creditors, the director could be held liable.
+
+This creates a tension in a leveraged structure: the restricted payments covenant says that a dividend is permitted if leverage is below a certain level. But UK law (in the aftermath of Sequana) might say that the director cannot approve that dividend if it would impair the creditors' security. If the dividend is permitted by contract but prohibited by law, what happens?
+
+Most practitioners in the UK have taken a conservative approach: if the covenant permits a distribution, a director is comfortable with it from a legal perspective. But there's underlying uncertainty.
+
+Cross-border restricted payments covenants are also complicated. A European holding company might have subsidiaries in multiple countries. A restricted payment from a subsidiary in one country might be subject to different tax and legal treatment than a distribution from another country. The credit agreement might be governed by English law, but the actual companies involved are governed by German, French, or Dutch law. Those local law requirements might limit distributions in ways that the credit agreement doesn't anticipate.
+
+The modern approach to European credit agreements is to have explicit carveouts for distributions that are required by law or that meet the legal requirements for distribution in each relevant jurisdiction. But this adds complexity and reduces the simplicity of the covenant.
+
+20.9 Anti-Value-Leakage Provisions: The Creditor Response
+
+As sponsors have become more creative in extracting value, lenders have added more specific provisions designed to prevent that extraction.
+
+The "blocker" provision says that certain actions are blocked during periods of covenant stress. If leverage exceeds a certain level, or if a financial covenant is breached, restricted payments are not permitted, period. The sponsor can't make any distributions. This is meant to force cash retention at exactly the moment when lenders are nervous.
+
+The "Investment Grade" requirement says that certain investments (typically investments outside the ordinary course of business) are only permitted if the investment is in investment-grade securities, or if it's in an investment-grade company, or if it meets other quality standards. This is designed to prevent a leveraged company from investing in sub-investment-grade or distressed assets.
+
+The "No Designation to Defraud Creditors" language is very general: the company cannot make any transaction (including designating a subsidiary as unrestricted) if the effect is to defraud or materially impair the position of the creditors. This is meant to catch creative structures that technically comply with the covenant but violate its spirit.
+
+Covenant "sunset" restrictions prevent certain covenants from being amended or waived after a certain date. For example: "The Restricted Payments Covenant cannot be amended to be more favorable to the Borrower after two years from the Closing Date." This prevents a company that has performed well from negotiating away covenant protections.
+
+I've also seen provisions that require the lender's consent before designating a subsidiary as "unrestricted," rather than making unrestricted designation automatic upon satisfaction of certain conditions. This gives the lender veto rights over which entities can be taken out of the covenant package.
+
+The challenge with all of these anti-value-leakage provisions is that they need to be specific enough to actually prevent abuse, but not so specific that they prevent legitimate business activities. A company needs to be able to make ordinary course investments, to hire executives and pay them, to manage its working capital, and to eventually distribute returns to its owners. The restricted payments covenant shouldn't prevent all of this.
+
+The art of drafting is to be prescriptive about what's prohibited (value extraction structures), while being permissive about what's allowed (ordinary business operations).
+
+20.10 What Twenty Years Teaches
+
+I've negotiated hundreds of restricted payments covenants, and here's what I've learned:
+
+First, the restricted payments covenant is only as good as the leverage test that's paired with it. If the leverage test is too loose (which it often is), then the restricted payments covenant is effectively meaningless. A company can pay maximum dividends as long as leverage doesn't breach, and if leverage is at 5.5x, the company has lots of room.
+
+Second, baskets matter far more than the leverage test. The size of the general basket, the starter basket, and the grower basket determines the real capacity for distributions. Sponsors will fight tooth and nail for larger baskets, and lenders need to negotiate those numbers carefully.
+
+Third, the restricted payments covenant is one piece of a larger puzzle. It needs to be reinforced by restrictions on asset sales (so the company can't sell assets and then distribute the proceeds), restrictions on related-party transactions (so the company can't pay inflated management fees), and restrictions on acquisitions (so the company can't acquire another company and then strip it of cash). If those restrictions don't exist, the restricted payments covenant is toothless.
+
+Fourth, the cleanliness and simplicity of the definition matters enormously. Every provision that's ambiguous becomes a point of contention if the company goes into distress. The simpler the definition, the easier to administer, the clearer the lender's rights.
+
+Fifth, equity cures and restricted payments interact in important ways. An equity cure can increase the builder basket (because equity injection is supposed to be treated as retained earnings for purposes of the builder basket calculation). A company that's chronically breaching financial covenants can stay within the restricted payments covenant by repeatedly curing breaches. From a lender's perspective, this is exactly the wrong incentive.
+
+Sixth, in a workout or restructuring, the restricted payments covenant often becomes the most negotiated piece. The company wants to preserve some capacity for distributions (to the sponsor, to management, for expenses). The lender wants to eliminate distributions entirely until the company is recovered. Finding a middle ground is usually the first major negotiation point in any covenant amendment or restructuring.
+
+SUMMARY: THE RESTRICTED PAYMENTS PRACTITIONER'S CHECKLIST
+
+When drafting or negotiating a restricted payments covenant, consider these points:
+
+□ The covenant is only as good as the leverage test. A loose leverage test (5.5x or higher) makes the entire restricted payments regime permissive. Nail down the leverage threshold carefully.
+
+□ Size the baskets appropriately. The general basket, starter basket, and grower basket should provide enough capacity for legitimate business needs (management compensation, acquisitions, working capital adjustments) without providing unlimited distribution capacity.
+
+□ Be explicit about fungibility. Can capacity from one basket be used for different purposes? Can the equity proceeds basket be used for general distributions? Get this in writing, and be restrictive.
+
+□ Close the unrestricted subsidiary loophole. Require that any investment that would circumvent the restricted payments covenant be treated as a restricted payment. Or require that unrestricted subsidiary designations be subject to lender consent.
+
+□ Pair the restricted payments covenant with restrictions on asset sales and related-party transactions. Without these restrictions, the restricted payments covenant alone is insufficient.
+
+□ Calculate and disclose the "Available Amount" regularly. Have the company provide a schedule showing the current available capacity for restricted payments, calculated as of the most recent quarter-end. This provides visibility.
+
+□ Consider "springing" restrictions. Perhaps distributions are unrestricted if leverage is below 3.5x, but restricted if leverage exceeds 4.0x. This forces distributions to stop at exactly the moment when lenders are nervous.
+
+□ Define the add-backs in the builder basket carefully. Every add-back item (stock compensation, restructuring charges, transaction expenses) should have a specific dollar cap and require documentary support.
+
+□ Include specific baskets for ordinary course payments (management compensation, tax distributions, capital expenditures in the budget). These shouldn't be subject to the restricted payments covenant.
+
+□ In Europe, explicitly address the tax distribution basket. Sponsors will argue that they need distributions to pay personal income taxes. Agree to this, but require evidence of actual tax liability.
+
+□ Use a leverage "catch-all" test. Even if all baskets are satisfied, distributions should only be permitted if pro forma leverage is below a specified level (often higher than the maintenance covenant, but lower than the maximum indebtedness level).
+
+□ Monitor covenant capacity. If a company is approaching the maximum available restricted payments, the lender should be nervous. A company that's at the edge of its restricted payments capacity is likely to be at the edge of financial stress.
+
+□ In workouts, be prepared to modify the restricted payments covenant aggressively. Tighten baskets, eliminate fungibility, or suspend distributions entirely. This is often the easiest way to force cash retention.
+
+□ Remember that the restricted payments covenant is not the only tool. Asset sale restrictions, change of control provisions, and leverage maintenance covenants all interact with restricted payments. Understand the full covenant package.

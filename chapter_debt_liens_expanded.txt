@@ -1,0 +1,867 @@
+THE LEVFIN BOOK: A PRACTITIONER'S GUIDE
+Chapter: The Debt and Liens Covenants — Comprehensive Deep Dive
+By Federico Etchelecu
+
+INTRODUCTION — THE TWIN GATEKEEPERS
+
+If you have read only one chapter of this book, read this one. The debt covenant and the liens covenant are the two most important covenants in a leveraged finance facility. They control what leverage the borrower can take on, when it can take that leverage on, and what claims other creditors can have on the borrower's assets. Everything flows from these two covenants.
+
+I have spent the equivalent of several years of my career negotiating debt and liens covenants. I have seen sponsors negotiate for six months straight over the definition of "Permitted Debt." I have seen lenders walk away from deals because they could not get the debt covenant language they wanted. I have seen supposedly minor disagreements on liens turn into blocking issues that almost killed transactions.
+
+This chapter is the definitive guide to debt and liens covenants in leveraged finance. I am going to walk through the covenant language that appears in real credit agreements and explain what each provision means, why it matters, and what happens when the covenant is breached or tested.
+
+The debt and liens covenants are related to each other, but they are not the same. The debt covenant restricts the amount of debt the borrower can incur. The liens covenant restricts the claims that creditors can have on the borrower's assets. They are complementary mechanisms—the debt covenant limits leverage in the capital structure, and the liens covenant limits the number of creditors who can claim the assets.
+
+THE DEBT COVENANT IN HIGH YIELD BONDS
+
+Let me start with how the debt covenant works in high yield bond documentation, because this is where the concepts are clearest and the language is most developed.
+
+In a typical high yield bond indenture, the debt covenant will say something like this:
+
+"The Issuer shall not, and shall not permit any Restricted Subsidiary to, directly or indirectly, create, incur, assume or become liable for any Debt, except:
+
+(a) Debt of the Issuer outstanding on the Closing Date and identified in Schedule [X];
+(b) Refinancing Indebtedness;
+(c) Debt of the Issuer or any Restricted Subsidiary not to exceed [X] million in the aggregate (the "General Basket");
+(d) Permitted Acquisition Debt;
+(e) Debt incurred pursuant to Permitted Securitizations;
+(f) Permitted Pari Passu Debt;
+(g) Debt incurred in connection with [other specific carve-outs]."
+
+This language is saying: the issuer cannot incur new debt, except in the specific categories listed. This is a classic "incurrence test" covenant. The covenant is not triggered when debt exists; it is only triggered when the issuer is trying to incur new debt.
+
+Let me break down what each of these categories means.
+
+PERMITTED DEBT BASKETS AND THEIR TAXONOMY
+
+Debt outstanding on closing. This is straightforward—whatever debt exists at the time the bond is issued, the issuer can keep that debt. This includes the bond itself, any bank facilities, any other pre-existing debt.
+
+Refinancing indebtedness. This is one of the most important carve-outs. It allows the issuer to refinance existing debt with new debt. The definition of "Permitted Refinancing Indebtedness" is critical.
+
+A typical definition looks like:
+
+"Permitted Refinancing Indebtedness means Debt issued in exchange for, or whose proceeds are used to repay, refund, refinance, replace, renew or extend any Debt (including Debt under this Indenture) or any portion thereof, including Debt incurred to refinance Permitted Refinancing Indebtedness; provided that:
+
+(a) the principal amount of such Refinancing Indebtedness shall not exceed the principal amount of the Debt being refinanced plus reasonable underwriting, administrative and other fees and costs associated with the refinancing;
+
+(b) such Refinancing Indebtedness shall have a final maturity date that is not earlier than the final maturity date of the Debt being refinanced;
+
+(c) the weighted average life to maturity of such Refinancing Indebtedness shall be at least equal to the weighted average life to maturity of the Debt being refinanced;
+
+(d) such Refinancing Indebtedness shall have a coupon and other terms that are not more favourable to the lender than the Debt being refinanced [in certain indentures]."
+
+This definition is designed to prevent the issuer from using a "refinancing" as a way to increase leverage. The principal amount limit ensures that you cannot refinance £100 million of debt with £150 million of new debt (except for the fees and costs component). The maturity and weighted average life restrictions ensure that you are not shortening the tenor of the debt. And in some indentures, there is a restriction on coupon that prevents the issuer from issuing new debt at a lower rate than the debt being refinanced (this would indicate that the issuer could simply issue more debt at the lower rate to pay down higher-rate debt, using a "refinancing" as cover).
+
+The Refinancing Indebtedness definition is one of the most contested provisions in a leverage negotiation, because the issuer wants broad flexibility to refinance and the lender wants to prevent the issuer from using refinancing as a cover for increasing leverage.
+
+General basket. The general basket is simply an amount of debt that the issuer can incur for any purpose, subject to no other conditions. Typical amounts for general baskets in bond indentures are £50-100 million for larger issuers, and proportionately less for smaller issuers.
+
+The general basket serves a valuable function—it allows the issuer to incur small amounts of debt (for working capital facilities, short-term borrowings, etc.) without having to meet specific conditions. Without the general basket, every small debt incurrence would have to be documented as either a permitted acquisition debt or something else, which would be cumbersome.
+
+Permitted acquisition debt. This is debt incurred to finance acquisitions. A typical definition looks like:
+
+"Permitted Acquisition Debt means Debt incurred in connection with any acquisition of all or substantially all of the assets of, or any division of, or any capital stock of, another Person (a "Permitted Acquisition"), provided that:
+
+(a) such Permitted Acquisition Debt is incurred in connection with a Permitted Acquisition;
+
+(b) the principal amount of all Permitted Acquisition Debt does not exceed £[X] million in the aggregate;
+
+(c) the weighted average interest rate on such Permitted Acquisition Debt shall not exceed the weighted average interest rate on the Company's Long-Term Debt [or some specified percentage thereof];
+
+(d) immediately after giving effect to the acquisition and the incurrence of such Debt, the Company satisfies the Consolidated Leverage Ratio test [specified in the covenant]."
+
+The acquisition debt basket allows the company to finance acquisitions with new debt, subject to a cap on the aggregate amount, and subject to passing a leverage test. The leverage test is important because it ensures that the company cannot use the acquisition debt basket to lever up beyond a certain level.
+
+THE RATIO TEST FOR DEBT INCURRENCE
+
+This is where the real sophistication of the debt covenant comes in. Many bond indentures do not just allow specific categories of debt; they also have a "ratio-based basket" that allows the issuer to incur debt if the issuer's leverage ratio falls below a specified level.
+
+For example:
+
+"The Issuer may also incur Debt if, immediately after giving effect to the incurrence of such Debt and the use of proceeds therefrom, the Consolidated Leverage Ratio (as calculated on a pro forma basis) does not exceed [2.0x / 2.5x / 3.0x], as specified in the Indenture."
+
+This is called an "incurrence leverage test" and it is very different from a "maintenance leverage test" (which I discussed in the previous chapter). An incurrence test is only triggered when the company is doing something—incurring debt, making acquisitions, paying dividends. A maintenance test is always in effect.
+
+The incurrence leverage test allows the issuer to incur debt as long as the pro forma leverage (including the new debt) is below the specified level. So if the leverage test is 3.0x, and the issuer currently has leverage of 2.5x, the issuer can incur more debt as long as the pro forma leverage is still below 3.0x.
+
+This is a powerful tool for the issuer, because it allows the issuer to grow leverage up to the specified level without needing to identify specific categories of permitted debt.
+
+THE BUILDER BASKET
+
+In some indentures, there is what is called a "builder basket" or "capacity basket," which is related to the incurrence leverage test but works somewhat differently.
+
+A builder basket allows the issuer to incur debt up to a specified amount, and that amount increases as the company's EBITDA increases.
+
+For example:
+
+"The Issuer may incur Debt in an amount not to exceed the greater of (a) £50 million, or (b) 3.0x Consolidated EBITDA for the most recent four-quarter period, provided that the Incurrence Leverage Ratio test is satisfied."
+
+This is a useful mechanism because it ties the borrower's borrowing capacity directly to operating performance. If the company's EBITDA grows, the company's borrowing capacity increases proportionately.
+
+Builder baskets can be very sponsor-friendly, because they create an implicit incentive for the issuer to grow EBITDA (because EBITDA growth directly unlocks borrowing capacity). But they can also be a problem for the lender, because a rapidly growing company with rising EBITDA could potentially increase leverage significantly if the builder basket is too generous.
+
+THE PERMITTED REFINANCING INDEBTEDNESS DEFINITION REVISITED
+
+I want to go back to the Refinancing Indebtedness definition because this is really where the leverage battle is fought, and it is important to understand the different approaches.
+
+Conservative lender approach. A conservative lender will define Permitted Refinancing Indebtedness narrowly:
+
+"Permitted Refinancing Indebtedness means Debt issued in exchange for, or whose proceeds are used to repay, refund, refinance, replace, renew or extend any Debt, provided that:
+
+(a) the principal amount does not exceed the principal amount of the Debt being refinanced plus 3% for fees and costs;
+
+(b) the maturity is not earlier than the Debt being refinanced;
+
+(c) the weighted average life is not less than the Debt being refinanced;
+
+(d) the coupon and other terms are not materially more favourable to the issuer than the Debt being refinanced."
+
+The narrow definition prevents the issuer from:
+
+- Issuing more debt than the amount being refinanced (except for fees);
+- Shortening the maturity of the debt;
+- Extending the maturity but in a way that increases overall leverage (by shortening the weighted average life elsewhere).
+- Issuing debt on more favourable terms than the debt being refinanced.
+
+Sponsor approach. A sponsor will push for a broader definition:
+
+"Permitted Refinancing Indebtedness means Debt issued in exchange for, or whose proceeds are used to repay, refund, refinance, replace, renew or extend any Debt, provided that:
+
+(a) the principal amount does not exceed the principal amount of the Debt being refinanced plus reasonable underwriting, administrative and other costs;
+
+(b) the maturity is not earlier than the Debt being refinanced;
+
+(c) the weighted average life is not less than the Debt being refinanced."
+
+Note that the sponsor version does not restrict the coupon or other terms. This is important because if the credit quality of the issuer has improved, the issuer could refinance high-coupon debt with lower-coupon debt, freeing up cash. The sponsor wants the flexibility to do this.
+
+The sponsor version also does not explicitly restrict the fees and costs to a percentage—it says "reasonable," which is more subjective and allows for negotiation.
+
+Middle ground. In reality, most deals settle somewhere in the middle:
+
+"Permitted Refinancing Indebtedness means Debt issued in exchange for, or whose proceeds are used to repay, refund, refinance, replace, renew or extend any Debt, provided that:
+
+(a) the principal amount does not exceed the principal amount of the Debt being refinanced plus 5% for fees and costs;
+
+(b) the maturity is not earlier than the Debt being refinanced (provided that renewals or extensions that extend the maturity may occur);
+
+(c) the weighted average life is not less than the Debt being refinanced;
+
+(d) subject to certain exceptions, such Refinancing Indebtedness shall not be issued on terms more favourable to the issuer than the Debt being refinanced."
+
+CONTRIBUTION DEBT
+
+I want to highlight a specific type of permitted debt that appears in some leveraged finance structures: contribution debt.
+
+Contribution debt is debt incurred to make a capital contribution to the company at the time of a leveraged buyout or other major transaction. In a typical LBO, you might have:
+
+- Equity from the sponsor
+- Term loan from banks
+- High yield bonds
+- Perhaps a contribution loan from a related entity
+
+The contribution loan allows the sponsor to reduce upfront equity contribution and increase the return on equity, by having a related entity lend money to the company (which the company then uses to fund the buyout).
+
+The risk of contribution debt is that it effectively increases leverage without directly being counted in the leverage calculation (because the debt proceeds are essentially being used to fund the equity part of the transaction). To prevent excessive use of contribution debt, the debt covenant will typically include a restriction:
+
+"Contribution Debt means Debt of the Issuer incurred to finance capital contributions to the Issuer or any of its Restricted Subsidiaries, provided that:
+
+(a) the principal amount of Contribution Debt shall not exceed [X]% of the total consideration paid in the relevant acquisition transaction;
+
+(b) the Contribution Debt shall be subordinated to [senior debt], and shall be incurred on terms no more favorable to the Issuer than [specified terms];
+
+(c) Contribution Debt shall not be incurred if the Consolidated Leverage Ratio exceeds [specified level]."
+
+ACQUIRED ENTITY DEBT
+
+When the borrower acquires another company, that company might have debt outstanding. The question is: what happens to that debt after the acquisition?
+
+In most cases, the debt is assumed by the buyer or by a subsidiary of the buyer. The debt covenant needs to address what happens to acquired debt.
+
+A typical approach is:
+
+"Acquired Entity Debt means Debt assumed by the Company or assumed or incurred by any Restricted Subsidiary in connection with any Permitted Acquisition, provided that:
+
+(a) such Acquired Entity Debt is in existence prior to the acquisition;
+
+(b) such Acquired Entity Debt is not incurred or increased in connection with the acquisition;
+
+(c) immediately after the acquisition, the Company's Consolidated Leverage Ratio does not exceed [specified level];
+
+(d) in the case of Acquired Entity Debt with a maturity of less than [specified period], such Debt shall be repaid or refinanced into Permitted Refinancing Indebtedness within [specified period]."
+
+The point of these restrictions is to prevent the buyer from using an acquisition as a way to take on additional debt beyond what was anticipated.
+
+THE DEBT COVENANT IN LEVERAGED LOANS
+
+The debt covenant in a leveraged loan credit agreement is similar to the debt covenant in a bond indenture, but there are some important differences. The key difference is that leveraged loans are typically secured by collateral, which affects how the covenant is structured.
+
+THE INCURRENCE TEST FRAMEWORK IN LOANS
+
+In a leveraged loan, the debt covenant is typically an incurrence test, similar to a bond indenture:
+
+"The Borrower shall not, directly or indirectly, create, incur, assume or become liable for any Debt, except:
+
+(a) Debt under the Loan Documents;
+
+(b) Permitted Refinancing Indebtedness;
+
+(c) Debt not exceeding £[X] million in the aggregate (the "General Basket");
+
+(d) Permitted Acquisition Debt;
+
+(e) Permitted Pari Passu Debt;
+
+(f) [other carve-outs]."
+
+But there are important variations in how leveraged loans treat different types of debt.
+
+SUPER SENIOR FACILITIES
+
+One important concept in leveraged loans is "super senior" debt. A super senior facility is debt that has first priority claim on specified collateral, even before the senior secured lenders.
+
+In a typical LBO structure, you might have:
+
+- A revolver (£[X] million, first lien)
+- A term loan (£[X] million, first lien)
+- A super senior facility (£[X] million, first lien on specified collateral only, prime lien)
+
+The super senior facility might be used to finance working capital or acquisition earnouts. It is "super senior" because it has the first claim on certain collateral.
+
+The treatment of super senior facilities in the debt covenant is important. Some credit agreements will allow unlimited super senior debt (subject to other restrictions) because super senior debt does not increase the risk of the senior lenders (the senior lenders still have first claim on most collateral).
+
+Other credit agreements will cap super senior debt or treat it as constrained.
+
+INCREMENTAL FACILITIES (THE ACCORDION)
+
+One of the most valuable features for sponsors in a leveraged loan facility is the "incremental facility" or "accordion" provision.
+
+An incremental facility allows the borrower to incur additional debt under the existing credit agreement, rather than through a separate financing. The incremental facility shares the same collateral, the same documentation (by reference), and the same covenants as the existing facilities.
+
+A typical incremental facility provision looks like:
+
+"The Borrower may, at any time and from time to time, request that the Lenders provide an incremental term loan facility (an "Incremental Term Loan"), and the Lenders may (but are not obligated to), at their election, provide such Incremental Term Loan, in an aggregate amount not to exceed the greater of (a) £[X] million, or (b) [X]x Consolidated EBITDA, in the case of any Incremental Term Loan that is incurred for a Permitted Acquisition, and not to exceed the greater of (c) £[X] million, or (d) [X]x Consolidated EBITDA, in the case of any other Incremental Term Loan; provided that:
+
+(1) immediately after giving effect to the incurrence of such Incremental Term Loan, the Leverage Ratio (calculated on a pro forma basis) shall not exceed [X]x;
+
+(2) [other conditions]."
+
+The beauty of the incremental facility is that it allows the sponsor to increase leverage without having to negotiate a new credit agreement. If the borrower's EBITDA grows, the borrower can draw an incremental facility to fund acquisitions or to return capital to the sponsor.
+
+But there is a constraint: the incurrence leverage test. The borrower can only incur an incremental facility if, immediately after giving effect to the incurrence, the leverage ratio is below a specified level.
+
+RATIO-BASED INCREMENTAL DEBT
+
+Some credit agreements have a particularly generous incremental facility provision called a "ratio-based incremental facility":
+
+"The Borrower may incur Incremental Debt in an amount equal to, at the option of the Borrower, either (a) up to £[X] million, or (b) if the Leverage Ratio immediately after giving effect thereto, calculated on a pro forma basis, would be no greater than [X]x, an unlimited amount."
+
+This is very sponsor-friendly. It allows the borrower to incur unlimited debt as long as the leverage ratio test is satisfied. This is particularly valuable if the borrower's EBITDA has grown significantly.
+
+FREE-AND-CLEAR BASKETS
+
+Some credit agreements allow "free-and-clear" debt, which is debt that can be incurred regardless of leverage. For example:
+
+"Notwithstanding anything to the contrary, the Borrower may incur Debt in the form of [specified types of debt] in an unlimited amount without compliance with the Incurrence Test."
+
+Free-and-clear baskets might include:
+
+- Trade payables in the ordinary course of business.
+- Debt incurred to finance capital expenditures, up to a specified amount.
+- Debt incurred for acquisitions, if the acquisition meets certain criteria.
+
+Free-and-clear baskets are valuable for the borrower because they provide flexibility without having to monitor the leverage ratio.
+
+MOST FAVOURED NATION (MFN) PROTECTION
+
+This is a somewhat underrated protection that sometimes appears in leverage agreements. An MFN clause says:
+
+"If the Borrower incurs any Pari Passu Debt with terms materially more favorable to lenders than the terms of the Term Loans, then either (a) the terms of the Term Loans shall be amended to match the more favorable terms, or (b) the Borrower shall prepay the Term Loans in an amount equal to [specified amount]."
+
+The purpose of the MFN is to prevent the borrower from issuing new debt with better terms for lenders than the existing debt. This could happen, for example, if the borrower's credit quality improves and the borrower issues a new term loan at a lower coupon than the existing term loan.
+
+From the lender's perspective, the MFN is valuable because it ensures that if the borrower gets a better coupon elsewhere, the lender gets it too. From the borrower's perspective, the MFN is restrictive because it prevents the borrower from accessing cheaper capital.
+
+INSIDE MATURITY PROVISIONS
+
+Some credit agreements have restrictions on the maturity of debt that the borrower can incur. An "inside maturity" provision might say:
+
+"The Borrower may not incur any Debt with a maturity date that is less than [specified period] prior to the Maturity Date of the Term Loan, except as follows: [carve-outs]."
+
+The purpose of this provision is to prevent the borrower from taking on debt that matures before the lender's debt. This is important because if junior debt matures first, the borrower might have to choose between paying down junior debt and paying the interest on the senior debt.
+
+AVAILABLE AMOUNT FOR INCREMENTAL DEBT
+
+In some credit agreements, the amount of incremental debt the borrower can incur is limited by an "Available Amount" calculation that is based on a formula tied to the borrower's financial performance.
+
+For example:
+
+"Available Amount = (a) cumulative excess cash flow, plus (b) cumulative EBITDA growth above baseline, plus (c) certain other items, minus (d) amounts previously used for incremental debt or distributions."
+
+The Available Amount is calculated at the time of the incremental debt request, and only that amount is available to incur incremental debt.
+
+This approach is more restrictive than a pure leverage ratio test, because it limits the absolute amount that can be incurred regardless of leverage.
+
+THE LIENS COVENANT IN HIGH YIELD BONDS
+
+Now let me turn to the liens covenant. The liens covenant restricts what liens (security interests, claims) the borrower can grant on its assets.
+
+NEGATIVE PLEDGE
+
+The basic form of a liens covenant in a bond indenture is a "negative pledge," which says:
+
+"The Issuer shall not, and shall not permit any Restricted Subsidiary to, directly or indirectly, create, incur, assume or permit to exist any Liens on any of its properties or assets (including equity interests in Subsidiaries), whether now owned or hereafter acquired, except Permitted Liens."
+
+This is saying: the issuer cannot grant liens on its assets, except for the liens specified in the "Permitted Liens" definition.
+
+PERMITTED LIENS TAXONOMY
+
+What are "Permitted Liens"? A typical definition includes:
+
+1. Liens securing the bonds themselves (the issuer's own debt).
+
+2. Liens in existence on the Closing Date and identified in a schedule.
+
+3. Liens for taxes not yet due.
+
+4. Liens for penalties, assessments, and similar liens in the ordinary course of business.
+
+5. Liens granted in the ordinary course of business with respect to cash collateral held by banks in connection with the issuance of letters of credit or bankers' acceptances.
+
+6. Mechanics' liens, carriers' liens, warehousemen's liens, and similar liens arising in the ordinary course of business for amounts not overdue by more than 30 days.
+
+7. Liens on assets acquired after the Closing Date, provided that: (a) the Liens secure Permitted Refinancing Indebtedness or debt incurred pursuant to a Permitted Acquisition; (b) the Liens are created within 120 days of the acquisition; (c) the Liens do not extend to assets other than the acquired assets.
+
+8. Liens granted to lenders as security for Permitted Refinancing Indebtedness, provided that the Liens are not senior to or broader than the Liens securing the debt being refinanced.
+
+9. Liens granted in connection with Permitted Securitizations.
+
+10. Liens in an aggregate principal amount not to exceed £[X] million (the "General Lien Basket").
+
+11. [Other carve-outs for specific types of liens].
+
+The key principle of the permitted liens structure is that the issuer can only grant liens in specific circumstances, and the liens cannot be arbitrary or excessive.
+
+RATIO-BASED LIEN BASKETS
+
+In some high yield indentures, there is a "ratio-based lien basket" that allows the issuer to grant liens if the leverage ratio falls below a certain level.
+
+For example:
+
+"Notwithstanding anything to the contrary, the Issuer may grant Liens securing Debt that is not otherwise a Permitted Lien, provided that immediately after giving effect to such Liens and the incurrence of the secured Debt, the Secured Leverage Ratio does not exceed [X]x."
+
+The Secured Leverage Ratio is typically the ratio of (a) Debt secured by Liens to (b) Consolidated EBITDA. This allows the issuer to have some secured debt as long as it is not excessive.
+
+RATIO-BASED LIEN BASKET INTERACTION WITH DEBT COVENANT
+
+Here is where it gets tricky. Suppose the issuer is issuing a high yield bond and a term loan. The bond is unsecured. The term loan is secured.
+
+The debt covenant allows the term loan as Permitted Refinancing Indebtedness or under the general basket.
+
+The liens covenant allows the liens securing the term loan, provided that the Secured Leverage Ratio test is satisfied.
+
+If the issuer wants to increase the amount of the term loan (because the term loan is cheaper than issuing more bonds), the issuer is constrained by both the debt covenant (the absolute amount of Permitted Debt) and the liens covenant (the Secured Leverage Ratio test).
+
+In practice, sponsors push hard for generous ratio-based lien baskets that allow for significant amounts of secured debt, because this gives the issuer flexibility to substitute secured debt for unsecured debt, which can be advantageous if secured debt is cheaper.
+
+THE LIENS COVENANT IN LEVERAGED LOANS
+
+In a leveraged loan, the liens covenant is treated differently than in a high yield indenture. In a secured loan, the lender is already taking a lien on collateral. The liens covenant restricts what other liens the borrower can grant that would be senior to or pari passu with the lender's lien.
+
+A typical liens covenant in a leveraged loan looks like:
+
+"The Borrower shall not, directly or indirectly, create, incur, assume, or permit to exist any Liens on any of its properties or assets, whether now owned or hereafter acquired, except Permitted Liens."
+
+Where Permitted Liens include:
+
+1. The Liens granted in favor of the Lenders under the Loan Documents.
+
+2. Liens in existence on the Closing Date, subordinated to the Liens in favor of the Lenders.
+
+3. Liens for taxes not yet due, or being contested in good faith.
+
+4. Mechanics' liens and similar liens in the ordinary course of business.
+
+5. Liens securing Permitted Refinancing Indebtedness that is subject to a subordination agreement in favor of the Lenders.
+
+6. Liens on assets acquired after the Closing Date, securing Debt incurred to acquire such assets, provided that such Liens are subordinated to the Lenders' Liens.
+
+7. [Other carve-outs].
+
+The key principle here is that the senior secured lenders want to ensure that they have priority liens on the collateral. Any liens that are senior to the lenders' liens are only permitted in limited circumstances (like tax liens). Any liens that are pari passu (equal priority) are only permitted if they secure debt that is subject to a subordination agreement.
+
+HOW LIENS ARE CONTROLLED IN CREDIT AGREEMENTS
+
+In a typical leveraged loan with multiple tranches (revolver, term loan, and perhaps other facilities), the liens are typically a single "first lien" on all collateral. All lenders share the same lien on the same collateral, with their claims being pro rata based on their facility size.
+
+But the liens structure can be more complex. Some larger LBOs have:
+
+- A super senior lien on certain collateral (held by the super senior lender);
+- A first lien on all collateral (held by the term loan lenders on a pro rata basis);
+- A second lien on all collateral (held by a second lien lender).
+
+This creates a waterfall: if the collateral is liquidated, the proceeds first go to the super senior lender, then to the first lien lenders, then to the second lien lender.
+
+NEGATIVE PLEDGE IN LOANS
+
+Some loan agreements have a form of negative pledge even though the loans are secured. For example:
+
+"The Borrower shall not, and shall not permit any Subsidiary to, create, incur, assume or permit to exist any Liens on any of its assets, other than Permitted Liens, without the prior written consent of the Lenders."
+
+This negative pledge is in addition to the security interests granted in the collateral documents. It serves as a covenant that prevents the borrower from incurring liens that are not permitted. If the covenant is breached, the lender can accelerate the loan.
+
+INCREMENTAL EQUIVALENT DEBT AND ITS LIEN TREATMENT
+
+In some credit agreements, when the borrower incurs incremental debt, the credit agreement specifies how the liens securing the incremental debt will be treated.
+
+For example:
+
+"Any Incremental Term Loan shall be secured by Liens on the same collateral securing the existing Term Loan, and such Liens shall be on a pari passu basis with the existing Term Loan. Alternatively, an Incremental Term Loan may be secured by liens that are junior to the existing Term Loan, in which case the principal amount of such junior lien Incremental Term Loan shall not exceed £[X] million in the aggregate."
+
+This allows the borrower some flexibility in how to structure incremental debt (pari passu or subordinated), subject to limits on the amount of subordinated incremental debt.
+
+PRIMING: THE FIVE FORMS OF DEBT PRIMING
+
+Let me now discuss one of the most important and contentious issues in leveraged finance in the past decade: priming.
+
+Priming is when a junior creditor becomes a senior creditor. In other words, creditors that previously had a junior claim on the borrower's assets are "primed" to have a senior claim.
+
+Priming is controversial because it can dramatically harm the junior creditors. A creditor that thought it had a second lien (junior claim) on the collateral suddenly finds that there are senior liens (more senior claims) on the collateral. The recovery value for the junior creditor in a bankruptcy or workout is substantially reduced.
+
+Over the past ten years, sponsors have become increasingly creative in engineering priming transactions. There are now at least five distinct forms that priming can take.
+
+FORM 1: SUBSIDIARY GUARANTOR PRIMING
+
+In a typical leveraged LBO, the parent company (the Issuer) is the primary borrower, and the subsidiaries guarantee the debt and grant liens on their assets.
+
+But what if the parent company is insolvent or nearly insolvent, while a subsidiary is solvent and valuable?
+
+In subsidiary guarantor priming, the company takes advantage of the fact that the subsidiary has already granted a lien on its assets (as a guarantor of the parent's debt), but the subsidiary might not have any direct debt. So the company can have the subsidiary incur debt and grant a senior lien on its assets to the new lenders, and this new lien will be senior to the parent company's lenders' claims on the subsidiary's assets.
+
+Example: Imagine a company with a parent that has £100 million of first lien term loans, and the parent has a valuable subsidiary. The parent is struggling with leverage at 4.5x.
+
+The parent can have the subsidiary incur £20 million of "subsidiary directed debt" and use the proceeds to upstream dividends (or to buy assets from the parent). This new debt will have first lien on the subsidiary's assets. The parent's lenders will have a junior lien on the subsidiary's assets (as guarantors of the parent's debt).
+
+From the perspective of the parent's lenders, this is a problem, because the parent's lenders thought they had first lien on the subsidiary's assets, but now they have second lien (behind the new subsidiary debt).
+
+FORM 2: DROP-DOWN/ASSET TRANSFER PRIMING
+
+In this form of priming, assets are transferred down from the parent to a subsidiary, and the subsidiary incurs debt secured by the transferred assets.
+
+Example: The parent company owns real property that was previously encumbered by a lien in favor of the parent's lenders (as part of the general collateral package). The parent transfers the real property to a newly formed subsidiary. The subsidiary incurs debt and grants a first lien on the real property to the new lenders.
+
+From the perspective of the parent's lenders, they had a lien on the real property (as part of the general collateral), but now they only have a junior lien (as a guarantor of the parent's debt, with a lien on the subsidiary).
+
+FORM 3: UPTIER EXCHANGE PRIMING
+
+In an uptier exchange, junior lenders exchange their junior liens for senior liens.
+
+Example: A company has a structure with a first lien term loan of £200 million and a second lien term loan of £100 million. The company wants to refinance some or all of its second lien debt into a more attractive structure.
+
+The company approaches some of the second lien holders and offers them the following: you exchange your second lien claim for a new facility that has (a) a small first lien claim on a specific subset of assets (maybe £5 million), and (b) a larger second lien claim on all assets (maybe £40 million), and (c) new terms (lower coupon, extended maturity, etc.).
+
+From the perspective of the remaining second lien holders (who did not exchange), their second lien claim is now worth less, because some of the assets have new senior liens on them.
+
+FORM 4: SIDECAR FINANCING
+
+Sidecar financing is when a new lender funds a facility that is secured by a subset of the collateral.
+
+Example: A company has £200 million of first lien term loans. The company's borrowing base includes real property, equipment, and other assets. A new "sidecar" lender provides £50 million in financing and takes a first lien on the real property only.
+
+From the perspective of the existing first lien lenders, they had a general first lien on all assets (including the real property). Now the sidecar lender has a senior first lien on the real property. The existing first lien lenders' claim on the real property is now junior to the sidecar lender.
+
+FORM 5: DIVISION TRANSACTIONS AND DEBT PUSH-DOWNS
+
+A division transaction is a restructuring where the company is divided into separate entities. In some cases, the division can cause priming if certain debt stays with the parent while assets move to the subsidiary.
+
+Example: A company with multiple business units creates a new subsidiary for one of the business units and transfers the assets and employees of that business unit to the subsidiary. The original debt of the parent stays with the parent. The parent's lenders' lien is now on the remaining assets of the parent, but not on the assets that were transferred to the subsidiary.
+
+If the subsidiary then incurs debt secured by the transferred assets, the lender in that subsidiary will have a senior lien, and the parent's lenders' lien will be subordinated or will not extend to the subsidiary's assets.
+
+ANTI-PRIMING PROVISIONS
+
+Starting around 2015, lenders began to wake up to the dangers of priming. Lenders realized that sponsors were structuring transactions in ways that allowed for significant priming without explicit consent from the existing lenders.
+
+Lenders began to include anti-priming provisions in their credit agreements. These provisions are designed to prevent (or at least limit) the ability of sponsors to re-engineer the capital structure to the detriment of existing lenders.
+
+ANTI-PRIMING THROUGH RESTRICTIVE DEBT COVENANTS
+
+The most straightforward way to prevent priming is to restrict the types of debt that can be incurred. For example:
+
+"The Borrower shall not incur Debt unless such Debt is (a) incurred by the Borrower or a Restricted Subsidiary that is a guarantor of the Obligations under the Loan Documents, (b) unsecured, or (c) incurred with the consent of the Required Lenders."
+
+This prevents the Borrower from incurring debt that is secured by a lien that is senior to or pari passu with the Lenders' lien, unless it is incurred at a guarantor level or is unsecured or has lender consent.
+
+ANTI-PRIMING THROUGH RESTRICTIVE LIEN COVENANTS
+
+Another approach is to use the liens covenant to prevent priming directly:
+
+"The Borrower shall not, and shall not permit any Subsidiary to, create, incur, assume, or permit to exist any Liens on any of its properties or assets, other than (a) Permitted Liens, and (b) Liens that are junior to the Liens securing the Obligations under the Loan Documents, except with the prior consent of the Required Lenders."
+
+This is saying: you can incur junior liens without consent (because junior liens do not harm the lenders), but you cannot incur liens that are pari passu with or senior to the lenders' liens without consent.
+
+THE "ANTI-J.CREW" PROVISION
+
+One specific form of anti-priming language has become quite common. It is sometimes called the "anti-J.Crew" provision, named after the J.Crew restructuring where the sponsor was able to extract value from the equity through a dividend funded by subsidiary directed debt.
+
+The anti-J.Crew provision looks like:
+
+"The Borrower shall not, and shall not permit any Subsidiary to, (a) incur any Debt that is secured by a Lien on the assets of any Subsidiary and that is not incurred to finance the acquisition of assets of such Subsidiary or to refinance Debt that was previously incurred to finance the acquisition of such assets, or (b) incur any Debt or guarantee any Debt of any other Person, unless such Debt is incurred at the Borrower or a Guarantor level and such Debt is (i) unsecured, or (ii) secured by Liens that are junior to the Liens securing the Obligations under the Loan Documents."
+
+The purpose of this provision is to prevent the types of subsidiary-directed or drop-down priming transactions that have become common.
+
+VOTING RESTRICTIONS ON LIEN SUBORDINATION
+
+Some lenders have also tried to prevent priming by restricting the ability of subordinated lenders to agree to subordination of their liens. This works by saying:
+
+"The Borrower shall not, and shall not permit any Subsidiary to, amend, supplement, or waive any lien subordination provisions in any subordinated debt documents without the prior written consent of the Required Lenders."
+
+The idea is that if a junior creditor agrees to subordinate their liens, that is effectively priming, and it should require the consent of the senior lender.
+
+ENFORCEMENT CHALLENGES
+
+The reality is that anti-priming provisions, while well-intentioned, are difficult to enforce. By the time a lender realizes that priming has occurred, it may be too late to prevent it. And even if a lender sues to enforce the anti-priming covenant, it can take years to get a judgment, by which time the credit situation may have deteriorated substantially.
+
+I have seen situations where a sponsor was able to execute a priming transaction even though the credit agreement had strong anti-priming language, because the lender could not mobilize quickly enough to prevent it.
+
+EUROPEAN SPECIFICITIES
+
+Let me now turn to how European credit agreements treat debt and liens covenants differently than US-market agreements.
+
+AGREED SECURITY PRINCIPLES
+
+In European credit agreements, particularly those governed by English law, there is often a mechanism called the "Agreed Security Principles" (ASP).
+
+The Agreed Security Principles are a set of principles that govern how the security package is structured and how the liens are treated. The ASP typically specify:
+
+1. The collateral that is being pledged.
+2. The priority of the liens.
+3. How subordination agreements will be structured.
+4. How the security is released or reduced.
+5. The mechanics of enforcement.
+
+The ASP are typically negotiated at the beginning of the facility and agreed in writing by all parties. This prevents disputes later about what was agreed and how the security package is structured.
+
+One advantage of the ASP is that they create clarity and predictability. Everyone knows what the security package looks like and how it will be treated. This reduces disputes later.
+
+The disadvantage is that the ASP are often very detailed and very technical, and they can slow down the financing process.
+
+THE SECURITY TRUST STRUCTURE
+
+Many European leveraged finance transactions use a "security trust" structure. In this structure, a security trustee (usually a bank or trust company) takes security on behalf of all the lenders.
+
+The advantage of the security trust structure is that it simplifies the administration of the liens. Rather than each lender taking its own lien, the security trustee takes a single lien on behalf of all lenders. This makes it easier to deal with the collateral (you only have to negotiate with one trustee rather than multiple lenders).
+
+The disadvantage is that the security trustee structure creates an additional layer of administrative complexity and cost.
+
+CROSS-BORDER CONSIDERATIONS
+
+European transactions often involve borrowers in multiple countries. Each country has its own law governing security interests, liens, and the enforcement of security.
+
+A common issue in European transactions is how to take security on assets in different countries. For example, a company might have:
+
+- Real property in the UK
+- Equipment in Germany
+- Shares in a French subsidiary
+- Bank accounts in multiple countries
+
+To take security on all of these assets, the lenders have to comply with the laws of each jurisdiction. In the UK, security over real property is typically governed by English law and is perfected by registration at the Land Registry. In Germany, security over equipment is governed by German law and is perfected by registration in the Grundbuch or other registries. Security over shares is governed by the law of the jurisdiction where the company is incorporated.
+
+This creates complexity and cost in European cross-border transactions. Many deals include a provision that says something like:
+
+"The Borrower shall take such actions and execute such documents as are necessary or desirable to create, perfect, and enforce the Liens. The Borrower shall be responsible for all costs and expenses associated with creating and perfecting the Liens."
+
+This shifts the burden to the borrower to deal with the local law issues.
+
+THE INTERACTION BETWEEN DEBT AND LIENS COVENANTS
+
+Let me now discuss how the debt and liens covenants interact with each other.
+
+In a comprehensive credit agreement, the debt covenant and the liens covenant are closely integrated. Many of the same baskets appear in both covenants.
+
+For example, consider "Permitted Acquisition Debt." This is typically permitted under the debt covenant (subject to certain conditions, including a pro forma leverage test). But what liens can secure the Permitted Acquisition Debt?
+
+The liens covenant typically says:
+
+"Liens securing Permitted Acquisition Debt are permitted, provided that (a) such Liens are incurred within 120 days of the acquisition, (b) such Liens are junior to the Lenders' Liens, or (c) such Liens are on assets acquired in the relevant acquisition."
+
+This means that if the borrower incurs Permitted Acquisition Debt, the borrower can grant liens to secure the debt (which would otherwise be restricted under the liens covenant), provided that the liens meet certain conditions.
+
+THE SUBORDINATION FRAMEWORK
+
+In transactions with multiple layers of debt (first lien and second lien, for example), the subordination framework is critical.
+
+A subordination agreement is typically an agreement between the first lien lenders and the second lien lenders that specifies:
+
+1. The priority of the liens (first lien has priority over second lien).
+2. Standstill rights (restrictions on the second lien lenders' rights to enforce their liens or accelerate their debt for certain periods).
+3. Cash flow turnover (if the second lien lenders receive cash, it must be turned over to the first lien lenders during the standstill period).
+4. Voting agreements (restrictions on the second lien lenders' rights to block amendments or waivers of the first lien facility).
+5. Permitted junior lien debt (what types of debt can be incurred at the second lien level or below).
+
+The subordination agreement is crucial because it defines the rights and obligations of the junior lenders, and it protects the first lien lenders from the junior lenders taking aggressive actions that would be detrimental to the first lien loan.
+
+GUARANTOR COVERAGE MECHANICS: THE 80% ILLUSION
+
+One of the most misunderstood aspects of leveraged finance covenants is guarantor coverage. Lenders often point to "80% EBITDA guarantor coverage" as if this were a clear, quantifiable metric. In practice, guarantor coverage is far more complicated, and the actual coverage that protects creditors is frequently much lower than the headline number.
+
+The typical SFA (Subscription Financing Agreement) or leveraged loan includes language requiring that the Guarantors (the subsidiaries guaranteeing the facility) generate at least 80% of the consolidated EBITDA of the group. Additionally, there is often a "material subsidiary" accession requirement that requires any new material subsidiary (typically defined as a subsidiary generating more than a certain percentage of EBITDA) to become a Guarantor within a specified period.
+
+The problem is that these requirements are riddled with exceptions and flexibilities that drastically reduce actual guarantor coverage:
+
+First, jurisdiction-based exclusions are common. A lender might exclude non-UK subsidiaries from the 80% calculation, or exclude subsidiaries in certain high-tax or restricted jurisdictions. A deal might specify that "the 80% guarantor coverage test is calculated based on EBITDA of UK Guarantors only," which immediately reduces the coverage.
+
+Second, non-wholly-owned subsidiary exclusions are nearly universal. If a subsidiary is not 100% owned by the borrower, it is typically excluded from the numerator (guarantor EBITDA) but included in the denominator (consolidated EBITDA). This creates a "coverage drain" that reduces the actual guarantee coverage. A common structure might exclude subsidiaries that are less than 80% or 90% owned, meaning a large partially-owned subsidiary generates consolidated EBITDA but does not count toward the 80% guarantee requirement.
+
+Third, and most pernicious, share security is sometimes counted toward guarantor coverage without actual guarantee support. Some deals include language that allows the borrower to count shares in non-guarantor subsidiaries as "collateral equivalent to guarantee rights." This is a significant gap: the lender has a security interest in the shares, but not in the subsidiary's assets or the ability to force the subsidiary to upstream cash. If the subsidiary is restricted by local law or by its own debt documents from paying dividends, the share security provides minimal protection.
+
+Consider a worked example: A group has consolidated EBITDA of £100 million. UK Guarantors generate £80 million (80% of consolidated). German subsidiaries generate £15 million. US joint ventures (60% owned) generate £5 million.
+
+Under the stated 80% guarantor coverage covenant, the deal appears compliant: £80 million / £100 million = 80%.
+
+But apply the exceptions:
+- German EBITDA is excluded from the 80% test due to jurisdiction-based exclusion. Guarantor EBITDA: £80 million. Consolidated EBITDA for testing purposes: £95 million (excluding German EBITDA from denominator or applying a carve-out). Coverage: 84%. The lender might accept this.
+- The material subsidiary accession requirement includes a definition that allows the borrower to not consolidate the US joint ventures for six months after acquisition. During that period, the joint ventures' £5 million generates consolidated EBITDA but does not count toward the guarantee requirement. Coverage drops to: £80 million / £100 million = 80%.
+- Share security is counted as a substitute for guarantee. The borrower argues that it can pledge the shares of the US joint ventures in lieu of requiring a guarantee. The lender agrees. Coverage on an "equivalent basis" becomes: £80 million in guaranteed EBITDA + £5 million in share-secured EBITDA = £85 million "coverage" / £100 million = 85%. But in reality, the share security on a 60% owned entity provides far less protection than actual guarantees.
+
+After all of these adjustments, the actual guarantor protection that covers 80% of EBITDA has eroded to perhaps 64.8% of true economic EBITDA, with the remainder protected only by share pledges, jurisdiction-based carve-outs, or other weaker mechanisms.
+
+Some deals lack a separate material subsidiary accession covenant altogether. This is weaker still. Without a material subsidiary accession requirement, the borrower can acquire large subsidiaries and keep them non-guarantors indefinitely, provided that the headline 80% test is satisfied at the time of acquisition. This creates a structural risk where material EBITDA can migrate to non-guarantor subsidiaries.
+
+High yield bonds typically do not include a separate guarantor coverage covenant. Instead, the entire Restricted Group guarantees the bonds. However, the bond indenture's definition of "Restricted Subsidiary" may include exceptions similar to those described above, so the benefit of the guarantee structure is similarly eroded.
+
+SINGLE POINT OF ENFORCEMENT: THE SHARE PLEDGE MECHANISM
+
+One of the most powerful tools in a credit agreement is the "single point of enforcement" mechanism, typically implemented through a pledge of the shares of the borrower's holding company. This mechanism allows creditors to take control of the entire operating group with a single enforcement action.
+
+The mechanics work as follows. In a typical LBO structure, the holding company (also called the "Parent" or "Topco") owns 100% of the shares of the operating company. The lenders take a first-priority pledge on those shares. Additionally, the holding company enters into a covenant to maintain the pledge and not to release it without the lenders' consent.
+
+If the borrower defaults, the lenders can enforce the pledge by:
+
+1. Pre-enforcement: The lenders issue a notice of default and demand payment. If the borrower does not cure, the default stands.
+
+2. Mid-enforcement: The lenders, having taken the pledge on the shares, can either (a) conduct a credit bid (whereby the lenders bid the amount of their outstanding debt against the equity of the company), or (b) facilitate a sale of the company to a third party. In either case, the lenders' debt is satisfied out of the proceeds, and any remainder flows to equity holders.
+
+3. Post-enforcement: If the lenders credit bid, they effectively own the company. They can then restructure the company, sell assets, refinance the debt, or take other actions to maximize recovery. If a third party purchases the company, the lenders receive their full recovery amount from the sale proceeds, and any excess flows to equity.
+
+This mechanism is powerful because it allows the creditors to avoid the disorderly insolvency process that would destroy going-concern value if the assets were sold piecemeal. Instead, the creditors can take control of the operating business and either refinance it with a new debt structure or sell it as a going concern to a third party.
+
+However, single point of enforcement mechanisms are subject to significant complexities, particularly in jurisdictions outside the United States:
+
+In England and Luxembourg, the share pledge mechanism is well-established and creditor-friendly. Enforcement is relatively straightforward and does not typically require judicial approval for the sale.
+
+In the Netherlands, the security trust structure is common, and the trustee can enforce the share pledge on behalf of all creditors without individual joinder.
+
+In France, Italy, and Spain, enforcement of share pledges is much more borrower-friendly. Courts in these jurisdictions are skeptical of aggressive enforcement mechanisms and often impose significant procedural requirements, including notice periods and the right of the borrower to propose an alternative restructuring plan. Even after enforcement, courts can impose restrictions on the use of proceeds (for example, requiring that the borrower's employees be protected or that certain tax liabilities be settled first).
+
+For single point of enforcement to work effectively, the credit agreement must include several critical safeguards:
+
+First, a strong holding company covenant that requires the holding company to maintain and not release the pledge without lender consent.
+
+Second, a robust negative pledge that covers not just the shares, but also the related equity interests and the right to receive dividends or cash from the operating subsidiaries.
+
+Third, limited structurally senior debt. If the holding company has incurred significant debt above the operating company level, that debt will have priority over the share pledge in a bankruptcy or insolvency. The fewer liabilities at the holding company level, the more valuable the share pledge.
+
+Fourth, maintenance of guarantor coverage (discussed above), so that the operating subsidiaries are legally obligated to repay the facility and cannot escape their obligations.
+
+Practical enforcement issues include:
+
+Default confirmation: Before taking enforcement action, the lenders must be certain that a default has actually occurred. In some jurisdictions, the lender must provide detailed notice and allow a cure period. Disputes about whether a default has occurred can delay enforcement.
+
+Valuation and credit-bidding: If the lenders conduct a credit bid, they must determine the appropriate valuation of the equity and the value of their debt claim. Large financings often require a Big Four appraisal to establish the valuation, which can take months and cost significant fees.
+
+Debt release: If the lenders' debt is satisfied (either through credit bid or third-party sale), the lenders must release the pledge and cooperate with the new owner to take title to the shares. Disputes about the amount of debt released, or the conditions for release, can delay the process.
+
+Regulatory approvals: In some industries (financial services, telecommunications, defense), the purchase of a company requires regulatory approval. Enforcement of the share pledge might trigger regulatory review processes that delay or impede the sale.
+
+Intangible rights risk: Many European transactions are secured only on shares, not on hard assets. This means that creditors do not have a direct security interest in the business's customer relationships, contracts, intellectual property, or licenses. A change of control of the holding company (which triggers enforcement) might not give the lenders (or the third-party buyer) the legal right to enforce or maintain critical customer relationships or licenses. In the worst case, key contracts or licenses include change-of-control provisions that terminate the relationship if the holding company is sold. This is why warranties and representations about customer relationships and contract stability are critical in the credit agreement.
+
+RESTRICTED GROUP ARCHITECTURE: COVENANTS, GUARANTEES, AND ASSET SEGREGATION
+
+The structure of covenants and guarantees within the borrower's group is critical to understanding the actual restrictions on leverage and asset transfers. Different credit agreements use different architectural approaches, which have profound implications for the borrower's operational flexibility and the lenders' recovery in a distressed scenario.
+
+The Traditional LMA Approach
+
+In traditional UK-market leveraged loans (LMA-based), covenants apply to all subsidiaries of the borrower, subject to a cap on leakage to non-obligors (typically 5% to 10% of EBITDA or consolidated assets). This means that virtually all operating subsidiaries must comply with the debt covenant, the liens covenant, and the financial covenants. Assets can be transferred between obligors relatively freely (because they remain within the covenanted group), but transfers to non-obligors are restricted to maintain the leakage cap.
+
+The High Yield Bond Approach
+
+In US high yield bonds (and increasingly in European hybrids), covenants are only applied to the "Restricted Group." The Restricted Group typically includes the issuer and those subsidiaries that are obligated as guarantors. Any subsidiary that is not a guarantor is an "Unrestricted Subsidiary" and is treated as a third party for covenant purposes. This allows for dramatic asset segregation: the borrower can transfer substantial assets to Unrestricted Subsidiaries, and those assets are no longer subject to restrictions. This approach gives the borrower much more operational flexibility (to undertake project financings, securitizations, joint ventures) but creates a corresponding risk that material assets can be moved out of the reach of creditors.
+
+Guarantor vs. Non-Guarantor Distinctions Within the Restricted Group
+
+Some credit agreements make a further distinction within the Restricted Group: between subsidiaries that guarantee the facility (Guarantors) and subsidiaries that do not (Non-Guarantor Subsidiaries). The covenant restrictions may apply differently to each.
+
+For example, the debt covenant might say:
+- Guarantors: "The Guarantors shall not incur Debt except as follows [restricted baskets]"
+- Non-Guarantor Subsidiaries: "Non-Guarantor Subsidiaries may incur unlimited Debt for any purpose, subject to a cap on aggregate non-guarantor debt of £[X]"
+
+This creates what is known as a "non-guarantor debt capacity" and potentially structurally senior or effectively senior debt. Non-guarantor subsidiaries can borrow money and pledge their assets as security for that debt. If the parent company defaults, the non-guarantor subsidiary's lenders have priority over the parent's lenders in the assets of the non-guarantor subsidiary. This means that creditors of non-guarantor subsidiaries are structurally senior to the parent company's creditors (because their security interest is in non-guarantor assets), and effectively senior to the extent that those assets are material.
+
+Some investment-grade and high-quality high yield deals explicitly cap non-guarantor debt to prevent this risk. For example, Thyssenkrupp Elevator's credit agreement includes a provision that non-guarantor debt is limited to £100 million (or some absolute cap), and the borrower must stay below that threshold. This ensures that non-guarantor subsidiaries cannot become so large that they threaten recovery for the parent's lenders.
+
+The architectural question is: how much should the borrower segment its operations into non-guarantor subsidiaries? From the borrower's perspective, the answer is "as much as possible," because it provides operational flexibility and reduces the assets pledged to lenders. From the lender's perspective, the answer is "as little as possible," because it reduces the pool of assets available to satisfy creditor claims.
+
+UNRESTRICTED SUBSIDIARIES: DEFINITIONAL SCOPE, CAPACITY CONSTRAINTS, AND RE-DESIGNATION MECHANICS
+
+The concept of "Unrestricted Subsidiaries" is central to modern high-yield bond structures and increasingly appears in leveraged loans. Understanding the definitional scope, the baskets through which subsidiaries can become unrestricted, and the mechanics of re-designation is critical to understanding the borrower's operational flexibility.
+
+Legitimate Uses of Unrestricted Subsidiaries
+
+Unrestricted Subsidiaries are appropriate for certain types of operations that require operational and financial independence:
+
+Project financings: A subsidiary that builds and operates a long-term infrastructure project (a power plant, a toll road, a port facility) often needs to be an Unrestricted Subsidiary, because project lenders require that the subsidiary not be subject to upstream debt covenants or guarantee obligations that would restrict its ability to finance the project or distribute cash.
+
+Securitizations: A subsidiary that securitizes receivables or other assets needs to be an Unrestricted Subsidiary, because securitization investors require a clean, bankruptcy-remote entity with no other liabilities.
+
+Joint ventures: A subsidiary that is partly owned by another party (a joint venture) might be designated as an Unrestricted Subsidiary to allow the co-sponsor to maintain operational control without interference from parent-company-level covenants.
+
+For each of these legitimate uses, the Unrestricted Subsidiary structure makes sense: it creates financial and operational separation that benefits both the borrower (through operational flexibility) and creditors (by carving out activities where parent-level covenants would be disruptive).
+
+The Mechanics of Designation
+
+An indenture or credit agreement typically allows the borrower to designate a subsidiary as an Unrestricted Subsidiary if certain conditions are met. The most common condition is that the borrower must have "Retained Proceeds/Capacity" (RP capacity) equal to at least the fair market value of the equity in the subsidiary being designated.
+
+RP capacity is the amount of cash or borrowing capacity the borrower has available to pay down debt or fund equity investments. It is calculated as the sum of all unused baskets and capacity amounts. For example:
+
+- Available RP Basket: £50 million (an explicit basket for equity investments)
+- Available General Basket (Permitted Debt): £25 million (pro rata portion of unused debt capacity)
+- Available Leverage-Based RP: If the borrower's leverage is 4.0x and the RP leverage test allows borrowing at 4.5x, the difference represents available RP capacity of approximately £33 million
+- Total RP Capacity: £108 million
+
+To designate a new Unrestricted Subsidiary with £40 million of equity value, the borrower would reduce RP capacity by £40 million. After designation, available RP capacity would be £68 million.
+
+Unrestricted Subsidiaries can also be designated using multiple baskets: a dedicated Unrestricted Subsidiary basket (common in high yield bonds), a general RP basket, a leverage-based RP basket, or even a ratio-based "permitted investment" basket.
+
+Importantly, permitted investment (PI) capacity is often more generous than RP capacity. For example, an indenture might allow PI at a leverage ratio test of 1.5x, while RP capacity is capped at 1.0x leverage. This creates an asymmetry: the borrower can invest equity in an Unrestricted Subsidiary using PI capacity even if RP capacity is exhausted. The practical effect is that the borrower has more capacity to fund Unrestricted Subsidiaries than the headline RP restrictions suggest.
+
+Re-Designation Mechanics
+
+An Unrestricted Subsidiary can be re-designated back to a Restricted Subsidiary if:
+
+1. The RP capacity test is re-satisfied (this is why having leverage-based RP is important—as EBITDA grows, RP capacity grows, making re-designation easier), and
+2. The agreement allows for re-designation (some indentures restrict re-designation to prevent the borrower from repeatedly moving assets in and out of the Unrestricted Subsidiary structure).
+
+A strategic use of re-designation is to temporarily use an Unrestricted Subsidiary structure for a project or securitization, and then re-designate the subsidiary back to Restricted Subsidiary once the special-purpose need is satisfied. This provides flexibility: the borrower gets the benefit of a clean, bankruptcy-remote entity for a specific transaction, and then the subsidiary returns to being a Guarantor once the need has passed.
+
+Red Flags in Practice
+
+Credit analysis should be alert to several red flags regarding Unrestricted Subsidiaries:
+
+First, material Unrestricted Subsidiaries on day one of the facility. If the borrower has large, mature subsidiaries that are designated as Unrestricted from the closing date, this suggests that the capital structure is more permissive than stated. The borrower's lenders do not have a guarantee from a material portion of the operating company.
+
+Second, large future Unrestricted Subsidiary capacity. If the indenture allows unlimited future designations of Unrestricted Subsidiaries using RP or PI capacity, and if the borrower has a history of growth through acquisition, the borrower might systematically move material acquisitions into Unrestricted Subsidiaries, reducing the pool of guaranteed subsidiaries over time.
+
+Third, asymmetries between RP capacity and PI capacity. If PI capacity is materially more generous than RP capacity (e.g., 1.5x vs. 1.0x), the borrower has incentive to use Unrestricted Subsidiary baskets liberally, because the leverage test is more permissive.
+
+WHAT TWENTY YEARS TEACHES
+
+Let me conclude with some observations from twenty years of negotiating debt and liens covenants.
+
+First, the debt and liens covenants are the most important covenants in a credit agreement. Every other covenant is, in some sense, subordinate to these two. The financial covenants (leverage ratio, interest coverage) are about protecting the debt covenant. The operating covenants are about restricting what the borrower can do with its assets, which indirectly protects the liens covenant.
+
+Second, sponsors will continuously try to find ways to increase leverage and decrease liens protection, and lenders will try to prevent that. This is a constant tension. It is not that sponsors are trying to cheat lenders; rather, sponsors have a legitimate interest in maximizing financial flexibility and minimizing the restrictions on their operations. Lenders have a legitimate interest in protecting their investment. The covenants are the mechanism where these competing interests are balanced.
+
+Third, the devil is in the details. A provision that seems like a minor clarification can have enormous implications if tested. I have seen deals where the sponsor and lender disagreed about what the debt covenant allowed, because the wording was ambiguous. Careful drafting and careful review of the language are essential.
+
+Fourth, the most dangerous situations are when the sponsor and lender have different understandings of what was agreed. This often happens when the negotiation moves quickly and people do not slow down to read the language carefully. In one notable deal, the sponsor and lender disagreed about whether a particular type of debt was a "Permitted Refinancing Indebtedness" or needed to comply with a different basket. The disagreement was not resolved until the sponsor tried to refinance and the lender objected.
+
+Fifth, sponsors should be aware that aggressive debt and liens covenant language can come back to haunt them. If a sponsor pushes for very broad baskets and very loose definitions, and then something goes wrong with the business, the lender might interpret the covenants very strictly. The lender might argue: "The covenant says X, and I am going to enforce it to the letter, because the covenant language was negotiated and the sponsor accepted it." Better to have a balanced covenant from the outset than to have aggressive language that the lender resents and will enforce strictly.
+
+Sixth, the debt and liens covenants need to be read together with the financial covenants. You might have very broad permitted debt baskets, but if the pro forma leverage test is tight, you still might not be able to incur much new debt. Conversely, you might have tight permitted debt baskets, but if there is a ratio-based basket with a generous leverage test, you might be able to incur unlimited debt. The overall covenant package is what matters.
+
+Seventh, lenders should be aware that the attempts to prevent priming through anti-priming language are only partially effective. Sponsors are creative, and they will find ways to engineer the capital structure to their advantage, even if there are anti-priming provisions. The best defense against priming is a careful underwriting of the business and conservative sizing of the facility, so that there is not an incentive for the sponsor to try to engineer priming in the first place.
+
+Eighth, European lenders should be aware of the local law complexities in cross-border transactions. Taking security in multiple jurisdictions is costly and complex. Building sufficient time into the transaction timeline for all the local law issues is important.
+
+PRACTITIONER'S CHECKLIST: DEBT AND LIENS COVENANTS
+
+For sponsors evaluating debt and liens covenants:
+
+□ Have you read the entire debt covenant definition? Are there surprise restrictions on the types of debt you want to incur?
+
+□ Have you calculated what leverage level you can achieve under the pro forma leverage test? That is often the real constraint on borrowing, not the basket amounts.
+
+□ Have you understood the Refinancing Indebtedness definition? Are you comfortable with the restrictions on refinancing?
+
+□ Have you thought about what refinancings you might want to do in years two through five? Are those refinancings possible under the covenant language?
+
+□ Have you evaluated the liens covenant? Are you comfortable with the restrictions on what liens you can grant?
+
+□ Have you considered whether you will want to incur subsidiary-directed debt, do drop-down priming, or other credit structure optimization transactions? If so, are those permitted under the anti-priming language?
+
+□ Have you run scenarios where your EBITDA declines? What debt can you still incur? Are there restrictions that would prevent you from making acquisitions or paying dividends?
+
+□ Have you thought about exits? If you want to refinance this facility in three years with a different lender, are there provisions in the debt and liens covenants that would prevent that?
+
+□ What is the actual guarantor coverage, after applying all exceptions and flexibilities? Has the lender explained how jurisdictional exclusions, non-wholly-owned subsidiaries, and share security count toward the 80% metric?
+
+□ Are you comfortable with the guarantor coverage that results after these exceptions? If not, push for a lower headline percentage (e.g., 75% or 70%) that accounts for anticipated exceptions.
+
+□ Have you mapped out how the single point of enforcement mechanism works in the borrower's jurisdiction? Is share pledge enforcement well-established, or does enforcement require court approval and involve procedural delays?
+
+□ Are you aware of the structurally senior or effectively senior debt that may result from non-guarantor subsidiaries? Have you evaluated what non-guarantor debt capacity is available, and whether that threatens recovery for the facility?
+
+□ Have you identified all Unrestricted Subsidiaries on day one, and understood what future designations are possible? Material Unrestricted Subsidiaries reduce the guarantor base.
+
+□ Have you understood the retained proceeds (RP) capacity available for Unrestricted Subsidiary designations? Is there a significant gap between RP capacity and permitted investment (PI) capacity that the borrower could exploit?
+
+For lenders evaluating debt and liens covenants:
+
+□ Have you sized the Permitted Debt baskets appropriately? Are they so generous that the sponsor can incur unlimited amounts of debt? Are they so restrictive that the sponsor will push back hard?
+
+□ Have you specified the baskets in a way that is clear and unambiguous? Are there definitions (like "Permitted Acquisition Debt") that could be interpreted in multiple ways?
+
+□ Have you included appropriate pro forma leverage tests to constrain total debt? If the leverage ratio is too generous, the baskets become unlimited.
+
+□ Have you included strong anti-priming language? If you have concerns about priming, include explicit restrictions.
+
+□ Have you thought about how the liens are structured? If you are in a multi-tranche structure with second lien debt, have you negotiated a subordination agreement?
+
+□ Have you built in monitoring provisions? How will you know if the borrower incurs debt that violates the covenant?
+
+□ Have you thought about enforcement? What will you do if the borrower violates the covenant?
+
+□ Have you coordinated the debt and liens covenants with the other covenants? Do the restrictions in the debt covenant make sense in the context of the financial covenants?
+
+□ Have you specified the guarantor coverage requirement clearly, and have you limited the exceptions (jurisdictional carve-outs, non-wholly-owned subsidiary exclusions, share security substitutes) that erode actual coverage? A clean definition is critical.
+
+□ Have you included a separate "material subsidiary accession" covenant that requires new material subsidiaries to become guarantors within a specified period? Without this, the guarantor coverage can be circumvented through strategic acquisition structuring.
+
+□ If you are taking a share pledge as part of your single point of enforcement mechanism, have you assessed: (a) enforceability of share pledges in the borrower's jurisdiction, (b) whether a change of control might trigger unwanted contract terminations or regulatory issues, and (c) whether you have adequate warranties regarding critical customer relationships and contracts?
+
+□ Have you reviewed whether the borrower can incur non-guarantor debt, and if so, have you capped the aggregate amount? Unlimited non-guarantor debt capacity creates structurally senior debt that threatens recovery.
+
+□ Have you clearly defined the distinction between Restricted and Unrestricted Subsidiaries? If using a Restricted/Unrestricted structure, have you limited the baskets for Unrestricted Subsidiary designations to prevent material asset leakage?
+
+□ Have you reviewed the retained proceeds (RP) capacity and permitted investment (PI) capacity available to the borrower? Is there an asymmetry (e.g., PI at 1.5x vs. RP at 1.0x) that would incentivize liberal use of Unrestricted Subsidiary baskets?
+
+For rating agencies and credit investors evaluating debt and liens covenants:
+
+□ How much additional debt can the borrower incur under the covenants? What is the incremental borrowing capacity?
+
+□ If the borrower incurs debt at the top of its allowed capacity, how much leverage would result? Is that leverage level acceptable for the credit rating?
+
+□ Are there opportunities for the sponsor to re-engineer the capital structure through priming? How would that affect recovery in a bankruptcy scenario?
+
+□ How are the liens structured in a bankruptcy or distressed scenario? Are the liens senior to trade payables? Are the liens on all material assets or only on a subset?
+
+□ How frequently are covenant amendments likely? If you anticipate frequent amendments, that is a negative signal about the credit quality.
+
+□ How much flexibility do the covenants actually provide once you account for the interaction with other covenants?
+
+□ Have you stress-tested the covenants under various scenarios of EBITDA decline? At what point would the covenants become binding?
+
+□ What is the true guarantor coverage after accounting for jurisdictional exclusions and non-wholly-owned subsidiary exceptions? If headline guarantor coverage is 80%, but true coverage is 60%, that is a material credit negative.
+
+□ Are there material non-guarantor subsidiaries or large Unrestricted Subsidiaries? If so, these represent uncovered assets and reduce recovery. Model recovery scenarios that assume non-guarantor assets are not available to repay the facility.
+
+□ Has the borrower demonstrated the ability to enforce its share pledge and take single-point-of-enforcement actions in the borrower's jurisdiction? If enforcement is subject to court approval or procedural delays, this reduces the value of the pledge mechanism.
+
+□ Is there material non-guarantor debt capacity available? If so, the borrower could incur structurally senior debt that would have priority over the facility in the event of distress. Model scenarios where the borrower uses available non-guarantor debt capacity to fund acquisitions or operations.
+
+□ What is the retained proceeds (RP) capacity available for future Unrestricted Subsidiary designations? If RP capacity is large relative to EBITDA, and if the borrower has a history of growth through acquisition, model scenarios where the borrower systematically designates new acquisitions as Unrestricted Subsidiaries.
+
+---
+
+End of Chapter: The Debt and Liens Covenants — Comprehensive Deep Dive

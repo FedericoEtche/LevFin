@@ -1,0 +1,1125 @@
+THE LEVFIN BOOK: A PRACTITIONER'S GUIDE
+By Federico Etchelecu
+
+CHAPTER 5: CAPITAL STRUCTURE — THE ARCHITECTURE OF LEVERAGE
+
+I have spent the better part of two decades staring at term sheets, intercreditor agreements, and leverage calculations. I've watched capital structures evolve from the straightforward senior/subordinated debt landscape of the late 1990s to the baroque complexity of today's unitranche, continuation funds, and complex refinancing structures. I've negotiated intercreditor agreements in three languages and sat through more credit committee meetings than I care to remember. What I'm about to share is not theoretical—it's what I have learned, built, and lived.
+
+Capital structure is the skeleton upon which every leveraged transaction rests. Get it wrong, and you have a company that cannot breathe. Get it right, and you have a financial architecture that can flex through cycles, accommodate growth, and still generate returns for equity sponsors. This chapter is about understanding how that architecture works—not just the instruments, but the mechanics, the pricing, the documentation, and the judgment calls that separate a transaction that survives its first downturn from one that ends up in the insolvency lawyers' offices.
+
+
+1. INTRODUCTION — WHY CAPITAL STRUCTURE IS THE FOUNDATION
+
+When a sponsor announces they are buying a company for €500m, the first question anyone in the industry asks is not "Are they mad?" (though that is often worth asking). The first question is: "How are they funding it?"
+
+This is not idle curiosity. The answer to that question determines the entire risk profile of the transaction. It determines whether the company can service its debt in a recession. It determines what covenants the lenders will impose. It determines whether a dividend is possible, or whether every spare penny must go to debt reduction. It determines whether the company can grow, or whether it is locked in a financial straitjacket. It determines, frankly, whether the transaction will succeed or fail.
+
+I have seen sponsors buy fundamentally good companies and destroy them through over-leverage. I have also seen sponsors buy mediocre companies and create tremendous value simply by choosing a capital structure that leaves sufficient headroom to operate and invest. The difference is never just about the amount of debt—it is about how that debt is structured.
+
+Capital structure, in its essence, is a series of choices about how to fund a business. Who bears which risks? Who gets paid first in a downturn? What are the terms under which the business can take on additional debt? What flexibility does management have to pivot strategy? These questions are interconnected, and they are answered by the capital structure.
+
+A well-designed capital structure achieves several objectives simultaneously. It provides the sponsor with sufficient leverage to drive returns—that is, after all, why they are doing the deal. It provides lenders with enough cushion and covenant protection that they are comfortable holding the risk. It provides management with sufficient flexibility to operate the business and capture upside. And it provides a pathway through the inevitable downturns that every business experiences.
+
+Let me give you a real example. In 2011, we were structuring the LBO of a mid-market manufacturing company in Germany. The sponsor wanted to do the deal at 5.5x leverage. The company's EBITDA was €50m, and it was growing steadily. From a financial perspective, 5.5x was achievable—the company had the cash flow to service it. But I pushed back.
+
+The reason was simple: the company was cyclical. A drop in manufacturing demand could easily knock 20-30% off EBITDA for a year or two. At 5.5x leverage, a 25% EBITDA drop would put the company in breach of its covenant (typically 5.0x for this type of deal). That breach, in turn, would trigger default, give lenders the right to change the terms, and potentially force a distressed refinancing.
+
+By agreeing to 4.75x leverage instead—€237.5m of debt against €50m of EBITDA—we gave the company breathing room. When the industrial downturn came in 2012-2013, EBITDA fell to €38m. The leverage ratio climbed to 6.25x, but the covenant was already 5.5x, and the company had a covenant waiver from the lead bank. The company survived, stabilised, and eventually grew again. The sponsor made their return.
+
+That is the difference between a theoretically optimal capital structure and a practically sound one. On paper, 5.5x leverage was fine. In practice, it was dangerous. The structure we chose was less aggressive—it cost the sponsor a bit on their internal rate of return. But it meant the deal succeeded.
+
+This is what I mean by saying that capital structure is the foundation. Everything else in a leveraged finance transaction rests on this architecture. Without a sound capital structure, the best management team in the world cannot save you. With a sound capital structure, even a mediocre management team has a reasonable chance.
+
+Let us begin by understanding the components of that structure.
+
+
+2. THE BUILDING BLOCKS: SENIOR SECURED, SENIOR UNSECURED, SUBORDINATED, MEZZANINE, PIK, EQUITY
+
+To understand modern capital structures, one must first understand what each instrument does and when it is deployed.
+
+In the most basic form, a capital structure ranks creditors by priority. Senior creditors get paid first in a distress scenario. Junior creditors get paid only after senior creditors are satisfied. This priority structure creates a risk ladder—and along that ladder, you price instruments differently.
+
+Let us walk through each instrument in detail.
+
+2.1 SENIOR SECURED DEBT
+
+Senior secured debt is the foundation of modern leveraged finance. It is the first claim on the company's assets and (crucially) on its cash flow.
+
+When I say "first claim," I mean precisely that. In a bankruptcy, holders of senior secured debt have security interests in assets (either real estate, equipment, inventory, or in the case of financial covenants, the company's cash flow itself). They get paid before everyone else.
+
+Senior secured debt typically comes in two forms: asset-backed loans (secured against specific assets like real estate or equipment) and cash flow loans (secured against the business's ability to generate cash). In modern leveraged finance, we deal almost entirely with cash flow loans. The syndicated loan market that has dominated leveraged finance for the past twenty years is a cash flow lending market. We lend against the company's ability to service the debt from operations, not against liquidation value of specific assets.
+
+The mechanics are straightforward. A company borrows €100m from a bank on a senior secured basis. It executes a security agreement giving the bank security over all its assets (or, more commonly, a comprehensive pledge of assets). The loan facility includes financial covenants—maximum leverage ratio, minimum interest coverage ratio, minimum liquidity—that allow the lender to monitor the company's health. If the company violates these covenants, the lender has the right to accelerate the loan, take control of the secured assets, and liquidate them.
+
+In a typical European mid-market deal, senior secured debt is priced at EURIBOR + spread. The spread varies by company quality and market conditions, but for a typical LBO in normal times, expect 3% to 5% spread over EURIBOR. In this current market (2025), with EURIBOR near 3.5%, that means senior secured debt costs 6.5% to 8.5%. The spread reflects both the lender's cost of capital and the risk they perceive.
+
+The typical tenor for senior secured debt in a leveraged buyout is 5 to 7 years. A sponsor will typically structure it as a term loan with a short (1-2 year) amortisation schedule in the early years, ramping up towards maturity. This amortisation schedule is a covenant in itself—it ensures that the company pays down debt rather than maintaining leverage forever. A typical structure might look like this: 2% amortisation in year 1, 3% in year 2, 5% in year 3, and then balloon repayment at maturity.
+
+Senior secured debt is typically held by banks and institutional lenders. The banks that lead the transaction—often the arranger and the agent—typically hold the debt on their books. Institutional lenders (insurance companies, pensions, hedge funds) will purchase portions from the lead bank in a syndication process. This syndication is crucial. It allows the lead bank to distribute the risk and recoup their capital quickly, rather than holding risk on their balance sheet.
+
+The documentation for senior secured debt is typically based on the Loan Market Association (LMA) standard form in Europe, or on New York Law in the United States. I will come to the differences later. But the key point is that senior secured debt documentation is highly standardized. This standardization is valuable—it allows lenders to move quickly, reduce legal uncertainty, and price risk accurately. It also, regrettably, allows for less flexibility when you need it most.
+
+Senior secured debt sits in the senior secured box of a capital structure for a reason: it carries the lowest risk for the creditor and therefore the lowest interest rate. In return, it has the strongest covenant package and the earliest maturity. It is the instrument for lenders who want to lend to a company with relatively low risk.
+
+2.2 SUPER SENIOR REVOLVING CREDIT FACILITY
+
+Before I move to other instruments, I should address the revolving credit facility (RCF), because it is a critical component of most capital structures and deserves special attention.
+
+A revolving credit facility is not a term loan. It is a line of credit. The company borrows money as it needs it, and repays it as cash is generated. The bank extends a commitment to lend up to a maximum amount (say, €50m), and in return, the company pays a commitment fee on the undrawn balance (typically 0.5% to 0.75% per annum) and an interest rate on the drawn balance (typically EURIBOR + 2.5% to 3.5%).
+
+The RCF serves several purposes. First, it provides liquidity for the company's working capital needs—to fund seasonal swings in inventory, receivables, and payables. Second, it provides cushion for unexpected cash shortfalls. Third, it provides a source of funds for growth or strategic acquisitions (subject to leverage-based restrictions on how much can be drawn).
+
+Crucially, the RCF is typically super senior. This means it ranks ahead of even the term loan in terms of priority in the capital structure. Why? Because it is the company's lifeline. If the RCF is drawn and the company cannot repay it, the company will be in immediate default and likely have to liquidate. Lenders therefore insist that the RCF is first in line to be repaid. In many transactions, the RCF will be placed in a separate security pool—secured against cash collateral—ensuring it is always repaid first.
+
+In a typical LBO, the RCF is sized at 10-15% of total pro forma capitalization. So a €500m deal might have a €50m RCF. The RCF has the same maturity as the term loan (typically 5-7 years), but it is much more flexible. The company can draw and repay it as many times as it needs.
+
+The RCF is typically undrawn at close. The sponsor will have already funded the company with enough cash from the purchase price financing to cover acquisition costs, transaction fees, and an initial working capital buffer. The RCF sits in reserve, available if needed. In a well-structured deal, the RCF is drawn only in downturns or growth scenarios. If it remains undrawn at exit, the sponsor keeps more of the benefits.
+
+Why do I mention this here? Because the RCF is part of the leverage calculation. When we talk about "total leverage," we include the undrawn RCF (or a portion of it) as debt for purposes of calculating the multiple. This is important when assessing the true level of leverage in a transaction.
+
+2.3 SENIOR UNSECURED DEBT
+
+Senior unsecured debt is a step down from senior secured debt in the priority hierarchy, but it still sits above subordinated debt.
+
+Senior unsecured debt has no security interest in company assets. If the company goes bankrupt, senior unsecured creditors are paid only after senior secured creditors have been paid in full. This is a meaningful step down in risk. It also typically means senior unsecured debt is more expensive—higher spread—than senior secured debt.
+
+In the market between 2005 and 2010, senior unsecured debt was rarely used in leveraged finance. The credit environment was loose, leverage was cheap, and sponsors could get all the leverage they needed through secured debt. Senior unsecured debt was the province of strong investment-grade companies that did not want to grant security.
+
+Since the 2008 financial crisis, senior unsecured debt has become increasingly important in leveraged finance. Why? Several reasons. First, as the leveraged finance market matured, more institutional investors entered the market willing to hold subordinated risk. They developed expertise in analysing downside scenarios and pricing that risk accordingly. Second, the bank lending market became more conservative post-crisis. Banks were less willing to hold as much leverage on their balance sheets, so sponsors had to look elsewhere. Third, the high yield bond market became increasingly accessible for lower-rated issuers, and companies began issuing senior unsecured bonds as part of their capital structure.
+
+Senior unsecured debt in a leveraged LBO typically carries a spread of 4% to 6% over EURIBOR. It has a longer tenor than secured debt—typically 7 to 10 years. It has a thinner covenant package (fewer financial covenants, more reliance on negative covenants that prohibit certain actions) than secured debt. And it is typically held by insurance companies, pension funds, and hedge funds that invest in higher-yielding credit instruments.
+
+The documentation for senior unsecured debt is typically based on the public bond market standard form, modified for private placements. These documents typically give the issuer more flexibility than bank documents—less intrusive financial covenants, more lenient restriction on dividends and additional debt, more flexibility on covenant testing.
+
+A typical mid-market LBO might use senior unsecured debt for 1.0x to 1.5x leverage. That is, if the company is levered at 4.5x total, the senior unsecured debt might represent €50-75m of that €225m total debt, with the rest coming from senior secured sources.
+
+I will give you a real example. In 2019, we structured a €300m LBO of a French consumer goods company. The structure looked like this:
+
+- Super senior RCF: €30m (undrawn)
+- Senior secured term loan: €150m (EURIBOR + 3.75%, 7-year tenor, amortising 3% per year)
+- Senior unsecured bond: €60m (6.5% fixed, 10-year tenor, unrated but private placement)
+- Mezzanine debt: €30m (PIK toggle, 9% base + 2% PIK, 8-year tenor)
+- Equity: €30m (sponsor equity cheque)
+
+Total leverage at close: 4.5x (€270m debt / €60m EBITDA). But notice the structure: €180m of senior secured sources (RCF + term loan) representing 3.0x leverage; €60m of senior unsecured debt representing 1.0x; €30m of mezzanine representing 0.5x.
+
+Why this structure? Because the company had a capital-intensive business model. The sponsor needed significant leverage (4.5x) to drive returns. But the company also needed access to capital for equipment replacement and facility upgrades. A covenant package that was too tight would have prevented this. By using a mix of instruments with different covenant packages, we created a capital structure that allowed the company to operate without constantly hitting restrictions on capital expenditure.
+
+2.4 SUBORDINATED DEBT
+
+Subordinated debt sits below senior debt in the capital structure. It has an explicit subordination agreement with senior creditors, meaning it cannot be paid until senior debt is paid in full (or, under certain "standstill" provisions, even when senior debt is in default).
+
+Subordinated debt is relatively rare in modern leveraged finance. It has been largely replaced by mezzanine debt (which I will describe next). The reason is simple: subordinated debt is more expensive for the company to issue, more restrictive in its terms, and provides less flexibility than mezzanine instruments.
+
+However, subordinated debt still exists in some structures, particularly in larger transactions and in situations where a company needs to raise capital from a broader investor base. Subordinated debt is typically issued as a public or private bond with a 7-10 year tenor, and is held by credit-focused investors.
+
+The key feature of subordinated debt is the subordination agreement with senior creditors. This agreement contains "pro rata" clauses, which ensure that if the company is in default, all subordinated creditors are treated equally (they do not race each other). It also typically contains "standstill" provisions, which prevent subordinated creditors from accelerating the debt or taking action against the company while senior debt is outstanding. These provisions are critical—without them, senior creditors would face the risk that subordinated creditors could push the company into insolvency before senior debt could be worked out.
+
+Subordinated debt typically carries a spread of 5-7% over EURIBOR (or a fixed coupon of 7-9%), and is held by hedge funds, insurance companies, and specialist credit investors willing to take on the risk of junior capital.
+
+2.5 MEZZANINE DEBT
+
+Mezzanine debt is the workhorse of modern leveraged finance. It sits between senior debt and equity in the capital structure, and it has become increasingly sophisticated over the past two decades.
+
+Mezzanine debt is unsecured (or subordinated, if the senior creditors insist on a pari passu claim). It is subordinated to senior debt and senior unsecured debt. In a downside scenario, mezzanine holders get paid only after all senior creditors are satisfied. This is a meaningfully junior position.
+
+But mezzanine debt has several features that make it attractive to investors and useful in structures:
+
+First, it typically has a stepped coupon structure. The base coupon might be 7%, but as the company's leverage falls (meaning the company is performing well and paying down debt), the coupon increases to 8%, then 9%. This is a performance incentive—as the company deleverages, mezzanine investors receive higher returns. This aligns incentives.
+
+Second, mezzanine debt often includes a PIK (payment-in-kind) toggle. This means the company has the choice to pay the coupon in cash, or to add the unpaid coupon to the principal of the loan (PIK it). If the company is in a tight cash position, it can elect to PIK the coupon, deferring the cash payment. If business is booming, it pays cash. This flexibility is valuable—it gives the company a pressure valve in downturns, allowing it to preserve cash without defaulting.
+
+Third, mezzanine debt often has equity co-investment by the sponsor. The same sponsor that owns the equity often invests in the mezzanine tranche. This creates alignment—the sponsor has skin in the game at multiple levels of the capital structure. If the company is in trouble, the sponsor's mezzanine investment is also at risk, creating incentive to put capital into the company to support it.
+
+Fourth, mezzanine debt typically has much lighter covenants than senior debt. Financial covenants are either absent or very lightly tested. Instead, mezzanine documentation relies on negative covenants (restrictions on dividends, restrictions on additional debt, restrictions on asset sales) to protect creditors.
+
+A typical mezzanine coupon structure might look like this: 8% base coupon plus a 2% PIK toggle. So the company pays €80 per €1,000 notional (8% in cash), or it can elect to PIK the 2%, paying only €60 in cash and adding €20 to the principal. If the company PIKs the coupon for three years, the notional amount of the mezzanine debt grows from €1,000 to €1,060 (assuming 2% annual PIK). The blended effective cost to the company is then much higher—the 8% cash coupon plus the compounding effect of PIK.
+
+Why do investors accept this subordinated risk? Yield. Mezzanine debt is priced to compensate investors for the risk of being paid last. Typical mezzanine coupons in the current market (2025) are 9-12% in total, including both cash and PIK. That is a much higher return than senior debt (6-8%), but it comes with the risk that in a downside scenario, the mezzanine holder gets nothing.
+
+I will give you a real example from a 2016 transaction. We were financing a €200m LBO of a business services company. The capital structure was:
+
+- Senior secured term loan: €130m (EURIBOR + 3.5%, 7-year)
+- Senior RCF: €20m (undrawn, EURIBOR + 2.5%)
+- Mezzanine debt: €30m (8% base + 2% PIK toggle, 8-year, with sponsor equity participation)
+- Equity: €20m (sponsor)
+
+Total leverage: 4.0x. The mezzanine represented 0.75x of leverage. In normal years, the company paid 8% cash on the mezzanine. In a downturn year (2017-2018), the sponsor elected to PIK the 2%, preserving cash. This decision was critical—the company was facing a temporary slowdown in customer spending, and the ability to reduce cash outflow by €600k per year allowed management to weather the storm without drawing the RCF.
+
+At exit in 2020, the company had deleveraged to 2.5x, and the mezzanine coupons had stepped up to 9%. The mezzanine investors exited with a 12% IRR, which was a good return for the risk they took.
+
+2.6 PIK NOTES
+
+I mentioned PIK briefly in the mezzanine section. Let me expand, because PIK structures deserve their own treatment.
+
+A PIK (payment-in-kind) note is a debt instrument where the coupon is paid by increasing the principal amount rather than by paying cash. It is a way for companies to defer cash payments while still maintaining the appearance of servicing debt.
+
+PIK notes are typically used in highly leveraged transactions where cash is tight. They are also used in distressed situations where a company cannot afford to pay cash coupons. And they are used in growth companies where all available cash is reinvested in the business rather than paid to creditors.
+
+The mechanics are simple. A company issues a €10m PIK note with a 10% coupon. Rather than paying €1m cash per year, the company's debt balance automatically increases by €1m (or, more precisely, by the interest accrual calculated daily and compounded). After 10 years, if the note has never been paid down and has accrued 10% annually, the company owes approximately €25.9m (€10m × (1.10)^10).
+
+This can get very expensive very quickly. If a company is issuing 12% PIK notes and never paying cash, the debt compounds dramatically. After 5 years, it is 76% larger. After 10 years, it is more than triple.
+
+PIK notes are typically issued to specialist investors who understand the compounding risk and price accordingly. They are often held by hedge funds or distressed credit investors. The investors understand that they are taking on significant risk—if the company does not grow quickly enough to generate cash, or if it needs to refinance before it has built sufficient cash flow, the PIK debt can become unmanageable.
+
+PIK notes often include step-downs—a provision that if the company deleverages below a certain level, the coupon step-down and a portion of the coupon is paid in cash. This creates an incentive for the company and sponsors to reduce leverage. A typical provision might be: "If leverage falls below 3.0x, coupon step-down to 8% cash + 2% PIK; if leverage falls below 2.0x, coupon step-down to 10% cash + 0% PIK."
+
+PIK notes are most common in distressed situations, growth-stage transactions, and in transactions in secondary markets where there is less liquidity and more risk. In a typical leveraged buyout of a mature company, you would not expect to see much PIK. But in a sponsor-backed growth transaction or in a distressed restructuring, PIK is common.
+
+2.7 EQUITY
+
+Equity is the residual claim on the company. Equity holders have no promise of payments or security interests. They own the company. In good times, they capture the upside. In bad times, they lose their investment.
+
+Equity in a leveraged buyout is provided by the sponsor (the private equity fund). The sponsor writes a cheque to help fund the acquisition. The amount of this cheque—the equity contribution—is a critical lever in a capital structure.
+
+Let me state a simple principle: the larger the equity cheque, the lower the leverage, and the more conservative the capital structure. A €500m deal funded with €100m of equity and €400m of debt is much more conservatively structured than a €500m deal funded with €50m of equity and €450m of debt.
+
+The equity contribution is one of the first things a sponsor decides when they are thinking about buying a company. It is not determined by lenders. Lenders will impose a maximum leverage ratio (say, 5.5x), and from that the minimum equity contribution is derived. But the sponsor can always put in more equity if they choose. The question is whether they want to.
+
+The sponsor's choice on equity contribution reflects their view of the deal risk and their return expectations. If they believe the company is relatively safe and predictable, they will put in less equity (higher leverage, more risk, but higher return if it works). If they believe there are significant execution risks, they will put in more equity (lower leverage, more safety, but lower return if all goes well).
+
+In the current market (2025), sponsor equity contributions for LBOs typically range from 25% to 40% of the purchase price. A €500m deal might be funded with €125-200m of equity and €300-375m of debt. The leverage ratio would be 4.5x to 6.0x depending on EBITDA. In the boom years before the 2008 crisis, equity contributions were often as low as 10-15%, driving leverage to 6.0x-8.0x. In the very conservative post-crisis years of 2010-2012, equity contributions were often as high as 40-50%, keeping leverage below 4.0x.
+
+Equity from the sponsor is not just passive capital. The sponsor is actively involved in the company. They typically place board representatives, influence strategic decisions, and work with management to implement improvements. The sponsor's equity contribution buys them board control, information rights, and the ability to shape the company's future.
+
+At exit (typically 5-7 years after the initial LBO), the sponsor sells the company and distributes the proceeds to itself and to the lenders in the priority order. The equity is the residual—whatever is left after all debt is repaid. In a successful deal where the company has grown, the equity value will have increased significantly. The sponsor's return (measured as internal rate of return or money multiple) depends on the initial equity contribution, the growth in company value, and the reduction in debt.
+
+Let me give you an example. Suppose a sponsor buys a company for €500m. They fund it with €150m of equity and €350m of debt. Five years later, the company is worth €750m (it has grown), and debt has been paid down to €250m. The equity value is now €500m. The sponsor has nearly tripled their money (€500m / €150m = 3.3x) in five years, which is roughly a 27% IRR. That is a successful deal.
+
+But suppose the company had been worth only €550m at exit (minimal growth) and debt had been paid down to only €300m. The equity value would be €250m, and the sponsor would have lost money (€250m / €150m = 1.67x, roughly 11% IRR). That is not a successful deal, even though the company was sold for more than the purchase price, because leverage was too aggressive.
+
+The equity contribution is therefore not just a number—it is a fundamental decision about risk and return that shapes the entire capital structure.
+
+2.8 THE PRIORITY WATERFALL
+
+Let me now integrate all these instruments into a coherent picture. A capital structure is a hierarchy of claims. In distress, this hierarchy determines who gets paid and who does not.
+
+Consider a company in financial distress. It has insufficient cash to pay all its obligations. The priority waterfall determines the order in which cash available is distributed:
+
+1. First: Operating expenses and working capital needs (these are typically paid first because the company cannot function without them; they are also often administrative claims that rank ahead of creditors)
+
+2. Second: Senior secured debt (the bank that lent €150m gets paid first, as they have security interests in assets and take the lowest risk)
+
+3. Third: Super senior RCF (because it often sits in a separate security pool)
+
+4. Fourth: Other senior secured creditors (if there are multiple tranches of senior secured debt, they typically rank pari passu—at the same level—and share recovery pro rata)
+
+5. Fifth: Senior unsecured debt (investors who lent €60m without security get paid next, after all senior secured creditors are satisfied)
+
+6. Sixth: Subordinated debt (holders of bonds issued under subordination agreements)
+
+7. Seventh: Mezzanine debt (the most junior creditors, who sit between debt and equity)
+
+8. Eighth: Equity (the sponsors get whatever is left, which in a true distress scenario may be nothing)
+
+This waterfall is not arbitrary. It reflects the risk profile of each instrument. Senior secured lenders have the lowest risk (they are paid first and have security), so they charge the lowest interest rate. Equity holders have the highest risk (they are paid last), but they have unlimited upside if the company thrives.
+
+One critical concept I need to introduce here is "pari passu" treatment. This Latin term means "equal standing." When multiple creditors are pari passu, they share recovery pro rata based on their claims. Senior secured lenders are typically pari passu with each other. Senior unsecured creditors are typically pari passu with each other. But once you move across instrument types, the priority is fixed.
+
+In a real bankruptcy, the waterfall is tested. Suppose the company goes into insolvency, and the business is liquidated for €450m. Let me walk through how that €450m gets distributed across our earlier example:
+
+- Operating costs and professional fees: €50m
+- Available for creditors: €400m
+
+Now:
+- Senior secured term loan: owed €130m, receives €130m (secured, paid in full from security)
+- Senior RCF: owed €20m (though undrawn at distress, so €0 owed)
+- Senior unsecured debt: owed €60m, but only €270m available after senior secured, receives €60m in full
+- Mezzanine debt: owed €30m, but only €210m available after senior unsecured, receives nothing (or receives a small recovery if available cash is sufficient, which it is not in this case)
+- Equity: receives nothing
+
+This is a harsh result for mezzanine holders and equity. But it is the risk they took. The senior secured lenders, by lending first and taking security, protected themselves. The sponsors, by writing down their equity, also protected themselves somewhat—they did not invest more capital that they could lose.
+
+2.9 FIRST LIEN VS. SECOND LIEN VS. UNITRANCHE
+
+I have touched on this, but it deserves deeper treatment. The way in which senior secured debt is structured has evolved significantly over the past twenty years.
+
+In the traditional structure, a company has a single tranche of senior secured debt, typically a term loan. This loan is secured on a first lien basis—it has the first claim on all company assets. There is no question about priority. The first lien lender is paid first.
+
+But as leverage increased and investors became more sophisticated, a new structure emerged: second lien debt. A company would have a first lien term loan (€150m, 5-year tenor) and a second lien term loan (€50m, 7-year tenor). The first lien lender has the first claim on assets. The second lien lender has the second claim. Both are secured, but the second lien lender accepts the risk that if the company is liquidated, the first lien creditor might consume most of the asset value, leaving little for the second lien creditor.
+
+Why would a lender accept second lien risk? Because it pays better than unsecured debt. A second lien term loan typically costs 5-7% spread over EURIBOR, versus 4-6% for first lien and 4-6% for senior unsecured. The return is higher, and the lender accepts the risk of being paid second on security.
+
+Second lien debt was very common in the mid-2000s and in the post-crisis boom years of 2010-2015. A typical large LBO would have €150m first lien, €50-75m second lien, and perhaps €30m of mezzanine. The company was sliced up by lender priority and risk profile.
+
+The problem with first lien / second lien structures, particularly when there are multiple tranches, is the complexity of intercreditor negotiations. If the company is in distress, the first lien lender wants to foreclose on collateral and liquidate quickly to recoup as much as possible. The second lien lender wants to prevent that, because liquidation probably wipes them out. This creates a conflict. The intercreditor agreement (which I will describe in detail later) is the legal document that manages this conflict, but it is rarely clean and easy.
+
+In response to this complexity, a new structure emerged: unitranche. In a unitranche structure, there is a single pool of debt that is not subdivided by priority on security. Instead, an agreement among lenders (AAL) determines how recovery is shared if the company is in distress. I will cover unitranche in detail later, but the key point is that it simplifies the capital structure by eliminating the first lien / second lien hierarchy.
+
+For the purposes of this section, what matters is that you understand the trade-off. First lien / second lien structures give you multiple tranches with different risk profiles and pricing. This is useful for sponsors because it allows them to optimize the cost of capital—first lien is cheap, second lien is more expensive, but still cheaper than mezzanine. But the complexity of managing intercreditor relationships can be a headache. Unitranche is simpler, but it is slightly more expensive on average, because you lose the cheap first lien tranche and end up with a blended structure.
+
+The current market has swung back towards unitranche for mid-market deals, because the simplicity benefit outweighs the cost of capital advantage of first lien / second lien. For large-cap deals, first lien / second lien is still used, because the cost of capital savings are material.
+
+2.10 SPLIT-COLLATERAL STRUCTURES
+
+I need to mention one more structure, because it is increasingly common: split-collateral structures.
+
+In a split-collateral structure, different tranches of debt have security over different assets. For example:
+- Term loan A: secured on a first lien basis over the company's real estate
+- Term loan B: secured on a second lien basis over equipment and intellectual property
+- Revolving credit facility: secured on a first lien basis over working capital (receivables, inventory)
+
+This structure allows lenders to have stronger security positions. A working capital lender that has a first lien on receivables and inventory knows it can be paid from the liquidation of those assets, even if the first lien real estate lender takes the real estate. It also allows for different pricing—the asset-backed portions can be priced more cheaply because they have cleaner collateral, while the more junior unsecured portions price more expensively.
+
+Split-collateral structures are particularly common in Europe, where real estate is a significant part of company assets, and where asset-based lending is more developed than in the United States.
+
+
+3. THE EUROPEAN CAPITAL STRUCTURE VS. THE US
+
+I have spent the majority of my career in European leveraged finance, though I have worked on transactions in the United States and other jurisdictions. The differences between European and US capital structures are subtle but important.
+
+3.1 THE EUROPEAN SUPER SENIOR RCF + TERM LOAN B STRUCTURE
+
+The dominant structure in Europe, particularly for mid-market deals, is the super senior RCF plus term loan B structure.
+
+Here is how it works: A company raises a revolving credit facility, typically on a super senior basis. This RCF is sized at 10-15% of total capitalization and sits in a separate security pool. The company also raises a term loan B, which is the primary financing vehicle. The term loan B is secured on a pari passu basis with the RCF (they share the same security), but the RCF is super senior in the waterfall.
+
+Why this structure? Several reasons. First, the RCF provides working capital flexibility, which is critical for a business that has seasonal swings or growth plans. Second, by making the RCF super senior, the lenders of the RCF have comfort that they will be repaid, which allows them to offer more attractive pricing. Third, the term loan B sits below the RCF in the waterfall, which means it is exposed to more risk if the company is in distress, but it can price for that risk.
+
+A typical European mid-market structure might look like this:
+
+- Super senior RCF: €50m (€50m commitment, undrawn at close, 5% drawn over time for working capital)
+- Term loan B: €200m (6-7 year tenor, 2-3% amortisation per year, EURIBOR + 4%)
+- Senior unsecured note: €75m (8-year tenor, 6.5% fixed coupon, private placement)
+- Mezzanine: €25m (8% base + 2% PIK, 8-year, sponsor co-investment)
+- Equity: €50m
+
+The key feature of this structure is the super senior RCF. It is the financing vehicle used to manage working capital. If the company needs to fund a seasonal buildup in inventory, it draws the RCF. As the inventory is sold and cash comes in, the RCF is repaid. Over time, if the business is seasonal, the RCF oscillates between being fully drawn and mostly undrawn, depending on the business cycle.
+
+This structure has been the dominant European structure for two decades. It is standardised in the documentation (LMA standard form), widely understood by lenders, and efficient in terms of cost of capital.
+
+3.2 THE INTERCREDITOR FRAMEWORK
+
+The intercreditor framework is the set of legal agreements that govern how senior and subordinated creditors interact, particularly in distress scenarios.
+
+In a European transaction with a term loan B and a mezzanine tranche, there is typically a subordination and intercreditor agreement (SICA) between the term loan B lender and the mezzanine creditor. This agreement sets out the terms under which the mezzanine is subordinated to the term loan B.
+
+The key provisions in an intercreditor agreement are:
+
+First, a "standstill" clause, which prevents the mezzanine creditor from accelerating or enforcing its security (if any) while the term loan B is not in default. This gives the term loan B lender room to work out the company without interference from junior creditors.
+
+Second, a "pari passu" clause, which ensures that if the term loan B is in default and the mezzanine is also in default, both classes of creditors are treated equally in any workout or restructuring. This prevents the mezzanine creditor from racing the term loan B creditor to enforcement.
+
+Third, a "mandatory prepayment" clause, which requires the mezzanine creditor to prepay its debt from the proceeds of any asset sale or refinancing. This ensures that proceeds flow to junior creditors only after senior creditors have been repaid.
+
+Fourth, a "pro rata" clause, which ensures that in distress, any recovery by subordinated creditors is shared pro rata with other subordinated creditors at the same level.
+
+The intercreditor agreement is a critical document. It is also one of the most negotiated documents in a leveraged finance transaction. Why? Because the mezzanine creditor wants to protect its investment and ensure it has a pathway to recovery. The term loan B creditor wants to ensure it has full control in distress and can restructure the company without interference. These interests often conflict.
+
+I have spent weeks in intercreditor negotiations. I have sat through calls with mezzanine investors in the US, with private debt sponsors in Europe, with hedge funds trying to understand what their rights are if the company is in trouble. The typical areas of negotiation are:
+
+- How long is the standstill period? (Mezzanine wants it short, senior wants it long)
+- Can the mezzanine creditor vote on a restructuring plan? (Mezzanine wants yes, senior wants no)
+- Does the mezzanine creditor have information rights? (Mezzanine wants yes, senior wants limited)
+- Can mezzanine creditors exercise their security (if any) during the standstill period? (Mezzanine wants yes for administrative rights, senior wants no)
+- What is the "cure" right if the mezzanine creditor funds the company to prevent a default? (Mezzanine wants broad rights, senior wants narrow)
+
+These are not trivial questions. They determine what happens if the company hits troubled waters. I have seen intercreditor agreements that are so heavily negotiated that they are 100+ pages, with schedules and side letters clarifying every edge case.
+
+One important provision I should highlight: the "standstill" is typically time-limited. It might be "12 months from the date of default" or "until the earlier of a restructuring plan or 18 months." The idea is that the senior lender gets a reasonable period of time to work out the company, but if progress is not made, the subordinated creditor can take action. This creates incentive for the senior lender to act decisively.
+
+3.3 WHY EUROPE HAS DIFFERENT STRUCTURES
+
+The European capital structure differs from the US for several reasons.
+
+First, the European leveraged finance market developed later and less aggressively than the US market. The US market had a sophisticated high yield bond market and a deep syndicated loan market going back to the 1980s. Europe developed this infrastructure more slowly, and in the meantime, bank-led structures became dominant. Even as the European high yield market developed, the bank structures remained preferred for mid-market deals.
+
+Second, European companies are often smaller and more regionally focused than US companies. European sponsors tend to build add-on acquisition strategies (buying a company, then rolling in smaller regional competitors). This requires flexible debt structures that can accommodate acquisitions and refinancings. Bank structures are more flexible than bond structures in this regard.
+
+Third, European leveraged finance has a higher participation from German and Swiss insurance companies, which prefer longer-dated, less volatile capital structures. This has driven the preference for term loan structures over bonds.
+
+Fourth, European leverage is often somewhat lower on average than US leverage. A European mid-market LBO might be at 4.5x, while a comparable US transaction might be at 5.0-5.5x. This reflects both different investor preferences and different business characteristics. European companies are often more conservative in their leverage expectations.
+
+Fifth, the documentation standards are different. The LMA is the dominant standard in Europe for bank documentation. The LMA form is much more lender-friendly than US loan documentation, which is typically based on syndicated loan agreement templates that are more balanced between borrower and lender. This tighter lender protection in Europe has made European lenders more comfortable with higher leverage in some cases.
+
+3.4 LMA DOCUMENTATION VS. NEW YORK LAW DOCUMENTATION
+
+The LMA (Loan Market Association) standard form is the dominant documentation standard for leveraged loans in Europe. It is a set of templates for term loans, revolving credit facilities, and security documents, developed and maintained by the LMA and updated regularly. The latest version of the LMA template is usually referred to by its version and publication date (e.g., the "2018 LMA standard form").
+
+The LMA form is biased heavily towards lenders. It includes expansive definitions of events of default, tight financial covenants, and minimal flexibility for borrowers. The provisions around additional debt, asset sales, acquisitions, and capital expenditure are restrictive. The form assumes a relatively straightforward company with limited growth plans and strong cash flow.
+
+In contrast, New York Law documentation (used for US transactions and some international deals) tends to be more balanced. It includes more flexibility for borrowers, particularly around acquisitions and capital expenditure. It has more extensive "baskets" and exceptions to restrictions. It is generally more negotiated and customised than the LMA form.
+
+Why does this matter? Because the choice of documentation standard affects the operating flexibility of the company. Under an LMA document, a company in the middle of an acquisition might find itself in breach of the debt covenant (for instance, the leverage ratio is tested, and the acquisition temporarily raises leverage above the covenant level). Under New York Law documentation, there are often carve-outs for acquisitions, or flex provisions that allow the leverage covenant to be tested on a pro forma basis including expected synergies.
+
+When I am structuring a deal that needs flexibility for growth and acquisitions, I often push for a hybrid approach: LMA structure (because that is what European lenders prefer), but with negotiated amendments that give the company more flexibility. This is often called "LMA-lite."
+
+The most important provisions to negotiate in LMA documentation are:
+
+- Financial covenant testing and baskets (can you test covenant only once per year? Once per quarter? Are there baskets for covenant breaches if you are within X% of the threshold?)
+- Acquisition baskets (how much cash can you spend on acquisitions without refinancing? Is this an annual basket or a cumulative basket?)
+- Capital expenditure baskets (what is the limit on capex without additional consents?)
+- Dividend restrictions (when can dividends be paid? Based on what conditions?)
+- Additional debt restrictions (how much additional debt can be incurred? Is this based on leverage ratios or absolute amounts?)
+
+These provisions determine whether a company can grow and adapt, or whether it is locked in place by debt covenants.
+
+
+4. LEVERAGE METRICS AND HOW THEY'RE CALCULATED
+
+This section is critically important. Leverage metrics are the language of leveraged finance. Every discussion about deal structure, about covenant levels, about the maximum amount of debt a company can support, comes back to leverage metrics.
+
+Let me start with definitions. There are several different leverage metrics, and it is crucial to understand the differences, because they are not interchangeable.
+
+4.1 TOTAL LEVERAGE (OR "GROSS LEVERAGE")
+
+Total leverage is the ratio of total debt to EBITDA.
+
+Total Leverage = Total Debt / EBITDA
+
+"Total debt" includes all forms of debt: senior secured, senior unsecured, subordinated, mezzanine, PIK notes, etc. It does not include equity. "EBITDA" is earnings before interest, taxes, depreciation, and amortisation. This is the operating cash generation of the company, before debt service.
+
+A company with €60m EBITDA and €270m of total debt has 4.5x total leverage. This is calculated as €270m / €60m = 4.5x.
+
+Total leverage is the most commonly used metric in the market. When a sponsor says "we are doing this deal at 4.5x," they mean 4.5x total leverage. When a lender says "we will not lend above 5.5x," they mean 5.5x total leverage.
+
+Why is total leverage important? Because it is the headline metric that indicates the overall aggressiveness of the deal. Higher total leverage means more debt, more risk, more interest expense, and less cushion in downturns. Lower total leverage means less debt, less risk, more cushion.
+
+4.2 NET LEVERAGE
+
+Net leverage is the ratio of net debt to EBITDA.
+
+Net Leverage = (Total Debt - Cash) / EBITDA
+
+The difference between total leverage and net leverage is cash. If a company has substantial cash on the balance sheet, net leverage is lower than total leverage.
+
+Why does this matter? Because cash is a way to reduce leverage. If a company has €270m of total debt but also €50m of cash, the net debt is €220m, and the net leverage is 3.67x (€220m / €60m EBITDA), versus 4.5x total leverage.
+
+In leveraged finance, there is an ongoing debate about whether to test covenants on a total leverage or net leverage basis. Some argue that total leverage is the right metric, because cash can be deployed quickly (to pay a dividend, to fund an acquisition, to handle a downturn in business). Others argue that net leverage is more fair, because it reflects the company's true financial position.
+
+In European deals, covenants are typically tested on a total leverage basis, with a minimum liquidity covenant (e.g., "must maintain minimum €20m of available liquidity") as a separate covenant. This ensures that the company maintains a cash buffer, but leverage is still measured gross.
+
+In US deals, it is increasingly common to test covenants on a net leverage basis for this reason.
+
+One important caveat: in leveraged finance, "cash" for purposes of net leverage calculation is typically limited to unencumbered cash. Cash that is pledged as collateral, or restricted cash, does not count. So if a company has €50m of total cash but €30m is pledged as collateral for the RCF, the "available cash" is €20m, and net leverage is calculated with only that €20m deducted.
+
+4.3 SENIOR SECURED LEVERAGE
+
+Senior secured leverage is the ratio of senior secured debt to EBITDA.
+
+Senior Secured Leverage = Senior Secured Debt / EBITDA
+
+Senior secured debt includes the term loan and the RCF (even if undrawn). It does not include senior unsecured debt, subordinated debt, mezzanine, or other forms of leverage.
+
+Why is this metric important? Because it is the metric that senior secured lenders care about. They want to know how much leverage is supported by their own debt. If senior secured leverage is 3.5x, it means the company could theoretically pay off all senior secured debt with 3.5 years of EBITDA, and there would be junior debt left over.
+
+Senior secured leverage is also important as a test for the maximum debt that can be incurred. Many debt agreements include an "accordion" or "incremental facility" provision that allows the company to incur additional debt if senior secured leverage stays below a certain threshold (e.g., 4.5x). I will cover this in detail later.
+
+4.4 FIRST LIEN LEVERAGE
+
+In structures with first lien and second lien debt, first lien leverage is the ratio of first lien debt to EBITDA. This metric matters because it tells you how much debt the first lien lender has written. If first lien leverage is 2.5x, it means the first lien debt could theoretically be paid off in 2.5 years from EBITDA.
+
+First lien leverage is typically lower than total leverage in a leveraged structure. A deal might have 2.5x first lien leverage, but 4.5x total leverage (with 2.0x of second lien and mezzanine).
+
+4.5 THE "ADJUSTED" LEVERAGE DEBATE
+
+One of the most contentious issues in leverage calculations is what to "adjust" the EBITDA for.
+
+At face value, this seems simple: Total Debt / EBITDA. The EBITDA in the denominator is the company's actual EBITDA from operations. But in practice, there are adjustments.
+
+The most common adjustments are:
+
+First, "run-rate" EBITDA. If a company has just been acquired, the EBITDA used for leverage calculation might not be the EBITDA at the time of acquisition, but rather the "run-rate" EBITDA—the EBITDA that the company will generate after a full year of integration. This is common when an acquisition is closing mid-year, and you want to calculate leverage as if the acquired company has contributed a full year of EBITDA.
+
+Second, "pro forma" EBITDA. If a company has just acquired a bolt-on business, the pro forma EBITDA includes the EBITDA of the bolt-on business (often adjusted for synergies). This allows you to calculate leverage as if the bolt-on has been fully integrated.
+
+Third, "cost savings" adjustments. If management has identified cost savings that will be achieved through integration, sponsors will sometimes adjust EBITDA upwards to reflect the savings. This is controversial. A lender might say, "Show me the savings first, then we will count them." A sponsor might say, "The savings are certain and achievable; they should be reflected in leverage."
+
+Fourth, "add-backs." Sponsors will often add back to EBITDA certain costs that they believe are non-recurring or that will be eliminated post-acquisition. For example, if a company has just paid a large settlement that is not expected to recur, sponsors will add it back. If a company has a CEO with above-market compensation that will be eliminated, the sponsor will add it back. Again, this is controversial.
+
+The "adjusted leverage" debate is fundamentally about whose assumptions you trust. Sponsors are optimistic about the future and want to leverage that optimism into the capital structure. Lenders are conservative and want to lend only against actual, proven EBITDA. The truth is somewhere in the middle.
+
+In practice, when I am structuring a deal, I calculate leverage multiple ways: on an actual EBITDA basis, on a run-rate basis with conservative assumptions, and sometimes on a pro forma basis if there are clear synergies. I then covenant the company to actual EBITDA (because that is what the lenders see at the bank), but I disclose the adjusted numbers to show the sponsor that the deal makes sense with reasonable assumptions.
+
+4.6 LEVERAGE THROUGH THE CYCLE
+
+One of the most important concepts in capital structure is "leverage through the cycle." This is the idea that leverage ratios will change over time as the business's EBITDA fluctuates.
+
+A company might be at 4.5x leverage at the time of acquisition (when EBITDA is €60m). But if there is a recession and EBITDA drops to €45m, leverage would climb to 6.0x (assuming debt stays constant). The company needs to be able to tolerate that increase without breaching its covenant.
+
+This is why covenant levels matter so much. A company that has a 5.5x leverage covenant and is at 4.5x leverage at close has 1.0x of "headroom" to absorb an EBITDA decline. If EBITDA falls 20%, leverage climbs to 5.4x, still under the covenant. But if EBITDA falls 25%, leverage hits 5.75x, and the company is in breach.
+
+Sponsors have to make a judgment call about how much EBITDA decline the company can tolerate. For a stable utility company, 20% EBITDA decline might be the stress case. For a cyclical industrial company, 30-40% decline might be the realistic stress case. The capital structure has to be sized to handle those scenarios.
+
+I have seen two approaches to this in practice. The first is "conservative covenant setting," where the covenant is set so conservatively that it is very hard to breach it, even in a significant downturn. The second is "tighter covenant setting," where the covenant is set closer to current leverage, forcing management to actively manage the business and reduce leverage if EBITDA declines.
+
+The first approach is safer but less efficient (you are putting in more equity than you need to). The second approach is more efficient but more risky (if the company underperforms, it is in breach quickly). Most sponsors try to find a middle ground.
+
+One thing I often do is create a "waterfall" that shows leverage at different EBITDA levels. I might show:
+
+- Base case: €60m EBITDA, 4.5x leverage
+- Downside case (15% EBITDA decline): €51m EBITDA, 5.3x leverage
+- Severe downside case (25% EBITDA decline): €45m EBITDA, 6.0x leverage
+- Stressed case (40% EBITDA decline): €36m EBITDA, 7.5x leverage
+
+This waterfall shows the sponsors how much stress the capital structure can handle, and helps them decide whether they are comfortable with the leverage level.
+
+
+5. THE LBO CAPITAL STRUCTURE
+
+Now let me bring all of this together and walk through how a sponsor actually builds a capital structure for a leveraged buyout.
+
+5.1 HOW SPONSORS CHOOSE LEVERAGE LEVELS
+
+When a sponsor is contemplating acquiring a company, they start with a simple question: How much leverage can this company support?
+
+The answer depends on several factors:
+
+First, the quality and stability of EBITDA. A company with stable, predictable EBITDA (e.g., a utility, a contract-backed service business) can support higher leverage than a company with volatile EBITDA (e.g., a cyclical industrial company, a consumer discretionary business). For a stable company, 5.5x leverage might be comfortable. For a cyclical company, 4.0x might be the maximum.
+
+Second, the trajectory of EBITDA. A company that is growing rapidly can support higher leverage, because the growing cash flow will pay down the debt. A company that is flat or declining cannot support as much leverage, because there is no cash generation to service the debt.
+
+Third, the capital intensity of the business. A capital-intensive business (manufacturing, infrastructure) requires ongoing investment in equipment and facilities. This capital expenditure competes with debt service for the company's free cash flow. A less capital-intensive business (software, services) has more free cash flow available for debt service, and can support higher leverage.
+
+Fourth, the investor base and debt market conditions. In loose credit markets (like 2005-2007, or 2012-2014), investors are willing to hold more leveraged risk, so leverage can be higher. In tight credit markets (like 2008-2009, or 2020), investors pull back, and leverage has to be lower.
+
+Fifth, the sponsor's return expectations and risk appetite. Some sponsors are very aggressive and will push leverage as high as possible. Others are more conservative. The sponsor's view of risk and return shapes the leverage level.
+
+In practice, when I am working with a sponsor on a leveraged acquisition, I will calculate a range of leverage levels based on the company's cash flow characteristics:
+
+- Base case: assuming the company's EBITDA remains stable
+- Growth case: assuming EBITDA grows at 3-5% per year
+- Downside case: assuming EBITDA declines 15-25%
+- Severe case: assuming EBITDA declines 30-40% (for cyclical businesses)
+
+From these scenarios, I determine:
+
+- What is the maximum leverage the company can support without breaching covenants in the downside case?
+- What is the maximum leverage that still leaves the company with positive free cash flow?
+- What is the leverage the debt markets will support for a company of this quality?
+
+The intersection of these constraints determines the feasible leverage range. A sponsor might conclude that the company can support 4.0-5.0x leverage. Within that range, the sponsor will choose a leverage level based on their return expectations and risk appetite.
+
+5.2 THE EQUITY CHEQUE AND ITS EVOLUTION
+
+The equity cheque is the amount of cash that the sponsor contributes to the acquisition. It is the difference between the purchase price and the amount of debt raised.
+
+Equity Cheque = Purchase Price - Total Debt
+
+In the LBO boom of 2005-2007, equity cheques were very small—often just 10-20% of the purchase price. This allowed sponsors to use very high leverage (6.0x-8.0x) to acquire companies. The thesis was simple: put in minimal equity, lever up the balance sheet, and use asset sales and operational improvements to pay down debt quickly.
+
+This strategy worked in the boom years, when companies were growing and cash flow was strong. But when the 2008 financial crisis hit, it became clear that the equity cheques were too small. Many transactions that had 6.0x leverage at close could not survive a 20% EBITDA decline. Sponsors were forced to write down their equity because the debt loads were unsustainable.
+
+The reaction after 2008 was a swing to the opposite extreme. Sponsors started putting in much larger equity cheques—30-40% of the purchase price. This gave them significant equity cushion, allowed leverage to be kept below 4.0x, and made deals much safer.
+
+Over time, the market has settled into a middle ground. In the current market (2025), typical equity cheques for mid-market LBOs are 25-35% of the purchase price, which translates to leverage of 4.0-5.0x. For large-cap LBOs, equity cheques tend to be slightly smaller (20-30%), allowing leverage up to 5.5x.
+
+5.3 LEVERAGE MULTIPLES OVER TIME (2005-2025)
+
+Let me give you a historical perspective on how leverage has evolved over the past 20 years.
+
+In 2005-2007 (the boom years before the crisis), average leverage for LBOs was 5.5-6.5x. The most aggressive deals went as high as 7.0-8.0x. Sponsors believed that operational improvements and revenue growth would allow them to deleverage quickly. Debt was cheap and abundant. Leverage was very high.
+
+In 2008-2009 (the financial crisis), leverage crashed as the debt markets seized up. New LBOs were rare, and those that happened were at 3.0-4.0x leverage. Sponsors were chastened by the crisis and wanted to be conservative.
+
+In 2010-2012 (the post-crisis recovery), leverage gradually increased as credit markets reopened. LBOs were happening at 3.5-4.5x leverage as the market stabilised and confidence returned.
+
+In 2013-2015 (the boom years after the crisis), leverage increased further to 4.5-5.5x as credit markets became loose again and investors became more willing to hold risk. This period saw a return to higher leverage, though still below the pre-crisis peak.
+
+In 2016-2018 (consolidation), leverage stabilised in the 4.5-5.5x range for mid-market deals, with some large-cap deals pushing to 6.0x.
+
+In 2019-2020 (COVID and uncertainty), leverage initially held in the 4.5-5.0x range, but as the market adapted to the pandemic and companies proved resilient, leverage climbed back towards 5.0-5.5x.
+
+In 2021-2022 (the peak of the recent cycle), leverage for the most aggressive deals climbed to 6.0-7.0x again, especially for digital transformation targets and high-growth companies. But the average deal was still in the 4.5-5.5x range.
+
+In 2023-2025 (the current market), with interest rates elevated and the credit environment tightening, leverage has pulled back modestly to 4.0-5.0x for mid-market deals and 4.5-5.5x for large-cap deals.
+
+The pattern is clear: leverage is cyclical. In boom times, it gets aggressive. In downturns, it pulls back. The wise sponsor is the one who is conservative in boom times and aggressive in downturns. I have seen sponsors do the opposite, and it rarely ends well.
+
+5.4 THE ROLE OF MANAGEMENT ROLLOVER
+
+One important component of an LBO capital structure that I have not yet addressed is management rollover (or "management equity").
+
+When a sponsor buys a company from a previous owner, management often stays on. To incentivise management to stay and to align their interests with the sponsor, the sponsor will offer management an equity stake in the post-acquisition company. This is called "rollover equity."
+
+A typical rollover might look like this: Management had equity stakes in the old company. When the sponsor acquires the company, management can either sell their equity for cash and walk away, or they can "roll" their equity stake into the new sponsor-owned entity. If they roll, they continue to own a percentage of the company, and they participate in the upside at exit.
+
+The amount of management rollover varies widely. In some deals, management retains 5-10% of equity. In others, it is 15-25%. The amount depends on how important management is to the business, how much equity they had previously, and how much the sponsor values their ongoing commitment.
+
+Why does management rollover matter for capital structure? Because it affects the sponsor's equity contribution. If management is rolling in €10m of equity, the sponsor has to contribute less equity. This can allow the sponsor to use slightly more debt, or to improve their own return.
+
+It also aligns incentives. If management owns 10% of the equity alongside the sponsor, management shares in the upside but also in the downside risk. This creates alignment—management is incentivized to build value and manage the company well, just like the sponsor.
+
+5.5 VENDOR LOAN NOTES AND DEFERRED CONSIDERATION
+
+One last component of LBO capital structures I should mention is vendor financing and deferred consideration.
+
+Sometimes, when a sponsor is acquiring a company from a private owner, the seller is willing to finance part of the purchase price. This is called a "vendor loan note" or "seller note." The seller agrees to lend the sponsor (or more precisely, the acquired company) part of the purchase price, to be repaid over time.
+
+Vendor financing can take several forms:
+
+First, a seller note. The seller agrees to lend €20m at a fixed interest rate (typically lower than the sponsor's cost of debt) to be repaid over 3-5 years.
+
+Second, deferred consideration. The purchase agreement specifies that a portion of the purchase price (say, €30m) is paid at close, and the remainder is paid "as deferred consideration" over time. This deferred consideration is based on the company hitting certain financial targets (EBITDA growth, revenue targets, etc.). If the company hits the targets, the full deferred consideration is paid. If it misses, less is paid.
+
+Third, earnout provisions. Similar to deferred consideration, but structured as a formula where the amount paid is determined by actual results. For example: "For each year EBITDA exceeds €70m, the seller receives an additional €1m."
+
+Vendor financing and deferred consideration are useful because they allow the sponsor to put in less equity at close and to defer some of the purchase price until the business has stabilized and generated cash. They also create alignment between the seller and the sponsor—the seller has a financial stake in the company continuing to perform.
+
+However, vendor financing and deferred consideration also complicate the capital structure. They typically rank below debt but above equity in the waterfall. And they create ongoing obligations to the previous owner, which can complicate future refinancings.
+
+In my experience, vendor financing is most common in middle-market deals where the seller is a founder or long-time owner who has confidence in the business and is willing to bet on its continued success. In large-cap deals, sellers typically want all their cash at close and do not want to stay on the cap table.
+
+
+6. CAPITAL STRUCTURE IN PRACTICE: CASE STUDIES
+
+Let me walk through several real examples of how capital structures work in practice. These are based on actual transactions I have been involved in or observed closely.
+
+6.1 A TYPICAL EUROPEAN MID-MARKET LBO STRUCTURE
+
+Company: German manufacturing business, acquired in 2019
+Purchase price: €400m
+EBITDA: €80m (so enterprise value of 5.0x EBITDA)
+
+The sponsor assembled this capital structure:
+
+- Super senior RCF: €40m (undrawn at close, EURIBOR + 2.75%, 6-year tenor)
+- Term loan B: €220m (EURIBOR + 4.0%, 6-year tenor, 2% amortisation per year)
+- Senior unsecured note: €70m (7.5% fixed coupon, 8-year tenor, private placement)
+- Mezzanine: €30m (8% base + 2% PIK toggle, 8-year tenor, sponsor participation)
+- Equity: €40m (sponsor equity contribution of 10%)
+
+Total leverage at close: 4.0x (€360m debt / €80m EBITDA). (Note: the €40m RCF is included in the leverage calculation even though undrawn, as per standard market practice.)
+
+Let me walk through how this structure works:
+
+The super senior RCF provides liquidity for working capital. The company's business is seasonal—manufacturing ramps up in Q3 and Q4, which requires increased inventory and receivables. The RCF allows the company to finance these seasonal needs without tapping the term loan. In normal quarters, the RCF is mostly undrawn.
+
+The term loan B is the primary debt vehicle. It finances the bulk of the acquisition and has standard LMA documentation with financial covenants testing leverage at 5.5x maximum. The company also has financial covenants on interest coverage (minimum 3.0x) and minimum liquidity (€25m).
+
+The senior unsecured note is held by a European insurance company and a US pension fund. It provides additional leverage in the capital structure. The company covenants to maintain minimum interest coverage of 2.5x (lower than the term loan B covenant, because the senior unsecured lender is subordinated and thus takes more risk). The bond is callable by the company after 4 years at 101% (1% premium), declining to par after 5 years. This gives the company flexibility to refinance if rates decline.
+
+The mezzanine debt is held by a specialist private debt fund. It has a base coupon of 8% (paid in cash) and a PIK toggle of 2%. In normal years, the company pays 8% in cash. In a stress year, the company can PIK the 2%, paying only 6% cash and letting the interest accrue. The mezzanine includes a step-down: if leverage falls below 2.5x, the base coupon steps down to 7%.
+
+The sponsor owns 90% of the equity, with 10% retained by the management team that stayed on post-acquisition.
+
+How does this structure perform over the 6-year hold period?
+
+Year 1-2: Business grows modestly (EBITDA grows to €90m). The company pays down the term loan per its amortisation schedule (€4.4m per year). Leverage falls to 3.6x (€320m debt / €90m EBITDA). RCF remains undrawn. All debt coupons are paid in cash (no PIK on mezzanine). Interest expense is roughly €28m (€220m @ 4% on the term loan, €70m @ 7.5% on the senior unsecured note, €30m @ 10% on the mezzanine = €8.8m + €5.25m + €3m = €17.05m... actually let me recalculate: the term loan is at EURIBOR + 4%, let's say EURIBOR averages 1.5%, so 5.5%; term loan interest is €12.1m; senior unsecured is €5.25m; mezzanine is €3m; total interest is roughly €20.4m).
+
+Year 3: Business hits a slowdown (EBITDA falls to €78m, down 13%). The company is still profitable and generates positive free cash flow. Leverage rises to 4.0x. The company has enough cushion that it does not breach the covenant (which is at 5.5x). The company continues to pay interest in cash. The RCF remains undrawn.
+
+Year 4-5: Business recovers (EBITDA grows back to €95m). The company deleverages significantly, paying down debt from operations. By year 5, leverage has fallen to 2.8x, and the company is well below covenant. The mezzanine coupon has stepped down to 7% due to the leverage threshold being crossed.
+
+Year 6 (exit): The company has been improved operationally, EBITDA is €100m, and the business is valued at 6.0x EBITDA (premium to the entry multiple due to operational improvements and market conditions). Enterprise value is €600m.
+
+The company has debt of €175m remaining (term loan has been amortised from €220m to €175m; the senior unsecured note is held at par; the mezzanine has been paid down to €28m through partial amortisation and deleveraging). Net of debt, equity value is €625m.
+
+The sponsor's 90% stake is worth €562.5m. The sponsor's original €40m investment has turned into €562.5m, a 14x return in 6 years, or roughly 58% IRR. That is a very successful deal.
+
+But notice: this deal was successful not because of luck, but because the capital structure was conservative enough that the company had room to navigate downturns, and the business ultimately performed and was valued well at exit. If the sponsor had levered this deal to 5.5x at close (€440m debt instead of €360m), the company would have breached the covenant in year 3 when EBITDA fell to €78m.
+
+6.2 A LARGE-CAP SPONSOR DEAL
+
+Company: European business services company, acquired in 2017
+Purchase price: €1.2bn
+EBITDA: €200m (so enterprise value of 6.0x EBITDA)
+
+This was a larger deal, and the capital structure reflected the size and quality of the business:
+
+- Super senior RCF: €150m (EURIBOR + 2.25%, 7-year tenor)
+- First lien term loan: €500m (EURIBOR + 3.75%, 7-year tenor, 1.5% amortisation per year)
+- Second lien term loan: €200m (EURIBOR + 5.5%, 8-year tenor, 1% amortisation per year)
+- Senior unsecured notes: €150m (6.0% fixed coupon, 10-year tenor, bond issued publicly)
+- Mezzanine: €50m (9% base + 1% PIK, 10-year tenor)
+- Equity: €150m (sponsor and co-investors)
+
+Total leverage at close: 4.5x (€950m debt / €200m EBITDA).
+
+This is a more complex structure than the mid-market deal. Let me explain the elements:
+
+The first lien term loan is the senior-most debt (after the RCF). It is used by banks to finance their portion of the deal. The first lien covenant is 4.5x leverage maximum.
+
+The second lien term loan is subordinated to the first lien. Under the intercreditor agreement, if the company is in distress, the first lien lender can enforce and sell assets, and the second lien lender has to wait. The second lien covenant is 5.0x leverage maximum. The higher covenant (higher leverage allowed) makes sense, because the second lien has less priority and thus should have more cushion.
+
+The senior unsecured notes are issued publicly and are held by a diverse group of insurance companies, pension funds, and hedge funds. The coupon is fixed at 6.0% (not floating like the loans). The company has a covenant to maintain minimum interest coverage of 2.5x and a maximum leverage covenant of 5.5x.
+
+The mezzanine is held by a private debt manager and includes sponsor co-investment.
+
+The leverage structure is arranged as follows:
+- First lien leverage: 2.5x (€500m / €200m)
+- Senior secured leverage (first lien + second lien): 3.5x
+- Total leverage: 4.5x
+
+This structure was particularly elegant because it had clear defined tiers of leverage at different levels. The first lien lender could see that the company could support €500m of first lien debt with good coverage. The second lien lender could see that there was room for an additional €200m. The overall structure could support 4.5x total leverage with a reasonable covenant cushion.
+
+The deal performed well. Over the 6-year hold period, the company grew EBITDA to €250m through both organic growth and add-on acquisitions. Leverage fell to 2.0x. At exit, the company was valued at 7.0x EBITDA (€1.75bn), debt was paid down to €200m, and equity value was €1.55bn. The sponsor's equity investment of €150m grew to roughly €1.4bn (after dilution for co-investors), a 9.3x return.
+
+6.3 A DISTRESSED CAPITAL STRUCTURE
+
+Company: UK industrial company, restructured in 2016
+Original leverage at close of LBO in 2012: 4.5x (€240m debt / €50m EBITDA)
+Leverage at distress in 2016: 5.8x (€290m debt / €50m EBITDA)
+
+This was a company that hit financial stress due to a combination of factors: a cyclical downturn in the industrial sector, two significant customer losses, and management execution issues.
+
+The original capital structure was:
+- Term loan: €170m (EURIBOR + 4%)
+- Senior unsecured note: €50m (7.5% fixed)
+- Mezzanine: €20m (9% base + 2% PIK)
+
+By 2016, as EBITDA fell due to the downturn and customer losses, the leverage ratio climbed. The company was in breach of its leverage covenant (5.5x maximum). The term loan lender had the right to accelerate the debt.
+
+Rather than force a bankruptcy, the lender agreed to negotiate a restructuring. The new capital structure was:
+
+- Amended term loan: €120m (reduced from €170m, with €50m forgiven as part of the restructuring)
+- Senior notes from the term loan lender (newly issued in the restructuring): €40m (subordinated to new term loan, 10% fixed coupon, 5-year tenor)
+- Mezzanine (reduced): €15m (from €20m; the mezzanine holders took a €5m loss to consent to the restructuring)
+- New sponsor equity: €15m (injected by the sponsor to support the restructuring)
+
+Total debt in the restructured company: €175m vs. EBITDA of €50m = 3.5x leverage.
+
+This restructuring worked as follows: The term loan lender took a €50m loss (they forgave €50m of debt and issued only €40m of new subordinated notes). The mezzanine holders took a €5m loss (they agreed to reduce their debt from €20m to €15m). The sponsor injected €15m of new equity to support the restructuring. In total, there was €70m of loss/dilution in the capital structure.
+
+This restructuring allowed the company to survive and eventually recover. Over the next 4 years, the company stabilized, the industrial cycle improved, new customers were won, and EBITDA grew back to €65m. The restructured capital structure had conservative leverage (3.5x) that allowed the company to operate and recover without being constantly in distress.
+
+The interesting thing about this case is the role of the sponsor. In many distressed situations, the sponsor walks away and the debt holders are left to manage. In this case, the sponsor injected new capital to support the restructuring. Why? Because the sponsor believed in the business and saw a pathway to recovery. By putting in money after distress, the sponsor signaled their commitment, which helped the debt holders believe in the restructuring plan.
+
+6.4 HOW CAPITAL STRUCTURES EVOLVE OVER THE LIFE OF A LOAN
+
+Finally, let me discuss how capital structures change over the life of a deal, not just due to operational performance, but due to strategic actions by the company and the sponsor.
+
+A typical LBO goes through several phases:
+
+Phase 1 (Years 1-2): Stabilization and integration. The company is integrated into the sponsor's portfolio. Management is strengthened if needed. Early cost savings are implemented. The capital structure remains largely stable, as the priority is to stabilize the business.
+
+Phase 2 (Years 2-4): Add-on acquisitions. Once the company is stable, the sponsor begins to deploy the equity and debt capacity to acquire bolt-on businesses. These add-ons are typically funded with a mix of the RCF (drawn), incremental debt (if available), and cash from operations. The capital structure evolves as each add-on is completed.
+
+Phase 3 (Years 4-6): Optimization. As the company matures and debt is paid down, the sponsor might refinance debt to extend maturity, reduce cost of debt, or simplify the structure. Alternatively, the sponsor might take out a dividend (a special distribution of cash to the sponsor/equity holders).
+
+Phase 4 (Year 6+): Exit preparation. As the exit approaches, the sponsor begins to clean up the capital structure. Mezzanine might be paid off with cash or refinanced into senior debt. The company is presented to potential buyers with a clean, simplified structure.
+
+Let me give a real example of this evolution. A deal I worked on:
+
+Close: 2012, €300m purchase price
+- Term loan: €200m (EURIBOR + 4%, 6-year)
+- Senior unsecured: €50m (7% fixed, 8-year)
+- Mezzanine: €30m (9% base + 1% PIK, 8-year)
+- Equity: €20m (sponsor)
+
+EBITDA: €60m, leverage: 4.17x
+
+Year 1-2: Business stabilizes. Leverage falls to 3.8x due to deleveraging from operations.
+
+Year 3: First bolt-on acquisition. The company acquires a smaller competitor for €80m. Funded with €40m from the RCF (drawn) and €40m of new incremental term loan debt. New debt: €240m term loan (€200m original + €40m incremental), €50m senior unsecured (unchanged), €30m mezzanine (unchanged). EBITDA grows to €75m (including bolt-on). Leverage: 4.0x.
+
+Year 4: Second bolt-on acquisition. Another €60m acquisition. Funded with additional RCF drawdown (€30m) and €30m of new incremental debt. Term loan now at €270m. EBITDA grows to €90m. Leverage: 3.67x.
+
+Year 5: Dividend. The company has now deleveraged and generated strong cash flow. The sponsor takes a dividend of €80m from the company's excess cash. This is sometimes called a "recapitalization" or "dividend recapitalization." The company's cash balance drops, and leverage ticks up slightly to 3.77x, but the sponsor gets cash back and the sponsor's equity IRR improves.
+
+Year 6: Exit preparation and refinancing. The original term loan is set to mature in 1 year. Rather than let it mature, the company refinances with a new 7-year term loan and also pays down the mezzanine with cash. New term loan: €220m (reduced from €270m). Mezzanine: €15m (reduced from €30m). Senior unsecured: €50m (unchanged). Total debt: €285m. EBITDA: €100m (growth continues). Leverage: 2.85x.
+
+The company is now in a very clean position for exit: single tranche term loan, limited mezzanine, no RCF outstanding, leverage at 2.85x, and growing cash flow. A buyer can acquire the company with a clean balance sheet and room to lever it up if they choose.
+
+This is how capital structures evolve in practice. They start at one configuration at close, but evolve substantially over the life of the deal as the company grows, acquisitions are made, and debt is paid down.
+
+
+7. THE ACCORDION AND INCREMENTAL FACILITIES
+
+One of the most important mechanisms in modern LBO debt documents is the "accordion" or "incremental facility" provision. This is the mechanism by which a company can incur additional debt during the life of a loan without refinancing the entire capital structure.
+
+Let me explain how this works, because it is crucial to understanding how LBOs function in practice.
+
+7.1 HOW INCREMENTAL DEBT CAPACITY WORKS
+
+An accordion provision is typically stated in the term loan agreement in something like this form:
+
+"The company may incur additional term loans (Incremental Term Loans) in an aggregate principal amount not to exceed the greater of (a) €100m, (b) ratio-based incremental capacity (as calculated below), or (c) free-and-clear incremental capacity (as calculated below)."
+
+This provision gives the company three different baskets to incur additional debt:
+
+First, a hard cap (€100m in this example). The company can incur up to €100m of incremental debt without any conditions.
+
+Second, ratio-based capacity. This is a formula that allows the company to incur additional debt if it meets certain financial ratios after giving effect to the debt. Typical formulas include:
+- "An amount such that pro forma leverage (including the incremental term loan) does not exceed 4.5x"
+- "An amount such that pro forma interest coverage (excluding the incremental term loan) remains above 2.5x"
+
+Third, free-and-clear capacity. This allows the company to incur additional debt if certain conditions are met, such as:
+- "The company has generated cumulative free cash flow of €50m since close of the transaction"
+- "The company is not in breach of any covenant"
+- "No material adverse change has occurred"
+
+The accordion is incredibly important for sponsors, because it allows them to finance add-on acquisitions without triggering a full refinancing. Instead of refinancing the entire capital structure, the company simply draws an incremental term loan for the acquisition.
+
+7.2 THE "MOST FAVOURED NATION" PROTECTION
+
+An important protection for incremental lenders is the "most favoured nation" (MFN) or "market flex" provision.
+
+This provision states that if the company incurs incremental debt at a lower price than the original term loan, the original term loan lenders have the right to reduce their pricing to match. For example:
+
+- Original term loan: EURIBOR + 4.0%
+- Incremental term loan (new accordion draw in year 3): EURIBOR + 3.5%
+
+The original lenders would have an MFN right to reduce their pricing to EURIBOR + 3.5% to match. This protects them from being left holding higher-priced debt while new lenders get better terms.
+
+The MFN right is typically capped (e.g., "MFN right applies only if the increment is more than 50 basis points lower"). It is also typically time-limited (e.g., "MFN right applies only for incremental debt incurred in the first 2 years after close").
+
+The MFN is an important negotiation point. New accordion lenders will push for a broad MFN protection. Original lenders will resist. The truth is somewhere in the middle—some MFN protection is fair, but you do not want to let the new lender force an MFN on the original lenders.
+
+7.3 RATIO-BASED INCREMENTAL DEBT
+
+Let me give a concrete example of how ratio-based incremental capacity works.
+
+A company closes with:
+- Term loan: €200m
+- EBITDA: €60m
+- Leverage: 3.33x
+
+The accordion allows: "Incremental term loans such that pro forma leverage (including all debt) does not exceed 4.5x."
+
+If the company wants to incur an incremental term loan to fund an acquisition, how much can it borrow?
+
+Calculation:
+- Maximum debt at 4.5x leverage = €60m EBITDA × 4.5 = €270m
+- Current debt = €200m
+- Available capacity = €270m - €200m = €70m
+
+The company can incur up to €70m of incremental term loans.
+
+But there is a catch: the calculation is typically done on a "pro forma" basis, meaning you include the incremental debt and also any assumptions about the acquired company's EBITDA contribution. Let me make this more complex:
+
+The company wants to acquire another business for €100m. The acquired business has €12m of EBITDA. The company will fund this with €70m of incremental term loan and €30m of cash.
+
+Pro forma calculation:
+- Original EBITDA: €60m
+- Acquired EBITDA: €12m
+- Total pro forma EBITDA: €72m (sometimes with a haircut for integration risk, e.g., 90% × €12m = €10.8m)
+- Current debt: €200m
+- New incremental debt: €70m
+- Total pro forma debt: €270m
+- Pro forma leverage: €270m / €72m = 3.75x
+
+This is below 4.5x, so the acquisition is permitted under the accordion.
+
+7.4 FREE-AND-CLEAR INCREMENTAL BASKETS
+
+Some LBO documents include a "free-and-clear" incremental basket that allows the company to incur debt without any ratio test, so long as certain conditions are met.
+
+A typical free-and-clear basket might allow:
+- "Incremental term loans in an amount up to the amount of cumulative free cash flow generated since close, provided that (a) no default exists, (b) the company is in compliance with all covenants, and (c) the incremental term loan is used for permitted purposes (acquisitions, capital expenditure, working capital)."
+
+The idea is simple: if the company has generated cash from operations, that cash has reduced leverage. So the company should be able to borrow against that cash generation without further testing.
+
+Let me give an example:
+- Close: €200m term loan
+- Year 1-3: Company generates €40m of cumulative free cash flow and uses it to pay down the term loan
+- Debt now: €160m
+- The company has a free-and-clear incremental basket equal to the cumulative free cash flow (€40m) so long as it is not in default
+
+The company can borrow up to €40m of new incremental debt without any ratio testing, as long as covenants are being met.
+
+This is very useful because it allows the company to fund acquisitions without refinancing or worrying about leverage ratios, so long as the company has been deleveraging and generating cash.
+
+7.5 THE INTERACTION WITH DEBT COVENANTS
+
+The accordion interacts with debt covenants in important ways.
+
+Most LBO documents include a leverage covenant that must be tested at each quarter-end. But many documents also include a provision that says the leverage covenant test is "stepped down" over time.
+
+A typical staircase might be:
+- Years 1-2: 5.5x leverage maximum
+- Years 3-4: 5.25x leverage maximum
+- Years 5+: 5.0x leverage maximum
+
+This staircase creates pressure on the company to deleverage over time. As the company is required to maintain lower and lower leverage, it becomes harder to incur additional debt under the accordion (because the leverage covenant becomes tighter).
+
+This is intentional. The idea is that in the early years of the LBO, when the company is still integrating and optimizing, leverage can be higher. As the company matures and debt has been paid down, leverage should be coming down.
+
+The interaction between the accordion and the covenant stepdown can create complex dynamics. A company that has incurred maximum accordion debt in year 2 might find itself unable to incur additional debt in year 4 if the leverage covenant has tightened and the company's EBITDA has not grown sufficiently to support both the existing debt and additional leverage.
+
+This is why sponsors pay close attention to the covenant staircase when negotiating LBO documentation. Too-tight a staircase can handcuff the company. Too-loose a staircase can create risk for lenders.
+
+The typical compromise in the market is a staircase that steps down by 0.25x every 1-2 years, with a final leverage covenant of 5.0x. This provides a reasonable balance between early-period flexibility and long-term deleveraging discipline.
+
+
+8. REFINANCING AND REPRICING
+
+Refinancing is one of the most important strategic tools available to sponsors during the life of an LBO. It is also one of the most complex pieces of capital structure management.
+
+Let me walk through the mechanics and the strategy.
+
+8.1 WHEN AND WHY COMPANIES REFINANCE
+
+There are several reasons why a company might refinance its debt during the life of an LBO:
+
+First, maturity management. The original term loan might be set to mature in year 7. As maturity approaches, the company needs to either repay the debt or refinance it. Most companies cannot repay in full, so they refinance—essentially, they issue a new loan to pay off the old loan.
+
+Second, cost reduction. If interest rates have fallen, or if the company's credit profile has improved, the company might refinance to reduce its cost of debt. For example, a company that borrowed at EURIBOR + 4.0% in 2015 might be able to refinance at EURIBOR + 3.0% in 2017 if rates have fallen. That is a 1% savings in annual cost, which on €200m of debt is €2m per year.
+
+Third, leverage reduction. If the company has paid down debt or grown EBITDA, the leverage ratio will have fallen. The company might refinance to lock in the improved profile, perhaps extending maturity and reducing annual amortization to preserve cash and improve the path to future dividends.
+
+Fourth, add-on funding. The company wants to acquire a bolt-on business, and refinancing the existing debt allows the company to access the incremental accordion capacity or even refinance out to a larger debt amount to fund the acquisition.
+
+Fifth, simplification. The capital structure might have become complex (perhaps with multiple tranches of debt, mezzanine, etc.). A refinancing might clean this up—paying off the mezzanine, consolidating the term loan and senior unsecured into a single facility, and presenting a cleaner structure to the market.
+
+Sixth, dividend. The company has improved and deleveraged significantly. The sponsor wants to take a dividend (a special cash distribution). A refinancing might allow the company to borrow cash to pay the dividend, or to optimize the capital structure to enable the dividend.
+
+8.2 THE REPRICING TRANSACTION MECHANICS
+
+A refinancing transaction has several components. Let me walk through a typical repricing.
+
+Suppose a company with the following structure wants to refinance:
+
+Current structure (Year 3 of 6-year LBO):
+- Term loan: €200m (EURIBOR + 4.0%, 4-year remaining maturity)
+- Senior unsecured: €50m (7% fixed, 5-year remaining maturity)
+- RCF: €50m (undrawn, EURIBOR + 2.75%, 4-year remaining maturity)
+
+The company's profile:
+- EBITDA: €75m (grown from €60m at close)
+- Leverage: 3.33x (down from 3.75x at close)
+- Interest coverage: 3.2x (EBITDA / gross interest expense)
+
+The sponsor and the company's management believe the company's credit profile has improved and the company can refinance at a lower cost. They approach the incumbent lenders with a proposal to refinance the term loan and RCF.
+
+The refinancing proposal:
+- New term loan: €200m (EURIBOR + 3.0%, 5-year tenor, unchanged from the original 1.5% amortization)
+- New RCF: €50m (EURIBOR + 2.0%, 5-year tenor)
+- Senior unsecured: unchanged (held by original investors)
+
+The refinancing is achieved through a "refinancing amendment" to the original term loan agreement. The agreement is amended to reduce the spread by 100 basis points on the term loan and 75 basis points on the RCF. The original lenders are incentivized to consent because the volume of debt they are holding is unchanged, and the refinancing locks them in for another 5 years.
+
+If the original lenders do not consent (or if there are new lenders who want to participate), the company might do a "refinancing facility" instead. This is a new term loan that is issued to pay off the old term loan. The company gets to shop the new loan to multiple lenders and get the best pricing available. The lenders are typically syndicated broadly to distribute the risk.
+
+8.3 SOFT CALL PROTECTION AND HARD CALL PROTECTION
+
+Refinancing involves calls—the right to prepay debt early. Different debt instruments have different call protections.
+
+Soft call protection is a provision that allows the lender to require the company to pay a premium (a "soft call premium") if the company refinances within a certain period. For example:
+
+"If the company refinances more than 50% of the term loan within 2 years of close, the company must pay a premium of 1% of the refinanced amount to the lenders."
+
+The idea is to compensate lenders for the loss of yield if the company refinances early. The lender expected to hold the debt for several years at a certain spread; if the company refinances early, the lender loses that expected yield.
+
+Hard call protection is a complete prohibition on refinancing within a certain period. For example:
+
+"The company cannot refinance the term loan within 1 year of close."
+
+Hard call protection is less common in modern LBO documents, because it gives lenders too much protection. Soft call protection is more balanced—it allows refinancing but compensates lenders for early repayment.
+
+Soft call premiums typically decline over time:
+- Years 0-1: 1% soft call premium
+- Years 1-2: 0.75% soft call premium
+- Years 2-3: 0.50% soft call premium
+- Year 3+: 0% soft call premium (no soft call protection)
+
+This structure gives lenders some protection in the early years but allows the company to refinance freely after 3 years without penalty.
+
+8.4 THE EUROPEAN APPROACH TO CALL PROTECTION
+
+The European approach to call protection is somewhat different from the US approach.
+
+In Europe, call protection is often structured as a "make-whole" provision. The lender gets compensated for early repayment not with a fixed premium, but with a payment equal to the present value of the remaining coupons the lender would have received. This is calculated using a discount rate (typically the mid-market swap rate for a similar maturity).
+
+A make-whole calculation might look like this:
+
+A lender holding €10m of EURIBOR + 4.0% debt with 3 years remaining wants to be paid off early. The make-whole calculation is:
+
+- Remaining annual coupon: €10m × 4.0% = €400k per year (ignoring EURIBOR, which adjusts floating)
+- Discount rate (mid-market swap for 3-year EUR): 2.5%
+- Present value of remaining coupons: €400k / (1.025) + €400k / (1.025)^2 + €400k / (1.025)^3 = €400k × 2.86 = €1.144m
+- Make-whole payment: €1.144m
+
+So the lender would be paid the €10m principal plus €1.144m of make-whole, totaling €11.144m, to compensate for early repayment.
+
+Make-whole provisions are more precise than fixed premiums, because they actually measure the economic loss to the lender. However, they are also more complex, and in a refinancing scenario, they can be quite expensive if rates have fallen (because the present value of future coupons becomes very high).
+
+In practice, many European LBO documents include both a soft call premium (for the first 2 years) and then a make-whole provision (after 2 years, until call protection expires). This provides lenders with meaningful protection early, but allows refinancing on economically neutral terms (the make-whole) later.
+
+The reason make-whole is more common in Europe is partly because of the sophistication of European bond investors (who are familiar with make-whole from the bond markets) and partly because European lenders are more protective of their interests than US lenders.
+
+
+9. UNITRANCHE AND THE DIRECT LENDING ALTERNATIVE
+
+One of the most significant developments in leveraged finance over the past 15 years has been the rise of unitranche debt and direct lending. These have materially changed how capital structures are built.
+
+9.1 HOW UNITRANCHE STRUCTURES WORK
+
+Unitranche is a single pool of debt that combines features of first lien and second lien debt. All unitranche lenders have the same security (they are pari passu on collateral), but they have different rights in distress depending on their status (first-out, last-out, etc.).
+
+The key innovation of unitranche is that it eliminates the complex intercreditor agreements that are necessary with first lien / second lien structures. Instead, all lenders are party to the same agreement, and an "agreement among lenders" (AAL) governs how enforcement and recovery work.
+
+Let me explain with an example.
+
+A traditional first lien / second lien structure looks like this:
+
+- First lien term loan: €150m (EURIBOR + 3.5%)
+- Second lien term loan: €50m (EURIBOR + 5.5%)
+- Intercreditor agreement: governs priority, enforcement, standstill, etc.
+
+The two tranches have different pricing because they have different risk. The first lien lender is paid first, so they accept a lower spread. The second lien lender is paid second, so they demand a higher spread.
+
+A unitranche structure looks like this:
+
+- Unitranche term loan: €200m (EURIBOR + 4.25%)
+- All lenders are pari passu on collateral
+- AAL: governs first-out / last-out mechanics if company is in distress
+
+In the unitranche structure, all lenders hold the same debt and have the same security. But the pricing is blended—it is not as cheap as first lien but not as expensive as second lien. In this example, the blended pricing is 4.25%, versus 3.5% for first lien and 5.5% for second lien.
+
+This seems worse for the sponsors (they are paying more than they would in first lien), but it is actually often better when you consider the full picture.
+
+Why? Because the cost of managing intercreditor relationships is saved. There is no need to negotiate standstill provisions, enforcement rights, voting rules, and all the other complex provisions that come with first lien / second lien structures. The documentation is simpler, the negotiation is faster, and the operational complexity is lower.
+
+For sponsors and management, unitranche is also often preferred because the single pool of lenders (rather than fragmented first and second lien groups) is often more willing to work out the company in distress. There is no conflict between first and second lien lenders fighting over recovery.
+
+9.2 THE AGREEMENT AMONG LENDERS (AAL) IN UNITRANCHE
+
+The agreement among lenders is the document that governs how lenders interact in a unitranche structure.
+
+The AAL typically includes provisions for:
+
+First, allocation of recovery. The AAL specifies that in distress, if the company is liquidated and cash is recovered, the first portion of cash goes to pay interest and fees, then to repay principal on a pro rata basis to all lenders (the first-out layer). Once all lenders have been repaid a certain amount (typically the first-out amount, which might be 50% of each lender's original commitment), the remaining cash is allocated to the last-out lenders in proportion to their commitment.
+
+Second, control and enforcement. The AAL typically specifies that the largest lender (or a lender group) has control rights to negotiate a workout. This prevents conflicting enforcement efforts by different lender groups.
+
+Third, amendment rights. The AAL specifies how the loan agreement can be amended. Typically, amendments that affect payment priority or recovery rights require consent of a supermajority of lenders (e.g., 66-75%).
+
+Fourth, information rights. All lenders have equal information rights—they receive the same financial information and have the same visibility into the company.
+
+The AAL is less contentious than intercreditor agreements, because all lenders are on equal footing from the start. There is no negotiation about priority on collateral (because all lenders are pari passu). The AAL simply governs how recovery is shared if the company is in distress.
+
+9.3 FIRST-OUT / LAST-OUT STRUCTURES
+
+Within unitranche, there is often a distinction between "first-out" and "last-out" lenders. This is a way to create risk differentiation without creating formal priority.
+
+A typical first-out / last-out structure might look like this:
+
+- Total commitment: €200m
+- First-out layer: €100m (from Bank A and Bank B)
+- Last-out layer: €100m (from a direct lender or hedge fund)
+
+The way this works:
+- In distress, the first €100m of recovery goes to the first-out lenders
+- Once the first-out lenders have been fully recovered (their €100m principal + accrued interest), the remaining recovery goes to the last-out lenders
+- The first-out lenders are typically paid more aggressively (they have control rights, can force refinancing, etc.)
+- The last-out lenders have less control and are relied upon to work with the company in distress
+
+The pricing reflects the different risk:
+- First-out layer: EURIBOR + 3.75%
+- Last-out layer: EURIBOR + 5.0%
+
+The blended cost (weighted average of the two layers) is 4.375%, which is between the cost of a pure first lien (3.5%) and a pure second lien (5.5%).
+
+First-out / last-out structures are very common in the direct lending market, where sponsors want to create sub-tranches within a unitranche to appeal to different investor types.
+
+9.4 HOW DIRECT LENDING IS CHANGING CAPITAL STRUCTURES
+
+Direct lending has become increasingly important in the LBO market. Direct lenders are non-bank lenders (often insurance companies, pension funds, or specialized lending firms) that provide debt capital directly to companies.
+
+Direct lending has changed capital structures in several ways:
+
+First, it has provided an alternative to traditional bank leverage. Rather than relying on a bank syndicate, sponsors can access capital from direct lenders who are willing to hold leveraged debt for the life of the investment.
+
+Second, it has enabled longer-duration capital structures. Direct lenders often prefer 7-10 year tenors, versus the 5-7 year tenors typical of banks. This allows companies to go through a full cycle without refinancing.
+
+Third, it has introduced more flexible covenants. Direct lenders, particularly those managing long-term capital, are more willing to accept lightly-covenanted debt (with fewer financial covenants, more reliance on negative covenants).
+
+Fourth, it has enabled larger mezzanine tranches. As direct lending has grown, mezzanine lending has become more developed. This has allowed sponsors to structure transactions with significant mezzanine components, using the direct lending market to absorb the risk.
+
+Fifth, it has introduced more customized structures. Direct lenders will often customize structures to meet the specific needs of sponsors and companies. This is in contrast to traditional banks, which prefer standardized structures.
+
+For example, a sponsor might approach a direct lender with a request for a "flexible unitranche" that includes:
+- Base term loan: €150m (EURIBOR + 4.0%, 7-year tenor, 1% amortization)
+- PIK toggle: ability to elect to PIK up to 1.5% of the coupon (instead of paying in cash)
+- Accordion: ability to incur up to €50m of incremental term loans without refinancing
+- Dividend basket: ability to pay €20m of dividends per year if leverage is below 3.5x
+
+A traditional bank would push back on all of these provisions (they complicate documentation, create risk, and require ongoing administration). A direct lender might accept all of them, because they have the scale and sophistication to manage the complexity.
+
+The rise of direct lending has made capital structures more flexible, more diverse, and more tailored to specific situations. This is good for sponsors and companies, but it has also fragmented the credit market—rather than having a single syndicated bank facility, a company might have multiple lenders (direct lenders, banks, mezzanine investors) with different agendas, creating operational complexity in managing the capital structure.
+
+
+10. WHAT TWENTY YEARS TEACHES
+
+I have spent the majority of my career building capital structures, negotiating with lenders, working through refinancings, and navigating distress. What have I learned?
+
+First, conservatism is underrated. I have seen far more deals destroyed by too much leverage than by too little. The sponsor that puts in 35% equity (implying 4.5x leverage) instead of 25% equity (implying 6.0x leverage) does not feel good when the deal is being announced. The equity return is lower. But when the inevitable downturn comes, the conservative sponsor survives and exits with a successful deal, while the aggressive sponsor is in distress.
+
+The corollary is that leverage multiples are cyclical. In boom times, everyone is levering transactions aggressively. "It will grow so fast" is the refrain. "We will deleverage in two years." In distress, that thesis gets tested, and it is not pretty. The wise sponsor remembers the downturns and is conservative in boom times.
+
+Second, covenants matter profoundly. A capital structure with tight covenants constrains the company. Management cannot invest, cannot acquire, cannot pivot strategy, because every action risks a covenant breach. A capital structure with loose covenants gives management room to operate, but exposes lenders to risk. The best capital structures balance these concerns.
+
+Third, diversity of lenders is important. A capital structure with multiple tranches (term loan, senior unsecured, mezzanine) and multiple lenders (banks, bonds, direct lenders) is more resilient than a capital structure with a single large bank tranche. In distress, having multiple lenders with different perspectives and loss functions makes negotiations complex, but it also makes consensus-driven solutions more likely.
+
+Fourth, intercreditor relationships are critical and underappreciated. The written intercreditor agreement matters, but so does the relationship between senior and subordinated lenders. If the lenders have a constructive relationship and trust each other, intercreditor negotiations in distress can be productive. If they are adversarial, the company suffers. I have seen companies survive terrible markets because lenders cooperated, and I have seen companies fail in decent markets because lenders were fighting each other.
+
+Fifth, PIK debt is a pressure valve but a dangerous one. The ability to PIK interest when cash is tight is valuable. But PIK compounds, and if a company is PIKing for years, the debt load becomes unmanageable. PIK is appropriate for companies with growth trajectories where the PIK is temporary. PIK is dangerous for stable or declining businesses.
+
+Sixth, mezzanine is the business of taking risk at a defined price. Mezzanine investors understand they are being paid a 12-15% blended return (cash plus PIK) to take the risk of being paid last. In a good business with reasonable leverage, mezzanine investors make very good returns. In a bad business or a too-levered capital structure, mezzanine investors lose everything. The key to successful mezzanine investing is rigorous underwriting of the core business.
+
+Seventh, refinancing is an underrated tool. Many sponsors are focused on deleveraging (paying down debt from operations). But refinancing—extending maturity, reducing cost, simplifying structure—is just as important. A company that has improved in quality should refinance to lock in that improvement and reduce future refinancing risk.
+
+Eighth, leverage metrics are tools, not gospel. The fact that a company is at 4.5x leverage does not tell you whether it is safe or risky. You have to understand the business, the stability of cash flows, the capital intensity, the market dynamics. I have seen companies that were comfortable at 5.0x leverage (stable cash flows, growth investments funded separately) and companies that were in distress at 3.5x leverage (deteriorating market, management issues). The metrics give you a starting point for analysis, but they are not the end of it.
+
+Ninth, sponsors and lenders win or lose together. The best relationships I have seen are where sponsors and lenders share information, communicate regularly, and work towards the company's success. The worst relationships are where sponsors and lenders are in an adversarial stance, trying to extract value from each other. When things are going well, this does not matter. When things are going poorly, it is critical.
+
+Tenth, humility is essential. Every sponsor has thought they were building the perfect capital structure. Circumstances change. Businesses deteriorate or improve faster than expected. Interest rates spike or crash. Credit markets seize up. The wise sponsor is humble about what they cannot control, conservative about what they think they can predict, and decisive in responding to change.
+
+In 2006, I worked on a €300m buyout at 6.5x leverage that seemed perfectly reasonable. By 2008, it was a distressed situation. The business had not failed, but the leverage was unsustainable in a credit crisis. The sponsor had to take significant equity losses and massive time-intensive workouts. If they had leveraged at 4.5x instead, the deal would have sailed through the crisis.
+
+That deal taught me more about capital structure than any academic paper or deal model ever could.
+
+
+PRACTITIONER'S CHECKLIST: CAPITAL STRUCTURE FUNDAMENTALS
+
+When structuring a leveraged acquisition, work through this checklist:
+
+UNDERSTANDING THE BUSINESS
+___ Have you modeled EBITDA under base, growth, downside, and severe stress cases?
+___ Have you identified the cyclicality and volatility of the business?
+___ Have you calculated the company's free cash flow after maintenance capex?
+___ Have you stress-tested the company's ability to service debt under stress scenarios?
+___ Do you understand the capital intensity and future capex requirements?
+___ Have you identified key risks to the business and quantified their impact on cash flow?
+
+DESIGNING THE CAPITAL STRUCTURE
+___ Have you decided on the target leverage level and validated it against stress cases?
+___ Have you chosen the optimal mix of senior secured, senior unsecured, and subordinated debt?
+___ Have you modeled the cost of capital across different debt tranches?
+___ Have you decided on tenor and amortization schedules for each debt tranche?
+___ Have you determined covenant levels and tested them against stress cases?
+___ Have you decided on RCF sizing (typically 10-15% of capitalization)?
+___ Have you decided on management rollover percentage and tax treatment?
+___ Have you determined the equity contribution (sponsor equity percentage)?
+
+FINANCING EXECUTION
+___ Have you syndicated the debt to multiple lenders?
+___ Have you negotiated MFN protection for original lenders if incremental debt will be raised?
+___ Have you documented call protection (soft call vs. hard call vs. make-whole)?
+___ Have you negotiated accordion provisions to allow incremental debt?
+___ Have you addressed intercreditor relationships (if first lien / second lien structure)?
+___ Have you finalized all security documentation and collateral packages?
+___ Have you addressed subordination and PIK toggles (if applicable)?
+
+THROUGH-CYCLE MANAGEMENT
+___ Does your covenant structure allow the company to operate flexibly without constant breach risk?
+___ Have you built in sufficient covenant headroom for downside scenarios?
+___ Have you planned for refinancing/extension around year 4-5 (before maturity)?
+___ Have you identified acquisition targets and addon financing capacity?
+___ Have you modeled the impact of potential cost inflation or margin pressure?
+___ Have you stress-tested the impact of a 25-40% EBITDA decline on leverage?
+___ Have you planned for dividend capacity in your base case?
+
+DOWNSIDE PLANNING
+___ What is the company's minimum EBITDA below which the capital structure becomes unmanageable?
+___ What triggers would require a covenant waiver or restructuring?
+___ How quickly could the company reduce expenses if revenue declined?
+___ What is the equity cushion if leverage rises to 6.0x or higher?
+___ Have you identified which creditors would be most important to cooperate in a workout?
+___ Have you modeled alternative repurposing of capital (asset sales, dividend reduction, etc.)?
+
+EXIT PLANNING
+___ What is the assumed leverage at exit (typically 2.0-3.0x)?
+___ How much debt will need to be repaid from sale proceeds at exit?
+___ What is the equity value to the sponsor at exit under base and bull cases?
+___ Have you calculated the implied IRR to the sponsor?
+___ Have you modeled the impact of partial refinancing or dividend recapitalization on the exit return?
+
+---
+
+END OF CHAPTER 5
+
+This chapter represents the comprehensive framework for understanding capital structure in leveraged finance. The principles outlined here have been tested across market cycles, across industries, and across the career of a senior practitioner who has seen the best times and the worst times in leveraged finance. The goal is not to provide academic precision, but rather practical wisdom—the kind that comes from having done the work, made the mistakes, and learned from both successes and failures.
+
+The capital structure is the foundation. Build it well, and you have optionality. Build it poorly, and you have a disaster waiting to happen.

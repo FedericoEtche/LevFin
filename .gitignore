@@ -1,0 +1,34 @@
+# .gitignore — LevFin Book project
+# Keeps version control to the real deliverables; excludes junk and temp files.
+
+# --- Microsoft Office lock files (created automatically while a file is open) ---
+~$*.docx
+~$*.xlsx
+~$*.xls
+~$*.pptx
+
+# --- LibreOffice lock files (created during recalc / PDF conversion) ---
+.~lock.*#
+
+# --- Operating-system / sync junk ---
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# --- Python artifacts (from model-editing / recalc scripts) ---
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# --- Temp & conversion artifacts ---
+*.tmp
+*~
+slide-*.jpg
+thumbnails.jpg
+
+# --- Editor / IDE settings ---
+.vscode/
+.idea/

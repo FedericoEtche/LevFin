@@ -1,0 +1,3090 @@
+Chapter 34
+
+Case Study — Meridian Plasma Group
+
+The following case study is based on a composite of publicly available information about companies in the plasma therapeutics sector. Company name, specific figures, and certain details have been adjusted for teaching purposes. Any resemblance to actual transaction outcomes is coincidental.
+
+The Opportunity
+
+It's March 2024. You're a Vice President at Helios Capital Partners, a €65 billion European alternative asset manager investing across private equity, credit, and infrastructure. Your Managing Director has just forwarded you an email from Deutsche Bank's Financial Sponsors Group:
+
+  "Meridian Plasma Group — potential take-private. Family shareholders exploring strategic options following recent market dislocation. Indicative EV €14-16bn. Preliminary materials attached. Expression of interest due in two weeks."
+
+Meridian is one of the world's largest plasma therapeutics companies — a business you've tracked for years but never seriously underwritten because the founding family maintained tight control and the valuation never made sense. Now, after a turbulent twelve months that saw the stock drop 40% from its peak, the family is finally ready to talk.
+
+Your MD's message is brief: "This could be interesting. Build the model. Let's see if the math works."
+
+Company Overview
+
+History and Ownership
+
+Meridian Plasma Group S.A. traces its origins to 1912, when Dr. Henrik Lindqvist established a clinical laboratory in Stockholm focused on blood analysis and transfusion medicine. The company pioneered early plasmapheresis techniques in the 1950s and began commercial plasma fractionation in the 1970s.
+
+Through a series of acquisitions — most notably Atlantis Biologics (US, 2011) and Nordic Plasma Systems (Germany, 2022) — Meridian transformed from a regional European player into a global leader. Today, it operates the world's second-largest private plasma collection network and ranks among the top three plasma-derived medicine manufacturers globally.
+
+The Lindqvist family retains approximately 31% of voting rights through a dual-class share structure (Class A: one vote per share; Class B: ten votes per share). The family has held board seats continuously since founding, though day-to-day management transitioned to professional executives in 2019 following governance reforms.
+
+Current Listings:
+
+-   Stockholm Stock Exchange (Primary): MPG, MPG-B
+
+- NASDAQ (ADR): MPGR
+
+Employees: ~24,500 globally
+
+Headquarters: Stockholm, Sweden (operational HQ in Dublin for tax purposes)
+
+Business Segments
+
+Biotherapeutics (76% of FY2023 Revenue)
+
+Meridian's core business transforms donated human plasma into life-saving therapeutic proteins through a complex manufacturing process called fractionation.
+
+Product Portfolio:
+
+| Product Category | Key Products | FY2023 Revenue | Growth | Use Cases |
+
+|------------------|--------------|----------------|--------|-----------|
+
+| Immunoglobulins | Immunex IV, Immunex SC | €3,420m | +14% | Primary/secondary immunodeficiency, neurological disorders |
+
+| Albumin | Albunex 20%, 25% | €1,580m | +18% | Critical care, liver disease, surgery |
+
+| Alpha-1 Antitrypsin | Prolunex | €485m | +3% | Genetic emphysema (Alpha-1 deficiency) |
+
+| Specialty Products | Factor VIII, Fibrinogen, Hyperimmunes | €415m | +7% | Hemophilia, bleeding disorders, specific infections |
+
+| Total Biotherapeutics | | €5,900m | +12% | |
+
+Market Position:
+
+-   #2 globally in immunoglobulins (behind CSL Behring)
+
+-   #1 in Europe for albumin
+
+-   #3 globally in Alpha-1 antitrypsin
+
+Why Plasma Cannot Be Replaced:
+
+Unlike most pharmaceuticals, plasma-derived therapies cannot be synthesized. Each product requires human plasma as the raw material. A single Alpha-1 patient requires plasma from approximately 900 donations per year for treatment. An immunodeficiency patient on IVIG therapy requires 130+ donations annually.
+
+This biological constraint creates:
+
+-   Permanent supply limitations (donor pool is finite)
+
+-   High barriers to entry (building collection networks takes decades)
+
+-   Pricing power in undersupplied markets
+
+-   Captive, chronic patient populations
+
+Diagnostics (11% of FY2023 Revenue)
+
+Meridian's Diagnostics division supplies blood banks, hospitals, and laboratories with testing equipment and reagents.
+
+| Product Line | FY2023 Revenue | Growth | Description |
+
+|--------------|----------------|--------|-------------|
+
+| NAT Screening | €310m | +2% | Nucleic acid testing for blood-borne pathogens |
+
+| Blood Typing Solutions | €285m | +11% | Immunohematology reagents and analyzers |
+
+| Immunoassays | €115m | +8% | Infectious disease and specialty testing |
+
+| Total Diagnostics | €710m | +5% | |
+
+Business model: Razor/razorblade. Place analyzers (often via rental/lease), generate recurring revenue from reagent sales and service contracts.
+
+Bio Supplies (5% of FY2023 Revenue)
+
+Sells biological materials — plasma fractions, proteins, and specialty reagents — to research institutions, clinical trial sponsors, and other manufacturers.
+
+| Category | FY2023 Revenue | Notes |
+
+|----------|----------------|-------|
+
+| Research reagents | €195m | Universities, pharma R&D |
+
+| Clinical trial materials | €95m | Biotech customers |
+
+| Manufacturing inputs | €70m | Third-party fractionators |
+
+| Total Bio Supplies | €360m | |
+
+Corporate / Eliminations
+
+Intercompany sales and unallocated corporate costs: (€120m)
+
+**Consolidated Revenue: €6,850m**
+
+The Plasma Value Chain
+
+Understanding Meridian's economics requires understanding the plasma value chain. This is where the operational complexity — and the modeling challenge — lives.
+
+Stage 1: Plasma Collection
+
+The Network:
+
+Meridian operates 385 plasma donation centers globally:
+
+-   United States: 295 centers
+
+-   Germany (via Nordic Plasma acquisition): 62 centers
+
+-   Hungary: 18 centers
+
+-   Egypt: 10 centers (joint venture, expanding)
+
+Centers are located in areas where paid plasma donation is legal. The United States dominates global plasma supply (~70% of world production) because it permits donor compensation while most of Europe prohibits it.
+
+Center Economics:
+
+A typical U.S. plasma center:
+
+| Metric | Value | Notes |
+
+|--------|-------|-------|
+
+| Annual plasma collections | 38,000-45,000 liters | Varies by location, donor demographics |
+
+| Collections per day | 120-150 donations | ~250 operating days/year |
+
+| Plasma per donation | ~800-880 mL | Based on donor weight |
+
+| Donors per center | 8,000-12,000 registered | ~30% active in any month |
+
+| Staff per center | 25-35 FTEs | Phlebotomists, nurses, admin |
+
+| Center size | 8,000-12,000 sq ft | Leased space typical |
+
+Cost Per Liter (CPL):
+
+This is the most important operational metric in the plasma business.
+
+| Cost Component | % of CPL | FY2023 | Notes |
+
+|----------------|----------|--------|-------|
+
+| Donor compensation | 38% | €72/liter | Fees paid to donors |
+
+| Labor | 28% | €53/liter | Center staff wages/benefits |
+
+| Facilities | 14% | €27/liter | Rent, utilities, maintenance |
+
+| Testing & supplies | 12% | €23/liter | Screening tests, collection kits |
+
+| Other overhead | 8% | €15/liter | IT, insurance, compliance |
+
+| Total CPL | 100% | €190/liter | Down from €245 peak (July 2022) |
+
+CPL Trajectory:
+
+The COVID-19 pandemic severely disrupted plasma collections. Donors — often lower-income individuals for whom compensation is meaningful — faced competing demands on their time (childcare, gig work paying better). Donor fees spiked to attract supply:
+
+| Period | Avg. Donor Fee (US) | CPL | Collections YoY |
+
+|--------|---------------------|-----|-----------------|
+
+| Q4 2019 (Pre-COVID) | $45 | €155 | Baseline |
+
+| Q2 2021 (Trough) | $85 | €210 | -25% |
+
+| Q3 2022 (Peak) | $95 | €245 | -15% |
+
+| Q4 2023 (Current) | $62 | €190 | +10% |
+
+| Target (2026) | $55 | €165 | +5% annual |
+
+Management's Operational Improvement Plan targets:
+
+-   Donor fee reduction through loyalty programs, experience improvements
+
+-   Labor productivity gains (collections per FTE up 30%+ since 2022)
+
+-   Center consolidation (closed 22 underperforming centers in 2023)
+
+-   Digitalization of donor scheduling and screening
+
+Stage 2: Plasma Testing and Pooling
+
+Collected plasma undergoes extensive testing for infectious diseases (HIV, Hepatitis B/C, etc.) before being pooled with plasma from other donors. A single manufacturing batch may contain plasma from 10,000+ donations.
+
+Testing cost: ~€8-10 per liter (included in CPL above at collection stage, plus additional testing at pooling)
+
+Stage 3: Fractionation
+
+Cold ethanol fractionation — the Cohn process, developed in the 1940s — separates plasma into protein fractions. This is capital-intensive manufacturing with long cycle times.
+
+Meridian's Fractionation Capacity:
+
+| Facility | Location | Capacity (liters/year) | Utilization |
+
+|----------|----------|------------------------|-------------|
+
+| Lindqvist BioCenter | Stockholm | 4.5m | 92% |
+
+| Atlantic Works | North Carolina | 6.0m | 88% |
+
+| Nordic Plasma Facility | Frankfurt | 3.5m | 78% |
+
+| Dublin Finishing | Ireland | 2.0m | 85% |
+
+| Total | | 16.0m | 87% |
+
+Manufacturing Economics:
+
+| Metric | Value |
+
+|--------|-------|
+
+| Plasma input cost | €190/liter (CPL) |
+
+| Fractionation cost | €45/liter |
+
+| Purification & finishing | €35/liter |
+
+| Quality control | €15/liter |
+
+| Total manufacturing cost | €285/liter |
+
+Yield — The Key Efficiency Metric:
+
+Not all plasma is created equal. Fractionation yield — grams of each protein extracted per liter of plasma — determines profitability.
+
+| Product | Industry Avg. Yield | Meridian Yield | Improvement Potential |
+
+|---------|---------------------|----------------|----------------------|
+
+| IgG (immunoglobulin) | 4.0 g/L | 4.3 g/L | +5% with process optimization |
+
+| Albumin | 25 g/L | 26 g/L | Limited |
+
+| Alpha-1 | 0.8 g/L | 0.85 g/L | Modest |
+
+A 5% improvement in IgG yield on 14 million liters processed = 2,800 kg additional IgG = ~€280m additional revenue at current pricing.
+
+Stage 4: Finished Goods and Distribution
+
+Purified proteins are formulated into final dosage forms (vials, pre-filled syringes), packaged, and distributed globally. Cold chain logistics are required throughout.
+
+Inventory Cycle:
+
+| Stage | Duration |
+
+|-------|----------|
+
+| Plasma collection to pooling | 2-4 weeks |
+
+| Pooling to fractionation start | 2-4 weeks |
+
+| Fractionation | 8-12 weeks |
+
+| Purification and finishing | 4-6 weeks |
+
+| Quality release testing | 4-6 weeks |
+
+| Distribution to customer | 2-4 weeks |
+
+| Total: Donation to Patient | 9-12 months |
+
+This extended cycle creates significant working capital requirements. Meridian holds €2.1 billion in inventory at any time — approximately 110 days of COGS.
+
+Geographic Revenue Mix
+
+| Region | FY2023 Revenue | % Total | Growth | Key Dynamics |
+
+|--------|----------------|---------|--------|--------------|
+
+| North America | €3,700m | 54% | +11% | Largest IG market, premium pricing |
+
+| Europe | €1,850m | 27% | +8% | Home market, albumin strength |
+
+| China & Asia | €890m | 13% | +22% | Albumin demand, JV distribution |
+
+| Rest of World | €410m | 6% | +5% | Latin America, Middle East |
+
+| Total | €6,850m | 100% | +11% | |
+
+China Exposure:
+
+Meridian holds a 26% stake in Shanghai MedPlasma Corp., a leading Chinese plasma company. This investment is carried at €1.4 billion on the balance sheet and generates:
+
+-   Equity income: €85m (FY2023)
+
+-   Albumin distribution fees: €120m (FY2023)
+
+-   Strategic optionality in world's fastest-growing plasma market
+
+Management is evaluating a partial sale of this stake to accelerate deleveraging.
+
+Financial Summary
+
+Income Statement (€ millions)
+
+| | FY2021 | FY2022 | FY2023 | FY2024E |
+
+|--|--------|--------|--------|---------|
+
+| Revenue | 5,420 | 5,890 | 6,850 | 7,350 |
+
+| Growth % | -3% | +9% | +16% | +7% |
+
+| Gross Profit | 2,170 | 2,240 | 2,810 | 3,090 |
+
+| Gross Margin | 40.0% | 38.0% | 41.0% | 42.0% |
+
+| EBITDA (Reported) | 1,085 | 1,060 | 1,440 | 1,690 |
+
+| EBITDA Margin | 20.0% | 18.0% | 21.0% | 23.0% |
+
+| EBITDA (Adjusted)* | 1,140 | 1,180 | 1,520 | 1,750 |
+
+| Adj. EBITDA Margin | 21.0% | 20.0% | 22.2% | 23.8% |
+
+| D&A | (380) | (410) | (450) | (470) |
+
+| EBIT | 705 | 650 | 990 | 1,220 |
+
+| Net Interest | (285) | (320) | (395) | (420) |
+
+| Other Income/(Expense) | 45 | (60) | 85 | 90 |
+
+| PBT | 465 | 270 | 680 | 890 |
+
+| Tax | (95) | (55) | (140) | (180) |
+
+| Effective Tax Rate | 20% | 20% | 21% | 20% |
+
+| Net Income | 370 | 215 | 540 | 710 |
+
+| Minority Interest | (85) | (95) | (115) | (125) |
+
+| Net Income to Equity | 285 | 120 | 425 | 585 |
+
+*Adjustments include: restructuring costs (€45m in FY2023), acquisition integration (€25m), non-cash stock compensation (€20m), litigation provisions (€10m estimated)
+
+Balance Sheet Summary (€ millions, as of December 31, 2023)
+
+Assets:
+
+| | Amount |
+
+|--|--------|
+
+| Cash and equivalents | 485 |
+
+| Accounts receivable | 1,180 |
+
+| Inventory | 2,150 |
+
+| Other current assets | 290 |
+
+| Total Current Assets | 4,105 |
+
+| PP&E (net) | 2,840 |
+
+| Intangible assets & goodwill | 4,650 |
+
+| Equity investments (Shanghai MedPlasma) | 1,420 |
+
+| Right-of-use assets (IFRS 16) | 980 |
+
+| Other non-current | 540 |
+
+| Total Assets | 14,535 |
+
+Liabilities:
+
+| | Amount |
+
+|--|--------|
+
+| Accounts payable | 720 |
+
+| Accrued expenses | 580 |
+
+| Current debt maturities | 385 |
+
+| Other current liabilities | 410 |
+
+| Total Current Liabilities | 2,095 |
+
+| Long-term debt | 8,240 |
+
+| Lease liabilities (IFRS 16) | 890 |
+
+| Deferred tax | 620 |
+
+| Pension & other | 385 |
+
+| Total Liabilities | 12,230 |
+
+| Minority interests | 680 |
+
+| Shareholders' equity | 1,625 |
+
+| Total Equity | 2,305 |
+
+| Total Liab. & Equity | 14,535 |
+
+Cash Flow Summary (€ millions)
+
+| | FY2021 | FY2022 | FY2023 | FY2024E |
+
+|--|--------|--------|--------|---------|
+
+| EBITDA | 1,085 | 1,060 | 1,440 | 1,690 |
+
+| Working capital change | (180) | (320) | (210) | (140) |
+
+| Cash interest paid | (265) | (295) | (375) | (400) |
+
+| Cash taxes paid | (75) | (45) | (110) | (145) |
+
+| Other operating | (40) | (55) | (35) | (25) |
+
+| Operating Cash Flow | 525 | 345 | 710 | 980 |
+
+| Capex — maintenance | (180) | (195) | (210) | (220) |
+
+| Capex — growth | (280) | (420) | (260) | (200) |
+
+| Acquisitions | (85) | (2,150) | (45) | — |
+
+| Asset disposals | 25 | 15 | 40 | 1,350* |
+
+| Investing Cash Flow | (520) | (2,750) | (475) | 930 |
+
+| Debt proceeds | 450 | 2,400 | 1,250 | 1,100 |
+
+| Debt repayments | (380) | (220) | (1,180) | (2,250) |
+
+| Dividends | (90) | (45) | — | — |
+
+| Other financing | (25) | (35) | (25) | (20) |
+
+| Financing Cash Flow | (45) | 2,100 | 45 | (1,170) |
+
+| Net Change in Cash | (40) | (305) | 280 | 740 |
+
+*FY2024E includes expected proceeds from partial sale of Shanghai MedPlasma stake
+
+Capital Structure (As of December 31, 2023)
+
+Debt Summary
+
+| Instrument | Currency | Amount | Coupon | Maturity | Security |
+
+|------------|----------|--------|--------|----------|----------|
+
+| Senior Secured Term Loan A | EUR | €1,200m | E+2.00% | Mar 2026 | 1st lien |
+
+| Senior Secured Term Loan B | USD | $2,400m | S+3.25% | Nov 2028 | 1st lien |
+
+| Senior Secured Term Loan B | EUR | €1,100m | E+3.50% | Nov 2028 | 1st lien |
+
+| Senior Secured Notes | EUR | €850m | 5.25% | Feb 2029 | 1st lien |
+
+| Senior Unsecured Notes | EUR | €1,200m | 6.50% | Oct 2028 | Unsecured |
+
+| Senior Unsecured Notes | USD | $650m | 7.00% | Oct 2028 | Unsecured |
+
+| Revolving Credit Facility | Multi | €800m | E+1.75% | Mar 2026 | 1st lien |
+
+| Total Funded Debt | | €8,625m | | | |
+
+| Lease liabilities (IFRS 16) | | €980m | | Various | |
+
+| Total Debt (incl. leases) | | €9,605m | | | |
+
+| Less: Cash | | (€485m) | | | |
+
+| Net Debt | | €9,120m | | | |
+
+*USD amounts converted at €1 = $1.08
+
+Leverage and Coverage
+
+| Metric | FY2022 | FY2023 | Covenant |
+
+|--------|--------|--------|----------|
+
+| Net Debt / EBITDA (Credit Agreement)* | 7.2x | 5.6x | <6.5x |
+
+| Net Debt / EBITDA (IFRS, incl. leases) | 8.1x | 6.3x | N/A |
+
+| Interest Coverage (EBITDA/Cash Int.) | 3.3x | 3.6x | >2.5x |
+
+| Secured Leverage | 5.4x | 4.2x | <5.5x |
+
+*Credit Agreement EBITDA includes addbacks for synergies, pro forma acquisitions, and other adjustments totaling ~€80m
+
+Maturity Profile
+
+| Year | Maturities | Instruments |
+
+|------|------------|-------------|
+
+| 2024 | €385m | TLA amortization, other |
+
+| 2025 | €420m | TLA amortization |
+
+| 2026 | €1,680m | TLA maturity, RCF maturity |
+
+| 2027 | — | |
+
+| 2028 | €4,850m | TLB (USD + EUR), Unsecured Notes |
+
+| 2029 | €850m | Secured Notes |
+
+Key Credit Agreement Terms
+
+Financial Covenants (TLA and RCF only):
+
+-   Maximum Net Leverage: 6.5x (stepping down to 5.5x by Dec 2025)
+
+-   Minimum Interest Coverage: 2.5x
+
+Term Loan B Covenants:
+
+-   Covenant-lite (no maintenance covenants)
+
+-   Incurrence test for Restricted Payments: Net Leverage < 4.0x
+
+-   Incurrence test for additional debt: Net Leverage < 5.0x or Fixed Charge Coverage > 2.0x
+
+Change of Control:
+
+-   101% put right on all notes
+
+-   Mandatory prepayment of term loans at par
+
+-   Triggered if >50% of voting shares acquired by non-permitted holder
+
+Restricted Payments Capacity:
+
+-   Builder basket: 50% of cumulative Consolidated Net Income since closing
+
+-   General basket: Greater of €200m and 15% of LTM EBITDA
+
+-   Available Amount from asset sales: 100% of net proceeds not reinvested within 365 days
+
+Recent Events and Market Context
+
+The Short-Seller Attack (January 2024)
+
+On January 15, 2024, activist short-seller Obsidian Research published a 40-page report titled "Meridian Plasma: The Emperor Has No Clothes." Key allegations:
+
+498. Leverage Understated: Obsidian claimed true leverage was 9-11x, not the reported 5.6x, after:
+
+-   Adding back factoring arrangements (€380m) as debt
+
+-   Excluding EBITDA from minority-owned subsidiaries
+
+-   Reversing aggressive adjustment addbacks
+
+499. Related Party Concerns: The report highlighted loans between Meridian and Lindqvist family entities totaling €125m, allegedly inadequately disclosed.
+
+500. Shanghai MedPlasma Valuation: Obsidian questioned the €1.4bn carrying value, arguing comparable transactions suggested fair value of €800-900m.
+
+Market Reaction:
+
+-   Stock fell 38% on publication day
+
+-   Bonds dropped 6-8 points
+
+-   Market cap declined from €7.2bn to €4.5bn
+
+Company Response:
+
+-   Categorically denied all allegations
+
+-   Engaged independent auditor for special review
+
+-   Filed lawsuit against Obsidian in Stockholm
+
+-   Accelerated governance reforms (family members resigned executive roles)
+
+Strategic Review Announcement (February 2024)
+
+On February 28, the Board announced:
+
+  "Following expressions of interest from multiple parties, the Board has initiated a process to evaluate strategic alternatives for Meridian Plasma Group, including but not limited to a potential sale of the company, merger, or other transaction."
+
+The Lindqvist family confirmed willingness to participate in a take-private transaction.
+
+Recent Trading
+
+| Date | Share Price (MPG-A) | EV/EBITDA (LTM) | Notes |
+
+|------|---------------------|-----------------|-------|
+
+| Jan 1, 2024 | €14.80 | 9.8x | Pre-Obsidian |
+
+| Jan 16, 2024 | €9.20 | 7.1x | Post-Obsidian |
+
+| Feb 28, 2024 | €11.40 | 8.2x | Strategic review announced |
+
+| Current (Mar 15) | €10.85 | 7.9x | |
+
+Shares Outstanding:
+
+-   Class A: 485 million shares (€10.85 = €5.26bn market cap)
+
+-   Class B: 42 million shares (Lindqvist family, 10 votes each)
+
+-   Total economic shares: 527 million
+
+-   Family ownership: ~31% voting, ~8% economic
+
+Management Guidance and Targets
+
+FY2024 Guidance (Issued February 2024)
+
+| Metric | Guidance | Assumptions |
+
+|--------|----------|-------------|
+
+| Revenue | €7.3-7.5bn | +7-10% growth |
+
+| Adjusted EBITDA | €1.70-1.80bn | 23-24% margin |
+
+| Free Cash Flow | €400-500m | Before Shanghai stake sale |
+
+| Net Leverage | <5.0x | By year-end |
+
+| Capex | €400-450m | ~6% of revenue |
+
+Medium-Term Targets (2027)
+
+| Metric | Target |
+
+|--------|--------|
+
+| Revenue | €9.0bn |
+
+| Adjusted EBITDA | €2.25bn |
+
+| EBITDA Margin | 25% |
+
+| Net Leverage | <4.0x |
+
+| ROIC | >12% |
+
+Key Assumptions:
+
+-   Immunoglobulin volume growth: 8-10% annually
+
+-   CPL reduction: €165/liter by 2026 (from €190 current)
+
+-   Yield improvement: +5% cumulative through process optimization
+
+-   No major acquisitions
+
+Investment Considerations
+
+The Bull Case
+
+501. Defensive, essential business: Patients cannot switch away from plasma therapies. Demand is driven by chronic conditions and growing diagnosis rates.
+
+502. Structural undersupply: Global IG demand growing 6-8% annually; plasma supply growth constrained by donor availability. Pricing power exists.
+
+503. Operational improvement runway: CPL still 15% above pre-COVID levels. Yield improvements achievable. Center network can be further optimized.
+
+504. China optionality: Shanghai MedPlasma stake provides exposure to fastest-growing plasma market with potential monetization path.
+
+505. Deleveraging momentum: Cash flow inflection underway. Leverage declining without heroic assumptions.
+
+The Bear Case
+
+506. Still highly leveraged: 5.6x net debt / EBITDA leaves limited margin for error. Rising rates have increased cash interest burden.
+
+507. Governance overhang: Obsidian allegations, while disputed, raised legitimate questions about related-party transactions and family influence.
+
+508. Refinancing wall: €2.1bn of debt matures in 2026, €4.85bn in 2028. Execution risk on refinancing at acceptable terms.
+
+509. Donor economics uncertainty: If labor markets tighten or competitive intensity increases, CPL gains could reverse.
+
+510. Regulatory/reimbursement risk: Government payers (especially in Europe) increasingly scrutinizing plasma therapy pricing.
+
+Your Assignment
+
+Your Managing Director wants the following by end of week:
+
+511. LBO Model: Full operating model with detailed revenue and cost drivers, working capital, capex, and debt schedule. Five-year forecast plus exit.
+
+512. Entry Valuation: What can Helios pay and still achieve target returns (20% gross IRR)? Sensitivity analysis on entry multiple, leverage, and exit assumptions.
+
+513. Capital Structure: Proposed financing structure. How much senior secured vs. unsecured? What terms should we expect? Impact of Change of Control provisions on deal execution.
+
+514. Value Creation Plan: Operational improvements, potential add-on acquisitions, exit strategy. Where does the return come from?
+
+515. Key Risks and Mitigants: What could go wrong? How do we protect downside?
+
+The preliminary materials include:
+
+-   Audited financial statements (FY2021-2023)
+
+-   Management presentation and data book
+
+-   Existing credit agreement (redacted)
+
+-   Obsidian Research report
+
+-   Equity research (3 analysts)
+
+Good luck. The IC meeting is in two weeks.
+
+Appendix A: Detailed Segment Information
+
+Biotherapeutics — Product Detail
+
+Immunoglobulins (IG):
+
+| Product | Format | FY2023 Revenue | Gross Margin | Key Markets |
+
+|---------|--------|----------------|--------------|-------------|
+
+| Immunex IV 5% | IVIG | €1,850m | 48% | US, EU, Japan |
+
+| Immunex IV 10% | IVIG | €980m | 52% | US, China |
+
+| Immunex SC 20% | SCIG | €590m | 55% | US, EU (growing) |
+
+| Total IG | | €3,420m | 50% | |
+
+Market dynamics:
+
+-   Primary immunodeficiency (PID): ~500,000 diagnosed patients globally, but estimated 6 million affected (underdiagnosis)
+
+-   Secondary immunodeficiency (SID): Growing indication, driven by cancer treatments
+
+-   Neurology (CIDP, MMN): Fastest-growing indication, premium pricing
+
+-   SCIG gaining share: Home infusion, patient convenience, better margin
+
+Albumin:
+
+| Product | Concentration | FY2023 Revenue | Gross Margin | Key Markets |
+
+|---------|---------------|----------------|--------------|-------------|
+
+| Albunex 20% | High-conc. | €920m | 42% | China, Asia |
+
+| Albunex 25% | Therapeutic | €480m | 45% | US, EU |
+
+| Albunex 5% | Volume replacement | €180m | 35% | EU, ROW |
+
+| Total Albumin | | €1,580m | 42% | |
+
+Market dynamics:
+
+-   China: 40% of global albumin consumption, driven by traditional medicine practices and ICU use
+
+-   Pricing pressure in developed markets
+
+-   Long-term growth linked to ICU capacity expansion in emerging markets
+
+Alpha-1 Antitrypsin:
+
+Single product (Prolunex) serving ~12,000 patients globally with genetic Alpha-1 deficiency. Orphan drug status provides pricing protection. Limited growth as patient pool is small and largely identified.
+
+Diagnostics — Product Detail
+
+| Product Line | FY2023 Revenue | Gross Margin | Installed Base | Reagent Revenue % |
+
+|--------------|----------------|--------------|----------------|-------------------|
+
+| NAT Screening | €310m | 55% | 1,850 analyzers | 78% |
+
+| Blood Typing | €285m | 52% | 4,200 systems | 72% |
+
+| Immunoassays | €115m | 48% | 950 analyzers | 81% |
+
+| Total | €710m | 53% | | |
+
+Business model: High reagent attachment rates create recurring revenue stream. Analyzer placements (often via reagent rental agreements) lock in multi-year consumable purchases.
+
+Appendix B: Plasma Collection Network Detail
+
+U.S. Network (295 Centers)
+
+| Region | Centers | Avg. Volume (L/yr) | CPL | Notes |
+
+|--------|---------|-------------------|-----|-------|
+
+| Southeast | 82 | 42,000 | €185 | Best performing |
+
+| Texas/Southwest | 68 | 39,000 | €195 | Strong growth |
+
+| Midwest | 55 | 36,000 | €200 | Mature, stable |
+
+| West | 48 | 35,000 | €205 | Higher labor costs |
+
+| Northeast | 42 | 33,000 | €210 | Challenged |
+
+| Total US | 295 | 38,500 | €195 | |
+
+Total US collections: ~11.4 million liters (FY2023)
+
+European Network (80 Centers)
+
+| Country | Centers | Avg. Volume | CPL | Notes |
+
+|---------|---------|-------------|-----|-------|
+
+| Germany | 62 | 32,000 | €175 | Nordic acquisition |
+
+| Hungary | 18 | 28,000 | €165 | Lower labor costs |
+
+| Total EU | 80 | 31,000 | €172 | |
+
+Total EU collections: ~2.5 million liters (FY2023)
+
+Egypt Joint Venture (10 Centers)
+
+-   JV with Egyptian government (Meridian 60%, Gov't 40%)
+
+-   Targeting 20 centers by 2026
+
+-   Current collections: ~0.3 million liters
+
+-   Strategic importance: Demonstrates Middle East/Africa expansion capability
+
+Third-Party Supply Agreements
+
+-   Contracted purchases from independent collectors: ~1.5 million liters
+
+-   Higher cost (€220-240/liter) but provides supply flexibility
+
+-   Targeting reduction to <1 million liters as owned network grows
+
+Total Plasma Supply: ~15.7 million liters (FY2023)
+
+Appendix C: Key Management and Board
+
+Executive Team
+
+| Name | Title | Since | Background |
+
+|------|-------|-------|------------|
+
+| Marcus Johansson | CEO | 2019 | Former CFO; McKinsey alum |
+
+| Elena Vasquez | CFO | 2022 | Ex-Fresenius, GSK |
+
+| Dr. Henrik Nordström | Chief Scientific Officer | 2015 | Academic; joined 2008 |
+
+| David Chen | President, Americas | 2020 | Ex-Baxter, Shire |
+
+| Thomas Weber | President, Europe | 2022 | Came with Nordic acquisition |
+
+| Maria Santos | Chief Operating Officer | 2021 | Ex-CSL Behring |
+
+Board of Directors
+
+| Name | Role | Notes |
+
+|------|------|-------|
+
+| Karl Lindqvist | Chairman | Family; 3rd generation |
+
+| Anna Lindqvist-Berg | Director | Family; Karl's daughter |
+
+| Dr. James Morrison | Lead Independent | Former Roche executive |
+
+| Sarah Chen | Independent | PE background (ex-KKR) |
+
+| Dr. Michael Brennan | Independent | Biotech CEO |
+
+| Henrik Magnusson | Independent | Former banker |
+
+| Elisabeth Ström | Independent | Healthcare consultant |
+
+Family representation: 2 of 7 board seats (down from 4 in 2022 following governance reforms)
+
+Appendix D: Comparable Company Data
+
+Public Comparables
+
+| Company | EV (€bn) | Revenue | EBITDA | EV/Rev | EV/EBITDA | Net Debt/EBITDA |
+
+|---------|----------|---------|--------|--------|-----------|-----------------|
+
+| CSL Limited | €115 | €12.8bn | €3.8bn | 9.0x | 30x | 2.1x |
+
+| Takeda (PDT segment est.) | €28 | €4.5bn | €1.2bn | 6.2x | 23x | N/A |
+
+| Kedrion | €3.5 | €1.1bn | €180m | 3.2x | 19x | 4.5x |
+
+| Meridian (Current) | €14.4 | €6.85bn | €1.52bn | 2.1x | 9.5x | 5.6x |
+
+*Takeda segment; PDT = Plasma-Derived Therapies
+
+Kedrion recently taken private; implied values from transaction
+
+Precedent Transactions
+
+| Target | Acquirer | Date | EV | EV/EBITDA | Notes |
+
+|--------|----------|------|----|-----------| ------|
+
+| Biotest AG | Grifols | 2022 | €2.0bn | 18x | Strategic premium |
+
+| Kedrion | Permira | 2022 | €3.5bn | 19x | Take-private |
+
+| Shire (plasma) | Takeda | 2019 | €12bn* | 14x | Part of larger deal |
+
+| Talecris | Grifols | 2011 | €3.4bn | 12x | Transformational |
+
+*Allocated value to plasma assets within Shire acquisition
+
+Trading Observations
+
+Meridian currently trades at a significant discount to plasma peers:
+
+-   CSL: 30x EBITDA (investment-grade, Australian premium, best-in-class margins)
+
+-   Kedrion (pre-deal): 19x (strategic bidding)
+
+-   Meridian: 9.5x (leverage concerns, Obsidian overhang, governance questions)
+
+Even applying a conservative 12x EBITDA multiple to FY2024E Adjusted EBITDA of €1.75bn implies EV of €21bn — 45% above current trading level.
+
+The opportunity, if it exists, is in (a) acquiring at a discount multiple, (b) executing operational improvements, (c) deleveraging, and (d) exiting at a normalized multiple once the business is de-risked.
+
+End of Case Materials
+
+— — —
+
+This chapter walks through the construction and interpretation of an LBO model for Meridian Plasma Group. We start with a simple annual model — the kind you might build in a first-pass screening — and then discuss when and why more complexity is warranted.
+
+The Assignment
+
+Your Managing Director's instructions were clear: "Build the model. Let's see if the math works."
+
+You have two weeks before the expression of interest is due. In that time, you need to determine whether Helios Capital can pay a price that (a) the Lindqvist family will accept, (b) lenders will finance, and (c) generates returns that justify the risk.
+
+This is the core job of an LBO model: translate a business thesis into numbers, and see if those numbers work for everyone who needs to say yes.
+
+Let's build it.
+
+Part 1: The Simple Annual Model
+
+Why Start Simple
+
+There's a temptation, especially among junior bankers, to build the most sophisticated model possible. Quarterly periodicity. Multiple debt tranches with different amortization schedules. Circular references for cash sweeps. PIK toggles. The works.
+
+Resist this temptation — at least initially.
+
+A simple annual model gets you 90% of the answer in 20% of the time. It forces you to focus on what actually matters: the business drivers, the entry price, and the capital structure. You can always add complexity later. But if the simple model doesn't work, the complex model won't save you.
+
+The model we're about to build has:
+
+-   Annual periods (7 forecast years)
+
+-   One senior debt tranche
+
+-   Simple amortization (1% per year)
+
+-   No cash sweep
+
+-   No PIK instruments
+
+-   No circular references
+
+This is not a limitation. This is a feature.
+
+Section 1: Transaction Assumptions
+
+The Entry Price
+
+Every LBO starts with a price. In Meridian's case, we're looking at an indicative enterprise value of €14-16 billion. But what does that actually mean in terms of valuation?
+
+Let's anchor to EBITDA. Based on FY2024 financials (scaled for our teaching example):
+
+| Metric | Value |
+
+|--------|-------|
+
+| Revenue | €2,400m |
+
+| EBITDA | €720m |
+
+| EBITDA Margin | 30% |
+
+At €7.2 billion enterprise value, we'd be paying 10x EBITDA. That's aggressive for a levered buyout, but not unreasonable for a defensive healthcare business with:
+
+-   Recurring revenue (chronic patients need ongoing treatment)
+
+-   High barriers to entry (plasma collection networks take decades to build)
+
+-   Regulatory moats (FDA/EMA approvals are expensive and time-consuming)
+
+-   Inelastic demand (patients don't stop treatment in recessions)
+
+For our model, we'll use:
+
+-   Entry EV/EBITDA: 10x
+
+-   Exit EV/EBITDA: 10x (no multiple expansion assumed)
+
+Why no multiple expansion? Because assuming you'll sell for more than you paid is hope, not analysis. If the deal works at flat multiples, it's a good deal. If it only works with expansion, you're speculating.
+
+The Capital Structure
+
+With €720m of EBITDA, how much debt can Meridian support?
+
+The answer depends on who's lending and what the market will bear. In today's environment, a high-quality healthcare business can typically lever 5-6x EBITDA in the syndicated loan market. For our base case:
+
+| Sources | Amount | Multiple | % of Total |
+
+|---------|--------|----------|------------|
+
+| Senior Secured Term Loan | €3,000m | 4.2x | ~42% |
+
+| Sponsor Equity | €4,100m | 5.7x | ~58% |
+
+| Total Sources | €7,200m | 10.0x | 100% |
+
+Wait — €3,000m + €4,100m = €7,100m, not €7,200m. What happened?
+
+Transaction costs and adjustments:
+
+-   Financing fees (2% of debt): €60m
+
+-   Advisory fees (1.5% of equity): €62m
+
+-   Other transaction costs: €30m
+
+-   Minimum cash to company: €50m
+
+-   Less: existing cash used: (€50m)
+
+-   Less: existing debt refinanced: (€800m)
+
+When you net it all out, the sources equal the uses. The sponsor writes a check for roughly €4.1 billion.
+
+Debt Terms
+
+For the senior secured term loan:
+
+| Term | Assumption | Rationale |
+
+|------|------------|-----------|
+
+| Interest Rate | 6.0% | EURIBOR + 400bps margin |
+
+| Amortization | 1% per year | Standard TLB terms |
+
+| Maturity | 7 years | Typical for sponsor-backed |
+
+| Covenants | Springing leverage test | Tested only if RCF drawn |
+
+The 6% all-in rate reflects current market conditions. In a lower-rate environment, this might be 4-5%. In a stressed market, 7-8%. The model should be flexible enough to sensitize this.
+
+Section 2: Operating Assumptions
+
+The Revenue Build
+
+Plasma is a growth business. Global demand for immunoglobulins grows 6-8% annually, driven by:
+
+-   Expanding indications (new diseases being treated)
+
+-   Improved diagnosis rates (more patients identified)
+
+-   Aging populations (higher disease prevalence)
+
+-   Emerging market adoption (China, Middle East, Latin America)
+
+For Meridian, we model three scenarios:
+
+| Scenario | Year 1-2 | Year 3-7 | Rationale |
+
+|----------|----------|----------|-----------|
+
+| Management Case | 6% | 5% | Market growth + share gains |
+
+| Bank Case | 3% | 3% | Conservative; used for debt sizing |
+
+| Downside Case | 0% | 0% | Flat; tests covenant headroom |
+
+The Management Case is what we're underwriting. The Bank Case is what the lenders will use. The Downside Case is what keeps you up at night.
+
+The Margin Structure
+
+Meridian's cost structure is relatively fixed in the short term:
+
+| Line Item | % of Revenue | Notes |
+
+|-----------|--------------|-------|
+
+| COGS | 50% | Plasma collection, fractionation, manufacturing |
+
+| OpEx | 20% | SG&A, R&D, corporate overhead |
+
+| D&A | 5% | Capital-intensive business |
+
+| EBITDA | 25% | After normalizing for plasma-specific dynamics |
+
+In our simplified model, we're using 30% EBITDA margin (50% COGS + 20% OpEx = 70% costs, 30% EBITDA). This is slightly optimistic versus Grifols' actual 25% — representing the value creation thesis that new ownership can improve operations.
+
+Working Capital: The Plasma Twist
+
+Here's where plasma businesses differ from typical manufacturing:
+
+Days Inventory Outstanding (DIO): 90 days
+
+This seems high, but plasma inventory is special:
+
+-   Raw plasma must be held 60 days for viral safety testing
+
+-   Work-in-process fractionation takes weeks
+
+-   Finished goods have long shelf life but require cold storage
+
+You cannot meaningfully reduce plasma DIO without compromising safety or losing sales. This is a structural feature of the business, not an inefficiency to fix.
+
+Days Sales Outstanding (DSO): 45 days
+
+Typical for healthcare. Hospital customers pay slowly. Government payers (European national health systems) pay even more slowly. Private insurers pay faster.
+
+Days Payable Outstanding (DPO): 40 days
+
+Plasma donors are paid immediately (you can't negotiate payment terms with donors). Equipment suppliers and service providers get standard terms.
+
+Net Working Capital Impact:
+
+The long inventory cycle means plasma businesses consume significant working capital as they grow. Every €100m of revenue growth requires roughly €15-20m of incremental working capital investment. This is real cash that comes out of free cash flow.
+
+Capital Expenditures
+
+| Category | % of Revenue | Annual Amount |
+
+|----------|--------------|---------------|
+
+| Maintenance CapEx | 3% | €72m |
+
+| Growth CapEx | 2% | €48m |
+
+| Total CapEx | 5% | €120m |
+
+For the base case, we use 5% of revenue — enough to maintain the asset base and fund modest network expansion. A more aggressive growth plan (new plasma centers, capacity expansion) would require 7-8%.
+
+Section 3: Building the Forecast
+
+The Income Statement Flow
+
+With our assumptions set, the income statement builds mechanically:
+
+Year 1 Forecast (Management Case):
+
+| Line Item | Calculation | Amount |
+
+|-----------|-------------|--------|
+
+| Revenue | €2,400m × 1.06 | €2,544m |
+
+| COGS | Revenue × 50% | (€1,272m) |
+
+| Gross Profit | | €1,272m |
+
+| OpEx | Revenue × 20% | (€509m) |
+
+| D&A | Revenue × 5% | (€127m) |
+
+| EBIT | | €636m |
+
+| Interest Expense | €3,000m × 6% | (€180m) |
+
+| EBT | | €456m |
+
+| Tax (25%) | | (€114m) |
+
+| Net Income | | €342m |
+
+EBITDA: €636m + €127m = €763m (up from €720m at entry)
+
+The Cash Flow Cascade
+
+This is where the model gets interesting. The cash flow statement tells you how much debt you can actually pay down — which drives your equity returns.
+
+Year 1 Cash Flow:
+
+| Item | Amount | Notes |
+
+|------|--------|-------|
+
+| EBITDA | €763m | |
+
+| Change in Working Capital | (€35m) | Growth consumes cash |
+
+| CapEx | (€127m) | 5% of revenue |
+
+| Cash Taxes | (€114m) | |
+
+| Interest Income | €1m | On cash balance |
+
+| Cash Available for Debt Service | €488m | |
+
+| Interest Expense | (€180m) | |
+
+| Mandatory Amortization | (€30m) | 1% of original principal |
+
+| Free Cash Flow After Debt Service | €278m | |
+
+That €278m is real cash that either stays on the balance sheet or goes to the sponsor. In most LBOs, it stays — building liquidity and paying down debt faster through optional prepayments.
+
+The Debt Paydown
+
+With 1% mandatory amortization plus excess cash flow:
+
+| Year | Beginning Debt | Amortization | Ending Debt | Leverage |
+
+|------|----------------|--------------|-------------|----------|
+
+| Entry | - | - | €3,000m | 4.2x |
+
+| 1 | €3,000m | (€30m) | €2,970m | 3.9x |
+
+| 2 | €2,970m | (€30m) | €2,940m | 3.6x |
+
+| 3 | €2,940m | (€30m) | €2,910m | 3.4x |
+
+| 4 | €2,910m | (€30m) | €2,880m | 3.2x |
+
+| 5 | €2,880m | (€30m) | €2,850m | 3.0x |
+
+Leverage drops from 4.2x to 3.0x over five years — purely from EBITDA growth (no excess cash sweeps). This is the "deleveraging" story that makes LBOs work.
+
+Section 4: Sponsor Returns
+
+The Exit Math
+
+At Year 5, assuming a 10x exit multiple:
+
+| Item | Amount |
+
+|------|--------|
+
+| Exit EBITDA | €920m |
+
+| Exit Multiple | 10x |
+
+| Enterprise Value | €9,200m |
+
+| Less: Net Debt | (€2,850m - €500m cash) = (€2,350m) |
+
+| Equity Value | €6,850m |
+
+The sponsor invested €4,100m and receives €6,850m five years later.
+
+IRR and MoC
+
+| Metric | Value |
+
+|--------|-------|
+
+| Money-on-Money (MoC) | 1.67x |
+
+| Internal Rate of Return (IRR) | 10.8% |
+
+Is that good? It depends on your hurdle rate.
+
+For a large-cap buyout fund, typical targets are:
+
+-   Minimum acceptable IRR: 15%+
+
+-   Target IRR: 20%+
+
+-   MoC floor: 2.0x
+
+At 10.8% IRR and 1.67x MoC, this deal doesn't clear the bar. Not even close.
+
+What Went Wrong?
+
+The math reveals the problem: we paid 10x EBITDA for a business growing at 5-6%. Even with leverage, even with operational improvements, the returns are mediocre.
+
+This is why entry multiple matters more than anything else in an LBO. You can't operational-improve your way out of a bad price.
+
+Sensitizing the Model
+
+Let's see what it takes to hit 20% IRR:
+
+| Entry Multiple | Exit Multiple | Revenue Growth | IRR |
+
+|----------------|---------------|----------------|-----|
+
+| 10x | 10x | 5% | 10.8% |
+
+| 10x | 12x | 5% | 16.3% |
+
+| 8x | 10x | 5% | 18.2% |
+
+| 8x | 10x | 7% | 21.4% |
+
+| 7x | 10x | 5% | 23.1% |
+
+The answer is clear: you need to pay less. At 8x EBITDA (€5.76bn EV), the deal starts to make sense. At 7x (€5.04bn EV), it's attractive.
+
+This is the insight you take back to your MD: "The deal doesn't work at the indicative €14-16bn range. We need to be at €5-6bn, which is 60-70% below where they're hoping to trade."
+
+That's probably a non-starter. But at least now you know.
+
+Section 5: The Credit Perspective
+
+Leverage and Coverage Ratios
+
+The model also tells you whether lenders will play:
+
+| Metric | Entry | Year 1 | Year 3 | Year 5 |
+
+|--------|-------|--------|--------|--------|
+
+| Gross Debt / EBITDA | 4.2x | 3.9x | 3.4x | 3.0x |
+
+| Net Debt / EBITDA | 4.1x | 3.5x | 2.6x | 1.9x |
+
+| Interest Coverage | n/a | 4.2x | 4.8x | 5.4x |
+
+| DSCR | n/a | 2.3x | 2.6x | 2.8x |
+
+These ratios are healthy. Leverage below 5x at entry, declining steadily. Interest coverage above 4x. DSCR above 2x.
+
+From a credit perspective, this is a solid deal. The business can easily support the debt load. The problem isn't credit risk — it's that the equity returns are weak.
+
+Covenant Headroom
+
+If the credit agreement includes a leverage covenant (say, 5.5x with 40% headroom), how much EBITDA decline can we absorb?
+
+| Year | Debt | Covenant Test | Min EBITDA | Actual EBITDA | Headroom |
+
+|------|------|---------------|------------|---------------|----------|
+
+| 1 | €2,970m | 5.5x | €540m | €763m | 29% |
+
+| 3 | €2,910m | 5.5x | €529m | €856m | 38% |
+
+| 5 | €2,850m | 5.5x | €518m | €920m | 44% |
+
+EBITDA could drop 29% in Year 1 before tripping covenants. By Year 5, that buffer grows to 44%. This is a well-structured credit.
+
+Section 6: What the Simple Model Tells You
+
+After an hour of work, you know:
+
+516. The deal doesn't work at asking price. 10x EBITDA yields 11% IRR — below hurdle.
+
+517. The business is solid. Credit metrics are healthy. This is a financing story, not a credit story.
+
+518. Price is the problem. You need 7-8x to make the returns work. That's 30-40% below indicative.
+
+519. Multiple expansion is required (or price reduction). At 10x entry, you need 12x exit to hit 16% IRR. That's aggressive.
+
+520. The leverage is appropriate. 4.2x entry, declining to 3.0x at exit. Room for more debt if price is lower.
+
+This is the value of a simple model: it gives you the answer quickly, so you can have the right conversation.
+
+Part 2: When to Add Complexity
+
+The Quarterly Question
+
+The model we built uses annual periods. For a first-pass screen, that's fine. But when does it make sense to go quarterly?
+
+To illustrate the difference, consider what a "full" quarterly LBO model looks like:
+
+| Feature | Simple Annual Model | Complex Quarterly Model |
+
+|---------|---------------------|-------------------------|
+
+| Periods | 7 annual | 32 quarterly |
+
+| Sheets | 2 | 10+ |
+
+| Revenue modeling | Flat annual growth | Quarterly seasonality (Q1: 5%, Q2: 20%, Q3: 30%, Q4: 45%) |
+
+| Working capital | DSO/DIO/DPO days | Multi-quarter collection waterfall |
+
+| Debt structure | Single senior tranche | Revolver + Senior TL + Subordinated |
+
+| Cash management | Excess accumulates | Cash sweep, revolver draw/repay |
+
+| Tax | Simple rate × EBT | NOL tracking and utilization |
+
+| Synergies | None | Year-by-year phase-in schedule |
+
+| Circularity | None | Interest ↔ Debt ↔ Cash Flow loops |
+
+| Build time | 1-2 hours | 1-2 days |
+
+Inside a Complex Quarterly Model
+
+A proper quarterly model isn't just an annual model with more columns. It's architecturally different.
+
+Revenue Seasonality
+
+Many businesses have significant intra-year revenue patterns. A retailer might do 45% of annual revenue in Q4. A construction company might do 70% between April and September. An accounting firm peaks in Q1.
+
+If you model these businesses annually, you assume smooth cash flows throughout the year. But the reality is different: they might be cash-negative for three quarters and massively cash-positive in one. This matters for:
+
+-   Peak revolver utilization (and associated interest costs)
+
+-   Covenant testing timing (you might trip a covenant in a weak quarter)
+
+-   Working capital financing needs
+
+Working Capital Collection Patterns
+
+Our simple model assumes A/R turns over every 45 days, smoothly. A complex model tracks the actual collection waterfall:
+
+| Revenue Period | Collected in Same Q | Collected Q+1 | Collected Q+2 | Collected Q+3 |
+
+|----------------|---------------------|---------------|---------------|---------------|
+
+| Q1 Revenue | 0% | 35% | 45% | 20% |
+
+| Q2 Revenue | 0% | 35% | 45% | 20% |
+
+| ... | ... | ... | ... | ... |
+
+With 180-250 day DSO (common in healthcare, government contracting, some B2B), you're collecting Q1 sales in Q3 and Q4. This creates significant working capital timing mismatches that annual models miss entirely.
+
+Multiple Debt Tranches
+
+A real LBO capital structure often includes:
+
+521. Revolving Credit Facility (RCF): Undrawn until needed, then drawn to cover working capital swings or shortfalls. Interest only on drawn amounts, plus commitment fee on undrawn capacity.
+
+522. Senior Secured Term Loan: The main debt, usually 1% annual amortization, bullet at maturity.
+
+523. Subordinated / Mezzanine Debt: Higher rate, often with PIK toggle (pay cash or accrue to principal). Sits behind senior in the waterfall.
+
+524. Holdco PIK Notes: Sometimes sponsors add debt at the holding company level, which compounds.
+
+Modeling these correctly requires quarterly precision because:
+
+-   Revolver draws and repays happen within quarters
+
+-   PIK interest compounds quarterly
+
+-   Cash sweeps are calculated annually but paid from quarterly cash
+
+The Circularity Problem
+
+Complex models often have circular references:
+
+```
+
+Interest Expense → depends on → Debt Balance
+
+Debt Balance → depends on → Cash Available for Paydown
+
+Cash Available → depends on → Interest Expense
+
+```
+
+In annual models, you can usually ignore this or use a simple iteration. In quarterly models with revolvers, the circularity is unavoidable. You need either:
+
+-   Excel's iterative calculation (dangerous — can mask errors)
+
+-   A "copy-paste values" macro approach
+
+-   A dedicated circularity breaker cell
+
+Cash Flow Sweeps
+
+Many credit agreements require "excess cash flow" sweeps — a percentage of annual free cash flow must go to debt paydown. The calculation is complex:
+
+```
+
+Consolidated Net Income
+
++ Depreciation and Amortization
+
+-   Capital Expenditures (maintenance only, growth may be excluded)
+
+-   Scheduled Debt Payments
+
+-   Working Capital Increase
+
+-   Permitted Investments
+
+-   Cash Taxes Paid
+
+-   Cash Interest Paid
+
+± Other permitted add-backs and deductions
+
+= Excess Cash Flow
+
+× Sweep Percentage (often 50-75%, with step-downs based on leverage)
+
+= Mandatory Prepayment
+
+```
+
+This is a year-end calculation, but it depends on quarterly cash flows throughout the year. Getting it right requires quarterly tracking.
+
+When Complexity Changes the Answer
+
+The key question: does quarterly precision change your investment decision?
+
+Complexity matters when:
+
+525. Seasonality is extreme. If Q4 is 45% of revenue and Q1 is 5%, annual averaging hides critical cash flow dynamics. You might need peak revolver capacity that's 3x the annual average working capital need.
+
+526. You're close to covenant levels. If annual average leverage is 4.8x but Q1 leverage is 5.3x, you'll trip a quarterly test. This happens when EBITDA is seasonal but debt is constant.
+
+527. Working capital timing creates liquidity risk. Long collection cycles combined with seasonal revenue can create quarters where you're deeply drawn on the revolver. Annual models miss this.
+
+528. Debt structure has moving parts. Cash sweeps, PIK toggles, revolver utilization — all benefit from quarterly tracking.
+
+529. You're running the company. Post-close, you need quarterly forecasts for board reporting, covenant compliance, and treasury management.
+
+Complexity doesn't matter when:
+
+530. You're screening. First-pass analysis to decide if a deal is worth pursuing.
+
+531. The business is stable. Healthcare, essential services, subscription software — low seasonality, predictable cash.
+
+532. Debt structure is simple. Single term loan, no revolver or subordinated debt.
+
+533. You're far from covenant levels. If leverage is 3x with a 5.5x covenant, quarterly fluctuations don't matter.
+
+534. You're presenting to committee. Senior decision-makers want to understand the story, not audit 32 periods.
+
+Beyond Quarterly: Advanced Model Features
+
+Even annual models can incorporate sophisticated features when the deal structure warrants. Here's what "Level 5" complexity looks like:
+
+1. Public Company Take-Private Mechanics
+
+When acquiring a public company like Meridian (or Twitter), the model must handle:
+
+| Element | Calculation |
+
+|---------|-------------|
+
+| Offer price | Current share price × (1 + Premium) |
+
+| Diluted shares | Basic + Options (Treasury Stock Method) + RSUs + PSUs |
+
+| Purchase equity value | Offer price × Diluted shares |
+
+| Enterprise value | Equity value + Debt - Cash - NOL value |
+
+The Treasury Stock Method for options is often overlooked. If you're paying €10/share and there are 1 million options with a €6 strike price, those options are in-the-money. But the exercise generates cash: 1M × €6 = €6M. The net dilution is only the difference: 1M shares - (€6M / €10) = 400,000 net new shares.
+
+2. Purchase Price Allocation (PPA)
+
+When you pay more than book value, the premium must be allocated:
+
+```
+
+Purchase Premium = Equity Purchase Price - Seller's Book Value + Existing Goodwill
+
+= Total Allocable Premium
+
+Allocation:
+
+(-) Write-up of PP&E (e.g., 10% of PP&E value, depreciated over 20 years)
+
+(-) Write-up of Intangibles:
+
+-   Indefinite-lived (15% of premium, no amortization)
+
+-   Definite-lived (5% of premium, amortized over 10 years)
+
+(+) New Deferred Tax Liability (25% of write-ups)
+
+(=) Goodwill Created (the residual)
+
+```
+
+This matters because the depreciation and amortization of write-ups creates tax shields that affect cash flow and covenant calculations.
+
+3. Multiple Debt Tranches with Different Economics
+
+Real LBO capital structures often include:
+
+| Tranche | Rate | Amortization | Cash Flow Sweep | Other Features |
+
+|---------|------|--------------|-----------------|----------------|
+
+| Revolver | SOFR + 425bps | None | None | Undrawn fee 50bps |
+
+| Term Loan B | SOFR + 475bps, 0.5% floor | 1% | 50% | Senior secured |
+
+| Senior Secured Notes | Fixed 8.375% | None | 100% | Non-call period |
+
+| Margin Loan | SOFR + 300bps | 5% | 100% | Prepayment penalty 1.5% |
+
+| Conv. Preferred | 14% PIK dividend | None | None | Converts at exit |
+
+Each tranche has its own waterfall priority for cash sweeps: Revolver first (repaid), then Term Loan, then Senior Notes, then Subordinated.
+
+4. PIK Interest and Dividend Toggle
+
+Some instruments allow interest to accrue to principal rather than pay cash:
+
+```
+
+Beginning Subordinated Notes: €100M
+
+(+) PIK Interest (5%): €5M
+
+(-) Cash Interest (5%): (€5M) paid from cash flow
+
+(=) Ending Balance: €105M
+
+```
+
+PIK increases the debt balance over time, which can trap you if operating performance disappoints. The Twitter deal included a margin loan with PIK toggle — if cash flow was tight, Musk could elect to accrue rather than pay.
+
+5. Management Incentive Structures
+
+Sophisticated models track three types of management economics:
+
+-   Rollover equity: Management rolls a percentage of their existing stake into the new structure (typically 10-20%)
+
+-   Options pool: Post-deal options at the offer price (typically 5-10% of diluted equity)
+
+-   Earn-out tiers: Marginal profit sharing above return thresholds
+
+Example earn-out structure:
+
+```
+
+Tier 1: 5% of proceeds above 1.5x equity multiple
+
+Tier 2: 10% of proceeds above 2.0x equity multiple
+
+If initial equity = €500M and exit equity = €1,500M (3.0x):
+
+Tier 1 payout: (€1,000M - €750M) × 5% = €12.5M
+
+Tier 2 payout: (€1,500M - €1,000M) × 10% = €50M
+
+Total management earn-out: €62.5M
+
+```
+
+6. Dividend Recapitalizations
+
+Sponsors sometimes take a "dividend recap" — raising additional debt mid-investment to pay themselves a dividend:
+
+```
+
+Year 3:
+
+EBITDA: €150M
+
+Div recap leverage: 2.0x
+
+New debt issued: €300M
+
+Less: issuance fees (2%): (€6M)
+
+Dividend to sponsor: €294M
+
+```
+
+This accelerates returns (cash out earlier = higher IRR) but increases risk (more debt on the business). The model must track the new tranche separately, including its own amortization and cash flow sweep.
+
+7. Returns Attribution
+
+Advanced models decompose returns into sources:
+
+| Source | Contribution |
+
+|--------|--------------|
+
+| EBITDA growth | €X of exit EV increase |
+
+| Multiple expansion | €Y of exit EV increase |
+
+| Debt paydown | €Z less debt at exit |
+
+| Dividend recap | €W cash distributed early |
+
+| Total equity return | €Total |
+
+This tells you why the deal worked (or didn't). A deal that only works with multiple expansion is speculative. A deal that works primarily on debt paydown is safe but boring. The best deals work on multiple levers.
+
+8. Tax Complexity
+
+Real models must address:
+
+-   Interest deductibility limits: Post-2017 US law limits interest deductions to 30% of EBITDA
+
+-   NOL utilization: Section 382 limits how quickly you can use acquired NOLs after a change of control
+
+-   R&D capitalization: Post-2022 US law requires capitalizing R&D over 5 years (domestic) or 15 years (foreign)
+
+These can materially affect cash taxes and therefore cash available for debt service.
+
+The Meridian Verdict: Matching Complexity to Purpose
+
+For Meridian Plasma Group, where does our simple model fall short, and does it matter?
+
+| Feature | Our Simple Model | Advanced Model | Impact on Decision? |
+
+|---------|------------------|----------------|---------------------|
+
+| Periodicity | Annual | Quarterly | Low — stable business |
+
+| Share dilution | Not modeled | TSM for options, RSUs | Medium — affects equity check |
+
+| PPA | Not modeled | Full allocation | Low — affects tax shields |
+
+| Debt tranches | Single TLB | Revolver + TLB + Notes | Medium — affects interest cost |
+
+| Cash sweeps | None | 50% ECF sweep | Medium — faster delevering |
+
+| Management incentives | Not modeled | Rollover + options + earn-out | Low — affects sponsor returns |
+
+| Dividend recap | Not modeled | Year 3 recap option | Medium — affects IRR timing |
+
+| Tax complexity | Simple rate | Interest limits, NOLs | Low — Meridian has clean taxes |
+
+The honest assessment: our simple model tells us the deal doesn't work at asking price. An advanced model would tell us the same thing with more precision — maybe 10.3% IRR instead of 10.8%, or 1.65x instead of 1.67x.
+
+When to invest in complexity:
+
+535. Pre-LOI screening: Simple model. Get the answer fast.
+
+536. Post-LOI diligence: Add tranches, management terms, PPA impacts.
+
+537. Financing roadshow: Full quarterly model for bank presentations.
+
+538. Post-close budgeting: Maximum complexity for operational management.
+
+The purpose determines the precision. Don't build a quarterly model to answer an annual question.
+
+Part 3: Connecting to Documentation
+
+Where the Model Meets the Covenants
+
+The model we built assumes certain things about how the capital structure works. Those assumptions are either confirmed or contradicted by the credit documentation.
+
+Interest Rate:
+
+-   Model assumes: 6% fixed
+
+-   Documentation reality: EURIBOR + 400bps margin, with rate cap at 2% EURIBOR
+
+-   Impact: If rates rise, interest expense increases. The cap provides protection but not complete hedging.
+
+Amortization:
+
+-   Model assumes: 1% annual
+
+-   Documentation reality: Need to check credit agreement for mandatory amortization schedule, excess cash flow sweep provisions
+
+-   Impact: If there's a 50% excess cash flow sweep, debt paydown is faster than modeled, improving returns
+
+EBITDA Definition:
+
+-   Model assumes: Revenue - COGS - OpEx + D&A
+
+-   Documentation reality: Adjusted EBITDA per credit agreement includes addbacks for restructuring, transaction costs, synergies
+
+-   Impact: Credit agreement EBITDA is typically 5-10% higher than GAAP EBITDA. This provides covenant cushion.
+
+Covenant Tests:
+
+-   Model assumes: 5.5x leverage test with 40% headroom
+
+-   Documentation reality: Need to check if covenant is maintenance or incurrence-only, whether there's a covenant holiday, what the ratchet looks like
+
+-   Impact: Covenant-lite documentation (incurrence only) provides more flexibility but less protection
+
+The Documentation Checklist
+
+Before you finalize an LBO model, verify these against actual documents:
+
+| Item | Model Assumption | Document Source |
+
+|------|------------------|-----------------|
+
+| Interest margin | 400bps | Credit Agreement, Section 2.05 |
+
+| Amortization schedule | 1% p.a. | Credit Agreement, Section 2.06 |
+
+| Mandatory prepayment | None | Credit Agreement, Section 2.07 |
+
+| Excess cash flow sweep | None | Credit Agreement, Section 2.07 |
+
+| EBITDA definition | Per GAAP | Credit Agreement, Section 1.01 |
+
+| Leverage test | 5.5x | Credit Agreement, Section 7.11 |
+
+| RP capacity | Builder basket | Indenture, Section 4.07 |
+
+| Change of control | Put at 101 | Indenture, Section 4.14 |
+
+The model is only as good as its assumptions. The assumptions are only as good as your documentation review.
+
+Summary: What Modeling Actually Does
+
+The LBO model doesn't tell you whether to do a deal. It tells you the math.
+
+For Meridian, the math says:
+
+-   At 10x EBITDA, returns are mediocre (11% IRR)
+
+-   At 8x EBITDA, returns are acceptable (18% IRR)
+
+-   At 7x EBITDA, returns are attractive (23% IRR)
+
+-   Credit metrics are solid at any of these prices
+
+-   The limiting factor is equity returns, not credit capacity
+
+Armed with this, you can have an informed conversation:
+
+"We like the business. We can finance it. But the returns don't work at your asking price. Here's what we can pay, and here's the analysis that supports it."
+
+That's what the model is for. Not to produce a precise answer, but to define the boundaries of what makes sense.
+
+Next: Chapter 20 steps back from the technicals to discuss what twenty years of practice teaches about leveraged finance — the lessons that don't fit in a spreadsheet.
+
+— — —
+
+This chapter walks through the construction and interpretation of an LBO model for Meridian Plasma Group. We start with a simple annual model — the kind you might build in a first-pass screening — and then discuss when and why more complexity is warranted. Along the way, I'll share some of the lessons that only become obvious after you've built a few hundred of these things.
+
+The Assignment
+
+It's 6:47 PM on a Thursday. You're about to leave for a dinner you've cancelled twice already when your phone buzzes. Email from your Managing Director:
+
+  "FYI - DB sent over teaser on Meridian. Family shareholders exploring options. Indicative €14-16bn. EOI due in two weeks. Can you take a first look? Let's discuss tomorrow morning."
+
+You pull up the teaser on your phone. Meridian Plasma Group. One of the world's largest plasma therapeutics companies. You've tracked this name for years — it's on everybody's "dream list" of defensive healthcare assets — but the Lindqvist family has always maintained tight control. Now, after a turbulent twelve months that saw the stock drop 40% from its peak, they're finally ready to talk.
+
+Dinner gets cancelled a third time.
+
+Here's the thing about that email: it looks simple, but there's a lot packed into those two sentences. "Can you take a first look?" means "build a model and tell me if the math works." "Let's discuss tomorrow morning" means "I need to know if this is worth pursuing before I commit resources." And "two weeks until EOI" means you have maybe 48-72 hours to get him a preliminary answer before the train leaves the station.
+
+This is the core job of an LBO model: translate a business thesis into numbers, and see if those numbers work for everyone who needs to say yes. The seller needs a price they'll accept. The lenders need credit metrics they can live with. The sponsor needs returns that justify the risk. If you can't find a number that satisfies all three, there's no deal.
+
+Let's build it.
+
+Part 1: The Simple Annual Model
+
+Why Start Simple
+
+There's a temptation, especially when you're newer to this, to build the most sophisticated model possible. Quarterly periodicity. Multiple debt tranches with different amortization schedules. Circular references for cash sweeps. PIK toggles. Dividend recaps. Management rollover with hurdle-based ratchets. The works.
+
+I get it. You want to show that you know what you're doing. You've learned these techniques, and you want to use them.
+
+Resist this temptation — at least initially.
+
+Here's why: a simple annual model gets you 90% of the answer in 20% of the time. It forces you to focus on what actually matters — the business drivers, the entry price, and the capital structure — rather than getting lost in the mechanics. You can always add complexity later. But if the simple model doesn't work, the complex model won't save you.
+
+I learned this the hard way early in my career. I spent three days building what I thought was an incredibly sophisticated model for a potential retail LBO. Quarterly periods. Detailed seasonality. Working capital collection waterfall by customer segment. A thing of beauty.
+
+When I presented it to the MD, he looked at the summary page for about fifteen seconds, pointed at the IRR, and said: "So it's a 9% return at their asking price. We're done here."
+
+I'd spent three days producing a model that could have told me the same thing in three hours. The complexity didn't change the answer. It just delayed getting to it.
+
+The model we're about to build has:
+
+-   Annual periods (7 forecast years)
+
+-   One senior debt tranche
+
+-   Simple amortization (1% per year)
+
+-   No cash sweep
+
+-   No PIK instruments
+
+-   No circular references
+
+This is not a limitation. This is a feature. We'll talk about when to add complexity later. But first, let's get the answer.
+
+Section 1: Transaction Assumptions
+
+Opening the Model
+
+Before we dive into assumptions, let me orient you to the model structure. If you open the Excel file (Meridian_Plasma_Group_LBO_Model.xlsx), you'll see two sheets:
+
+LBO Summary — This is your dashboard. Key inputs at the top (debt amount, entry multiple, exit multiple, exit year), with the resulting IRR and MoC displayed prominently. Below that, you'll find sensitivity tables showing how returns change with different exit multiples and holding periods, plus a summary of operating and financial performance over the projection period.
+
+LBO Model — This is where the actual work happens. It's organized in sections:
+
+-   Income Statement (rows 4-19)
+
+-   Balance Sheet (rows 21-38)
+
+-   Cash Flow Statement (rows 40-60)
+
+-   Operating Assumptions (rows 62-111) — including three scenarios
+
+-   Transaction Assumptions (rows 113-142) — Sources & Uses
+
+-   Debt Schedule (rows 144-160)
+
+-   Key Financial Metrics (rows 162-171)
+
+-   Sponsor Returns (rows 173-202)
+
+-   Tax Schedule (rows 205-232)
+
+-   Working Capital Schedule (rows 235-256)
+
+-   PP&E Schedule (rows 259-293)
+
+Take a minute to scroll through. Notice how the historical data (columns D-E, FY2020-2021) flows into adjusting columns (F-G) that create the pro-forma balance sheet (column H), which then projects forward through the forecast period (columns I-O).
+
+This layout isn't arbitrary. Historical → Adjustments → Pro-Forma → Forecast is the standard architecture of an LBO model. Get comfortable with it; you'll use it hundreds of times.
+
+The Entry Price
+
+Every LBO starts with a price. In Meridian's case, we're looking at an indicative enterprise value of €14-16 billion. But what does that actually mean in terms of valuation?
+
+Let's anchor to EBITDA. Based on FY2024 financials (scaled for our teaching example):
+
+| Metric | Value |
+
+|--------|-------|
+
+| Revenue | €2,400m |
+
+| EBITDA | €720m |
+
+| EBITDA Margin | 30% |
+
+At €7.2 billion enterprise value, we'd be paying 10x EBITDA. (In the actual model, you'll see this in cell C117, pulling from the LBO Summary input at cell C7.)
+
+Is 10x aggressive? For most leveraged buyouts, yes. But context matters. Meridian is a defensive healthcare business with:
+
+-   Recurring revenue — Chronic patients need ongoing treatment. Nobody stops their immunoglobulin therapy because of a recession.
+
+-   High barriers to entry — Plasma collection networks take decades to build. You can't just wake up one day and decide to compete with Meridian.
+
+-   Regulatory moats — FDA and EMA approvals are expensive and time-consuming. Even if you built the collection network, you'd need years of clinical trials.
+
+-   Inelastic demand — When the economy crashes, people cut back on luxury goods. They don't cut back on life-saving medicine.
+
+These characteristics justify a premium multiple. The question is how much of a premium.
+
+For our model, we'll use:
+
+-   Entry EV/EBITDA: 10x (cell C7 on LBO Summary)
+
+-   Exit EV/EBITDA: 10x (cell C9 on LBO Summary)
+
+Why assume no multiple expansion? Because assuming you'll sell for more than you paid is hope, not analysis. If the deal works at flat multiples, it's a good deal. If it only works with expansion, you're speculating.
+
+I've seen too many investment memos where the base case assumes 1-2 turns of multiple expansion. "We're buying at 8x, but we'll exit at 10x because of improved margins and market positioning." Maybe. But what if you don't? What if the market is worse at exit than at entry? Build the model to work without expansion, and treat any expansion as upside.
+
+The Capital Structure
+
+With €720m of EBITDA, how much debt can Meridian support?
+
+This is where your conversations with debt capital markets colleagues become important. The answer isn't just mathematical (what can the cash flows support?) — it's also market-dependent (what are lenders willing to provide today?).
+
+In the current environment, a high-quality healthcare business can typically lever 5-6x EBITDA in the syndicated loan market. Aggressive structures might push higher, but you'd need either subordinated debt or very sponsor-friendly terms.
+
+For our base case, we're using €3,000m of new debt (cell C5 on LBO Summary), which works out to 4.2x the €720m entry EBITDA. That's conservative — deliberately so. When you're screening a deal, you want to know if it works with a reasonable capital structure, not a stretched one.
+
+Look at the Sources & Uses section in the model (rows 131-142):
+
+| Uses of Funds | Amount | Multiple |
+
+|---------------|--------|----------|
+
+| Acquisition of 100% Equity | €6,350m | 8.8x |
+
+| Refinancing of Existing Debt | €800m | 1.1x |
+
+| Minimum Cash to Company | €50m | 0.1x |
+
+| Transaction Costs | €152m | 0.2x |
+
+| Total Uses | €7,352m | 10.2x |
+
+| Sources of Funds | Amount | Multiple |
+
+|------------------|--------|----------|
+
+| Sponsor Equity Contribution | €4,302m | 6.0x |
+
+| New Financial Debt | €3,000m | 4.2x |
+
+| Company Cash Used | €50m | 0.1x |
+
+| Total Sources | €7,352m | 10.2x |
+
+A few things to notice:
+
+Transaction costs are real money. Financing fees (2% of debt = €60m), advisory fees (1.5% of equity = €95m), and other costs (€30m) add up to €152m. That's money the sponsor has to provide that doesn't go into buying the business. When you're calculating returns, these costs are part of your investment.
+
+The equity check is bigger than EV minus debt. At first glance, you might think: €7,200m enterprise value minus €3,000m debt equals €4,200m equity. But that ignores the transaction costs and the minimum cash you need to leave in the business. The actual equity check is €4,302m.
+
+Sources must equal uses. This seems obvious, but I've reviewed models where they didn't balance. Usually it's because someone forgot to include the refinancing of existing debt as both a use (paying it off) and a source (not having to pay it again). The model has a check in row 38 that should always be zero.
+
+Debt Terms
+
+For the senior secured term loan, we're assuming (rows 152-153):
+
+| Term | Assumption | Rationale |
+
+|------|------------|-----------|
+
+| Interest Rate | 6.0% | EURIBOR (~2%) + 400bps margin |
+
+| Amortization | 1% per year | Standard TLB terms |
+
+| Maturity | 7 years | Typical for sponsor-backed |
+
+The 6% all-in rate reflects current market conditions. In a lower-rate environment, this might be 4-5%. In a stressed market, 7-8%. The model should be flexible enough to sensitize this — you can change cell I152 and see the impact flow through.
+
+One thing worth noting: we're assuming a fixed 6% rate for simplicity. In reality, this would be floating-rate debt (EURIBOR + margin), which means interest expense would vary with rate movements. For a screening model, fixed is fine. When you move to a financing presentation, you'll want to show scenarios with different rate environments.
+
+Section 2: Operating Assumptions
+
+The Scenario Framework
+
+Open the Operating Assumptions section (rows 62-111). You'll see something important: we're not modeling just one future. We're modeling three.
+
+| Scenario | Description | Purpose |
+
+|----------|-------------|---------|
+
+| Management Case | What the business thinks it can achieve | Basis for equity underwriting |
+
+| Bank Case | Conservative view | Basis for debt sizing |
+
+| Downside Case | What keeps you up at night | Tests covenant headroom |
+
+The dropdown in cell C64 switches between these scenarios. Watch how the forecast columns update when you change it.
+
+This matters for a subtle but important reason: sponsors and lenders see different worlds.
+
+Sponsors are equity investors. They're optimists by nature — they're betting that the business will perform well, that management will execute, that the investment thesis will play out. Their base case is the Management Case.
+
+Lenders are debt investors. They're pessimists by nature — they're paid to worry about what can go wrong, not what can go right. Their base case is the Bank Case. They'll look at the Management Case too, but they'll mentally haircut everything by 20-30%.
+
+By building all three scenarios into one model, you can have informed conversations with both audiences using the same tool.
+
+The Revenue Build
+
+Let's talk about what's actually driving the forecast.
+
+Plasma is a growth business. Global demand for immunoglobulins grows 6-8% annually, driven by:
+
+-   Expanding indications (new diseases being treated)
+
+-   Improved diagnosis rates (more patients being identified)
+
+-   Aging populations (higher disease prevalence)
+
+-   Emerging market adoption (China, Middle East, Latin America)
+
+For Meridian, we've assumed (rows 67-69):
+
+| Scenario | Year 1-2 | Year 3-7 |
+
+|----------|----------|----------|
+
+| Management Case | 6% | 5% |
+
+| Bank Case | 3% | 3% |
+
+| Downside Case | 0% | 0% |
+
+Why does growth slow after Year 2? Because it always does. Management teams consistently overestimate how long high growth can persist. The market matures. Competition intensifies. Low-hanging fruit gets picked. Modeling 6% forever is wishful thinking; modeling 5% after a couple of years is realistic.
+
+The Downside Case assumes zero growth — flat revenue forever. This might seem pessimistic, but it's the right question to ask: if the business just maintains its current size, do we still make money? Does the credit still work? If the answer is no, you've got a problem.
+
+The Margin Structure
+
+Look at rows 71-84 for the cost assumptions:
+
+| Line Item | Management | Bank | Downside |
+
+|-----------|------------|------|----------|
+
+| COGS (% of Revenue) | 50% | 52% | 54% |
+
+| Operating Expenses (% of Revenue) | 20% | 22% | 24% |
+
+| D&A (% of Revenue) | 5% | 5% | 5% |
+
+The math for EBITDA margin in each scenario:
+
+-   Management: 100% - 50% - 20% = 30% margin
+
+-   Bank: 100% - 52% - 22% = 26% margin
+
+-   Downside: 100% - 54% - 24% = 22% margin
+
+Notice that D&A doesn't change across scenarios. That's because depreciation is driven by the existing asset base and capital expenditure policy, not by how well the business performs operationally. A struggling company doesn't depreciate its assets more slowly.
+
+Also notice the relationship: the Downside isn't "Management Case minus 2%." It's a different margin structure entirely. The Bank Case gives you 400bps less margin than Management. The Downside gives you another 400bps less. These step-downs matter because they compound with the revenue differences.
+
+Working Capital: Where Cash Actually Lives
+
+This is where plasma businesses differ from typical manufacturing. Look at rows 93-106:
+
+Days Inventory Outstanding (DIO): 90 days
+
+This seems high compared to, say, a software company (which might have zero inventory) or even a normal manufacturer (30-45 days). But plasma inventory is special:
+
+-   Raw plasma must be held 60 days for viral safety testing. This isn't a policy choice — it's a regulatory requirement. You cannot release plasma-derived products until you've completed the safety hold.
+
+-   Work-in-process fractionation takes weeks. Plasma fractionation is a complex, multi-step manufacturing process.
+
+-   Finished goods require cold storage. These are biological products with specific handling requirements.
+
+You cannot meaningfully reduce plasma DIO without compromising safety or losing sales. This is a structural feature of the business, not an inefficiency to fix. (I've seen PE firms show up on Day One with their "100-day plan" to optimize working capital, only to discover that the obvious improvements don't exist.)
+
+Days Sales Outstanding (DSO): 45 days
+
+Typical for healthcare. Hospital customers pay slowly. Government payers (European national health systems) pay even more slowly — some countries run 90-120 days or longer. Private insurers pay faster. The 45-day assumption is a blend across customer types.
+
+Days Payable Outstanding (DPO): 40 days
+
+Plasma donors are paid immediately — you can't negotiate payment terms with individual donors. Equipment suppliers and service providers get standard terms. The 40-day assumption reflects this mix.
+
+The Net Working Capital Impact:
+
+The Working Capital Schedule (rows 235-256) calculates the actual balance sheet impacts:
+
+```
+
+Accounts Receivable = (Revenue / 365) × DSO
+
+Inventory = (COGS / 365) × DIO
+
+Accounts Payable = (COGS / 365) × DPO
+
+Net Working Capital = A/R + Inventory - A/P
+
+```
+
+The formula for change in working capital is in row 256. It's negative when the company is growing — because growth consumes cash. Every €100m of revenue growth requires roughly €15-20m of incremental working capital investment. This is real cash that comes out of free cash flow.
+
+One of the most common modeling errors I see is treating working capital as a percentage of revenue change when it should be based on the absolute change in balance sheet accounts. The model gets this right, but make sure you understand why.
+
+Capital Expenditures
+
+Rows 108-111 show CapEx as a percentage of revenue:
+
+| Scenario | CapEx % |
+
+|----------|---------|
+
+| Management | 5% |
+
+| Bank | 4% |
+
+| Downside | 3% |
+
+Why does CapEx decline in worse scenarios? Because if the business is struggling, management will pull back on investment. They'll defer expansion projects, extend equipment replacement cycles, and prioritize cash preservation over growth.
+
+Is this good? Not necessarily. Under-investment today creates problems tomorrow — aging equipment, lost market position, declining productivity. But in a stressed scenario, survival beats optimization. The model reflects this reality.
+
+For the base case, 5% of revenue (roughly €120m annually) is enough to maintain the asset base and fund modest network expansion. A more aggressive growth plan — building new plasma centers, adding fractionation capacity — would require 7-8%.
+
+Section 3: Building the Forecast
+
+Following the Math Through the Model
+
+Now let's trace how these assumptions flow into actual numbers. I'll walk through Year 1 of the Management Case.
+
+The Income Statement (rows 6-19):
+
+Start in cell I6 (Revenue, Year 1). The formula is:
+
+```
+
+=H6*(1+I66)
+
+```
+
+Translation: Take the pro-forma revenue (€2,400m in H6) and grow it by the Year 1 growth rate (6% from the Management Case lookup in I66). Result: €2,544m.
+
+Now cell I7 (COGS):
+
+```
+
+=-I6*I71
+
+```
+
+Translation: Revenue times the COGS percentage (50% from I71). Negative because it's a cost. Result: -€1,272m.
+
+Gross Profit (I8) is just Revenue plus COGS: €1,272m.
+
+Operating Expenses (I10) follows the same pattern as COGS: Revenue times the OpEx percentage. Result: -€509m.
+
+D&A (I11): Revenue times the D&A percentage. Result: -€127m.
+
+EBIT (I12) is the sum: €636m.
+
+Here's where the model gets interesting: Interest expense (I15) pulls from the debt schedule:
+
+```
+
+=I150
+
+```
+
+This creates a link between the operating model and the financing structure. Change the debt amount, and interest expense changes automatically.
+
+Interest income (I14) applies a return rate to the beginning cash balance:
+
+```
+
+=H29*I86
+
+```
+
+In the Management Case, this is 2% on whatever cash you're holding.
+
+EBT (I16) is EBIT plus interest income minus interest expense. Then taxes (I18) — but notice this doesn't just multiply EBT by a tax rate. It pulls from the Tax Schedule at row 228:
+
+```
+
+=I228
+
+```
+
+We'll talk about why in a moment. For now, just know that the tax calculation is more sophisticated than it looks.
+
+Net Income (I19) is EBT plus tax expense (negative number): €342m.
+
+And the EBITDA? It's calculated in the Cash Flow section at row 42:
+
+```
+
+=I12-I11
+
+```
+
+EBIT minus D&A (which adds it back, since D&A is negative). Result: €763m, up from €720m at entry.
+
+The Cash Flow Cascade
+
+This is where the model tells you whether the LBO actually works. The cash flow statement (rows 40-60) shows you how much money is available to service debt — and what's left over.
+
+Year 1 Cash Flow (Management Case):
+
+| Item | Formula | Amount |
+
+|------|---------|--------|
+
+| EBITDA | =I12-I11 | €763m |
+
+| Change in Working Capital | =I256 | -€35m |
+
+| Capital Expenditures | =-I6*I108 | -€127m |
+
+| Income Tax Expense | =I18 | -€114m |
+
+| Other Non-Operating Cash | =I14 | €1m |
+
+| Cash Available for Debt Service (CFADS) | =SUM | €488m |
+
+| Interest Expense | =I15 | -€180m |
+
+| Debt Principal Repayment | =I148 | -€30m |
+
+| Cash Flow After Debt Service | =I47+SUM(I49:I50) | €278m |
+
+Let's unpack this:
+
+CFADS of €488m tells you the business generates plenty of cash before financing costs. This is a healthy, cash-generative business.
+
+Interest of €180m is substantial but manageable. Interest coverage (EBITDA/Interest) is 4.2x — well above the 2.5x minimum most lenders require.
+
+Amortization of €30m is just 1% of the original €3,000m principal. Term Loan B structures typically have minimal amortization, with the bulk of principal repaid at maturity through refinancing or sale.
+
+Free Cash Flow of €278m is real money that accumulates on the balance sheet. This is what makes the LBO work over time.
+
+Now trace what happens to that €278m. The model checks if cash is sufficient (row 54), calculates if any additional equity is needed (row 56, which should be zero if things are going well), and determines if dividends are paid (row 59 — in our model, we've disabled dividends with the flag in H155).
+
+The ending cash balance (row 60) equals beginning cash plus cash flow after debt service plus any dividends (negative) plus any equity injections. Watch this number accumulate over the projection period. It's the visual representation of value creation.
+
+The Debt Schedule
+
+The Debt Schedule (rows 144-160) tracks what happens to the €3,000m of debt over time.
+
+The structure is straightforward:
+
+```
+
+Beginning Balance (I147) = Previous period ending balance = H149
+
+Mandatory Amortization (I148) = -MIN(Beginning Balance, Original × Amort%)
+
+Ending Balance (I149) = Beginning + Amortization
+
+Interest Paid (I150) = -Interest Rate × Beginning Balance
+
+```
+
+Watch the ending balance decline:
+
+| Year | Beginning | Amortization | Ending | Leverage |
+
+|------|-----------|--------------|--------|----------|
+
+| Entry | - | - | €3,000m | 4.2x |
+
+| 1 | €3,000m | -€30m | €2,970m | 3.9x |
+
+| 2 | €2,970m | -€30m | €2,940m | 3.6x |
+
+| 3 | €2,940m | -€30m | €2,910m | 3.4x |
+
+| 4 | €2,910m | -€30m | €2,880m | 3.2x |
+
+| 5 | €2,880m | -€30m | €2,850m | 3.0x |
+
+Leverage drops from 4.2x to 3.0x over five years — and that's purely from EBITDA growth, with no excess cash sweeps. If we added a 50% cash sweep, the deleveraging would be even faster.
+
+This is the "deleveraging" story that makes LBOs work: the business generates cash, EBITDA grows, debt stays roughly constant (or declines), and leverage drops. The equity value increases because you've paid down debt while the enterprise value has grown.
+
+A Brief Detour: The Tax Schedule
+
+I promised we'd come back to taxes. Look at rows 205-232.
+
+The simple approach would be: Tax = EBT × 25%. That's what many screening models do, and it's fine for a first pass.
+
+But the real world is more complicated. Post-2017 tax laws (in the US, and similar rules in Europe under ATAD) limit how much interest you can deduct. The limit is generally 30% of EBITDA.
+
+Rows 207-213 calculate this:
+
+```
+
+Tax EBITDA (I209) = Operating EBITDA
+
+Interest Capacity (I210) = 30% × EBITDA
+
+Total Net Interest Expense (I211) = Interest paid - Interest earned
+
+Deductible Interest (I212) = MIN(Capacity, Actual Interest)
+
+Non-Deductible Interest (I213) = Actual - Deductible
+
+```
+
+In our model, €180m of interest versus €763m × 30% = €229m of capacity means all interest is deductible. We're comfortably under the limit.
+
+But imagine a more leveraged deal with €250m of interest. Only €229m would be deductible; €21m would be added back to taxable income. That's €5m+ of extra cash taxes that a naive model would miss.
+
+The model also tracks NOLs (Net Operating Losses) in rows 215-222. If the company has losses to carry forward, it can offset future taxable income. The model tracks the beginning balance, any new NOLs generated (if there's a loss year), utilization, and ending balance.
+
+This level of tax detail might seem excessive for a screening model. It's not. These effects are material — they can swing cash flow by 5-10% — and getting them wrong means getting the returns wrong.
+
+Section 4: Sponsor Returns
+
+The Exit Math
+
+Here's what the sponsor is really asking: "If I write a €4.3bn check today, what do I get back in five years?"
+
+Look at the Sponsor Returns section (rows 173-202).
+
+At Year 5, assuming a 10x exit multiple (same as entry):
+
+| Item | Formula | Amount |
+
+|------|---------|--------|
+
+| Exit EBITDA | =L42 | €920m |
+
+| Exit Multiple | =L176 | 10x |
+
+| Enterprise Value | =L175×L176 | €9,200m |
+
+| Cash Balance at Exit | =L29 | €500m |
+
+| Debt Balance at Exit | =-L33 | -€2,850m |
+
+| Exit Equity Value | =EV + Cash - Debt | €6,850m |
+
+The sponsor invested €4,302m (cell C139) and receives €6,850m five years later.
+
+IRR and MoC
+
+The return metrics are calculated in rows 195-202:
+
+| Metric | Formula | Value |
+
+|--------|---------|-------|
+
+| Money-on-Money (MoC) | =Exit Value / Initial Investment | 1.67x |
+
+| Internal Rate of Return (IRR) | =(MoC^(1/Years))-1 | 10.8% |
+
+Is that good? Depends on your hurdle rate.
+
+For a large-cap buyout fund, typical targets are:
+
+-   Minimum acceptable IRR: 15%+
+
+-   Target IRR: 20%+
+
+-   MoC floor: 2.0x
+
+At 10.8% IRR and 1.67x MoC, this deal doesn't clear the bar. Not even close.
+
+The Conversation You're About to Have
+
+Here's where modeling meets reality.
+
+It's 8:30 AM. You walk into your MD's office with a printout of the summary page. He's on the phone, waves you to sit down, finishes his call.
+
+"So? Does it work?"
+
+"No," you say. "At 10x entry, we're looking at an 11% IRR. We'd need to be at 7-8x to make the numbers work."
+
+He leans back. "What's 7-8x in enterprise value terms?"
+
+You've anticipated this. "€5.0-5.8 billion. Versus their indicative €14-16 billion."
+
+"So we'd need a 60% discount from where they're hoping to trade."
+
+"Yes."
+
+He's quiet for a moment. "And the credit?"
+
+"Credit's fine. 4.2x entry leverage, declining to 3x at exit. Interest coverage above 4x throughout. They can finance it at virtually any price — the constraint is our returns, not the debt capacity."
+
+"Alright. Walk me through what would need to change to make it work at 10x."
+
+And this is where the sensitivity analysis becomes useful. You flip to the table:
+
+| Entry Multiple | Exit Multiple | Revenue Growth | IRR |
+
+|----------------|---------------|----------------|-----|
+
+| 10x | 10x | 5% | 10.8% |
+
+| 10x | 12x | 5% | 16.3% |
+
+| 8x | 10x | 5% | 18.2% |
+
+| 8x | 10x | 7% | 21.4% |
+
+| 7x | 10x | 5% | 23.1% |
+
+"At 10x entry, we'd need to exit at 12x just to hit 16%. That's two turns of multiple expansion — aggressive in a market where healthcare multiples have been compressing. Alternatively, if we believed in 7% growth forever instead of 5%, we'd get there. But that's above market growth rates and assumes we're taking share."
+
+"What about operational improvements? Synergies?"
+
+"We've got 30% EBITDA margins in the base case — already optimistic versus their reported 25%. There's maybe 200-300bps of margin improvement over time, but that gets you from 10.8% to maybe 12%. Not enough."
+
+He nods. "Write it up. One page. I'll share it with the partners and see if there's interest at a different price point. But my guess is we pass."
+
+This is what the simple model is for. It gives you the answer quickly, so you can have the right conversation. The deal doesn't work at the indicative price. That's useful information — it saves everyone time and directs resources toward opportunities that might actually happen.
+
+Section 5: The Credit Perspective
+
+The Other Side of the Table
+
+While sponsors are thinking about IRRs, lenders are thinking about something else entirely: am I going to get my money back?
+
+Look at the Key Financial Metrics section (rows 162-171):
+
+| Metric | Entry | Year 1 | Year 3 | Year 5 |
+
+|--------|-------|--------|--------|--------|
+
+| Gross Debt / EBITDA | 4.2x | 3.9x | 3.4x | 3.0x |
+
+| Net Debt / EBITDA | 4.1x | 3.5x | 2.6x | 1.9x |
+
+| Interest Coverage (EBITDA/Interest) | n/a | 4.2x | 4.8x | 5.4x |
+
+| DSCR (CFADS/Debt Service) | n/a | 2.3x | 2.6x | 2.8x |
+
+These ratios tell a different story than the IRR. From a credit perspective, this is a solid deal:
+
+Leverage starts reasonable and improves. 4.2x isn't stretched for a high-quality healthcare business. The steady deleveraging to 3.0x means the lender's exposure decreases over time.
+
+Interest coverage is healthy. Above 4x throughout means the company can pay its interest bill four times over. Even if EBITDA dropped by 50%, you'd still cover interest.
+
+DSCR is strong. Above 2x means the company generates twice as much cash as it needs to service all debt obligations (interest plus principal).
+
+From a credit standpoint, this deal works at any price. The business generates plenty of cash to support the debt. The constraint isn't credit capacity — it's that the equity returns are weak.
+
+Covenant Headroom
+
+The model includes a covenant calculation at row 160. We've set a leverage covenant of 5.5x with 40% headroom (meaning the covenant is set at 40% above the projected leverage level).
+
+How much can EBITDA decline before tripping the covenant?
+
+| Year | Debt | Covenant | Min EBITDA | Actual EBITDA | Headroom |
+
+|------|------|----------|------------|---------------|----------|
+
+| 1 | €2,970m | 5.5x | €540m | €763m | 29% |
+
+| 3 | €2,910m | 5.5x | €529m | €856m | 38% |
+
+| 5 | €2,850m | 5.5x | €518m | €920m | 44% |
+
+EBITDA could drop 29% in Year 1 before tripping covenants. By Year 5, that buffer grows to 44% because debt has amortized while EBITDA has grown.
+
+For context: a 30% EBITDA decline is a serious recession. The 2008-2009 financial crisis saw healthcare EBITDA decline maybe 10-15% for the most affected companies. A 30% drop would be an existential event for the industry — and even then, you'd survive from a covenant perspective.
+
+This is a well-structured credit.
+
+The Lender's Different Math
+
+Here's something worth understanding: lenders don't care about your IRR.
+
+They get paid the same interest rate whether your IRR is 8% or 28%. Their upside is capped — they get their coupon and their principal back. Their downside is losing money if the credit defaults.
+
+This asymmetry explains why lenders focus on different metrics:
+
+-   Entry leverage — Lower is better. Provides cushion for deterioration.
+
+-   Coverage ratios — Higher is better. Ensures debt service even in stress.
+
+-   Deleveraging trajectory — Want to see leverage decline over time.
+
+-   Covenant headroom — Want to see buffer to covenant levels.
+
+A deal can be attractive to lenders and unattractive to sponsors (good credit, weak equity returns) or attractive to sponsors and problematic for lenders (high returns, but stretched credit).
+
+The best deals satisfy both — and the model lets you see whether that overlap exists.
+
+Section 6: What the Simple Model Tells You
+
+After an hour of work, you know:
+
+539. The deal doesn't work at asking price. 10x EBITDA yields 11% IRR — below hurdle.
+
+540. The business is solid. Credit metrics are healthy. This is a financing story, not a credit story.
+
+541. Price is the problem. You need 7-8x to make the returns work. That's 30-40% below indicative.
+
+542. Multiple expansion would help but is speculative. At 10x entry, you'd need 12x exit to hit 16% IRR. That's aggressive for a maturing healthcare business.
+
+543. The leverage is appropriate. 4.2x entry, declining to 3.0x at exit. There's room for more debt if the price comes down.
+
+544. The downside is manageable. Even in the Bank Case (slower growth, lower margins), the credit holds up. This isn't a deal that blows up in a recession.
+
+This is the value of a simple model. It answers the fundamental question — does the deal work? — in a timeframe that allows for rapid iteration and informed decision-making.
+
+Now you can have the right conversations: with your MD about whether to pursue, with the debt team about financing options, with the seller about realistic price expectations.
+
+Part 2: When to Add Complexity
+
+The Temptation to Over-Engineer
+
+At some point in your career, you'll inherit a model that makes you want to cry.
+
+Maybe it's 50 sheets long. Maybe it has circular references that break when you look at them wrong. Maybe the formulas span three rows of the formula bar. Maybe there's a VBA macro that nobody understands anymore because the person who wrote it left two years ago.
+
+You'll ask yourself: why would anyone build this?
+
+The answer is usually that someone started adding complexity without asking whether it was necessary. One feature led to another, which led to another, and suddenly you have a monster that takes 45 minutes to recalculate and crashes if you try to run a sensitivity.
+
+So let's be disciplined about this: when does complexity actually change your answer?
+
+The Quarterly Question
+
+The model we built uses annual periods. For a screening exercise, that's fine. But when does it make sense to go quarterly?
+
+Here's a comparison:
+
+| Feature | Simple Annual Model | Complex Quarterly Model |
+
+|---------|---------------------|-------------------------|
+
+| Periods | 7 annual | 28-32 quarterly |
+
+| Sheets | 2 | 10+ |
+
+| Revenue modeling | Flat annual growth | Quarterly seasonality |
+
+| Working capital | DSO/DIO/DPO days | Multi-quarter collection waterfall |
+
+| Debt structure | Single senior tranche | Revolver + TLB + Notes + Mezz |
+
+| Cash management | Excess accumulates | Cash sweep, revolver draw/repay |
+
+| Circularity | None | Interest ↔ Debt ↔ Cash loops |
+
+| Build time | 1-2 hours | 1-2 days |
+
+Complexity matters when:
+
+545. Seasonality is extreme. If Q4 is 45% of revenue and Q1 is 5%, annual averaging hides critical cash flow dynamics. You might need peak revolver capacity that's 3x the annual average working capital need.
+
+546. You're close to covenant levels. If annual average leverage is 4.8x but Q1 leverage is 5.3x (due to seasonal EBITDA), you'll trip a quarterly test. Annual models miss this.
+
+547. Working capital timing creates liquidity risk. Long collection cycles (180+ day DSO) combined with seasonal revenue can create quarters where you're deeply drawn on the revolver. This matters.
+
+548. Debt structure has moving parts. Cash sweeps (calculated annually, paid from quarterly cash), PIK toggles, revolver utilization — all benefit from quarterly tracking.
+
+549. You're running the company. Post-close, you need quarterly forecasts for board reporting, covenant compliance, and treasury management.
+
+Complexity doesn't matter when:
+
+550. You're screening. First-pass analysis to decide if a deal is worth pursuing.
+
+551. The business is stable. Healthcare, essential services, subscription software — low seasonality, predictable cash. Meridian falls in this category.
+
+552. Debt structure is simple. Single term loan, no revolver or subordinated debt.
+
+553. You're far from covenant levels. If leverage is 3x with a 5.5x covenant, quarterly fluctuations are irrelevant.
+
+554. You're presenting to committee. Senior decision-makers want to understand the story, not audit 32 periods.
+
+For Meridian, the simple annual model is appropriate. It's a stable healthcare business with predictable cash flows and a straightforward capital structure. Quarterly precision wouldn't change the investment decision.
+
+Advanced Features (When You Actually Need Them)
+
+Let's say you've moved past screening. You're now post-LOI, the deal is real, and you need a more sophisticated model. Here's what that looks like:
+
+Multiple Debt Tranches:
+
+Real LBO capital structures often include:
+
+| Tranche | Rate | Amortization | Cash Sweep | Features |
+
+|---------|------|--------------|------------|----------|
+
+| Revolver | SOFR + 425bps | None | None | Undrawn fee 50bps |
+
+| Term Loan B | SOFR + 475bps, 0.5% floor | 1% | 50% | Senior secured |
+
+| Senior Notes | Fixed 8.375% | None | 100% | Non-call period |
+
+| Mezz/Second Lien | SOFR + 800bps | None | 100% | Higher rate, subordinated |
+
+Each tranche has its own waterfall priority for cash sweeps: Revolver first (repaid before you can sweep to others), then Term Loan, then Notes. The model needs to track each separately.
+
+PIK Interest:
+
+Some instruments allow interest to accrue to principal rather than pay cash:
+
+```
+
+Beginning Subordinated Notes: €100M
+
+(+) PIK Interest (5%): €5M
+
+(-) Cash Interest (5%): (€5M) paid from cash flow
+
+(=) Ending Balance: €105M
+
+```
+
+PIK increases the debt balance over time. It provides cash flow relief in early years but increases exit debt — a trade-off that needs to be modeled explicitly.
+
+Cash Flow Sweeps:
+
+Many credit agreements require "excess cash flow" sweeps — a percentage of annual free cash flow must go to debt paydown:
+
+```
+
+Consolidated Net Income
+
++ Depreciation and Amortization
+
+-   Capital Expenditures (maintenance only)
+
+-   Scheduled Debt Payments
+
+-   Working Capital Increase
+
+-   Cash Taxes Paid
+
+-   Cash Interest Paid
+
+± Other permitted add-backs/deductions
+
+= Excess Cash Flow
+
+× Sweep Percentage (often 50-75%, with step-downs)
+
+= Mandatory Prepayment
+
+```
+
+This accelerates deleveraging (good for credit) and affects sponsor returns (cash that could go to dividends goes to debt paydown instead).
+
+Dividend Recapitalizations:
+
+Sponsors sometimes take a "dividend recap" — raising additional debt mid-investment to pay themselves a dividend:
+
+```
+
+Year 3:
+
+EBITDA: €150M
+
+Div recap leverage: 2.0x
+
+New debt issued: €300M
+
+Less: issuance fees (2%): (€6M)
+
+Dividend to sponsor: €294M
+
+```
+
+This accelerates returns (cash out earlier = higher IRR) but increases risk (more debt on the business). The model must track the new tranche separately.
+
+Returns Attribution:
+
+Advanced models decompose returns into sources:
+
+| Source | Contribution |
+
+|--------|--------------|
+
+| EBITDA growth | €X of exit EV increase |
+
+| Multiple expansion | €Y of exit EV increase |
+
+| Debt paydown | €Z less debt at exit |
+
+| Dividend recap | €W cash distributed early |
+
+| Total equity return | €Total |
+
+This tells you why the deal worked (or didn't). A deal that only works with multiple expansion is speculative. A deal that works primarily on debt paydown is safe but boring. The best deals work on multiple levers.
+
+The Meridian Verdict
+
+For Meridian, where does our simple model fall short?
+
+| Feature | Our Model | Advanced | Impact? |
+
+|---------|-----------|----------|---------|
+
+| Periodicity | Annual | Quarterly | Low — stable business |
+
+| Debt tranches | Single TLB | Multi-tranche | Medium — affects interest |
+
+| Cash sweeps | None | 50% ECF | Medium — faster delevering |
+
+| Management incentives | Not modeled | Rollover + options | Low — affects sponsor returns |
+
+| Dividend recap | Not modeled | Year 3 option | Medium — affects IRR |
+
+| Tax complexity | Modeled | Modeled | Already included |
+
+The honest assessment: our simple model tells us the deal doesn't work at asking price. An advanced model would tell us the same thing with more precision — maybe 10.3% IRR instead of 10.8%, or 1.65x instead of 1.67x.
+
+When to invest in complexity:
+
+555. Pre-LOI screening: Simple model. Get the answer fast.
+
+556. Post-LOI diligence: Add tranches, management terms, working capital detail.
+
+557. Financing roadshow: Full quarterly model for bank presentations.
+
+558. Post-close budgeting: Maximum complexity for operational management.
+
+The purpose determines the precision. Don't build a quarterly model to answer an annual question.
+
+Part 3: Connecting to Documentation
+
+Where the Model Meets the Covenants
+
+Everything we've built assumes certain things about how the capital structure works. Those assumptions are either confirmed or contradicted by the credit documentation.
+
+Interest Rate:
+
+-   Model assumes: 6% fixed
+
+-   Documentation reality: EURIBOR + 400bps margin, probably with a SOFR floor
+
+-   Impact: If rates rise above the floor, interest expense increases. Conversely, rates falling below the floor doesn't help you.
+
+Amortization:
+
+-   Model assumes: 1% annual mandatory
+
+-   Documentation reality: Need to verify against Section 2.06 (or equivalent) of the credit agreement
+
+-   Impact: If there's a 50% excess cash flow sweep we didn't model, debt paydown is faster than projected
+
+EBITDA Definition:
+
+-   Model assumes: Revenue - COGS - OpEx + D&A
+
+-   Documentation reality: "Adjusted EBITDA" per credit agreement typically includes add-backs for restructuring, transaction costs, projected synergies, non-cash items
+
+-   Impact: Credit agreement EBITDA is usually 5-15% higher than GAAP EBITDA. This matters for covenant calculations.
+
+Covenant Structure:
+
+-   Model assumes: 5.5x leverage test with 40% headroom
+
+-   Documentation reality: Need to verify if covenant is maintenance (tested quarterly whether you draw or not) or incurrence-only (tested only when you take certain actions). Is there a covenant holiday? What's the ratchet look like?
+
+I've seen deals where the model assumed a maintenance covenant but the documentation had incurrence-only. That's a meaningful difference in downside protection.
+
+The Documentation Checklist
+
+Before you finalize an LBO model, verify these against actual documents:
+
+| Item | Model Assumption | Document Source |
+
+|------|------------------|-----------------|
+
+| Interest margin | 400bps | Credit Agreement, Section 2.05 |
+
+| Amortization schedule | 1% p.a. | Credit Agreement, Section 2.06 |
+
+| Mandatory prepayment | None | Credit Agreement, Section 2.07 |
+
+| Excess cash flow sweep | None | Credit Agreement, Section 2.07 |
+
+| EBITDA definition | Per GAAP | Credit Agreement, Section 1.01 |
+
+| Leverage test | 5.5x | Credit Agreement, Section 7.11 |
+
+| RP capacity | Builder basket | Indenture, Section 4.07 |
+
+| Change of control | Put at 101 | Indenture, Section 4.14 |
+
+The model is only as good as its assumptions. The assumptions are only as good as your documentation review.
+
+Summary: What Modeling Actually Does
+
+The LBO model doesn't tell you whether to do a deal. It tells you the math.
+
+For Meridian, the math says:
+
+-   At 10x EBITDA, returns are mediocre (11% IRR)
+
+-   At 8x EBITDA, returns are acceptable (18% IRR)
+
+-   At 7x EBITDA, returns are attractive (23% IRR)
+
+-   Credit metrics are solid at any of these prices
+
+-   The limiting factor is equity returns, not credit capacity
+
+Armed with this, you can have an informed conversation:
+
+"We like the business. We can finance it. But the returns don't work at your asking price. Here's what we can pay, and here's the analysis that supports it."
+
+That's what the model is for. Not to produce a precise answer, but to define the boundaries of what makes sense. The precision is secondary; the insight is primary.
+
+In the next chapter, we'll step back from the technicals to discuss what twenty years of practice teaches about leveraged finance — the lessons that don't fit in a spreadsheet.
+
+The Meridian Plasma Group LBO Model (Excel) accompanies this chapter and can be used to follow along with the calculations described above. The model is intentionally built with teaching in mind — formulas are visible, sections are labeled, and the architecture follows standard LBO conventions.
+
+— — —
+
+The Experiment
+
+We've talked in abstract terms about when complexity matters and when it doesn't. Let me show you concretely.
+
+I built the same Meridian deal with progressive levels of complexity, starting with our simple annual model and adding features one at a time until I had a full model with all the bells and whistles. At each step, I tracked three metrics:
+
+-   Sponsor IRR — The headline return number that drives the investment decision
+
+-   Average Interest Coverage Ratio — A key credit metric (EBITDA ÷ Interest Expense)
+
+-   Cumulative CFADS — Cash generated before debt repayment, measuring raw cash-generating power
+
+Same company. Same entry price. Same operating assumptions. Just different levels of model sophistication.
+
+Here's what I found:
+
+The Complexity Waterfall
+
+| Model Configuration | Feature Added | IRR | Δ vs Prior | Avg ICR |
+
+|---------------------|---------------|-----|------------|---------|
+
+| 1. Base (Simple) | Baseline model | 13.3% | — | 4.8x |
+
+| 2. + Multi-Tranche Debt | RCF + TLB + Notes vs single TLB | 13.0% | -0.3% | 4.3x |
+
+| 3. + Cash Flow Sweep | 50% ECF mandatory prepayment | 13.3% | +0.3% | 4.8x |
+
+| 4. + PIK Mezzanine | €200m subordinated with PIK toggle | 12.4% | -0.9% | 4.4x |
+
+| 5. + Dividend Recap | €300m recap in Year 3 | 14.4% | +2.0% | 4.4x |
+
+| 6. + Management Dilution | 8% to mgmt (rollover + options) | 12.6% | -1.8% | 4.4x |
+
+Let's walk through what's happening at each step.
+
+Step by Step: What Each Feature Actually Does
+
+Step 1 → 2: Adding Multi-Tranche Debt
+
+Impact: IRR -0.3%, ICR drops from 4.8x to 4.3x
+
+We replaced the simple 6% term loan with a real capital structure:
+
+-   €200m Revolving Credit Facility at EURIBOR + 425bps
+
+-   €2,200m Term Loan B at EURIBOR + 475bps
+
+-   €600m Senior Secured Notes at 8.375% fixed
+
+The blended cost of debt is higher than our simple 6% assumption — closer to 6.8%. That's roughly €25m more interest annually, which compounds over the hold period. The IRR drops because we're paying more for debt. The coverage ratio drops for the same reason.
+
+This is a real difference, but it doesn't change the investment decision. A 13.0% IRR is still below hurdle, just like 13.3% was.
+
+Step 2 → 3: Adding a Cash Flow Sweep
+
+Impact: IRR +0.3%, ICR recovers to 4.8x
+
+Here's something interesting: adding the cash sweep improves returns.
+
+The sweep requires 50% of excess cash flow to prepay debt. This accelerates deleveraging, which means:
+
+-   Less debt at exit → Higher exit equity value
+
+-   Lower average debt balance → Less interest expense in later years
+
+The sweep essentially "forces" good behavior — instead of letting cash sit on the balance sheet, it goes to paying down expensive debt. From a pure return perspective, that's value-accretive.
+
+Step 3 → 4: Adding PIK Mezzanine
+
+Impact: IRR -0.9%, ICR drops to 4.4x
+
+We added €200m of mezzanine debt with a PIK toggle — 12% PIK rate for years 1-2, then 10% cash pay thereafter.
+
+The PIK accrual increases the debt balance over time. By year 3, that €200m has grown to €250m+, and now you're paying 10% cash interest on the larger balance. The math doesn't lie: adding expensive subordinated debt hurts returns.
+
+The coverage ratio drops because you now have more interest expense (senior + mezz). This is the trade-off with PIK — you preserve cash early, but you're building a larger debt mountain.
+
+Step 4 → 5: Adding a Dividend Recapitalization
+
+Impact: IRR +2.0%, ICR unchanged at 4.4x
+
+This is the big one.
+
+In Year 3, with leverage down to ~3.0x and EBITDA grown meaningfully, the company raises €300m of incremental debt and dividends €294m (net of fees) to the sponsor.
+
+The sponsor originally invested ~€4.4bn. Getting €294m back in Year 3 means the cash flow timing improves dramatically:
+
+-   Year 0: -€4,400m (invest)
+
+-   Year 3: +€294m (dividend)
+
+-   Year 5: +€X (exit — reduced because of higher debt)
+
+Even though total cash returned is similar in absolute terms, the timing is much better. Getting money back earlier increases IRR — that's the time value of money at work.
+
+This is why dividend recaps are so popular with sponsors. They juice the IRR number that gets reported to LPs. The MoM might actually be flat or slightly down (because you've added debt that reduces exit equity), but the IRR pops because of the interim cash flow.
+
+Step 5 → 6: Adding Management Dilution
+
+Impact: IRR -1.8%, ICR unchanged at 4.4x
+
+Finally, we account for management's piece of the pie:
+
+-   3% rollover equity (management keeps some of their existing stake)
+
+-   5% option pool with hurdle-based vesting
+
+The sponsor now owns 92% of the exit equity instead of 100%. Coverage ratios and CFADS are unchanged — these are company-level metrics, unaffected by who owns the equity. But sponsor IRR drops because they're sharing the upside.
+
+This is real dilution that simple models often ignore. An 8% management promote on a ~€8bn exit is €640m+ that doesn't go to the fund.
+
+The Punchline
+
+After all that work — multi-tranche debt, cash sweeps, PIK instruments, a dividend recap, management dilution — where did we land?
+
+| Metric | Simple Model | Full Complex | Change |
+
+|--------|--------------|--------------|--------|
+
+| IRR | 13.3% | 12.6% | -0.7% |
+
+| Avg ICR | 4.8x | 4.4x | -0.4x |
+
+The IRR actually decreased by 0.7 percentage points. Even with the dividend recap adding 2.0%, the other features — higher interest from multi-tranche debt, costly PIK mezz, management dilution — more than offset it.
+
+The credit metrics got slightly worse (lower coverage) because we added subordinated debt and complexity. The business generates roughly the same amount of cash either way.
+
+The fundamental conclusion hasn't changed: this deal doesn't work at 10x EBITDA.
+
+A 12.6% IRR is actually worse than the 13.3% from the simple model. The complex model tells us the same thing — we can't pay this price. It just took longer to get there.
+
+When the Answer *Would* Change
+
+To be fair, there are deals where complexity genuinely matters. Here's what would have to be different:
+
+1. If the business had extreme seasonality
+
+Imagine 60% of revenue in Q4 (like a retailer). The simple model would show smooth annual cash flows, but the reality would be:
+
+-   Q1-Q3: Negative operating cash flow, heavy revolver draws
+
+-   Q4: Massive cash generation, revolver paydown
+
+Peak revolver utilization might be 3x the annual average working capital need. Interest expense would be higher. And you might trip a quarterly leverage covenant in Q2 even though annual leverage is fine.
+
+For Meridian (stable healthcare), this doesn't apply. For a seasonal business, the quarterly model would reveal risks the annual model hides.
+
+2. If we were close to covenant levels
+
+Our model showed ~4.2x entry leverage against a 5.5x covenant — plenty of headroom. But imagine entry leverage of 5.2x against a 5.5x covenant.
+
+In the annual model, you might show leverage declining smoothly. But quarterly, with seasonal EBITDA, you might breach in a weak quarter. The annual model would show comfortable compliance; the quarterly model would reveal you breach in Q1. That's a material difference.
+
+3. If the deal was marginal
+
+Our deal showed 13% IRR against a 15% hurdle — clearly below. But what if the simple model showed 14.5%?
+
+Now you're in the zone where the complexity features could tip the answer. The dividend recap alone added 2.0% IRR. A deal that looks marginal in a simple model might clear the hurdle once you add the recap. Or it might fall below hurdle once you add management dilution.
+
+When you're close to the decision boundary, precision matters.
+
+The Real Lesson
+
+The value of this exercise isn't the specific numbers — it's the framework for thinking about model complexity.
+
+Before you build the quarterly model with all the bells and whistles, ask yourself:
+
+559. Does this business have seasonality that annual periods would hide?
+
+560. Am I close to covenant levels where quarterly fluctuations matter?
+
+561. Does the debt structure have features that interact in non-linear ways?
+
+562. Is the deal marginal, where 1-2% IRR difference would change the decision?
+
+If the answer to all four is "no," the simple model is not just adequate — it's preferable. You'll get to the answer faster, the model will be easier to explain, and you won't introduce complexity-related errors.
+
+If the answer to any is "yes," invest in the complexity. It'll be worth it.
+
+For Meridian, we learned that our simple model was right: the deal doesn't work at asking price. The complex model confirmed it — actually produced slightly worse returns — and consumed significantly more time in the process.
+
+Visual: The Complexity Waterfall
+
+[The accompanying Excel model includes this waterfall chart on the "Complexity Analysis" tab]
+
+The waterfall shows:
+
+-   Starting bar: 13.3% (Base Simple)
+
+-   Multi-tranche debt: -0.3%
+
+-   Cash flow sweep: +0.3%
+
+-   PIK mezzanine: -0.9%
+
+-   Dividend recap: +2.0%
+
+-   Management dilution: -1.8%
+
+-   Ending bar: 12.6% (Full Complex)
+
+What the waterfall reveals: the dividend recap is the only feature that materially improves returns (+2.0%), but management dilution offsets most of it (-1.8%). The "modeling complexity" features (multi-tranche debt, PIK) actually hurt returns. Net impact: slightly negative.
+
+In the accompanying Excel model, you can toggle each feature on and off to see its individual impact. The "Complexity Analysis" sheet provides a dashboard showing how the answer changes as you add or remove features.
+

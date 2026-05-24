@@ -1,0 +1,461 @@
+THE ACCORDION / INCREMENTAL FACILITY:
+The Most Powerful Clause Nobody Reads Properly
+
+I was sitting in a conference room on the thirty-second floor of a Manhattan office tower in the summer of 2003, about halfway through my career, when I realized I'd been missing something fundamental about how leverage actually works. The lead counsel for the borrower—a seasoned deal lawyer I'd worked with on perhaps a dozen transactions—casually mentioned that his client wanted to add $50 million in incremental term loans to fund an acquisition. The agent bank agreed in what seemed like thirty seconds. No new lender presentations. No new credit committee. No amendment that required more than a three-page joinder. It occurred to me then that I'd been reading these credit agreements for years without truly understanding the power embedded in this single provision.
+
+The incremental facility clause, often called the accordion provision because it expands and contracts like an accordion, is simultaneously the most important and most underestimated mechanism in modern leverage finance. It sits quietly in Article 2 of virtually every meaningful credit agreement, almost always relegated to subsection 2.10 or thereabouts, and most participants in the credit process never fully appreciate what it does or how profoundly it shapes the actual utility of a credit facility once it's in place. Over the past two decades, I've watched sponsors extract billions of dollars of value through incremental facilities that were, quite candidly, not even the principal subject of anyone's due diligence process. I've also watched sponsors fail in their attempts to access this capacity because they misunderstood the conditions and limitations. And I've watched the provision itself evolve from a relatively straightforward add-on mechanism into something far more sophisticated and, frankly, more contentious than it was when I first started in this business.
+
+What I understand now, with the benefit of hindsight and a few decades' worth of closed transactions, is that the incremental facility is actually the fourth major capital source in a typical leveraged buyout, sitting comfortably alongside traditional term loans, revolver facilities, and equity. It is the option value embedded in your credit agreement. It is the mechanism that allows a borrower to grow without immediately refinancing. It is the instrument that sponsors use to fund add-on acquisitions, to pay special dividends, to refinance existing debt, or to simply optimize the capital structure as circumstances change. And it operates under a completely different set of rules than the facility you drew down on day one.
+
+Over the course of this chapter, I'll walk you through the mechanics, the capacity frameworks, the negotiation dynamics, and the practical applications of incremental facilities as they exist in today's credit markets. I'll show you how sponsors weaponize these provisions. I'll show you where negotiations typically break down. I'll show you the mathematical models that determine capacity. And perhaps most importantly, I'll show you why the way a particular credit agreement defines its accordion capacity—down to the granular language—determines whether that facility is genuinely useful or merely aspirational.
+
+Let me start with the most basic question: what exactly is an incremental facility, and why should anyone care?
+
+THE HEART OF THE MECHANISM
+
+An incremental facility, at its essence, is the borrower's contractual right to incur additional debt without going through the traditional repricing and restructuring process that normally accompanies a significant increase in leverage. Instead of commencing an auction process, negotiating with existing lenders, dealing with commitment declines, and navigating the full panoply of regulatory and covenant compliance issues, the borrower simply requests additional commitments—which new lenders can provide through what amounts to a streamlined amendment process.
+
+Think of it this way: when you close on a leveraged buyout, you typically have $800 million in term loans, a $150 million revolver, and $500 million in equity. Those instruments are binding. Those lenders have syndicated their commitments. Those interest rates are locked. Those financial covenants are defined. Now, six months later, you identify a bolt-on acquisition that costs $200 million. You have three choices. First, you could go back to your existing lenders and ask them to increase their commitments—a process that takes weeks, involves significant negotiation, will likely result in some lenders stepping back, and might require you to pay additional fees or increase pricing to compensate existing lenders for their additional commitment. Second, you could go to the bank market and launch a completely separate credit facility, which takes even longer and results in multiple credit agreements that don't coordinate particularly well. Third, you can use your incremental facility to access additional commitments from new lenders who are drawn to the credit by the improved profile of the enlarged company and who can fund their increments without any participation from existing lenders.
+
+That third option—the incremental facility—is the game changer. Because what it really allows is this: it allows the borrower to take advantage of improved leverage metrics, improved EBITDA generation, and improved scale in a way that's immediately accessible and doesn't require the cooperation of existing lenders. In other words, it decouples your ability to raise additional capital from the continued willingness of your existing lender base to commit more money.
+
+Over my two decades in this business, I've seen sponsors use incremental facilities to accomplish things that would have been genuinely difficult without them. I watched a large industrial conglomerate that we financed use incremental facilities to fund eight add-on acquisitions over four years, deploying roughly the same amount of capital through the accordion as they had through the original facilities at closing. I watched a specialty retailer use incremental facilities twice to refinance higher-cost preferred equity from an earlier investor, effectively reducing their cost of capital and improving their equity returns. I watched a sponsor use an incremental facility to fund a special dividend to itself at a time when market conditions had materially improved but the debt markets were still in recovery mode and wouldn't have welcomed a traditional refinancing. These are not edge cases. These are the normal, workaday uses of incremental facilities in professional sponsor-backed transactions.
+
+What changed my understanding of this provision, though, was realizing that the exact contours of the accordion—the capacity definition, the conditions, the limitations—determine what's actually possible. A poorly drafted incremental provision might create the appearance of flexibility while delivering almost nothing in practice. And a well-drafted provision, combined with sophisticated sponsors and aggressive capital providers, can essentially allow a sponsor to rebuild the entire capital stack without going through the refinancing process at all.
+
+THE EVOLUTION OF THE ACCORDION
+
+When I started in leveraged finance in the early 2000s, incremental facilities were quite straightforward. The borrower was given the right to request, say, $100 million in additional term loans or an additional $50 million in revolver capacity. The request had to be unsecured (or secured second), couldn't have terms significantly worse than the existing facilities, and had to be subject to there being no existing default. That was largely it. Sponsors used them occasionally, primarily to adjust the initial sizing of the facility if they discovered they'd miscalibrated in the weeks after closing. The provision was almost an afterthought.
+
+By the mid-2000s, as the leveraged finance market became more competitive and PE sponsors became increasingly sophisticated, incremental facilities became far more generous. Instead of fixed dollar baskets, we started seeing ratio-based incremental provisions. Instead of hard caps on additional borrowings, we started seeing "unlimited" incremental facilities subject only to financial maintenance tests. Sponsors realized that if they could simply grow EBITDA faster than they were servicing debt, they could access an effectively unlimited amount of leverage through the accordion, without any need to go back to the debt markets.
+
+Then came the financial crisis in 2008, which introduced a period of market contraction and a reassessment of how aggressive incremental terms could be. But it also paradoxically increased the importance of incremental facilities, because refinancing became harder and incremental access became more valuable. By the time we came out of that period, sponsors and lenders had reached a new equilibrium: incremental provisions were substantial, but they had evolved to include various protective mechanisms for existing lenders.
+
+This is when the Most Favored Nation provision—which I'll discuss at length later—truly became central to the negotiation around incremental facilities. The MFN clause is essentially a yield protection mechanism that says: if you draw new money at better terms than the existing lenders have, the existing lenders get those better terms too. On the surface, this seems eminently reasonable. In practice, it has become the primary mechanism by which existing lenders protect themselves against being left behind by incremental capital that comes in at dramatically different pricing.
+
+The covenant-lite era of the 2010s then accelerated this dynamic even further. When sponsors could negotiate away financial maintenance covenants, they simultaneously became more interested in incremental facilities as a capital source, because they wouldn't be constrained by traditional leverage or interest coverage requirements. And new lenders became more interested in providing incremental capital on attractive terms. But this set off another round of protective mechanisms: incremental term loans began to have the same pro forma leverage and interest coverage testing that the original facilities had, even if the original facilities themselves were maintenance-covenant-free.
+
+By the time we hit the 2020s, incremental facilities had evolved into what I'd call "super-grower" provisions, at least in the higher-quality credit profiles. These could include: fixed dollar baskets in the hundreds of millions of dollars; ratio-based baskets tied to EBITDA growth; the ability to reclassify capacity between baskets; sophisticated MFN provisions with varying sunsets and carve-outs; and in some cases, the ability to incur incremental equivalent debt outside the credit agreement entirely. The provision had become perhaps the single most important determinant of a sponsor's actual flexibility once a deal was closed.
+
+Understanding this evolution is important because it's not enough to know what an incremental facility is in the abstract. You have to understand how it has developed and what the current market norms are. A sponsor asking for incremental terms from a syndication in 2024 will have very different expectations than one in 2004, and both will likely be disappointed if they get what they thought they should have.
+
+THE BASIC MECHANICS: HOW THE ACCORDION ACTUALLY WORKS
+
+Let me walk through the structural mechanics of how an incremental facility actually functions in practice, because this is where a lot of confusion emerges.
+
+At the most basic level, an incremental facility is the borrower's right—not the existing lenders' obligation—to request additional debt commitments from the market. When the borrower makes such a request, the administrative agent is responsible for finding lenders willing to provide those commitments. The agent will typically send out a term sheet or request for commitment to a broad list of potential lenders, some of whom are existing lenders in the deal and some of whom are not. Lenders then respond with their desired participation levels and, if they're new lenders, any final terms they want to negotiate.
+
+Here's the critical thing: the existing lenders have zero obligation to participate. This is not a capital call on your existing lender group. If your existing term loan lenders don't want to provide additional commitments, that's entirely their prerogative. The incremental facility provisions essentially say: the borrower can ask the agent to solicit these commitments, the agent will use reasonable efforts to find willing lenders, and if the borrower can find lenders willing to provide this additional capital on acceptable terms, the borrower can access it.
+
+The documentation process typically takes one of three forms, depending on the structure and the timing. The cleanest approach is what's called a "joinder," where new lenders simply agree to be bound by the existing credit agreement and to have their commitments included within its framework. If the incremental facility is being drawn significantly after closing, you might see an amendment to the existing credit agreement that adds the new commitments but doesn't alter any of the fundamental terms. In some cases, particularly if there's a significant time lag between closing and the incremental request, or if there's been material change in the borrower's circumstances, you might see what amounts to a parallel or separate credit agreement entirely.
+
+I participated in a restructuring about twelve years ago where the borrower's sponsor wanted to access what would have been incremental capacity but the company had deteriorated significantly since the original closing. The existing lenders didn't want to participate in any incremental. Rather than trying to jam through a difficult amendment, we structured it as a separate credit facility that stood alongside the original agreement. The economics weren't as favorable as what the borrower would have liked, but it was substantially faster and easier than trying to negotiate something within the existing credit agreement framework.
+
+Now, there's an important distinction between incremental term loans and incremental revolving commitments, and they operate with slightly different mechanics.
+
+Incremental term loans are, by definition, term loans. They have a specific maturity date and are generally subject to scheduled amortization (though a sponsor might negotiate for extended tail amortization on incremental term loans beyond the original term). They could be tranche B style loans with quarterly amortization, or they could be broadly distributed tranche systems. Incrementals are sometimes priced as a "soft bullet" that doesn't require principal repayment until the original term loan matures, which makes them more palatable to refinancing-risk-concerned sponsors.
+
+Incremental revolving commitments, by contrast, are revolving credit facilities in addition to the original revolver. These are less common but they do exist. They provide the same revolving mechanics as the original revolver—draw, pay down, redraw—but they're separate facility commitments. They're particularly useful for sponsors who've grown their business faster than expected and need more working capital flexibility.
+
+The administrative agent is essential to how this all functions. The agent is responsible for syndication of the incremental commitments, for ensuring that the new lenders are properly documented, for coordinating the administrative mechanics, and critically, for determining whether the conditions to the incremental request have been satisfied. This is not a trivial administrative function, which is why agents typically charge an incremental fee (usually 0.25% to 1% of the amount of new commitments) to compensate them for the additional work.
+
+Let me give you a concrete example of how this works in practice. I advised on a deal that closed with $500 million in term loans, a $100 million revolver, and a fairly standard incremental provision. About eighteen months after closing, the sponsor identified a $300 million acquisition that would be accretive to EBITDA. The sponsor wanted to finance this using $200 million of incremental term loans and $50 million additional revolver capacity, supplemented by $50 million of additional equity.
+
+The process unfolded like this: the sponsor and its advisors identified what they believed the pro forma credit metrics would be assuming the acquisition closed, and then sent that information to the agent. The agent, using the terms set out in the credit agreement's incremental provision, determined that the borrower had sufficient remaining capacity to request $250 million in new commitments (the incremental term loan and additional revolver). The agent then sent out a request for commitments to approximately thirty lenders, both existing participants and new potential lenders. Two of the existing term loan lenders expressed interest in participating, offering commitments totaling $75 million. Seven new lenders expressed interest, offering commitments totaling $175 million. The new lenders wanted slightly better pricing than the existing term loan lenders, somewhere in the range of 10-15 basis points lower.
+
+At this point, the MFN provision became relevant, which I'll discuss in detail later. But the basic process was: the new lenders agreed to terms, the existing lenders were notified that new capital was coming at those terms, the agent prepared a joinder agreement that added the new lenders and their commitments to the existing credit facility, and everyone signed. The entire process from initial request to close took about four weeks. It was substantially faster and less onerous than launching a new credit facility or a repricing of the existing one.
+
+THE CAPACITY FRAMEWORK: WHERE THE REAL COMPLEXITY LIVES
+
+Now we get to the heart of what makes incremental facilities actually function: the capacity framework that determines how much incremental debt the borrower can actually access.
+
+In the most basic form, an incremental facility provision might say something like: "The Borrower may request incremental term loans or incremental revolving commitments in an aggregate amount not to exceed [X] dollars." That X is what I'm calling the capacity, and it's the single most important number in the incremental provision because it determines what's actually possible.
+
+There are two primary ways that this capacity is typically defined, and many modern deals will use both in tandem, with the borrower able to access whichever one is higher (or in some cases, able to use the sum of both).
+
+The first is a fixed dollar basket. This is straightforward: the borrower gets the right to request up to, say, 100% of Closing Date EBITDA in incremental commitments, or perhaps $500 million, or perhaps $750 million. Whatever number is chosen, it's fixed as of the closing date and it doesn't change based on performance. The advantage of a fixed dollar basket from a sponsor perspective is that it's immediately available and knowable. The sponsor knows on day one that they can access up to whatever amount the basket is. The advantage from a lender perspective is that it creates an absolute cap on potential additional leverage that could be incurred.
+
+But here's where it gets more sophisticated. Most modern credit agreements now include a second capacity mechanism: a ratio-based incremental, typically defined as something like "incremental debt in an amount such that, on a pro forma basis after giving effect to the incurrence of such incremental debt, the secured leverage ratio would not exceed the greater of (i) the secured leverage ratio as of the Closing Date and (ii) [X.X times]."
+
+Let me parse what that actually means. Say you closed a deal with a secured leverage ratio of 4.2 times and the ratio-based incremental says "not to exceed 4.5 times." What this is saying is: you can take on additional leverage through incremental facilities as long as, when you run pro forma numbers assuming the new debt is in place and has been used to fund whatever acquisition or purpose you've contemplated, the secured leverage ratio wouldn't exceed 4.5 times. This creates a mathematical constraint, but not a fixed dollar constraint. In other words, your actual incremental capacity is whatever amount of additional debt you can take on while keeping that ratio below the threshold.
+
+This is powerful because it means that every dollar of EBITDA growth—every dollar of organic improvement in the business—translates directly into additional incremental capacity. If you've grown EBITDA from $100 million to $120 million, and you're operating with a 4.5x secured leverage cap, you've theoretically unlocked an additional $80 million of incremental capacity, assuming no other changes to the leverage profile.
+
+Now, here's where it gets really interesting. What happens when you have both a fixed dollar basket AND a ratio-based basket? Virtually every modern deal that I see includes both. The borrower can use whichever one is higher, or in some cases, can use them in combination with a reclassification mechanism.
+
+Let me walk through a worked example to show how this actually functions in practice.
+
+Say we closed a deal with the following characteristics:
+- Closing Date EBITDA: $100 million
+- Existing term loan: $400 million
+- Existing revolver: $100 million (undrawn)
+- Incremental facility: Fixed basket of 100% of Closing Date EBITDA (i.e., $100 million) or ratio-based basket of such amount as maintains secured leverage at ≤ 4.5x
+
+We're now six months after closing. The business has grown organically. We're at $115 million EBITDA. We want to fund a $150 million acquisition that will add $25 million of EBITDA (assuming standard acquisition synergy expectations).
+
+Pro forma for the acquisition, we'd have:
+- EBITDA: $140 million ($115 million existing plus $25 million acquisition)
+- Existing debt: $500 million ($400 million term loan plus $100 million revolver drawn)
+
+If we want to finance the acquisition with incremental term loans, plus $50 million of equity, we'd be looking at $100 million of incremental term loans.
+
+Now, let's check our capacity:
+
+Fixed dollar basket: $100 million (original amount hasn't changed)
+
+Ratio-based basket: If we incur $100 million of incremental debt, our pro forma secured leverage would be ($500 million existing debt plus $100 million incremental) divided by $140 million EBITDA = 4.29 times. This is below the 4.5x threshold, so it's permissible under the ratio-based bucket.
+
+Actually, we could probably borrow even more. Let's say we wanted to do a $200 million acquisition. Pro forma EBITDA would be $150 million. If we borrowed $150 million of incremental term loans, our secured leverage would be ($500 million + $150 million) / $150 million = 4.33 times. Still compliant.
+
+But we only have $100 million of capacity in the fixed dollar basket. So our actual incremental capacity is constrained by the fixed basket at $100 million, unless we can reclassify some of the fixed basket into incremental availability as we borrow more and the company grows.
+
+This is where the reclassification mechanism becomes important in more sophisticated deals.
+
+Some credit agreements will include language that says: "If at any time the Borrower has borrowed only $X million of the fixed dollar basket, but the ratio-based basket would permit additional borrowings, the Borrower may reclassify any remaining capacity from the fixed basket into the ratio-based basket, thereby freeing up the fixed basket capacity."
+
+The logic here is: once you're growing under the ratio-based bucket, you don't need the fixed dollar bucket anymore because the ratio bucket will expand as the business grows. So you might as well free up that fixed capacity to use it again for future opportunities.
+
+Actually, let me talk about the "free and clear" amount, because this is where a lot of confusion arises in practice.
+
+Every incremental facility provision defines some baseline leverage or some baseline metric as of the Closing Date. The "free and clear" amount is essentially the amount of incremental leverage that could be incurred while maintaining the same pro forma leverage ratio as existed on the Closing Date, without any improvement in EBITDA. It's the cushion of leverage capacity that exists just as a function of the structure, assuming no business improvement at all.
+
+Going back to my earlier example: you closed at 4.2x secured leverage and had a 4.5x ceiling for the ratio-based incremental. The "free and clear" amount is the difference between the current leverage and the ceiling. With that 30 basis point cushion, you can borrow incrementally without any change in the business at all. That "free and clear" capacity is one of the most valuable things in the incremental facility, because it's available immediately and doesn't depend on EBITDA growth or successful execution of acquisition synergies.
+
+The concept of using capacity versus keeping it available is important too. Some incremental provisions say: "If the Borrower requests incremental commitments but does not draw the funds, the capacity is exhausted anyway." Others say: "The capacity is only consumed when funds are actually drawn." This is actually a material difference. In the first case, the borrower might ask for $200 million of commitments for a contemplated acquisition, but if the acquisition doesn't close, it's burned through its capacity for nothing. In the second case, the borrower can ask for $200 million of commitments, and if they don't draw, they haven't consumed the capacity and can ask for additional commitments later.
+
+The modern market has mostly moved to a "drawn" basis for consumption of capacity, at least for fixed dollar baskets, though some lenders still push for a "requested" basis because they view it as more protective of their interests. After all, if you can request capacity without consuming it, you could theoretically maintain multiple outstanding commitment requests, which increases the optionality available to the sponsor.
+
+THE CONDITIONS AND LIMITATIONS: WHAT YOU CAN'T DO
+
+Now that we've talked about how much capacity is available, let's talk about the conditions that have to be satisfied before you can actually access that capacity.
+
+The first and most fundamental is that there must be no existing event of default, or in some versions, no event of default beyond a specified threshold (sometimes called a "material" default). This makes intuitive sense: you don't want borrowers who are in default to be accessing fresh capital from new lenders. In practice, this is almost never a constraint because sponsors who are in default typically can't access incremental capital regardless of what the credit agreement says—the market simply won't provide it.
+
+The second condition is typically that the borrower must be able to demonstrate pro forma compliance with financial maintenance covenants as if the incremental debt had been in place and had been used for its intended purpose as of the most recent testing date. This is critical: it means that even if the original credit agreement itself is maintenance-covenant-lite or maintenance-covenant-free, the incremental facility typically still requires pro forma leverage and interest coverage testing. This is because new lenders understandably want comfort that the enlarged credit profile will remain compliant with traditional leverage and coverage metrics.
+
+For example, if the new lenders are analyzing a $200 million incremental term loan to finance an acquisition, they want to see that as of the most recent quarter, assuming the acquisition had closed on that date, the borrower would still be compliant with its financial covenants. This usually involves looking at the most recent quarter, taking the projected EBITDA run-rate as of that quarter, and then modeling the proforma EBITDA including the acquisition (typically using the sponsor's projected run-rate for the acquisition, sometimes with a haircut applied), calculating what the leverage and interest coverage ratios would be, and comparing those to the required thresholds.
+
+This condition is where a lot of incremental facility requests actually get held up in practice. If the company is performing below expectations, or if the proposed use of proceeds (often an acquisition) is not generating the synergies the sponsor anticipated, the company might not be able to satisfy the pro forma compliance condition, and therefore can't access the incremental facility. I've seen situations where a sponsor wanted to use an incremental facility to fund an acquisition, but couldn't satisfy the pro forma testing because the acquisition itself wasn't accretive enough on the sponsor's projections. In those cases, the sponsor either had to boost the projected synergies of the acquisition (which introduces its own moral hazard problems), finance it differently, or walk away from the deal.
+
+The maturity and weighted average life restrictions are another important set of conditions. Most incremental facilities require that any incremental term loans mature no earlier than the existing term loans. Some are more generous and require only that the weighted average life to maturity of any incremental term loans be substantially equal to (or in some cases, no less than some percentage of) the weighted average life of the existing term loans. This prevents the borrower from loading up all of its near-term maturities with shorter-dated incremental debt that will come due well before the longer-dated existing term loans. That would simply replicate the refinancing risk that the original term structure was designed to avoid.
+
+Similarly, incremental revolving commitments usually have to mature at the same time as the original revolving facility, or in some cases, no earlier than the original facility. Again, this prevents the sponsor from creating a layered maturity structure that would require separate refinancings.
+
+The Same Collateral and Guarantee requirements are largely boilerplate but important: any incremental facilities have to be secured by the same collateral and guaranteed by the same guarantors as the original facilities. This prevents a sponsor from accessing cheaper capital by offering it a lesser collateral package or a weaker guarantee structure. From a lender perspective, this is essential because it means that incremental lenders have the exact same recoveries and protections as existing lenders (subject to lien parity issues, which I'll address separately).
+
+Then there are the MFN provisions, which are significant enough that I'm going to devote an entire section to them. But in brief: the MFN provision typically says that if new lenders are providing incremental capital at more attractive terms than the existing lenders have, the existing lenders get those terms too. This means that the sponsor's cost of capital for incremental money is directly constrained by the terms existing lenders have. It's a yield protection mechanism, and it's tremendously important.
+
+Finally, there's the concept of documentation. The incremental facility provision will typically specify what documentation is required for incremental facilities to be added to the credit agreement. The most straightforward version is a joinder, where new lenders simply execute the joinder agreement and become parties to the existing credit agreement. But some deals require that incremental facilities be documented through an amendment to the credit agreement, which requires action from the agent and potentially from a supermajority or unanimity of existing lenders. This can slow down the process but is often done to ensure that the amendment process is formal and well-documented.
+
+MFN: THE YIELD PROTECTION MECHANISM THAT CHANGED EVERYTHING
+
+The Most Favored Nation (MFN) provision is the single most complex and negotiation-intensive aspect of modern incremental facility arrangements. It deserves its own substantial discussion because it has fundamentally transformed how incremental capital works in practice.
+
+Let me start with the basic concept: the MFN provision is essentially a yield protection mechanism for existing lenders. It says that if the borrower raises new capital through incremental facilities at terms more favorable than the existing lenders have, the existing lenders are entitled to the benefit of those improved terms as well.
+
+This emerged as a necessity in the mid-2000s, when sponsors realized that they could structure incremental facilities in a way that was highly accretive to returns. By the time you're six to twelve months into a deal, the sponsor has generated some cash and the credit profile has improved. New lenders looking at this improved credit are willing to offer better pricing than the original lenders negotiated. If there were no MFN provision, the sponsor could essentially issue new debt at 50 or 100 basis points tighter than the existing debt, use the proceeds to pay down the original, higher-priced debt, and walk away having essentially refinanced at better terms without going through a formal refinancing.
+
+The MFN provision was the market's answer to this problem. It said: you can't do that. If you want to raise incremental capital at better terms, you have to extend those improved terms to existing lenders too.
+
+Now, how does this actually work? Let's say you closed a term loan at SOFR plus 350 basis points, with a 150 basis point SOFR floor. You're now at a point where you want to raise incremental capital. The new lenders are willing to offer SOFR plus 300 basis points with a 100 basis point SOFR floor, because they have a six-month track record of the company's performance and they're confident in the credit.
+
+Under the MFN provision, the existing lenders' commitment might be automatically repriced to match the new terms, or the sponsor might be forced to offer the existing lenders the opportunity to have their pricing adjusted. In practice, sponsors typically negotiate with existing lenders to adjust pricing to some intermediary point—perhaps SOFR plus 325 basis points with a 125 basis point floor. This way, the new lenders are getting better pricing than the original lenders (which attracts them), but the original lenders are getting enough of an improvement that they're satisfied.
+
+The sophistication in MFN provisions relates to a few key parameters:
+
+First, there's the spread cap. Most MFN provisions cap the amount of pricing protection at a specific level, often 50 to 75 basis points. This means that if new lenders come in at pricing that's 200 basis points tighter than existing lenders, the existing lenders don't get the full 200 basis point improvement. They get a cap—perhaps only 50 basis points of improvement. This is a compromise between the interests of existing lenders (who want full yield protection) and sponsors (who want to be able to access cheaper capital without triggering massive repricing costs).
+
+Second, there's the treatment of OID (original issue discount). OID is the amount of fees paid in connection with the issuance of debt. If a new lender comes in with higher OID than the existing debt has, does that factor into the MFN calculation? The answer is: it depends on how the MFN provision is written. Some MFN provisions factor OID in on a dollar-for-dollar basis. Others are agnostic to OID and focus only on margin (spread). Yet others factor in OID on an amortized basis. I've seen deals where the right structure of OID helped sponsors access cheaper capital because they could offer new lenders higher OID, which didn't trigger MFN, rather than lower pricing.
+
+Third, there's the treatment of floors. SOFR (or historical LIBOR) floors are tremendously important in periods of low rates. Let me give you a concrete example. Say the existing term loan is SOFR plus 350 with a 150 basis point SOFR floor, which in a low-rate environment means the all-in rate is 150 basis points (the floor is binding). A new incremental lender offers SOFR plus 300 with a 100 basis point floor. On the spread dimension, the new lender is 50 basis points tighter. But if SOFR is below 100 basis points, the new lender's all-in rate is actually 100 basis points, which is 50 basis points higher than the existing lenders' rate. So which dimension does the MFN protection apply to?
+
+This is genuinely ambiguous in practice, and different deals have answered it differently. Some MFN provisions are floor-agnostic and focus only on spread, which means the new incremental could come in with a lower spread but a lower floor. Others calculate the all-in rate at a specified SOFR level and use that as the basis for MFN comparison. And yet others exclude floor differentials from MFN calculation entirely, treating them as a separate parameter.
+
+This matters enormously. In low-rate environments, a lower floor is genuinely valuable to the borrower because it means they'll pay less in absolute terms. If an MFN provision is structured such that it doesn't protect existing lenders on floor levels, then sponsors can systematically access cheaper capital by accepting higher floors on new incremental lenders' terms.
+
+Fourth, there are carve-outs from MFN. Most MFN provisions say that certain types of facilities are exempt from MFN calculation. These typically include:
+- Facilities in different currencies (because the pricing dynamics are different and it's not comparable)
+- Delayed draw facilities (because they have term risk and shouldn't be compared to drawn facilities)
+- Facilities with significantly different maturity profiles
+- Facilities with different collateral or guarantee packages
+- Facilities incurred more than a specified period (often 12 months) after the closing date
+
+These carve-outs are critical for sponsors because they create room to access cheaper capital without triggering MFN. If you can argue that the incremental facility being offered is materially different in some relevant respect from the existing facility, you might be able to access better terms without making those terms available to existing lenders.
+
+Fifth, there's the concept of the MFN sunset. Most MFN provisions don't last forever. They typically expire 6 to 12 months after the closing date, with some newer deals extending them further. Once the MFN provision has sunset, the sponsor can access new capital at whatever terms the market will bear, without any obligation to improve the pricing on existing facilities.
+
+This is tremendously important from a sponsor perspective because it creates a time horizon in which to achieve the improvements that will make the credit attractive to new lenders. If you close a deal and it's performing well, you want to hit your MFN sunset window before accessing that capital, because once the MFN sunsets, you can keep the benefits of any improved pricing you've achieved.
+
+Let me give you a concrete example that illustrates how MFN actually works in practice.
+
+We were advising a sponsor on a large industrial services acquisition. The deal closed with $600 million in term loans priced at SOFR plus 375 basis points with a 150 basis point floor. The sponsor's pro forma EBITDA was $120 million and leverage was 5.0x, which was higher than the sponsor had liked but which was necessary given market conditions at the time.
+
+Twelve months later, the company had performed well. EBITDA had come in at $130 million, leverage had dropped to 4.6x, and the market had improved. The sponsor identified a $200 million acquisition that would add $35 million of EBITDA. To fund this, the sponsor wanted to access incremental term loans.
+
+The sponsor approached the agent about syndication. The agent sent out requests for commitments. Several new lenders responded with interest in providing $200 million of commitments at SOFR plus 325 basis points with a 100 basis point floor. This was 50 basis points tighter than the existing term loan.
+
+At this point, the MFN provision kicked in. The existing lenders had a right to the benefit of those improved terms. The sponsor's options were:
+
+(1) Reprice the existing term loan to SOFR plus 325 basis points with a 100 basis point floor and accept the MFN payment obligation. This was an immediate cost to the sponsor because they'd be repricing roughly $400 million of in-place debt. With 50 basis points of improvement, that was a cost of about $2 million per annum.
+
+(2) Negotiate a compromise. The sponsor reached out to the existing lenders and proposed repricing the existing loan to SOFR plus 350 basis points with a 125 basis point floor. This was 25 basis points of improvement for the existing lenders, which cost the sponsor about $1 million per year, and it was enough to satisfy the existing lenders while allowing new lenders to have an additional 25 basis point pricing advantage, which was still attractive to them.
+
+(3) Negotiate a carve-out. The sponsor proposed to structure the incremental as a delayed draw facility, which would theoretically be exempt from MFN. But the lenders wanted it to be an immediate drawn facility, so this didn't work.
+
+The sponsor went with option (2). The existing lenders got 25 basis points of repricing. The new lenders got to come in at 50 basis points of advantage relative to the original term loan and 25 basis points of advantage relative to the repriced existing term loan. Everyone was happy. The sponsor paid roughly $1 million per year in ongoing repricings but got access to $200 million of incremental capital, which funded the acquisition that they expected would add $35 million of EBITDA and significantly improve the debt profile over time.
+
+Now, here's what Twenty Years Teaches: the MFN provision sounds simple in theory but is genuinely contentious in practice. I've sat through negotiation sessions where sponsors and lenders fought for literally hours about what dimensions of the incremental pricing should trigger MFN. Sponsors want MFN provisions that are narrow and have short sunsets and broad carve-outs. Lenders want MFN provisions that are comprehensive and last a long time. Arranging banks, who stand to earn syndication fees on the incremental capital, tend to push for more favorable MFN treatment for sponsors because it makes the incremental easier to market to new lenders.
+
+The real leverage point in MFN negotiations is usually the sunset. A sponsor would much rather have an MFN provision that sunsets in 6 months than one that lasts 18 months. Those 6 months are critical—if the company executes well and reaches the MFN sunset with better credit metrics, the sponsor can then access incremental capital at improved terms without having to extend those improvements to existing lenders. Six months is often long enough to achieve meaningful operating improvements in a well-run portfolio company, but not so long that the sponsor is locked into original pricing for years.
+
+INCREMENTAL EQUIVALENT DEBT: WHEN THE ACCORDION MOVES OUTSIDE THE AGREEMENT
+
+Now I want to talk about something that has become increasingly prevalent in modern leveraged finance: the concept of Incremental Equivalent Debt (IED), and how it has functionally expanded the universe of what can be accessed through an accordion-like mechanism.
+
+The original incremental facility provision was elegant in its simplicity: it gave the borrower the right to request additional debt commitments from lenders, which would then be documented through an amendment or joinder to the existing credit agreement. All incremental debt sat within the same agreement, subject to the same administrative mechanics, the same financial covenants, the same collateral and guarantee requirements.
+
+But sponsors learned that this was unnecessarily restrictive. What if you could access "incremental-like" debt outside the credit agreement itself, but count it against incremental capacity for purposes of the leverage tests and other financial covenants? You'd get the benefit of the flexibility that incremental debt provides, while having the freedom to negotiate different terms outside the formal credit agreement framework.
+
+This is what Incremental Equivalent Debt is. The credit agreement will typically have language that says something like: "Any debt incurred in compliance with the incremental facility provisions shall be deemed Incremental Equivalent Debt and shall count against the Borrower's incremental capacity, and the terms of such IED shall be subject to the following requirements: [listing of conditions that are more permissive than traditional incremental facility terms]."
+
+What makes IED attractive is that the conditions tend to be more permissive. For example:
+- IED may not be subject to MFN provisions
+- IED may have different maturity dates than traditional incremental facilities
+- IED may have different collateral or guarantee packages
+- IED may be incurred at any interest rate and structure the lender and borrower agree to
+- IED may take the form of loans, notes, bonds, or any other debt instrument
+
+This creates significant optionality for sponsors. If you have a $200 million incremental facility basket, you can use $150 million through traditional incremental term loans from commercial lenders (subject to all the usual conditions) and $50 million through a side-car facility or a direct lending arrangement or even a subordinated debt placement, as long as the IED counts against your capacity.
+
+I've seen sponsors use this construct to access capital from different sources. In one case, the sponsor wanted to fund an acquisition and realized that its existing lenders weren't interested in participating in the incremental. The sponsor approached a private credit fund that was willing to provide $100 million at attractive terms, structured as a direct loan. This loan was documented as IED, counted against the incremental capacity, and was fully integrated into the credit metrics calculations, but sat outside the credit agreement itself.
+
+The conditions for IED typically say that such debt has to be incurred in a manner that wouldn't violate the pro forma financial maintenance covenants and has to be on market terms (or at least not materially worse than market). But they're usually materially more flexible than the conditions for traditional incremental facilities.
+
+Where IED gets really interesting is in the context of the fixed dollar basket versus ratio-based basket dynamics I discussed earlier. If you have a $150 million fixed dollar basket and a ratio-based basket that's currently utilized at $200 million, but you identify a favorable opportunity to borrow an additional $100 million, you might deploy it through IED to preserve your traditional incremental capacity for future use. In other words, you're using your IED capacity strategically to preserve your traditional incremental capacity.
+
+The market's approach to IED has evolved significantly. Early deals that included IED provisions were somewhat skeptical of whether sponsors would actually use them. Over time, as sponsors and lenders became more comfortable with the concept, IED became a standard tool in sophisticated leveraged finance structures. By the early 2020s, I'd say that most large sponsor-backed transactions included some form of IED provision, and sponsors were routinely using it as a meaningful capital source.
+
+The critical thing about IED from a structuring perspective is making sure that the terms that apply to it are truly understood and clearly documented. I've worked on situations where the credit agreement's definition of what constitutes permissible IED was ambiguous, and the sponsor and agent disagreed about whether a particular piece of debt fit within the IED framework. This usually gets sorted out eventually, but it can delay access to capital at a critical moment.
+
+THE GROWER BASKET: HOW EBITDA GROWTH UNLOCKS CAPACITY
+
+Now let's talk about something that has become increasingly important in modern credit agreements: the "grower basket" or sometimes called "super-grower" provisions, which create incrementally expanded capacity based on EBITDA growth over time.
+
+At a basic level, a grower basket works like this: the credit agreement specifies a baseline EBITDA as of the Closing Date. Then it creates an incremental facility provision that says: for every dollar of EBITDA growth above that baseline, the borrower gets X dollars of incremental facility capacity.
+
+For example: "The Borrower may incur incremental facilities in an amount such that the amount of Incremental Facilities incurred since the Closing Date does not exceed the sum of (a) [fixed dollar basket] plus (b) an amount equal to one dollar of debt incurrence capacity for every dollar of EBITDA growth in excess of the Closing Date EBITDA."
+
+What this is saying is: if you close at $100 million of EBITDA and grow to $120 million, you've unlocked $20 million of additional incremental facility capacity beyond your fixed basket. And that $20 million is brand new capacity that you can deploy immediately.
+
+This is profoundly different from a pure ratio-based approach. Under a ratio approach, you have to use improved leverage metrics to justify new debt incurrence. Under a grower approach, you have automatic new capacity just by virtue of growing EBITDA.
+
+The ratio-based incremental that I discussed earlier was already a form of grower, because growing EBITDA automatically increased the leverage ratio ceiling you could hit. But explicit grower baskets take this one step further: they often have no leverage testing requirement at all. You simply grow EBITDA, and you automatically get new debt capacity.
+
+Some more sophisticated credit agreements will include what I'd call a "super-grower" basket, which is really aggressive: unlimited incremental debt capacity for every dollar of EBITDA growth above the baseline. This means that theoretically, a sponsor could grow EBITDA and access unlimited leverage, constrained only by the financial covenant thresholds.
+
+Credit investors have historically hated unlimited ratio debt because it removes their leverage protection and allows sponsors to systematically increase their debt loads as the business grows. The response was to layer in additional limitations, such as:
+
+- A leverage ratio test that the incremental debt has to satisfy (even if there's no leverage test on other facilities)
+- An interest coverage test
+- A maximum leverage ratio that can't be exceeded regardless of EBITDA growth
+- A requirement that incremental debt have the same maturity and amortization characteristics as the original debt
+
+I participated in a negotiation about five years ago where a major credit fund was investing in a first lien position in a large services company. The sponsor wanted a very aggressive grower basket with no leverage testing. The credit fund's position was that grower baskets were fine, but only if there was a maximum leverage ratio cap that couldn't be exceeded. They negotiated a structure where the grower basket was unlimited, but the borrower couldn't exceed a 5.5x leverage ratio regardless of EBITDA growth. This made everyone happy: the sponsor got the flexibility of knowing that any EBITDA growth translated into incremental capacity, but the lenders had a hard cap on how much leverage could actually be incurred.
+
+The reclassification mechanism that I mentioned earlier is particularly important in the context of grower baskets. Some credit agreements will allow the borrower to reclassify its usage of capacity between the fixed dollar basket and the ratio-based or grower baskets. Here's how this works:
+
+Let's say you have a $150 million fixed dollar basket and a grower basket tied to EBITDA growth. You've grown EBITDA by $50 million, which gives you a $50 million grower basket. You've used $100 million of the fixed dollar basket to fund an acquisition. Now, EBITDA has grown such that you could access another $50 million through the ratio-based leverage test (i.e., you have "free and clear" room within the leverage ceiling to take on additional debt).
+
+The reclassification provision would allow you to say: I'm going to reclassify $50 million of my remaining fixed dollar basket capacity into the grower basket, thereby freeing up the fixed dollar capacity to be used again. This allows you to essentially "recycle" capacity that you had deployed earlier.
+
+The math behind this gets complex pretty quickly, but the basic idea is sound: it gives the borrower maximum flexibility to deploy its available capacity efficiently, rather than being locked into a particular basket structure that might have been appropriate at closing but is now suboptimal.
+
+Now, here's what I've learned about grower baskets over twenty years of doing this. They're tremendously useful for sponsors who are genuinely focused on organic EBITDA growth, because every dollar of growth translates directly into additional capital availability. But they're also fraught with potential issues if not carefully documented.
+
+First, there's the question of how EBITDA is calculated for purposes of determining grower capacity. Is it trailing twelve-month EBITDA? Is it the most recent quarterly EBITDA? Is it adjusted EBITDA or as-calculated EBITDA? If the credit agreement is vague on this, there can be disputes about how much grower capacity the borrower actually has access to.
+
+Second, there's the question of what happens if EBITDA goes down. If you've deployed capacity based on having $150 million of EBITDA, and EBITDA subsequently drops to $130 million, do you have to pay back some of the incremental debt you incurred? Or does the capacity just not refresh until EBITDA grows past the previous peak? Different credit agreements answer this differently, and the answer matters a lot.
+
+Third, there's the question of acquisitions and add-ons. If you close on a bolt-on acquisition that includes the target's EBITDA, does that count toward your grower capacity? Most credit agreements say yes, but some say no, or say yes only for EBITDA attributable to organic growth of the acquired company post-closing. This can create disputes about how much capacity an acquisition unlocks.
+
+I once worked on a situation where a sponsor closed on what was supposed to be a small tuck-in acquisition but the seller's EBITDA was larger than the sponsor had represented to the credit committee. When the sponsor subsequently tried to access incremental capacity based on this larger-than-expected EBITDA, the lenders objected on the grounds that they hadn't modeled the acquisition as contributing to EBITDA growth; they'd been told it was an immaterial add-on. The sponsor and lenders ultimately had to renegotiate the grower basket thresholds to account for the actual acquisition EBITDA.
+
+REAL-WORLD CASE STUDIES: HOW INCREMENTAL FACILITIES ACTUALLY GET USED
+
+Let me walk you through some actual situations where I've seen incremental facilities deployed, because the theory doesn't mean much without understanding the practice.
+
+CASE 1: THE ADD-ON ACQUISITION STRATEGY
+
+Several years ago, I worked with a sponsor who had acquired a mid-market industrial distributor. The company was well-run but frankly a bit boring from an operational perspective—it was a stable, slow-growth business. The sponsor's strategy was to use the incremental facility to fund a series of add-on acquisitions, consolidating a fragmented market.
+
+The original credit agreement closed with $300 million in term loans, a $50 million revolver, and incremental capacity of $200 million fixed plus a ratio-based component tied to secured leverage ≤ 3.75x (the closing date secured leverage was 3.4x). EBITDA at closing was $80 million.
+
+Over the course of four years, the sponsor made five add-on acquisitions, totaling about $450 million in purchase price. The first two acquisitions (totaling about $200 million) were funded partly with incremental facilities and partly with the revolver and a modest equity check-in from the sponsor. These acquisitions grew EBITDA to about $115 million by year 2.
+
+At year 2, the sponsor wanted to do a third add-on but had used up most of its fixed dollar incremental capacity. However, the company's leverage had actually decreased (despite taking on incremental debt) because EBITDA growth had outpaced debt growth. The ratio-based incremental basket showed about $80 million of available capacity. The sponsor was able to deploy this to fund the third acquisition.
+
+By year 4, the sponsor had used up much of the leverage headroom but had successfully rolled up this fragmented industry and created a much larger, more valuable company. EBITDA had grown to $180 million. The sponsor subsequently refinanced all of the original term loans and incremental debt into a new facility, paying off all of the credit facility debt and using the revolver for working capital. The incremental facilities had served their purpose: they allowed the sponsor to execute its buy-and-build strategy without having to do a traditional refinancing after each add-on.
+
+This is a textbook case of how incremental facilities are supposed to work in the hands of a sophisticated, operationally excellent sponsor. The incremental provisions gave the sponsor optionality and flexibility, which it used to create value through a consolidation strategy.
+
+CASE 2: THE REFINANCING DYNAMIC
+
+I worked on a different situation where a sponsor had closed a deal in 2016 at what seemed like a decent valuation but expensive debt pricing. The term loan was SOFR plus 400 basis points. The sponsor focused on operational improvements and margin expansion rather than growth. By 2018, the company was performing well, margins had improved, and leverage had declined.
+
+The sponsor wanted to pay down the term loan to reduce ongoing interest expense, but refinancing the entire facility would have been expensive and time-consuming. Instead, the sponsor accessed its incremental facility to raise $150 million of new term loans at SOFR plus 325 basis points, and used the proceeds to pay down the original expensive term loan.
+
+The MFN provision kicked in, requiring the original lenders to be offered the improved pricing. In the end, the sponsor repriced the original facility to SOFR plus 350 basis points (splitting the difference), paying the original lenders some amount for the repricing, and also paying the new lenders' arrangement fees. The net effect was that the sponsor's all-in cost of capital decreased by about 50 basis points, which saved about $4 million per year in interest expense on roughly $500 million of outstanding debt. Not earth-shattering, but meaningful, and accomplished without a full refinancing process.
+
+This demonstrates how sponsors can use incremental facilities to optimize their capital structure without going through the traditional refinancing grind.
+
+CASE 3: THE SPECIAL DIVIDEND
+
+I represented a sponsor in 2019 who had made an acquisition in 2016 and was now at a point where the business was generating excess cash flow. The sponsor wanted to distribute cash to itself. In a traditional leveraged buyout, you'd either need enough excess cash flow to fund this from operations, or you'd have to refinance to create additional liquidity, or you'd have to take on additional leverage specifically to fund the dividend.
+
+The sponsor accessed $100 million of incremental facility commitments and used the proceeds to fund a special dividend. The company's leverage increased from 4.2x to 4.5x, but within the range that would be acceptable to the credit markets. The sponsor distributed about $80 million to itself (the remaining amount went to reinvestment in the business). The incremental facility had allowed the sponsor to achieve an interim cash return without having to refinance the entire capital structure.
+
+The lenders viewed this as acceptable because the company's pro forma leverage was still reasonable and the company's cash flow had improved enough to support the additional leverage. Under different circumstances, lenders might have objected strenuously to this use of incremental capacity. But in a stable, cash-generative business with improving metrics, it was seen as fair game.
+
+CASE 4: THE FAILED REQUEST
+
+Not every incremental facility request succeeds, and sometimes the reasons why are instructive.
+
+I worked on a large retail acquisition in 2019. The sponsor had closed at a leverage of about 4.8x and the business was a bit challenged by changing consumer preferences. About nine months after closing, the sponsor identified a $300 million acquisition that it believed would be strategically valuable and accretive to EBITDA if it could achieve the projected synergies.
+
+The sponsor wanted to fund this $300 million with incremental facilities. The sponsor projected that EBITDA would reach $180 million (from $145 million at closing) and leverage would be about 5.0x pro forma for the acquisition.
+
+But the credit committee was skeptical. The original acquisition had had difficulty achieving synergies. The projected synergies for this new acquisition looked aggressive relative to market experience. And the credit committee didn't believe that the company's existing cost structure could support the integration of a business this size without significant disruption. When the sponsor tried to satisfy the pro forma compliance condition for the incremental facilities—showing that the company would be compliant with financial covenants assuming the acquisition had closed as of the most recent quarter—the numbers just didn't work. The company couldn't show that it would have been in compliance at the required leverage and interest coverage thresholds.
+
+The sponsor subsequently walked away from the acquisition. The incremental facility wasn't the constraint per se, but the fact that the sponsor couldn't satisfy the pro forma compliance condition meant that the incremental capital simply wasn't available. This is a meaningful check on sponsor behavior: even if you have incremental capacity, you can't access it if you can't demonstrate that the enlarged credit profile would remain compliant with covenants.
+
+CASE 5: COVID-ERA CRISIS MANAGEMENT
+
+In 2020, I worked with a sponsor who had a portfolio company in the hospitality space. The business had been deleveraged and in good shape in January 2020. Then COVID hit. Revenue evaporated. Leverage skyrocketed.
+
+The company had incremental facility capacity but obviously couldn't access it in March 2020 because new lenders simply weren't willing to provide capital to hospitality businesses. However, by Q3 2020, as vaccines were in sight and travel was beginning to recover, some new lenders were willing to look at hospitality again.
+
+The sponsor wanted to raise incremental debt to pay down the revolver, which had been drawn down for liquidity purposes. But there was a challenge: the company was no longer compliant with financial maintenance covenants. The sponsor negotiated a waiver of the covenant compliance requirement from the existing lenders, which allowed the company to remain non-compliant for a specified period.
+
+The question then became: could the sponsor access incremental facilities without first achieving covenant compliance? The credit agreement's incremental provision required pro forma compliance with financial maintenance covenants. This was a catch-22: the company needed incremental capital to achieve the leverage profile that would allow compliance, but couldn't access incremental capital without already being in compliance.
+
+The solution was to negotiate a modification of the incremental provision, agreed to by the required percentages of lenders, that allowed the sponsor to access limited incremental capital ($50 million) for the specific purpose of paying down the revolver, with the pro forma compliance test calculated assuming the incremental capital would be used for that purpose and the company would have the resulting improved leverage profile. This was a material negotiation, but it worked. The sponsor raised the incremental capital, paid down the revolver, and achieved a profile where it could subsequently reach compliance with financial covenants.
+
+This is an example of how the formal provisions of incremental facility documentation can need to be bent or modified in real circumstances, and how sponsors and lenders sometimes work together to find solutions that serve both of their interests.
+
+NEGOTIATION DYNAMICS: WHAT SPONSORS PUSH FOR, WHAT LENDERS RESIST
+
+Now, let me walk you through the negotiation dynamics that typically emerge around incremental facility provisions. These negotiations are almost always contentious, which tells you that the stakes are real.
+
+From the sponsor's perspective, the ideal incremental facility has the following characteristics:
+
+A large fixed dollar basket, ideally 100%+ of Closing Date EBITDA. The sponsor wants certainty about what's available on day one, without having to prove that the company's metrics have improved.
+
+An aggressive ratio-based basket with a high leverage ceiling, ideally with no leverage testing required at all. The sponsor wants to know that if EBITDA grows, that growth automatically translates into incremental capacity, without having to satisfy any leverage thresholds.
+
+A short MFN sunset, ideally 6 months or even shorter. The sponsor wants to minimize the period during which accessing incremental capital at improved terms forces repricing of existing debt.
+
+A broad definition of IED with very permissive terms. The sponsor wants flexibility to access capital from alternative sources without being constrained by the traditional incremental facility mechanics.
+
+Minimal documentation requirements, with joinders being the primary mechanism for adding incremental lenders. The sponsor wants to be able to move quickly without having to go through formal amendment processes.
+
+A reclassification mechanism that allows flexibility in how capacity is deployed across fixed and ratio-based baskets. The sponsor wants to be able to repurpose capacity as circumstances change.
+
+No pro forma compliance testing required, or at minimum, testing based on the most recent quarter rather than trailing twelve months. The sponsor wants to be able to access incremental capital based on recent improvements in the business, not lagged by historical quarters.
+
+From the existing lenders' perspective, the ideal incremental facility has very different characteristics:
+
+A small fixed dollar basket, ideally capped at 50% of Closing Date EBITDA or even lower. Lenders want to limit what new capital can be raised without their participation.
+
+A conservative ratio-based basket with a low leverage ceiling and mandatory leverage testing. Lenders want to ensure that incremental capital doesn't significantly increase overall leverage.
+
+A long MFN sunset, ideally 18 months or longer, or potentially no sunset at all. Lenders want the yield protection to remain in place for as long as possible.
+
+A narrow definition of IED with restrictive conditions. Lenders want to make sure that capital incurred outside the credit agreement is really being treated as incremental debt and counted against capacity, not as a way to evade incremental limitations.
+
+Formal amendment requirements for all incremental facilities, potentially with lender approval required. Lenders want to ensure that they have a say in any incremental financings.
+
+No reclassification mechanism, or a very limited one. Lenders want the capacity to be fixed in structure once deployed.
+
+Mandatory pro forma compliance testing based on trailing twelve-month EBITDA. Lenders want to use lagged metrics to ensure that the company's true underlying performance can support the incremental capital.
+
+The agent bank's position is typically somewhere in the middle, but leaning toward sponsor-friendly terms. Why? Because the agent wants the incremental facility to be attractive to sponsors (so it gets used and the agent earns syndication fees) while still being acceptable to existing lenders (because the agent doesn't want to damage relationships with its core lender base).
+
+In practice, modern market terms for mid-market and lower-middle-market transactions typically look something like this:
+
+Fixed dollar basket: 75% to 100% of Closing Date EBITDA
+Ratio-based basket: Such amount as maintains leverage at ≤ Closing Date secured leverage + 25 to 50 basis points
+MFN: Spread protection of 50 to 75 bps with 6-12 month sunset
+IED: Available with looser conditions than traditional incremental
+Pro forma compliance: Required, typically based on most recent quarter
+
+For larger, higher-quality credits, sponsors push for more aggressive terms. For lower-quality credits or weaker sponsors, lenders push for more conservative terms.
+
+The negotiations around these provisions are some of the longest and most contentious in any credit agreement drafting process. I've literally sat in rooms for eight-hour days arguing about whether the fixed dollar basket should be 75% or 100% of EBITDA, or whether the MFN sunset should be 6 or 12 months. These might seem like small differences, but they compound over time and materially affect what a sponsor can actually accomplish with the incremental facility.
+
+One negotiation I recall particularly clearly involved a major sponsor and a consortium of lenders on a $2 billion-plus LBO. The sponsor wanted a super-aggressive incremental provision: $500 million fixed basket plus unlimited ratio-based incremental with no pro forma testing. The lead arranger, which had underwritten the deal, was sympathetic to the sponsor's position. But the anchor institutional investors in the loan syndicate were adamant: they wanted much tighter restrictions.
+
+We ultimately negotiated a structure where there was a $300 million fixed basket, a ratio-based basket tied to leverage ≤ Closing Date secured leverage + 50 basis points, and a separate "acquisition basket" of another $200 million specifically for use in acquisitions (which was on easier terms than the general incremental basket). The sponsor also agreed to a reclassification mechanism that allowed it to move capacity around between the baskets to optimize flexibility. Everyone walked away from the negotiation having given up something but feeling like they'd achieved their core objectives.
+
+THE EVOLUTION OF MARKET PRACTICE: TWENTY YEARS OF ACCORDION PROVISIONS
+
+When I started in this business in the early 2000s, incremental facilities were almost afterthought provisions. Sponsors didn't focus on them, lenders didn't worry about them, and they rarely got used. A typical provision would just say: "The Borrower may request incremental term loans not to exceed $100 million."
+
+The early-to-mid 2000s saw the emergence of more sophisticated incremental provisions, with fixed dollar baskets tied to percentages of EBITDA and primitive ratio-based baskets. But sponsors still weren't using them heavily, because leverage markets were so robust that it was almost always easier to refinance the entire facility if you needed more capital.
+
+Then came 2008-2009, which fundamentally changed how sponsors and lenders thought about incremental facilities. Suddenly, refinancing became genuinely difficult. Sponsors who had access to incremental capacity and could satisfy the pro forma compliance conditions suddenly had a valuable alternative to traditional refinancing. Incremental facility usage skyrocketed.
+
+By the mid-2010s, we started to see the emergence of MFN provisions as a standard part of every credit agreement, in response to sponsors using incremental facilities to systematically refinance at better terms. The MFN provision essentially said: lenders get yield protection. This raised the cost of accessing incremental capital for sponsors, but it was the market's reasonable response to protecting existing lenders.
+
+The rise of leveraged loan funds and institutional investors in the loan space in the mid-2010s also changed the negotiation around incremental provisions. These investors tended to be more conservative than traditional bank lenders and pushed for tighter restrictions on incremental capacity. At the same time, these investors were willing to provide capital at attractive terms, which made them valuable as potential incremental lenders, giving sponsors incentive to have broad incremental provisions that would allow them to access capital from diverse sources.
+
+The covenant-lite trend of the 2015-2017 period paradoxically made incremental provisions more important, not less. When sponsors eliminated maintenance financial covenants, they simultaneously created a need for some alternative mechanism to ensure that leverage wouldn't become completely unmoored. Incremental provisions, with their pro forma compliance requirements, became a key control point for constraining leverage growth.
+
+By the early 2020s, I'd say the market had reached a relatively stable equilibrium around incremental provisions. Most large sponsor-backed transactions had fairly sophisticated accordion provisions, with multiple baskets and reclassification mechanisms. Incremental facilities were routinely used, both for add-on acquisitions and for opportunistic refinancings. MFN provisions were standard. And sponsors had become quite sophisticated about using incremental provisions strategically to optimize their capital structures.
+
+The post-COVID period has seen some interesting developments. First, there's been more experimentation with direct lending as a source of incremental capital, which has helped sponsors access capital from non-traditional lenders. Second, there's been more focus on the interaction between incremental provisions and sponsor equity commitments. Some newer deals have incremental baskets that are explicitly tied to sponsor equity checks-in, which gives lenders confidence that the sponsor has "skin in the game" when accessing new capital.
+
+What Twenty Years Teaches: the world of incremental facilities is in constant evolution. What was cutting-edge and aggressive five years ago is now market standard. What seems conservative today will probably seem quaint in a few years. The key is to understand the underlying economics and incentives, not to memorize what's "market" for a particular year, because market terms change constantly.
+
+I've also learned that the best sponsors are the ones who understand the incremental facility deeply and use it strategically rather than trying to access it opportunistically. A sponsor who knows exactly what its incremental capacity is and has a clear strategy for deploying it—whether that's funding add-on acquisitions, refinancing higher-cost debt, or funding special dividends—is a sponsor that will extract the maximum value from the credit facility.
+
+Conversely, I've seen sponsors burn through incremental capacity on mediocre acquisitions or uses of proceeds that don't materially improve the credit profile, and those sponsors typically end up constrained when they later identify truly accretive uses for incremental capital. Incremental capacity is a finite resource (unless you have unlimited ratio-based incremental, which is rare), and it should be deployed thoughtfully.
+
+EUROPEAN VS. US PRACTICE
+
+Before we close out, let me briefly address how incremental provision practice differs between the US and European markets, because it's meaningful for anyone who does cross-border transactions.
+
+US market practice, which is what I've been discussing extensively, is to have fairly robust and detailed incremental provisions, with multiple baskets and sophisticated MFN mechanics. This reflects the reality of the US leveraged finance market: sponsors expect flexibility and the debt markets have evolved to provide it.
+
+European practice has been somewhat more conservative historically, with smaller fixed dollar baskets and more restrictive incremental provisions. This reflected both a more bank-centric lending market (where existing relationships matter more) and a more cautious approach to leverage in general.
+
+However, the gap has narrowed significantly over the past decade. As US PE sponsors have become increasingly active in European transactions, they've pushed for more sponsor-friendly incremental terms. And as European sponsors have become more sophisticated, they've demanded similar terms for their own deals. So modern European transactions often look quite similar to their US counterparts in terms of incremental provisions.
+
+One difference that persists: European lenders have historically been somewhat more willing to negotiate around the pro forma compliance requirement for incremental facilities, allowing sponsors to satisfy the test on a "flexible" basis rather than requiring strict mathematical compliance. This reflects a somewhat more relationship-oriented approach to lending in Europe, where the agent and sponsor might agree that a particular incremental request is reasonable even if the numbers don't perfectly fit the stated test.
+
+DIRECT LENDING AND THE FUTURE OF INCREMENTAL FACILITIES
+
+One final thing I want to touch on: the rise of direct lending and how it's affecting incremental facility practice.
+
+As direct lending (non-bank lenders providing private credit) has become a larger and larger share of the leveraged finance market, sponsors have increasingly accessed incremental capital from direct lenders rather than from bank syndicates. This has been possible because the IED framework allows capital incurred outside the credit agreement to count against incremental capacity.
+
+Direct lenders have proven to be more flexible and faster than bank lenders when it comes to incremental capital. A sponsor might be able to close an incremental facility with a direct lender in a few weeks, whereas going through a bank syndication might take months. This has made direct lenders attractive as a source of incremental capital.
+
+The trade-off is usually pricing. Direct lenders typically charge more than institutional investors in bank syndicates, and substantially more than existing term lenders who are playing on their existing syndicate. But sponsors often find the speed and flexibility worth the additional cost.
+
+I expect this trend to continue. As direct lending grows as a share of the overall credit market, sponsors will increasingly use it as their incremental source of capital, with bank facilities continuing to be the core, long-dated funding source.
+
+CONCLUSION: WHY THIS MATTERS
+
+I started this chapter by saying that incremental facility provisions are the most powerful clause that nobody reads properly. I hope that by this point, I've convinced you of the truth of that statement. The incremental facility is the mechanism that gives sponsors the flexibility to grow their portfolio companies without constant trips back to the debt markets. It's the leverage relief valve that prevents sponsors from getting stuck in situations where they've grown their EBITDA but can't access additional capital because refinancing is inconvenient. It's the competitive weapon that allows sponsors to move fast when acquisition opportunities emerge.
+
+And critically, it's the thing that determines what a sponsor can actually accomplish in the years after closing. I've seen tremendous value created through thoughtful use of incremental facilities, and I've seen value destroyed through careless use of incremental capacity on mediocre acquisitions or structures that didn't make sense.
+
+The sponsors who understand incremental facilities deeply—who know exactly what capacity they have, how that capacity can be accessed, what the conditions and limitations are, and what the strategic uses for that capacity should be—those are the sponsors who extract maximum value from the credit facility and from their transactions generally.
+
+And for lenders, investors, and advisors: understanding incremental facilities deeply is essential to navigating modern leveraged finance. You need to know what you're giving up when you agree to broad incremental provisions. You need to understand what the MFN provision protects you from and what it doesn't. You need to understand how ratio-based incremental works and what risks it creates. You need to understand how sponsors will likely try to use the provision and whether you're comfortable with that.
+
+What Twenty Years Teaches is this: the details of how incremental provisions are drafted and negotiated matter enormously. They determine what's possible and what's not. They create the boundaries within which sponsors operate. And they represent some of the most important economics in the entire credit facility, even though they're negotiated almost as an afterthought by many participants.
+
+Take the time to really understand the incremental provisions in your credit agreements. Understand the capacity. Understand the conditions. Understand the MFN mechanics. Understand how they interact with the rest of your credit structure. Do that, and you'll understand how to extract maximum value from your leverage facility, whether you're a sponsor, a lender, or an advisor.
+
+The accordion, expanded fully, can make an impressive sound. But it only does that if you know how to play it.

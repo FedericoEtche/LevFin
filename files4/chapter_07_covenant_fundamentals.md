@@ -1,0 +1,281 @@
+# CHAPTER 7
+## Covenant Fundamentals
+
+---
+
+### Why This Chapter Matters
+
+Before you can understand how covenants fail, you need to understand how they work.
+
+This chapter is the foundation for everything that follows in Part III. It covers the basic architecture: what covenants are, how they're structured, and why the European market looks the way it does today. If you're a junior banker, this is where you build the mental model. If you're experienced, this is where you confirm your assumptions — and maybe discover some gaps.
+
+The key insight: European leveraged finance documentation has converged around a "high yield bond in disguise" structure. Understanding that convergence — and where the old distinctions still matter — is essential to reading any deal correctly.
+
+---
+
+### 7.1 What Covenants Actually Are
+
+A covenant is a promise. In leveraged finance, it's a promise by the borrower to do certain things (affirmative covenants) and not do other things (negative covenants).
+
+That's the textbook definition. Here's the practical one:
+
+**Covenants are the rules that determine how much flexibility the borrower has to run the business — and how much protection lenders have if things go wrong.**
+
+When you make a leveraged loan, you're lending to a highly-indebted company controlled by a private equity sponsor whose economic interests are fundamentally different from yours. The sponsor wants to maximize equity returns. You want to get your principal back plus interest. Covenants are the contractual framework that manages that tension.
+
+#### Affirmative Covenants
+
+These require the borrower to *do* things:
+
+- Maintain insurance
+- Comply with laws
+- Provide financial statements
+- Pay taxes
+- Preserve corporate existence
+
+Affirmative covenants are rarely the battleground. They're hygiene items — necessary, but not where the real fights happen.
+
+#### Negative Covenants
+
+These restrict what the borrower *can't* do without lender consent:
+
+- Incur additional debt
+- Grant liens on assets
+- Make restricted payments (dividends, distributions)
+- Sell assets
+- Make investments
+- Merge or consolidate
+- Enter into transactions with affiliates
+
+This is where the action is. Every major documentation fight — and every major restructuring disaster — traces back to the negative covenants and how they're drafted.
+
+---
+
+### 7.2 Maintenance vs. Incurrence: The Two Regimes
+
+The most important distinction in covenant analysis is between **maintenance covenants** and **incurrence covenants**. These are fundamentally different philosophies of lender protection.
+
+#### Maintenance Covenants
+
+A maintenance covenant must be satisfied at all times — typically tested quarterly. If the borrower breaches, it's a default.
+
+Example: *"The Borrower shall not permit the Total Leverage Ratio to exceed 5.0x at the end of any fiscal quarter."*
+
+This is the traditional bank loan approach. The covenant acts as a trip wire. If the business deteriorates, the lender gets a seat at the table before things get too bad. The borrower is forced to come to lenders, hat in hand, to request a waiver or amendment.
+
+**Advantage:** Early warning. Lenders can intervene while there's still value to protect.
+
+**Disadvantage:** False positives. A temporary EBITDA dip can trigger a default even if the business is fundamentally sound.
+
+#### Incurrence Covenants
+
+An incurrence covenant only applies when the borrower wants to *do* something — incur new debt, pay a dividend, make an acquisition. If the borrower isn't taking action, the covenant doesn't test.
+
+Example: *"The Borrower may incur additional Indebtedness only if, after giving pro forma effect to such incurrence, the Total Leverage Ratio does not exceed 5.0x."*
+
+This is the high-yield bond approach, now standard in institutional term loans. The covenant is a gate, not a trip wire. The borrower can deteriorate significantly without triggering a default — as long as it doesn't try to do anything that requires covenant capacity.
+
+**Advantage:** Flexibility. The borrower can manage through a downturn without technical defaults.
+
+**Disadvantage:** No early warning. By the time lenders have leverage (pun intended), the situation may be dire.
+
+#### The "Cov-Lite" Reality
+
+When people say a deal is "covenant-lite" or "cov-lite," they mean it has **no maintenance covenants** for the term loan lenders. The deal runs entirely on incurrence covenants.
+
+This is now the dominant structure in the European institutional loan market. The vast majority of deals above €250 million are cov-lite.
+
+What does this mean practically?
+
+- **No quarterly trip wire.** The borrower can miss projections repeatedly without triggering a default.
+- **No seat at the table.** Lenders have no automatic right to negotiate until maturity or until the borrower wants to do something that requires covenant capacity.
+- **Recovery depends on documentation.** Since you can't force an early renegotiation, the quality of your negative covenants — and how tightly they're drafted — determines your outcome.
+
+---
+
+### 7.3 The Restricted Group Concept
+
+One of the most important concepts in modern leveraged finance is the distinction between the **Restricted Group** and the **Unrestricted Group**.
+
+#### The Basic Idea
+
+The covenants in a credit agreement or indenture don't apply to every entity the borrower owns. They apply to a defined perimeter: the Restricted Group.
+
+- **Restricted Subsidiaries:** Inside the covenant perimeter. Subject to all the negative covenants. Their cash flows and assets support the debt.
+- **Unrestricted Subsidiaries:** Outside the covenant perimeter. Not bound by the covenants. Can do whatever they want.
+
+This distinction is imported from high-yield bond documentation, where it's been standard for decades. It's now universal in European "bond-style" loans.
+
+#### Why This Matters
+
+The Restricted Group concept creates a fundamental tension:
+
+**Value inside the Restricted Group supports your debt. Value outside does not.**
+
+Every sophisticated sponsor understands this. The game is to move value from inside the box to outside the box — legally, using the capacity provided by the documents.
+
+The J.Crew disaster (covered in Chapter 8) is the canonical example: valuable intellectual property moved from a Restricted Subsidiary to an Unrestricted Subsidiary, where it was pledged to new lenders, leaving existing creditors with claims against an empty shell.
+
+#### Not All Restricted Subsidiaries Are Equal
+
+Here's a nuance many junior bankers miss: within the Restricted Group, there are **Guarantor** subsidiaries and **Non-Guarantor** subsidiaries.
+
+- **Guarantors:** Provide direct credit support. If the borrower defaults, you have a claim against these entities.
+- **Non-Guarantors:** Inside the Restricted Group (subject to covenants), but provide no guarantee. You have no direct claim.
+
+Most documentation allows unlimited transfers *within* the Restricted Group. This means assets can flow from Guarantors to Non-Guarantors without restriction. If the Non-Guarantor then incurs its own debt, that debt is **structurally senior** to yours — it gets paid first from the Non-Guarantor's assets before anything flows up to the parent.
+
+#### The Guarantor Coverage Test
+
+To protect against this leakage, loan agreements include a **Guarantor Coverage Test** — typically requiring that Guarantors represent at least 80-85% of consolidated EBITDA.
+
+But here's the catch: the test only applies to subsidiaries in designated "Security Jurisdictions." Subsidiaries in excluded jurisdictions don't count — not in the numerator or the denominator.
+
+In practice, "Security Jurisdictions" are often defined narrowly, excluding countries where the group actually operates. A subsidiary in a non-Security Jurisdiction can hold significant value without any obligation to become a Guarantor.
+
+**The checklist:**
+1. How strong is the Guarantor coverage requirement?
+2. Which jurisdictions are excluded from "Security Jurisdictions"?
+3. Is there a cap on debt that Non-Guarantor subsidiaries can incur?
+4. Where are the key assets (especially IP) actually held?
+
+---
+
+### 7.4 The Springing Covenant: RCF Protection in Cov-Lite Deals
+
+Even in cov-lite deals, there's usually one maintenance covenant lurking: the **springing financial covenant** for the Revolving Credit Facility (RCF).
+
+#### How It Works
+
+The springing covenant is a leverage test (typically senior secured net leverage) that only "springs" into effect if the RCF is drawn above a certain threshold — usually 40% of commitments at quarter-end.
+
+If the RCF is 35% drawn? No test.  
+If the RCF is 45% drawn on the last day of the quarter? The covenant springs, and the borrower must comply.
+
+This protects RCF lenders while preserving the cov-lite structure for term loan investors.
+
+#### The Limitations
+
+The springing covenant is weaker than it appears:
+
+1. **Only tests at quarter-end.** A borrower can draw 100% of the RCF mid-quarter, then pay it down before the test date.
+
+2. **Excludes many drawings.** Letters of credit, bank guarantees, ancillary facilities, and drawings to fund acquisitions are often excluded from the calculation.
+
+3. **Nets against cash.** If the borrower holds cash equal to the excess drawings, the covenant doesn't spring.
+
+4. **Massive headroom.** The covenanted level is typically set with 40-50% EBITDA headroom. The company has to deteriorate dramatically before a breach is likely.
+
+5. **Multiple cure rights.** Even if breached, the borrower has equity cure rights, prepayment cures, and "recalculation" cures that make actual defaults rare.
+
+#### Drawstop-Only Covenants
+
+In some structures (particularly super senior RCFs alongside high-yield bonds), the financial covenant is merely a **drawstop** — not a default trigger.
+
+If the covenant is breached, the borrower can't draw more under the RCF. But there's no default, no acceleration right, no seat at the table. If the borrower drew the entire RCF before quarter-end, the drawstop is meaningless.
+
+---
+
+### 7.5 Covenant Suspension and Fall-Away
+
+High-yield bonds (and some loans) include provisions that **suspend or eliminate covenants** if the issuer achieves certain milestones — typically an investment-grade rating.
+
+#### The Logic
+
+The idea is simple: if the company improves enough to become investment-grade, it should get investment-grade flexibility. IG bonds typically have only a negative pledge and change of control put — none of the elaborate negative covenants that constrain high-yield issuers.
+
+#### The Trigger
+
+The most common trigger: the notes receive an investment-grade rating (BBB- or higher) from two rating agencies.
+
+But watch the drafting. Some deals only require one rating agency. If an issuer has a split rating (one IG, one HY), it might qualify for covenant suspension under the documents even though it's really a crossover credit.
+
+#### Suspension vs. Fall-Away
+
+These terms are often used interchangeably, but there's an important distinction:
+
+- **Suspension:** Covenants are paused while the trigger is met. If the issuer is later downgraded below investment grade, the covenants **reinstate**.
+- **Fall-Away:** Covenants are gone permanently. Even if the issuer is downgraded, the protections don't come back.
+
+True fall-away covenants are rare in Europe. Most deals use suspension with reinstatement.
+
+#### What Happens During Suspension
+
+While covenants are suspended:
+
+- Debt incurred is deemed permitted
+- Restricted payments made don't count against baskets
+- Asset sale proceeds requirements reset
+- Guarantees and security may be released
+
+If covenants later reinstate, there's no clawback. Everything done during the suspension period is grandfathered.
+
+---
+
+### 7.6 The Convergence Story
+
+Fifteen years ago, European loans and bonds were distinct instruments with distinct documentation. Today, they've converged to the point where the legal form often obscures the economic reality.
+
+#### What Converged
+
+- **Incurrence covenants** (from bonds) replaced maintenance covenants in loans
+- **Restricted/Unrestricted Group** architecture became standard in loans
+- **Builder baskets** and capacity mechanics imported wholesale
+- **EBITDA definitions** with aggressive add-backs became universal
+
+#### What Didn't Converge
+
+The chassis still matters:
+
+- **Governing law:** English law for loans, often New York law concepts for covenant interpretation
+- **Intercreditor agreements:** European loans have contractual priority waterfalls (super senior RCF) that don't exist in US structures
+- **Amendment mechanics:** Bond indentures require noteholder votes; loan amendments go through agent mechanics with different thresholds
+- **Exit consents:** Valid in US indentures, questionable under English law (*Assenagon*)
+
+#### The "Bond-Style Loan"
+
+The dominant structure today is the "bond-style loan" — a credit agreement that imports the full high-yield covenant package. It looks like a loan (credit agreement, agent, LIBOR/SOFR spread), but it acts like a bond (incurrence covenants, builder baskets, Restricted Group).
+
+If you're analyzing a European term loan B, assume it's bond-style unless proven otherwise. Read the covenants accordingly.
+
+---
+
+### 7.7 What This Means for You
+
+After twenty years, here's what I'd tell my younger self about covenant fundamentals:
+
+**1. The structure is the substance.** Don't get lost in the details before you understand the architecture. Is it maintenance or incurrence? What's the Restricted Group perimeter? Where's the value?
+
+**2. Cov-lite doesn't mean no covenants.** It means no maintenance covenants. The incurrence covenants still matter — arguably more, since they're your only protection.
+
+**3. The Restricted Group is everything.** Value inside the box is yours. Value outside is not. Every sophisticated sponsor knows this. You should too.
+
+**4. Read the definitions.** The covenant says "Leverage Ratio." But what's in the numerator? What's in the denominator? What adjustments are permitted? The definitions are where deals are won and lost.
+
+**5. Assume the worst.** When you're analyzing covenants, assume the sponsor will use every basket, every carve-out, every definitional game available. Because they will.
+
+---
+
+### Chapter Summary
+
+Covenants are the contractual framework that balances borrower flexibility against lender protection. In modern European leveraged finance:
+
+1. **Incurrence covenants dominate.** Maintenance covenants are largely gone from institutional term loans.
+
+2. **The Restricted Group defines the perimeter.** Everything inside is subject to covenants. Everything outside is not.
+
+3. **Not all Restricted Subsidiaries are Guarantors.** Value can leak to Non-Guarantors within the Restricted Group.
+
+4. **Springing covenants protect RCF lenders** — but with significant limitations and cure rights.
+
+5. **Covenant suspension** can eliminate protections if the issuer achieves investment-grade status.
+
+6. **European documentation has converged** around bond-style structures, but the underlying legal chassis still matters.
+
+The chapters that follow will dive deep into each major covenant: Restricted Payments, Debt and Liens, Asset Sales, and more. But they all build on this foundation. If you understand the architecture, the details will make sense.
+
+---
+
+*[Chapter word count: ~2,800 words — target for book chapter: 4,000-6,000 words]*
+
+*[Sources: The Architecture of Modern Leverage, Covenants - Restricted Group (9fin), Covenants - Cov-Lite European Leveraged Loans (9fin), From High Yield to High Grade - Covenant Suspension (9fin)]*

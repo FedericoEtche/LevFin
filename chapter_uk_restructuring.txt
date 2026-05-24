@@ -1,0 +1,593 @@
+CHAPTER 16: UK RESTRUCTURING TOOLS — SCHEMES OF ARRANGEMENT AND PART 26A RESTRUCTURING PLANS
+
+16.1 Introduction — Why UK Restructuring Tools Matter for LevFin
+
+In the hierarchical world of international finance, English law has acquired a unique status. It's not the home jurisdiction of most European companies we finance. It's not where most of our sponsors operate. Yet when a leveraged buyout goes wrong — when the optimistic financial model that supported a three-turn leverage multiple collides with reality — English law and English courts have become the venue of choice for getting the problem fixed.
+
+I spent fifteen years thinking of restructuring as something that happened to problem assets: the ones where sponsors had overpaid, where management had underperformed, where macro had turned against us. I watched restructurings the old-fashioned way, through workouts, asset sales, and protracted bilateral negotiations with lead creditors. But over the past decade, I've witnessed a fundamental shift in how major European leveraged finance transactions handle their inevitable collisions with financial stress. English law restructuring tools — first schemes of arrangement, then the newer restructuring plans — have become as much a part of LevFin documentation as financial covenants and cash sweep mechanics.
+
+This matters because restructuring mechanisms in your credit documents are no longer academic. They determine whether a stressed deal can be salvaged quickly or whether creditors spend years in litigation. They affect the recovery value of junior tranches. They impact whether sponsors can retain meaningful equity upside through a restructuring or whether equity gets wiped entirely. For arrangers and investors alike, understanding the mechanics of UK restructuring tools has become core technical knowledge.
+
+The European restructuring landscape is fragmented by design. France has its Procedures Collectives. Germany has its Insolvenzordnung. Italy uses its Codice della Crisi. Spain has restructuring frameworks that differ materially from those in the Nordics. Within this patchwork, English law offers something unique: a combination of predictable, well-developed case law; courts with deep expertise in complex commercial matters; and procedural mechanisms that can bind parties across borders without requiring unanimity. It's the reason why Dutch retailers end up in the High Court in London, why German Mittelstand companies elect English law in their bond documentation, why even sponsors domiciled in Paris structure their holding company under English law when they need maximum restructuring flexibility.
+
+The UK Corporate Insolvency and Governance Act (CIGA), which came into force on 26 June 2020, fundamentally altered this landscape. It introduced Part 26A of the Companies Act 2006, which created the "Restructuring Plan" — a new mechanism designed to overcome the limitations of the older Scheme of Arrangement framework. Where schemes had always required majority support from every single class of creditor (a feature that gave blocking rights to minority dissenting classes), restructuring plans introduced a cross-class cram-down mechanism. This was revolutionary. It meant that for the first time in common law jurisdictions, a court could impose a restructuring on unwilling creditors if certain conditions were met.
+
+For leverage finance practitioners, this shifts the entire calculus. When we model credit structures, we now build in assumptions about restructuring timelines and likely creditor recoveries that depend critically on which tool — scheme or restructuring plan — is likely to be deployed if stress arrives. The choice between these mechanisms affects the intrinsic risk profile of tranches. It changes how sophisticated investors value recovery scenarios. It determines whether a sponsor has sufficient control over the restructuring process to preserve some equity value.
+
+I'll never forget the conversation I had with a senior credit officer at a major insurance company after the Virgin Active restructuring plan was sanctioned in November 2021. He was reviewing a subordinated debt position in a stressed hospitality asset, and he literally said: "So the court can now impose a deal on us even if we vote against it? On what terms?" That question — asked once with genuine confusion, now understood by every credit analyst covering European LevFin — captures why this chapter matters. English law restructuring tools are no longer exotic mechanisms. They're central features of the credit risk profile of any European leveraged finance transaction.
+
+What this chapter does is walk through the mechanics of both schemes and restructuring plans with the precision you'd expect from technical documentation, but from the perspective of someone who has lived these processes with actual deals. I've advised sponsors trying to preserve equity value through restructurings. I've advised creditors trying to maximise recovery while protecting themselves against future impairment. I've watched the case law evolve as judges figure out how to apply "no worse off" tests and "relevant alternative" concepts. Most importantly, I've learned what actually matters when restructuring becomes inevitable — and it's often not the technical mechanisms but the politics between creditor classes, the quality of your advisers, and whether your deal has enough liquidity to survive the process.
+
+---
+
+16.2 The Scheme of Arrangement: Part 26 Companies Act 2006
+
+The scheme of arrangement is, in some respects, older than modern leveraged finance itself. The mechanism traces back to the Companies Act 1929 and the work of English judges trying to create a way for companies in financial distress to reorganise their obligations without requiring the consent of every single creditor. If you owned a company in 1930s Britain, and you owed money to 500 different creditors, there was no practical mechanism to restructure the debt without either a formal insolvency or the impossible task of negotiating with 500 separate parties. The scheme of arrangement was created to solve exactly that problem: give courts the power to bind minority creditors to a majority decision if the restructuring was fair.
+
+The procedure is elegant in design, which is probably why it's survived nearly a century largely unchanged. A company in financial distress proposes a plan to reorganise its liabilities. The court first holds a convening hearing to decide whether the company has the power to convene meetings of creditors, and typically to approve the form of the scheme document and the information to be provided. Then creditor meetings are held, organised by "class" — a term we'll return to because it matters profoundly. If majorities within each class (majority in number AND 75% by value) vote to accept the scheme, the company applies to court for a sanction hearing. At that sanction hearing, the court reviews whether the scheme is fair to creditors, whether the class composition was correct, and whether the company had proper authority to propose the scheme. If satisfied, the court sanctions the scheme, making it binding on all creditors — even those who voted against it.
+
+This mechanism proved exceptionally useful for restructuring debt-heavy European companies. And over the past two decades, it became the preferred tool for major cross-border restructurings of non-UK companies that wanted the predictability and expertise of English law courts.
+
+The critical innovation that made schemes so useful for LevFin was the insight that you could use English law for a non-English company provided the company had sufficient connection to England and Wales. The "sufficient connection" test isn't defined in statute. Instead, it emerged through case law as courts grappled with whether they had jurisdiction over foreign companies. The test that emerged — refined across cases like Lehman Brothers and others — is fundamentally flexible. Courts would ask: Does the company have sufficient assets in England? Does it have operations here? Is there sufficient consent from the affected parties? Is English law chosen in the relevant contracts?
+
+What emerged, particularly in the 2010s, was a form of genuine forum shopping, but of a sophisticated kind. European sponsors and their advisers realised that if you incorporated your holding company under English law (or at least gave English courts sufficient connection to the matter through contractual choice of law in financial documentation), you could restructure a portfolio company — potentially located anywhere in Europe, operating in completely different jurisdictions — through English court proceedings. The advantage was immense: predictable courts, sophisticated judges, a body of case law specific to complex commercial restructurings, and procedures that were genuinely faster than formal insolvency in many other European jurisdictions.
+
+Let me walk through the mechanics in detail because precision matters here.
+
+The Convening Hearing
+
+A scheme process begins when the company applies to court for permission to convene meetings of creditors. This initial hearing is called the convening hearing. The court isn't reviewing the merits of the scheme itself — that comes later. Instead, the court is checking several procedural matters. First, does the company have authority under section 896 of the Companies Act 2006 to convene meetings? This is rarely contested, though I've seen situations where a company in administration or receivership had to confirm whether the office holder had such authority. Second, the court reviews the proposed scheme document itself — the detailed proposal that will be sent to creditors. The court will ensure it contains sufficient information for creditors to make an informed decision and that any misleading elements are corrected before circulation. Third, the court approves the convening order, which sets the mechanics for how meetings will be held.
+
+The procedural question that often surprises people is: who votes? The answer is the creditors who are affected by the scheme. But here's where things get subtle, because the court has to determine which creditors vote as one "class" and which vote separately. This is the most legally complex aspect of scheme practice, and it's where litigation most commonly arises.
+
+Class Composition — The Legal Complexity
+
+The principle underlying class composition is superficially simple: creditors with materially different interests are placed in different classes. Creditors with substantially similar legal positions vote together. The reason this matters is that the scheme can only be sanctioned if a majority within each class votes yes. Put differently, the mechanism protects minority creditors within each class but can bind dissenting classes only by offering to pay them the same treatment they would receive in the "relevant alternative" — usually formal insolvency.
+
+In practice, determining classes is contentious. Consider a typical leveraged finance structure: senior secured debt, mezzanine debt, unsecured bonds, trade creditors, shareholders. It's tempting to say each should be a class. But the case law is more subtle. The question isn't just seniority; it's whether creditors have materially different legal interests in the scheme. If a scheme proposes to pay senior creditors in full and junior creditors 50%, are they different classes? Absolutely — their interest in the outcome is fundamentally different. But what if the scheme proposes to pay senior creditors 95% and junior creditors 60%? What if the scheme involves converting some debt to equity for some creditors but not others?
+
+I remember working on the Swissport restructuring, where this became intensely practical. Swissport is a global aviation services company — baggage handling, aircraft maintenance, ground services. The company had borrowed heavily to fund acquisitions, and by the time the pandemic hit in 2020, it was severely stressed. The restructuring involved multiple layers of secured debt, senior unsecured bonds, subordinated notes, and aircraft and equipment leases. Determining which creditors should vote as a class versus separately was genuinely complex. Senior lenders with security over specific assets had to be separated from senior lenders with only guarantees. Lease creditors who had non-consensual security rights (statutory liens on aircraft) had different legal positions from unsecured bondholders.
+
+The case law principle — refined over decades but crystallised in modern form through cases like Lehman Brothers and more recent decisions — is that creditors are in the same class if they would receive the same treatment under the scheme AND have no material difference of interest regarding the scheme's implementation. But courts have rejected overly mechanical applications of seniority. In one significant judgment, courts said that you can't simply put all unsecured creditors in one class if some of them have particular leverage in the restructuring that others don't.
+
+What this creates in practice is negotiation about class structure itself. Different creditors will argue for class divisions that advantage them. A major secured lender wants separate classification from smaller secured lenders because it has negotiated particular value protection. A trade creditor committee wants separate class status. Shareholders want separate status (though in most restructurings, equity gets paid nothing or minimal value, which dramatically simplifies their negotiating position). Advisers spend significant time negotiating with the company's legal team and potentially petitioning the court on class issues before the convening hearing.
+
+Once classes are determined, creditor meetings are held. Each class votes separately, and the voting threshold is demanding: you need a majority in number of creditors within the class AND 75% by value. This "majority in number and value" requirement is why schemes are sometimes called numerosity-constrained. A single large creditor holding 99% of the value can block the scheme if it constitutes a "majority in number" on the other side — meaning if there are at least two creditors in the class. This rarely matters in practice for senior debt, where lending is often concentrated. But for unsecured bonds or trade creditors, the numerosity requirement can matter.
+
+The Sanction Hearing and Court Discretion
+
+If the scheme clears the voting thresholds in every class, the company applies to court for sanction. At the sanction hearing, the court reviews whether to bind all creditors to the scheme, including those who voted against it. This is where the court's fiduciary obligation to protect minority creditors comes in. The court will ask: Is the scheme fair? Does the scheme properly value the "relevant alternative" — typically the position creditors would be in if the company went into formal insolvency or if the scheme was rejected?
+
+In reviewing fairness, courts have developed several principles. First, courts don't substitute their judgment for that of the market. If creditors in a class voting by majority have agreed to a scheme, the court won't reject it just because the judge thinks they could have negotiated better terms. Second, courts will examine whether the information provided to creditors was adequate. If creditors voted without understanding key facts about the company's financial position or the alternatives, courts may refuse sanction. Third, courts will look at whether the process was fair — whether all parties had adequate opportunity to participate, whether advisers had conflicts of interest that compromised their advice, whether the company properly presented alternative scenarios.
+
+The "relevant alternative" is critical. In most restructurings, if the scheme is rejected, the company will enter administration or formal insolvency. Creditors in the scheme will argue that they should accept the scheme because the alternative — formal insolvency, with all its costs, delays, and uncertainty — would leave them worse off. Courts evaluate this claim. If the restructuring generates value relative to insolvency (faster timeline, lower costs, preserved business value), then creditors accepting below-par recovery may be rational. But if a creditor can demonstrate that it would receive more in insolvency than in the proposed scheme, courts become concerned.
+
+In practice, I've rarely seen courts refuse sanction of a scheme once voting thresholds are met. Courts generally show deference to contractual restructurings that have been negotiated and approved by majorities of creditors. The exception comes when courts identify process problems — where information was misleading, where certain creditors were improperly excluded, or where the relevant alternative wasn't properly valued.
+
+Why Schemes Became the Preferred Restructuring Tool
+
+For most of the 2000s and 2010s, English law schemes were the dominant mechanism for restructuring major European debt-heavy companies. The reason was simple: schemes worked. They provided a court-supervised process that bound all creditors to a negotiated solution. They created certainty — once sanctioned, a scheme was legally binding. They were faster and less expensive than formal insolvency proceedings in many other European jurisdictions. And the combination of English law expertise with the "sufficient connection" principle meant that foreign companies could use English courts.
+
+For LevFin specifically, schemes offered something crucial: they provided a mechanism for restructuring that didn't necessarily trigger cross-default provisions or other ipso facto clauses that might upset the financial arrangements the sponsor had carefully constructed. If a scheme was negotiated among creditors, and the company could remain solvent through the restructuring process, many aspects of normal operations could continue. This was particularly important for ongoing businesses where maintaining operational continuity mattered to value recovery.
+
+I remember working on a mid-market leveraged buyout in 2014 where the company had hit severe stress due to macro weakness in its primary market. The sponsor faced a choice: allow the company to enter formal insolvency in its home jurisdiction (which would have involved immediate closure of several facilities and suspension of contracts), or use an English law scheme to restructure the debt while preserving the business. The scheme was the obvious choice. It allowed the company to continue operations, served customers during the restructuring, preserved the team structure, and ultimately allowed the business to be sold as a going concern rather than a broken-up distressed asset.
+
+The Sufficient Connection Test
+
+A critical element of why English courts became the forum of choice was the willingness to exercise jurisdiction over foreign companies. The "sufficient connection" test emerged through case law as courts refined when they would take jurisdiction over a scheme involving companies without English incorporation or major English assets.
+
+The leading case is Re Lehman Brothers International (Europe), which concerned the application of scheme procedures to a major American investment bank's English subsidiary. The court had to consider: could English courts impose a scheme on creditors of non-English companies, or was jurisdiction limited to English incorporated companies? The court held that jurisdiction existed where there was sufficient connection to England and Wales. The relevant factors included: whether creditors had contractual choice of English law, whether they had submitted to English court jurisdiction, whether the company had English assets or operations, and whether English law applied to the company's liabilities.
+
+This principle opened the floodgates. It meant that a company incorporated in, say, the Netherlands or Germany could use English schemes provided it had contractual choice of English law in its debt documents and creditors accepted that English courts had jurisdiction. More radically, it meant that a subsidiary of a foreign company — or even a holding company structure where the actual operating company was foreign — could use English schemes.
+
+What this created was a genuine shift in how European LevFin structures are arranged. Sponsors began to ensure that holding company documentation was governed by English law, and that creditor covenants included submission to English court jurisdiction. The tax and structuring advantages of particular jurisdictions were preserved for operating companies, while the restructuring framework was centralised in English law.
+
+The sufficient connection principle has been applied broadly. Courts accepted schemes for companies with minimal English operations provided they had contractual choice of English law and adequate submission to jurisdiction. Courts have accepted schemes where English law applied only to certain classes of debt. Courts have even accepted schemes where the company's primary operations and assets were entirely foreign.
+
+This jurisdictional flexibility has had one critical side effect: it created a form of competition between legal systems for restructuring business. If you're a European sponsor with a multi-jurisdictional portfolio company, the question of which law governs the restructuring framework matters intensely. English law offers procedural efficiency, sophisticated courts, and predictable outcomes. This attracted restructuring business from across Europe.
+
+Case Studies: Hema, Swissport, Matalan
+
+The Hema case in 2021 exemplifies how schemes work in practice for a major European retailer. Hema is a Dutch department store chain that had been owned by various investors over decades. It had become overleveraged, and COVID-19 pressure on retail accelerated its financial stress. The company proposed a scheme of arrangement under English law despite being Dutch incorporated, relying on sufficient connection through English law choice in the debt documents.
+
+The restructuring involved significant concessions from unsecured creditors — they would accept pennies on the pound in some cases. But the alternative was formal insolvency in the Netherlands, which would have involved immediate store closures and asset sales. The scheme allowed the business to continue as a going concern. The court sanctioned the scheme, and Hema was restructured while maintaining its retail operations.
+
+What struck me about Hema was how clearly the scheme process illustrated the "relevant alternative" principle. Hema's advisers prepared a detailed report showing what would happen in Dutch insolvency — how many stores would close immediately, what the liquidation value of inventory would be, what the timeline would be. When set against that backdrop, accepting the scheme made sense for most creditors, even though recovery was far below par.
+
+Swissport, which I mentioned earlier, was a massive global restructuring in 2022 that combined English schemes with parallel proceedings in other jurisdictions. The company had significant operations in multiple countries, security interests registered in multiple jurisdictions, and employees covered by different employment laws. The English scheme handled the financial restructuring, while parallel proceedings in Switzerland and other jurisdictions managed employment and local law requirements. What Swissport demonstrated was that modern European restructurings often involve multiple jurisdictions but are coordinated through English law frameworks.
+
+Matalan was a UK fashion retailer that used a scheme in 2022. Interestingly, Matalan was UK incorporated, so there were no jurisdictional complications. The scheme involved securing agreement from landlords (through a separate creditor class) to rent reductions, from suppliers to extended terms, and from lenders to debt restructuring. The scheme allowed Matalan to remain in business and ultimately exit restructuring as a solvent company. The process took roughly four months from announcement to sanction, which is remarkably fast for a company with this level of complexity.
+
+---
+
+16.3 The UK Restructuring Plan: Part 26A
+
+If schemes of arrangement are the eighteenth-century solution to a nineteenth-century problem, restructuring plans are the twenty-first-century evolution. They were introduced in Part 26A of the Companies Act 2006 through the Corporate Insolvency and Governance Act 2020, which came into force on 26 June 2020.
+
+The genesis matters for understanding their purpose. CIGA was passed in response to the COVID-19 pandemic. Parliament and the government were concerned that otherwise viable companies would be pushed into formal insolvency due to temporary cash-flow stress. They looked at what other jurisdictions had done — particularly how US Chapter 11 allowed cross-class cram-down of restructuring plans — and asked: why can't English law do something similar?
+
+The result was Part 26A, which created a new restructuring tool that addresses the key limitation of schemes: the requirement that every class of creditors must vote in favour. With schemes, a single dissenting class can block restructuring. This gives minority creditors in any class (and sometimes even individual major creditors if they constitute a separate "numerosity" group) blocking power. With restructuring plans, the court can impose a plan on dissenting classes if certain conditions are met.
+
+The Financial Difficulty Gateway
+
+Before a company can propose a restructuring plan, it must meet a "financial difficulty" threshold. Specifically, the company must have encountered or be likely to encounter financial difficulties that prevent it from achieving its objectives. This is a relatively low bar — it doesn't require formal insolvency or even demonstrated inability to pay liabilities as they fall due. A company facing potential covenant breaches, anticipated credit market closure, or deteriorating market conditions could meet the threshold. In practice, courts have interpreted this generously, understanding that the intention was to provide a restructuring mechanism before companies reach formal distress.
+
+This contrasts with schemes, which have no financial difficulty requirement. A company could theoretically use a scheme for financial restructuring even if not in distress, simply to optimise its capital structure. In practice, you rarely see schemes used except under financial stress, but the legal option exists.
+
+The Cross-Class Cram-Down Mechanism
+
+The revolutionary feature of restructuring plans is the cross-class cram-down. Under Part 26A, a court can sanction a restructuring plan even if one or more classes votes against it, provided:
+
+(1) The plan is fair to the dissenting class(es);
+(2) A class of creditors whose rights would be "no worse off" under the plan than in the "relevant alternative" votes in favour (Condition A); and
+(3) The plan is being proposed in good faith and is not designed to benefit a particular class at the unfair expense of another (Condition B).
+
+Let me unpack each of these because they're not as straightforward as they sound.
+
+Condition A is the technical mechanism that allows the court to impose a plan on dissenting creditors. The idea is this: if some class of creditors is voting in favour because they believe they're better off under the plan than in the relevant alternative, and if the dissenting class isn't receiving worse treatment than their relevant alternative, then the court can impose the plan. The dissenting class isn't getting a worse deal than they would in formal insolvency (the relevant alternative), so imposing the plan doesn't unfairly harm them.
+
+This creates an unusual dynamic. It means a restructuring plan can be imposed on a dissenting class of secured creditors — who have the most valuable claims — if there's a class of unsecured creditors or junior claimants that votes in favour and is worse off than their relevant alternative, while the secured creditors' relevant alternative position is as good as or better than what they'd receive in the plan. This seems paradoxical: how can you impose treatment on a senior class that's arguably advantaged over the plan if junior classes approve?
+
+The answer lies in understanding what "relevant alternative" means, which brings me to the "no worse off" test.
+
+The No Worse Off Test and the Relevant Alternative
+
+The "no worse off" test is the heart of Part 26A case law, and it's where courts are still developing doctrine. The idea is that you can impose a restructuring plan on a dissenting class provided that class is no worse off under the plan than it would be in the relevant alternative.
+
+But what counts as "relevant alternative"? In most cases, it's formal insolvency. If the plan is rejected, the company would enter administration or liquidation. The court values what each creditor would receive in that scenario. If the restructuring plan provides equal or better value, then imposing the plan is justified.
+
+But here's the sophistication: the relevant alternative isn't necessarily insolvency. It could be the status quo — the company continuing to trade without restructuring until it reaches a point of formal insolvency. It could be selective default where certain obligations are breached. It could even be a particular alternative transaction that the company could pursue if the restructuring plan is rejected.
+
+Valuing the relevant alternative is where restructuring cases become technically intense. You need expert evidence about what a company would fetch in a quick asset sale, what a going concern sale would achieve, what the timeline would be, what costs would be incurred. Often, there's expert evidence from multiple parties — the company's advisers presenting an optimistic scenario, dissenting creditors' advisers presenting a pessimistic one.
+
+I remember the Virgin Active restructuring, which was the first major test of restructuring plans in English courts. Virgin Active had entered significant financial stress post-COVID. The company proposed a restructuring plan that involved converting some debt to equity, extending other debt, and reducing the equity stake of the existing shareholder substantially. The shareholder objected — their equity stake would be materially diluted. But the court had to ask: in the relevant alternative (formal insolvency), what would equity receive? The answer was zero. So even though equity's position under the restructuring plan was bad, it was better than insolvency, and the plan could proceed.
+
+This illustrates the real-world power of restructuring plans. They allow restructuring even when major stakeholders are unhappy, provided the court is convinced that the relevant alternative — typically insolvency — would be even worse for them.
+
+The Financial Difficulties Test and Its Application
+
+Courts have interpreted the "financial difficulties" requirement in Part 26A generously. The test isn't that the company is in insolvency — it's that it "has encountered or is likely to encounter financial difficulties." The word "likely" is key. A company facing anticipated financial stress can propose a plan prospectively, before it reaches crisis.
+
+In Virgin Active, the company was profitable on an EBITDA basis but faced covenant breaches and refinancing difficulties. The court accepted that this was sufficient to trigger Part 26A. In Pizza Express, a restaurant chain heavily impacted by lockdown restrictions (though still trading and generating revenue) used a restructuring plan. In DeepOcean, an offshore support services company facing significant operational and financial challenges used a restructuring plan.
+
+What this means in practice is that sponsors have greater flexibility to restructure proactively. You don't have to wait until your company is in formal insolvency to propose a plan. You can restructure when you see stress approaching, while the company still has meaningful value, and while operational continuity can be preserved.
+
+The "Good Faith" Requirement and Class Fairness
+
+Condition B of Part 26A requires that the plan be proposed in good faith and not be designed to benefit one class at the unfair expense of others. This sounds like fiduciary principle, and in some respects it is. Courts interpret this to mean that the plan shouldn't be designed as a way to advantage particular stakeholders in ways that lack a legitimate business rationale.
+
+What does this exclude in practice? Courts have suggested that a plan would fail Condition B if, for example, a sponsor was seeking to use the restructuring to eliminate minority equity holders without adequate business justification. Or if debt was being restructured in ways that transferred value improperly between classes without commercial rationale. But courts have been cautious about striking down plans on good faith grounds alone. The threshold is high.
+
+In DeepOcean, there was argument about good faith because the plan involved what some creditors characterised as preferential treatment for particular lenders. But the court found that the sponsor had legitimate business reasons for the particular creditor treatment and that the overall structure wasn't skewed unfairly. The plan was sanctioned.
+
+Class Composition Under Part 26A
+
+One advantage of restructuring plans over schemes is that Part 26A abandons the numerosity requirement. You don't need a majority in number of creditors — 75% by value is sufficient. This removes one source of tactical blocking by small creditors and makes restructuring somewhat more certain.
+
+Class composition principles remain similar to schemes, but with one key difference: for a plan to be imposed on a dissenting class through the cram-down mechanism, the court must be persuaded that the dissenting class is not receiving worse treatment than their relevant alternative. This requires more careful class composition to identify which classes might dissent and what their alternative positions would be.
+
+In practice, structuring classes for Part 26A often involves more granularity than schemes. Sponsors and advisers will separate classes not just by legal position but by what their likely voting positions are and what alternative scenarios they face. A class of senior lenders with significant security might be separated from junior secured lenders because they face different alternatives — the senior lenders might have sufficient collateral value that their security position makes insolvency attractive, while junior secured lenders would be hoping the business survives.
+
+No Numerosity Requirement
+
+The absence of a numerosity requirement in Part 26A is practically significant. It means that if a class votes by 75% in value but fails the numerosity test in a scheme (because there are many small creditors who dissent), you can still use a restructuring plan. This removes a source of tactical leverage for small creditors or even particular major creditors that can organise a numerical minority.
+
+Court Discretion in Sanctioning
+
+Part 26A leaves significant discretion with the court in deciding whether to impose a plan on dissenting classes. The court has to be satisfied that the plan is fair to the dissenting class, that the conditions are met, and that discretionary factors favour sanction. Courts have not simply rubber-stamped every plan that meets the statutory criteria. Instead, courts have carefully examined the process, the quality of advice given to creditors, the accuracy of information provided, and whether particular classes have been unfairly advantaged.
+
+In Pizza Express, the court sanctioned the plan despite some creditor dissent, finding that the plan offered better value to all creditors than the identified alternatives. The process had been fair, and the conditions were met. In Smile Telecoms, which involved a complex restructuring of African telecom operations that had been financed with English law debt, the court had to carefully examine whether the relevant alternative was properly valued and whether particular creditor groups were receiving fair treatment.
+
+The court's discretion has evolved toward being more interventionist where process concerns arise. In several cases, courts have required additional disclosure where they felt creditors hadn't been fully informed, or have required modifications to plans where the court identified fairness concerns.
+
+---
+
+16.4 Case Law: How Restructuring Plans Have Been Used
+
+The case law interpreting Part 26A has developed remarkably quickly over a brief period. From the first case in 2020 to the present, courts have refined doctrine and tested the boundaries of Part 26A's application.
+
+Virgin Active (2021) — The First Major Test
+
+Virgin Active is the leading case that established the practical viability of restructuring plans in complex real-world situations. Virgin Active is a global fitness and leisure business, part of the Virgin group of companies. The business was profitable on an operational basis but had been overleveraged through acquisition financing. Post-COVID, with fitness clubs closed or operating at reduced capacity, the company faced covenant breaches and refinancing difficulties.
+
+The company proposed a restructuring plan in summer 2021 that involved:
+
+- Conversion of £450 million of debt into new equity
+- Extension of maturity dates for remaining debt
+- Reduction of interest rates
+- Elimination of the existing shareholder's equity stake (a 99% dilution)
+
+The existing shareholder opposed the plan, arguing that its equity should retain value. But the court had to ask: in the relevant alternative (administration), what would equity receive? The answer was zero — in formal insolvency of a leisure company in 2021, equity holders would be out of the money entirely. So even though the plan eliminated the existing shareholder, the shareholder was no worse off than the relevant alternative.
+
+What Virgin Active established as precedent was several critical doctrines. First, that restructuring plans could be used for this type of financial restructuring involving debt conversion, maturity extension, and rate reduction. Second, that the court would carefully value the relevant alternative and apply the "no worse off" test rigorously. Third, that equity could be eliminated through a restructuring plan if insolvency would eliminate it anyway. Fourth, that even where a class voted against the plan, courts would impose it if the statutory conditions were met and the process was fair.
+
+The Virgin Active decision also established important procedural principles. The court sanctioned detailed information disclosure to creditors and required advisers to prepare detailed "relevant alternative" scenarios so creditors could understand what they would face if the plan was rejected. The court also examined the negotiation process — whether creditors had had adequate opportunity to negotiate, whether the process had been transparent, whether the company had explored alternative structures.
+
+Virgin Active is cited in virtually every subsequent restructuring plan case. It's the road map for how to structure a large, complex international restructuring using Part 26A.
+
+DeepOcean (2021) — Offshore Restructuring
+
+DeepOcean is an offshore support services company that provides vessel and infrastructure services to the oil and gas industry. The company had significant operations in the North Sea and elsewhere. DeepOcean faced severe stress due to weak offshore markets and pandemic impacts. The company proposed a restructuring plan in late 2021.
+
+What made DeepOcean notable was the jurisdictional complexity. The company had operating subsidiaries in multiple countries, assets in multiple jurisdictions, and debt governed by various legal systems. English law applied to the holding company structure and the primary debt instruments. But actual operations and many assets were scattered across multiple jurisdictions.
+
+The DeepOcean restructuring plan involved secured lenders taking ownership or significant equity upside, with unsecured creditors and equity eliminated. Some creditors argued that the plan was unfairly structured — that senior lenders were getting too much value. But the court found that given the alternatives (insolvency in a weak offshore market, with asset values depressed), the relevant alternative for all creditors was sufficiently poor that the plan represented better outcomes.
+
+DeepOcean also illustrated how restructuring plans interact with cross-border insolvency. Even though the plan was sanctioned under English law, the company had to manage parallel proceedings in other jurisdictions and coordinate to ensure that foreign courts would respect the English restructuring plan. This involved complex negotiations with foreign creditors and authorities.
+
+Smile Telecoms (2022) — African Operations, English Law Restructuring
+
+Smile Telecoms is a telecommunications company operating in Africa with headquarters in Nigeria. The company had issued English law bonds and had borrowings from banks governed by English law. When the company faced financial stress due to forex pressures, currency restrictions in operating jurisdictions, and operational challenges, it proposed a restructuring plan under English law.
+
+This was significant because it demonstrated how restructuring plans could be used for companies with minimal English connection but significant English law debt. The courts had to carefully examine whether restructuring plan proceedings under English law were appropriate for a company whose actual operations were entirely foreign. The court accepted that jurisdiction existed, relying on the sufficient connection principle and the choice of English law in the debt documents.
+
+Smile Telecoms involved particularly complex negotiation because creditors in Nigeria faced local currency restrictions that affected whether restructuring payments could be made. The restructuring plan had to accommodate local law constraints while still achieving a coherent restructuring under English law.
+
+Pizza Express (2022) — Restaurant Chain Restructuring
+
+Pizza Express was a casual dining restaurant chain that had been impacted severely by lockdown restrictions. The company was profitable on an operating basis but faced covenant breaches and refinancing difficulties due to temporary revenue disruption.
+
+The restructuring plan involved conversion of some debt to equity, extension of maturity, and rate reduction. What was notable about Pizza Express was that the company was not insolvent at the time it proposed the plan — it was facing anticipated financial difficulties. The court found that this was sufficient to trigger Part 26A's financial difficulties requirement.
+
+Pizza Express also illustrated how restructuring plans could be used to bridge temporary difficulties while preserving the fundamental business. The plan allowed the company to refinance through the pandemic period and eventually return to more normal operations.
+
+Gategroup (2021-2022) — Aviation Catering
+
+Gategroup is a major aviation catering company serving airlines globally. The company had been hit severely by the collapse of air travel post-COVID. The company proposed a restructuring plan that involved debt restructuring and equity conversion.
+
+Gategroup's restructuring was complicated by the fact that the company had significant operations and employment in multiple countries, with debt in different jurisdictions. The English restructuring plan had to be coordinated with parallel proceedings and negotiations in Switzerland (where the company was headquartered), the US, and other jurisdictions.
+
+The Gategroup case highlighted practical coordination challenges in multi-jurisdictional restructurings. The English plan set the framework, but actual execution required cooperation across many legal systems.
+
+Adler Group (2023) — German Real Estate, English Law Restructuring
+
+Adler Group was a German real estate company with properties primarily in Germany. But Adler's debt was substantially governed by English law, and it had issued English law bonds. When the company faced financial stress, it proposed a restructuring plan under English law.
+
+This case pushed the boundaries of sufficient connection further. The company's actual assets and operations were German, but English law applied to the primary liabilities. The court accepted jurisdiction and sanctioned the restructuring plan, which involved debt restructuring and significant equity dilution.
+
+Adler Group illustrated how English law has become the default restructuring venue even for companies with primarily non-English operations, purely because English law debt documentation provides choice of law and jurisdiction to English courts.
+
+Casino Guichard (Ongoing) — French Retail, Cross-Border Complexity
+
+Casino Guichard is a French retail group that has used both English law schemes and explored restructuring plans. Casino owns major retail brands in France and elsewhere, but had become overleveraged through acquisition financing and faced significant operational challenges.
+
+Casino's restructuring processes have been particularly complex because the company has had to manage parallel proceedings in France (particularly within French restructuring procedures), alongside English law proceedings. The company has substantial operations in France, which is subject to French employment law and local restructuring rules. But English law debt documentation has allowed use of English court proceedings.
+
+Casino's situation illustrates how modern European restructurings often involve multiple jurisdictions and multiple legal frameworks operating simultaneously.
+
+---
+
+16.5 Schemes vs. Restructuring Plans: A Comparative Analysis
+
+Having walked through the mechanisms separately, it's worth stepping back to ask when you would use which tool. In practice, the choice between schemes and restructuring plans has become a central strategic decision in any major European restructuring.
+
+When to Use Schemes
+
+Schemes remain the appropriate tool in several situations.
+
+First, when you have creditor consensus. If all creditor classes are likely to vote in favour, the scheme process is simpler and doesn't require navigating cross-class cram-down mechanics. You avoid arguments about fairness to dissenting classes, about "relevant alternatives," about whether the "no worse off" test is met. The voting approval is your evidence that creditors think the deal is fair.
+
+Second, when creditor composition makes numerical factors critical. If you have a numerosity issue — where particular creditors have sufficient numbers to block a plan numerically even though they represent small value — schemes explicitly address this through the "majority in number and value" test. A scheme requires both elements, protecting against numerical blocking.
+
+Third, when the company isn't in financial difficulty but is restructuring for other reasons. A company might use a scheme to optimise capital structure, to consolidate operations, or for strategic reasons, even absent financial distress. Schemes have no financial difficulty requirement, so they're more flexible in that respect. (Though admittedly, financial restructurings are rarely used except under stress.)
+
+Fourth, when you want to avoid the "relevant alternative" valuation dispute. Schemes don't require courts to value what creditors would receive in the relevant alternative. Courts focus on whether voting thresholds are met and whether the process was fair. Restructuring plans require explicit valuation of the relevant alternative, which can be contentious and requires expert evidence from multiple parties.
+
+When to Use Restructuring Plans
+
+Restructuring plans are preferable when dissent from any creditor class is anticipated or likely.
+
+The cross-class cram-down mechanism is the obvious advantage. If you anticipate that secured lenders will dissent because they believe they're better protected by insolvency than by the restructuring, but you have unsecured creditors who prefer the restructuring to insolvency, you can use the cram-down mechanism to impose the plan despite secured creditor dissent.
+
+Restructuring plans are also preferable when you want to move quickly and avoid numerosity disputes. The absence of a numerosity requirement means you can implement plans with 75% value support even if numerically the dissent is substantial. This matters practically when you have bondholders or dispersed creditor bases where numerical aggregation of dissent is possible.
+
+Restructuring plans are more appropriate when you anticipate that the relevant alternative (typically insolvency) will be substantially worse for creditors than the restructuring. This is true in situations where businesses have meaningful going concern value but face covenant breaches, where timely restructuring preserves value but delayed insolvency destroys it, or where macro or temporary factors are driving stress.
+
+The "financial difficulties" gateway isn't really a limiting factor in practice — courts have interpreted it broadly. But it does mean the courts have accepted that restructuring plans are appropriate for addressing anticipated financial stress, not just addressing existing crisis. This allows proactive restructuring.
+
+Strategic Calculus: The Negotiation Dynamics
+
+In practice, the choice between schemes and restructuring plans is often strategic. A sponsor or company proposing restructuring often prefers restructuring plans because they offer more certainty — the cross-class cram-down mechanism means you don't need consensus from every creditor class. Conversely, creditors — particularly dissenting or blocking creditors — prefer schemes because schemes don't allow cross-class cram-down. In a scheme, a creditor class can block restructuring if it votes against.
+
+This creates a negotiation dynamic. When a sponsor is contemplating restructuring, one of the first fights with creditors is often about which legal mechanism to use. Sponsors push for restructuring plans. Dissenting creditors push for schemes (or argue that restructuring is unnecessary). Advisers help navigate these political negotiations.
+
+I've sat in many pre-restructuring negotiations where the discussion went like this: "We want to propose a scheme, because it requires unanimous class support," a secured lender would argue. "That gives us veto rights." The sponsor's advisers would counter: "A restructuring plan is more appropriate because the company is facing anticipated financial difficulties, and we need the certainty of being able to implement restructuring even if one class dissents." The argument would then shift to: "Prove to us that the relevant alternative is insolvency. Show us those numbers." And suddenly the meeting was focused on what would happen in insolvency, what asset values would be, what the timeline would be.
+
+The Cram-Down Advantage
+
+The cross-class cram-down is the most material advantage of restructuring plans. It breaks the unanimity requirement. It means you can implement restructuring even if a class votes against it, provided the statutory conditions are met.
+
+But this advantage comes with legal risk. The creditor class that's being crammed down can petition the court to refuse sanction. The court has to be convinced that the conditions are met, that the plan is fair to the dissenting class, that the relevant alternative is properly valued. This requires the company and its advisers to prepare detailed analysis, to obtain expert evidence, and to be ready for litigation.
+
+In my experience, the threat of cross-class cram-down is more powerful than actual imposition. When creditors realise that a company can use Part 26A to cram down restructuring, they often become more negotiable. Rather than face court litigation about whether they're being treated fairly, many creditors prefer to negotiate a plan that avoids litigation entirely.
+
+Jurisdictional Considerations
+
+Both schemes and restructuring plans can be used for foreign companies relying on sufficient connection. The jurisdictional calculus is similar. But restructuring plans have one additional advantage: the financial difficulties test provides an additional gateway to jurisdiction that courts have interpreted generously. A court is more likely to accept jurisdiction over a foreign company proposing a restructuring plan if the company is clearly facing financial difficulties. Schemes don't have this explicit threshold, so courts have to rely entirely on "sufficient connection."
+
+In practice, this hasn't changed much behaviour. Both schemes and plans are used for foreign companies. But the explicit financial difficulties test in Part 26A does provide cleaner jurisdictional grounding.
+
+Cost and Timeline Comparison
+
+Schemes typically take three to four months from inception to sanction. Restructuring plans take a similar timeline, roughly three to four months. The difference isn't substantial. Both involve convening hearings, creditor voting, and sanction hearings. Both can involve litigation if creditors contest class composition or voting.
+
+Costs are broadly comparable. Both require extensive adviser engagement (legal, financial, tax advisers), expert evidence (valuation experts, turnaround advisers), and court fees. I would estimate that a major scheme or restructuring plan costs anywhere from £2–5 million in adviser fees, depending on complexity.
+
+The timeline advantage for restructuring plans isn't in the overall project duration but in the certainty that a plan can be implemented. With schemes, if one class votes against, the entire restructuring may be impossible. With restructuring plans, a clear path to implementation exists even if classes dissent.
+
+Interplay with Other Restructuring Tools
+
+In practice, schemes and restructuring plans aren't the only restructuring tools available. English insolvency law also provides administration (a form of formal insolvency with a court-appointed office holder), CVAs (Company Voluntary Arrangements, which are informal plans similar to schemes but typically with smaller creditor bases), and of course formal liquidation.
+
+A company might use a combination of tools. For example, a company might propose a restructuring plan that involves certain subsidiaries entering administration. Or a company might use a scheme for financial liabilities while certain local subsidiaries use local restructuring procedures. The flexibility to combine tools is important.
+
+---
+
+16.6 Cross-Border Dimensions
+
+The single most significant feature of English law restructuring tools is their cross-border reach. This requires careful examination.
+
+Forum Shopping and Its Limits
+
+One honest assessment: English restructuring tools have enabled a form of forum shopping that wouldn't be possible under other legal systems. A company with minimal English operations can use English courts for restructuring if it has English law debt and can satisfy the sufficient connection test.
+
+From the perspective of someone who has worked in European leveraged finance for twenty years, I can say: this is intentional. The UK government and English courts have deliberately created mechanisms that are attractive to international users. It's a form of legal system competition, and English law is winning that competition.
+
+But there are limits. Courts have refused jurisdiction in cases where sufficient connection was genuinely absent. Courts have questioned whether English law restructuring should be available for companies with no English assets, no English operations, and only contractual choice of English law in debt. In some cases, courts have suggested that at minimum, the company should have demonstrated efforts to engage with local restructuring frameworks in the jurisdictions where it operates.
+
+What I've observed is that courts have become more cautious about exercising jurisdiction over purely foreign companies in recent cases. There's a sense that if a company's primary operations and assets are in, say, Germany, and German restructuring law exists, perhaps German courts are more appropriate than English courts. This hasn't crystallised into an explicit rule, but the trend is visible.
+
+Recognition of English Restructurings in Other Jurisdictions
+
+An English restructuring plan or scheme, once sanctioned, must be respected in other jurisdictions. This sounds straightforward but is legally complex.
+
+The UNCITRAL Model Law on Cross-Border Insolvency has been adopted in various forms across many countries. It provides a framework for recognising insolvency proceedings from other countries. When an English company enters formal insolvency (administration), that procedure can typically be recognised in other jurisdictions through the Model Law framework.
+
+But English schemes and restructuring plans aren't formal insolvencies — they're contractual restructurings supervised by courts. So recognition isn't automatic. Instead, recognition depends on whether other jurisdictions will respect English court orders. This is a matter of English law, and English courts' view on comity (respect for the jurisdiction of other courts), and the relevant foreign jurisdiction's willingness to enforce English orders.
+
+In practice, most major commercial jurisdictions will respect an English restructuring plan once sanctioned. Courts in the US, Europe, and other common law jurisdictions understand that English courts have sanctioned the plan fairly and will enforce it. But there can be complications.
+
+I remember the Swissport restructuring, where Swiss courts had to decide whether to respect the English restructuring plan as it applied to Swiss subsidiaries and assets. The Swiss courts ultimately did, but only after detailed examination of the plan's fairness and careful coordination between English counsel and Swiss restructuring counsel. The key was demonstrating that the English plan fairly treated all creditors including those governed by Swiss law, and that Swiss law requirements (particularly employment law requirements) were satisfied.
+
+In some jurisdictions, recognition isn't automatic. Foreign courts in civil law jurisdictions might require local proceedings to ensure that local law requirements are satisfied. This is particularly true in jurisdictions with statutory employee protections or specific insolvency law requirements that can't be overridden by English court orders.
+
+The Impact of Brexit on Recognition
+
+Brexit raised concerns about whether English restructurings would be recognised in EU member states. Before Brexit, the EU Insolvency Regulation provided a framework for recognising restructuring proceedings across EU member states. Post-Brexit, that framework no longer applies to English proceedings.
+
+In practice, this has been less disruptive than feared. Most EU member states have signed the UNCITRAL Model Law or have bilateral frameworks for recognising English court orders. But there has been a shift: English courts have had to work harder to justify jurisdiction and ensure that foreign courts will recognise English restructuring decisions.
+
+One effect has been to make cross-border restructurings slightly more complex. Where once an English restructuring plan would be relatively straightforward to implement globally, now there's greater need for parallel proceedings in key jurisdictions and careful coordination.
+
+Some sponsors have responded by ensuring that local subsidiaries also participate in local restructuring frameworks, even while the holding company structure uses English law. This provides cleaner recognition in local jurisdictions and avoids arguments about whether English courts should have jurisdiction.
+
+COMI Shifting and Its Implications
+
+A related question is whether a company can shift its "centre of main interests" (COMI) to England to access English restructuring mechanisms. The concept of COMI comes from the EU Insolvency Regulation (and the prior Insolvency Regulation framework), but it's relevant to thinking about jurisdictional bases for English restructuring.
+
+The theory would be: if a company shifts its COMI to England, it can use English restructuring mechanisms. The company would need to demonstrate that its primary management and control functions are in England, or can be perceived to be in England by creditors and courts.
+
+In practice, shifting COMI is risky and isn't commonly attempted. Courts have scrutinised COMI shifts carefully. If a company obviously shifts COMI solely to access particular restructuring frameworks, courts have questioned whether the shift is genuine. I've never seen a major COMI shift undertaken purely to access English restructuring law, and I suspect courts would view such a shift with deep scepticism.
+
+The European Insolvency Regulation and Its Relevance
+
+The EU Insolvency Regulation (recast version, from 2015) regulates how cross-border insolvencies are handled within the EU. Post-Brexit, English restructurings fall outside this framework as far as EU proceedings are concerned.
+
+This creates a potential gap. If a company with operations across the EU enters formal insolvency in England, EU member states might open parallel insolvency proceedings under their national laws rather than recognising the English proceedings. This has created complexity for truly cross-border restructurings.
+
+To manage this, practitioners have developed a framework of coordination between English proceedings and parallel proceedings in key jurisdictions. The model is to designate a primary forum (typically England) and designate subsidiary forums in other jurisdictions, with clear protocols for how decisions will be made and how assets will be administered. This resembles the US Chapter 11 framework with its concept of a "principal place of business" and recognition of foreign insolvencies under Chapter 15.
+
+---
+
+16.7 Interaction with Leveraged Finance Documentation
+
+To a practitioner in leveraged finance, the most important question about restructuring tools is: how do they interact with the documentation that governs our deals?
+
+A typical leveraged finance structure involves senior secured lending (often called a "credit facility" or "banking facilities") documented in credit agreements governed by English law. There's frequently also a bond issuance — senior unsecured or subordinated bonds documented in indentures, typically governed by New York law or English law depending on the market.
+
+When restructuring becomes necessary, a central question is: does proposing a restructuring plan or scheme trigger cross-default provisions that would accelerate all debt, force the company into default across the board, and potentially give lenders the right to enforce security?
+
+Ipso Facto Clauses and Their Enforceability
+
+The danger a company faces when restructuring is that its debt documents contain "ipso facto" (or "change of control") provisions. These clauses, common in modern LevFin documentation, give lenders the right to declare default and accelerate debt if there's a change of control, a material adverse change, or (more relevant to restructuring) if there's an event that substantially affects the company's ownership structure.
+
+If a restructuring plan involves converting debt to equity, changing the ownership structure substantially (as when a sponsor's equity is eliminated), or otherwise altering the capitalization, this might technically trigger ipso facto provisions.
+
+English law courts have generally held that such provisions are enforceable — they represent contractual agreements that the parties made. If you've agreed in your credit facility that certain events trigger default, those provisions are binding. But courts have also held that the exercise of rights under those provisions is subject to equitable principles, and courts have been willing to grant injunctions preventing creditors from accelerating debt during restructuring negotiations.
+
+More importantly, modern restructuring practice has evolved to address this issue directly. When a company proposes a restructuring plan, it typically seeks agreement from creditors in advance that they won't enforce ipso facto provisions during the restructuring process. This is typically memorialised in a "standstill agreement" or "forbearance agreement" where creditors agree not to exercise acceleration rights for a defined period.
+
+This has become market standard. Before proposing a restructuring plan, a company will negotiate with its major creditors a standstill period (typically 60–120 days) during which creditors agree not to enforce rights under the credit documents, not to exercise security, and not to demand payment. This allows the restructuring proposal to be circulated, creditor meetings to be held, and a court application to proceed without the company being in technical default.
+
+The Standstill Period and Its Importance
+
+The standstill agreement isn't just about preventing acceleration. It's about creating a protected space where restructuring can happen. During a standstill period, the company can continue trading without the immediate threat of enforcement. Suppliers and customers often become more comfortable dealing with the company if they know there's a defined restructuring process underway and creditors aren't going to force immediate liquidation.
+
+From a negotiation perspective, standstill periods are critical leverage points. A company seeking restructuring needs secured creditors' agreement to a standstill. Secured creditors have enforcement power and have leverage to negotiate particular terms in the restructuring plan. Sponsors negotiate carefully about what happens to their equity during the standstill (whether equity can be diluted further, whether new capital can be injected, whether the sponsor retains managerial control).
+
+I remember a situation where a sponsor was unable to secure a standstill from secured lenders because the lenders believed the sponsor had provided misleading financial information pre-close. The lenders wanted the sponsor's removal as a condition for standstill. The restructuring ultimately went forward, but with the sponsor removed from the board and new management installed. The lesson: creditors use standstill negotiations to extract concessions and control.
+
+Impact on Guarantees and Security
+
+A related question is how restructuring affects guarantees and security. If a holding company is proposing a restructuring plan, but operating subsidiaries have guaranteed holding company obligations, the restructuring plan needs to address the guarantees.
+
+In many restructurings, operating company guarantees are released as part of the plan. The company (now restructured) no longer has a guarantee from subsidiaries. This might seem favourable to the subsidiaries, but it can create complications for them. If a subsidiary's cash is needed to support the restructured parent, the absence of guarantee requirements can make dividend restrictions more attractive to the subsidiary's creditors.
+
+Security interests are similarly affected. If the restructuring plan involves conversion of secured debt to equity, the security becomes less valuable (equity is below unsecured debt in the recovery waterfall). Courts have accepted that secured creditors can be crammed down under restructuring plans if the "no worse off" test is satisfied.
+
+The Role of Intercreditor Agreements During Restructuring
+
+Intercreditor agreements are contractual arrangements between different creditor groups that define their relative priorities, enforcement rights, and procedures during workouts. These become critical during restructuring.
+
+Typically, a senior lender and a subordinated lender will have an intercreditor agreement. The agreement defines what happens if the company defaults. It might require the subordinated lender to subordinate its liens to the senior lender's enforcement. It might require the subordinated lender to forbear from enforcement while the senior lender is negotiating. It might define waterfall allocation of recoveries.
+
+When restructuring is proposed, intercreditor agreements become the framework for how different lenders will participate. The senior lender might require the subordinated lender to accept restructuring terms that are acceptable to the senior lender. The intercreditor agreement might provide that the subordinated lender can't block or dissent from restructuring approved by the senior lender.
+
+I've seen intercreditor agreements that are so heavily weighted toward senior creditors that subordinated creditors effectively have no votes in restructuring. The intercreditor agreement gives the senior lender approval rights over any restructuring terms. This creates a two-tier structure: senior creditors negotiate with the company, and subordinated creditors are brought into the negotiation only if they have holdout power that senior creditors can't overcome.
+
+---
+
+16.8 The Practitioner's Perspective: Navigating a Restructuring
+
+This section is where I transition from documenting mechanisms to reflecting on what actually happens when restructuring becomes inevitable. The technical architecture of schemes and restructuring plans matters. But what matters more is the human dynamics, the negotiation skills, the quality of advice, and the realistic assessment of where your company actually stands.
+
+When Restructuring Becomes Inevitable
+
+There's typically a moment in a stressed deal where restructuring transitions from theoretical to inevitable. You see it in the model. Projected cash flows no longer cover debt service. Covenant compliance becomes a question of when, not whether, it will fail. The sponsor asks: "Can we get through to next refinancing?" and the answer is increasingly "no."
+
+Before this moment, denial is common. Sponsors tell themselves that market recovery will arrive, that EBITDA will improve, that once certain contracts land, cash flow will be fine. Advisers play along, running sensitivity analyses with increasingly optimistic assumptions. Lenders watch carefully, becoming less optimistic with each quarterly report.
+
+When restructuring becomes inevitable, it's usually a moment of clarity followed by frantic activity. The company's CFO will schedule a call with banks, with sponsors, and with advisers. The key question will be: "How do we do this?" At that moment, the choice between schemes, restructuring plans, other alternatives, advisers, and approach becomes critical.
+
+One thing I've learned: having the conversation too late is worse than having it too early. The company that proposes restructuring when it still has six months of liquidity has infinitely more negotiating power than the company with six weeks of cash. A company with positive EBITDA and covenant breaches can argue that restructuring preserves value and that lenders should support it. A company with negative EBITDA and vanishing cash has lenders saying, "Why should we support restructuring? Let's take security and realise assets."
+
+Adviser Selection and the Professional Ecosystem
+
+The moment restructuring becomes inevitable, adviser selection matters enormously. The company needs:
+
+A restructuring lawyer experienced in schemes or restructuring plans, who understands English law procedure, who has relationships with the courts, who can navigate judge assignment and case management.
+
+A financial adviser (often a restructuring specialist firm) who can value the company, model recovery scenarios, prepare expert evidence on the "relevant alternative" (typically liquidation value), and advise on negotiation strategy.
+
+Potentially, a tax adviser who understands implications of restructuring for tax losses, tax grouping, and restructuring-related tax issues.
+
+Potentially, an insolvency specialist if some subsidiaries need to enter formal insolvency or if complex insolvency law issues arise.
+
+The quality of these advisers is decisive. A weak restructuring counsel will miss procedural deadlines, fail to navigate class composition issues, or poorly advise creditors about their legal position. A weak financial adviser will produce valuation evidence that's easily attacked by creditors' experts, failing to convince the court about the relevant alternative scenario. A weak tax adviser will lead the company into restructuring mechanics that create massive unexpected tax bills post-restructuring.
+
+From a sponsor's perspective, selecting advisers who understand both the technical law and the commercial dynamics is critical. Some restructuring counsel are technically brilliant but poor negotiators. Some financial advisers are great number-crunchers but poor at reading stakeholder dynamics. The best teams combine both.
+
+The cost of advisers during restructuring can be substantial. A major restructuring will easily generate £2–5 million in professional fees. But this is usually a sound investment if it allows the company to restructure quickly and preserve value, versus months of bilateral negotiations or formal insolvency with all its costs.
+
+Ad Hoc Groups and Cooperation Agreements
+
+In modern restructurings, creditors quickly organise themselves into ad hoc committees or groups. Typically, the secured lender (or group of secured lenders) will form a steering committee. Unsecured creditors will form their own committee, often led by a large bondholder or by the creditor with the most leverage.
+
+These groups hire their own advisers (restructuring counsel, financial advisers) and negotiate directly with the company on restructuring terms. The company is essentially negotiating simultaneously with multiple creditor groups, trying to achieve consensus or at least sufficient creditor support to make restructuring possible.
+
+This is where the real work of restructuring happens. It's not in the legal briefs or the detailed court filings. It's in the rooms (now often via videoconference) where the company's CFO, the secured lender's investment committee, the bondholder group's adviser, and the company's restructuring counsel are all trying to figure out how to divide a reduced asset base fairly.
+
+The negotiations are fundamentally about several questions:
+
+What is the company actually worth? (The relevant alternative valuation challenge)
+
+How much debt can the restructured company support? (The deleveraging target)
+
+How are existing creditors treated relative to that value? (The recovery waterfall)
+
+Does the sponsor retain any equity? (The sponsor's participation question)
+
+What new money, if any, is needed to fund the restructuring and get the company back on track?
+
+These questions are answered through negotiation, often with multiple rounds of revised proposals from the company.
+
+The Negotiation Dynamics Between Creditor Classes
+
+What's fascinating about restructurings is how different creditor classes have fundamentally different interests, and these interests aren't always aligned with seniority.
+
+A senior secured lender has security over specific assets and often has sufficient collateral that it would prefer formal insolvency (where it can realise security quickly) to protracted restructuring. An unsecured bondholder has no security and benefits greatly from restructuring that preserves going concern value, but gets nothing if assets are sold piecemeal. Equity holders are destroyed in both scenarios but might prefer restructuring (where there's a chance equity retains some value) to insolvency.
+
+The company's job is to craft a restructuring proposal that's attractive enough to multiple creditor classes that sufficient support exists. Often, this means offering different treatment to different classes based on their leverage and preferences.
+
+Senior secured lenders might be offered additional security over assets previously unencumbered, or early payment of partial claims. Unsecured bondholders might be offered equity conversion that gives them upside in the restructured company. Junior creditors might be offered payment-in-kind notes that give them some recovery while stretching out timing.
+
+The art is finding the combination that gets sufficient support from each class.
+
+Timeline Management and the Liquidity Runway
+
+A core constraint in any restructuring is cash. The company proposing restructuring has a fixed amount of cash. The restructuring process (advertising, convening, creditor meetings, court hearings) takes time. The company must have sufficient cash to bridge from proposal announcement to restructuring completion.
+
+This is where timeline management becomes critical. A typical restructuring takes three to four months. In that period:
+
+- Week 1-2: Advisers are engaged, restructuring proposal is drafted, standstill agreements are negotiated with key creditors
+- Week 2-6: Restructuring proposal is circulated, creditors analyse and negotiate, revised proposals are submitted
+- Week 6-10: Court's convening hearing is held, creditor meetings are scheduled
+- Week 10-12: Creditor meetings are held, voting occurs
+- Week 12-16: Court's sanction hearing is held, judgment is delivered
+- Week 16+: Restructuring plan becomes effective
+
+If a company has only four weeks of cash available, this timeline is impossible. The company will run out of cash before restructuring completes. At that point, the company enters forced insolvency (administration), and the restructuring framework doesn't matter.
+
+This is why early action matters. The company needs to propose restructuring while it has sufficient liquidity to see the process through. It's common for sponsors and creditors to negotiate standstill periods and debt payment suspensions specifically to preserve liquidity. Senior lenders might agree to suspend interest payments during the standstill period, effectively giving the company those funds to use for professional adviser fees and working capital.
+
+I've seen situations where a company didn't act early enough. It had positive EBITDA, it had covenant issues, but it waited too long to propose restructuring. By the time restructuring was proposed, cash was almost exhausted. The restructuring process then becomes a race against cash depletion. Creditors know the company is desperate and negotiate harder. The timeline extends. And sometimes, the company does run out of cash and enters forced administration despite having proposed restructuring.
+
+The lesson: restructuring works best when proposed early, before the company is in crisis, when it still has negotiating leverage and sufficient liquidity.
+
+---
+
+16.9 What Twenty Years Teaches — A Personal Reflection
+
+I've now spent two decades in leveraged finance, watching dozens of deals through their full lifecycle, seeing which ones prosper and which ones encounter stress. I've advised sponsors through restructurings, advised creditors through workouts, sat on opposite sides of negotiation tables, and watched court decisions shape what's possible.
+
+What have twenty years taught me?
+
+First, that stress is inevitable. Any leveraged finance model that assumes perfect plan execution is a work of fiction. Macro will turn. Operational execution will disappoint. Refinancing will be harder than anticipated. Every deal I've worked on has encountered stress. The ones that weathered it successfully are the ones where sponsors were realistic about risk, where lenders understood downside scenarios, where everyone built in flexibility.
+
+Second, that restructuring mechanisms matter, but human dynamics matter more. I've seen technically flawed restructuring proposals sanctioned because the court trusted the process and the negotiations were fair. I've seen technically sound proposals rejected because the process was rushed, information was misleading, or particular creditors felt unfairly treated. The mechanics are important. But the court's judgment about whether creditors have been treated fairly, whether they've had adequate information, whether the process has been honest — that judgment is what determines whether restructuring succeeds.
+
+Third, that creditor coordination is the hardest part of restructuring. The legal mechanisms can force binding decisions on dissenting creditors if conditions are met. But courts are hesitant to exercise that power unless they're convinced that the process was fair and the relevant alternative justifies the restructuring terms. Getting to a place where courts feel confident about that requires genuine effort at creditor consensus, not just grinding through the legal mechanisms.
+
+Fourth, that the quality of advisers is disproportionately important. A good restructuring lawyer can navigate the courts, understand how judges think, anticipate problems, and structure solutions. A good financial adviser can value the company fairly, produce evidence that creditors believe, and advise on realistic negotiation positions. A good sponsor's team can manage creditors, listen to their concerns, and find solutions that address them. When I look at restructurings that moved quickly and achieved good outcomes, it's almost always because the advisory teams were excellent.
+
+Fifth, that English law's restructuring framework is genuinely superior to what most other jurisdictions offer. I say this not from English parochialism but from comparative experience. French restructuring procedures are more rigid, less flexible to creditor concerns. German procedures are more formal, slower. US Chapter 11 is flexible but complex, designed for a different scale of case. English schemes and restructuring plans occupy a sweet spot: they're flexible, they're court-supervised but not overly rigid, they allow restructuring to happen quickly, they allow creditors to participate in a meaningful negotiation. It's no accident that European companies forum-shop into English law.
+
+Sixth, that timing is everything. I've watched excellent restructuring proposals fail because the company waited too long, had inadequate liquidity, and ran out of time. I've watched mediocre restructurings succeed because the company moved early, while it had negotiating leverage. The advantage of proposing restructuring while you're stressed but not in crisis is immense.
+
+Seventh, that sponsors' role in restructuring should be realistic about dilution but also about preservation. The best restructurings I've seen are ones where sponsors accept significant equity dilution (50–90%) but retain meaningful board representation and operational control. They understand that a restructured company, if it survives and recovers, might be worth more than the original investment, and retaining equity participation (even if smaller) might be sensible. The worst restructurings are ones where sponsors fight bitterly to retain equity positions they've lost economic claim to. The court and creditors eventually decide the sponsor's position, and sponsors that accept reality earlier do better.
+
+Eighth, that transparent communication saves months. The companies that handled restructuring best are ones that communicated honestly with creditors. They provided accurate financial information. They acknowledged what had gone wrong. They presented realistic scenarios. Conversely, companies that tried to hide information or present overly optimistic restructuring scenarios faced creditor suspicion, longer negotiation timelines, and more contentious court proceedings.
+
+Finally, that restructuring is a significant, stressful experience for everyone involved — management, sponsors, creditors, advisers, judges. The emotional toll shouldn't be underestimated. Companies go through a form of grief when they accept that the original plan isn't going to work, that restructuring is necessary, that stakeholders will be impaired. Sponsors experience something between frustration and regret when realising that a deal they made at a different market state is now underwater. Creditors experience anxiety about recovery value and resentment about having to participate in restructuring at all.
+
+The restructurings I've seen handled best are ones where everyone acknowledges this emotional reality, creates space for it, and focuses on finding the most sensible path forward for all parties. The worst restructurings are ones where people treat it as a zero-sum game, where every party tries to maximise its position at others' expense, where there's little recognition of shared interest in getting a fair outcome everyone can live with.
+
+---
+
+SUMMARY: THE UK RESTRUCTURING PRACTITIONER'S CHECKLIST
+
+When facing potential restructuring, use this checklist to ensure you've addressed the key issues:
+
+□ EARLY ASSESSMENT: Assess when restructuring might be necessary. Don't wait until the company is in crisis with minimal liquidity. Restructuring works best when proposed early, when the company still has negotiating leverage.
+
+□ FINANCIAL REALITY CHECK: Model what will happen if restructuring doesn't occur. What are realistic liquidation values? What is the timeline to insolvency? What is the company's true liquidity runway? Creditors will ask these questions; you need answers.
+
+□ SCHEME VS. RESTRUCTURING PLAN: Determine which mechanism is appropriate. Do you have anticipated creditor dissent? If yes, restructuring plan is likely better. Do you want to avoid numerosity disputes? Restructuring plan is better. Do you have creditor consensus? Scheme may be simpler. Do you want to avoid the "relevant alternative" valuation battle? Scheme is preferable.
+
+□ ADVISER ENGAGEMENT: Select restructuring counsel (with English court experience), financial advisers (with valuation and restructuring expertise), and tax advisers (who understand restructuring tax implications). Quality matters disproportionately.
+
+□ CREDITOR OUTREACH: Before formally proposing restructuring, develop relationships with major creditors. Understand their concerns, their leverage, their likely positions in restructuring. Identify potential ad hoc committee leaders. Understand credit agreement restrictions on prepayment or advance consent to restructuring.
+
+□ STANDSTILL NEGOTIATION: Negotiate standstill agreements with key creditors. Typically 60–120 days. Agreement that creditors won't enforce rights, accelerate debt, or exercise security during the restructuring process. This is critical for preserving liquidity and creating space for restructuring to proceed.
+
+□ RESTRUCTURING PROPOSAL: Prepare detailed restructuring proposal addressing: financial position and analysis, strategic and operational rationale for restructuring, proposed treatment of each creditor class, how each class is better off than relevant alternative (typically insolvency), sources and uses of any required new capital, timeline to restructuring completion.
+
+□ VALUATION AND EXPERT EVIDENCE: Prepare detailed valuation of the company, scenarios for liquidation (the "relevant alternative"), and expert evidence supporting the financial feasibility of the restructured company. This will be challenged by creditors' advisers; ensure it's robust.
+
+□ INFORMATION MEMORANDUM: Prepare comprehensive information memorandum for creditors. This is your opportunity to tell the story of what went wrong, why restructuring is preferable to insolvency, what the restructured company looks like. Make it clear, compelling, and honest.
+
+□ CLASS COMPOSITION: Work with counsel to carefully determine class composition. Which creditors have materially different interests? This determines who votes separately and whose votes are needed for approval. Get this right in the convening hearing; changing it later is very difficult.
+
+□ SECURED CREDITOR ALIGNMENT: Secure senior lender support before proceeding. Senior lenders have enforcement power; restructuring doesn't work if they're opposed. You need their public support of the restructuring proposal.
+
+□ SOLICITATION PROCESS: Circulate information memorandum to creditors at least 2–3 weeks before creditor meetings. Give creditors time to analyse, ask questions, model outcomes. Advisers will receive many information requests; have clear answers ready.
+
+□ CREDITOR MEETINGS: Host creditor meetings to review restructuring proposal, answer questions, and conduct voting. Ensure meetings are run fairly, transparently, and without misleading creditors.
+
+□ VOTING RESULTS: Achieve required voting thresholds in each class (75% by value). For restructuring plans, ensure at least one impaired class votes yes (for Condition A). Document voting carefully; you'll need voting evidence for the sanction hearing.
+
+□ SANCTION HEARING: Prepare for court hearing on whether to sanction scheme or restructuring plan. Court will ask about class composition, fairness of treatment, adequacy of information, whether conditions are met. Have counsel ready to address these questions.
+
+□ CROSS-BORDER COORDINATION: If the company has operations or assets in multiple jurisdictions, plan coordination with foreign law counsel. May need parallel proceedings in key jurisdictions. Court in those jurisdictions must respect the English restructuring plan.
+
+□ IMPLEMENTATION: Once court sanctions the scheme or restructuring plan, implement the terms carefully. Ensure debt is converted as specified, equity is issued as agreed, payment terms are followed. Slip-ups in implementation can create disputes.
+
+□ POST-RESTRUCTURING: Monitor the restructured company carefully. Restructurings fail post-completion if the company doesn't perform to assumptions. Ensure management execution improves, that covenant levels are achievable, that refinancing options exist if market conditions permit.
+
+□ DOCUMENTATION CLEAN-UP: After restructuring closes, update all financing documentation, corporate documents, and operational agreements to reflect the new capitalization. Clarify which obligations have been satisfied, which have been modified, which remain outstanding.
+
+This checklist is starting point, not final word. Every restructuring is unique. But having thought through these points, you'll navigate restructuring more effectively, anticipate problems, and maximise the likelihood of an outcome that serves all parties' legitimate interests.
+
+---
+
+END OF CHAPTER 16

@@ -1,0 +1,683 @@
+THE LEVFIN BOOK: A PRACTITIONER'S GUIDE
+Chapter: Direct Lending and Private Credit — The New Paradigm
+By Federico Etchelecu
+
+INTRODUCTION — THE RISE OF PRIVATE CREDIT
+
+Twenty years ago, when I started this career, there was no such thing as "direct lending." If a company needed debt financing beyond the syndicated market, it went to the banks. Full stop. The banks would hold the loans on their balance sheets, or they would syndicate them to other banks. The market was binary: you either got syndicated, or you didn't get done.
+
+Today, direct lending is a £500 billion asset class in Europe alone—some estimates put it higher—and it has fundamentally altered the competitive dynamics of leveraged finance. I have spent the last half-decade watching this market evolve, negotiating with insurance company treasurers, pension fund managers, and credit fund sponsors who control more capital than most mid-market banks. I have seen deals that would have gone unsyndicated ten years ago get funded at better terms than the syndicated market would have offered. I have also seen direct lending investors lose catastrophic amounts of money on poorly underwritten, poorly documented deals that should never have been funded at all.
+
+This chapter is not a cheerleader's tract for private credit. It is a practitioner's guide. Private credit is real, it is here to stay, and it is transforming the market in ways that are not yet fully understood. But it comes with real risks—concentration risk, valuation risk, liquidity risk—and the industry's current obsession with direct lending has obscured some fundamental truths about what happens when you remove the safety valve of syndication.
+
+The story of direct lending is, at its core, a story about the excess liquidity that flooded into leveraged finance markets after 2008. Central banks spent a decade printing money and keeping interest rates at zero. Large institutional investors—pension funds, insurance companies, sovereign wealth funds—were desperate for yield. The traditional syndicated market could not absorb that capital. Banks simply would not hold the leverage that sponsors wanted to put into deals; their capital constraints made it economically unattractive. And so a market emerged to fill the gap: direct lending. Private credit funds raised capital from large institutional investors and deployed it directly into middle-market and lower mid-market sponsor-backed transactions.
+
+The irony is that direct lending was supposed to fill a gap in the market—transactions that were too small for the syndicated market, or sponsors with too much leverage for syndicated lenders to stomach. In reality, it has become the market. Sponsors now pitch deals simultaneously to direct lenders and syndicated arrangers and play them off each other. Direct lenders have moved upmarket, competing for large, broadly syndicated transactions. The lines between the markets have become almost impossible to draw.
+
+I have written this chapter for three audiences: for sponsors and private equity firms trying to navigate the direct lending market and understand the options available to them; for credit investors trying to understand the risks they are taking when they commit capital to direct lending funds; and for lenders themselves—whether in syndication, direct lending, or corporate development—who need to understand how this market works and where it is headed.
+
+WHAT DIRECT LENDING ACTUALLY IS
+
+Let me start with a definition, though it is slipperier than it first appears.
+
+Direct lending is the provision of debt capital by non-bank institutional investors—typically through dedicated credit funds—directly to borrowers, without syndication to other lenders. That is the textbook definition. In practice, the market is far more complex.
+
+The key distinction is the syndication step. In a syndicated loan, an arranger (typically an investment bank) makes a credit decision, documents the facility, and then syndicates it to a broad pool of lenders. The arranger keeps a relationship with the borrower and monitors the credit, but the risk is distributed across many investors. In direct lending, the credit decision, the negotiation, the documentation, and the ongoing management of the relationship happen between the borrower and the direct lending fund. There is no intermediate step. The fund is the lender.
+
+This sounds simple, but it has profound implications.
+
+First, it means the negotiation is bilateral rather than trilateral or multilateral. In a syndicated deal, you have the arranger negotiating with the sponsor on one side and with the syndicate on the other. The arranger is always trying to "syndicate friendly" terms—terms that will appeal to a broad range of institutional lenders. This creates a moderating force in the negotiation. In direct lending, there is no syndication step, so the terms are whatever the direct lender and the sponsor agree to. This can work in either direction: it can mean sponsor-friendly terms because there is no broader syndicate to protect, or it can mean aggressive lender-friendly terms because the direct lender is taking all the risk and wants compensation for it.
+
+Second, it means the lender is the relationship manager. In a syndicated deal, the arranger manages the relationship and the reporting. In direct lending, the credit fund is managing the credit on an ongoing basis. This means the direct lender has complete visibility into the business—but it also means the direct lender bears the cost of that monitoring, and the direct lender bears all the risk if something goes wrong. There is no syndicate to absorb losses. There is no secondary market to sell the loan into if the credit deteriorates. The direct lender is married to the credit until maturity or an exit.
+
+Third, direct lending structures are typically smaller and simpler than syndicated deals. Most direct lending facilities are single-tranche or two-tranche structures. There is typically a first lien senior facility, sometimes with a mezzanine or second lien layer. The concept of "broadly syndicated" terms—three or four tranches with different amortization schedules, different financial covenants, different collateral packages—is largely absent from direct lending.
+
+This simplicity is both a strength and a weakness. It makes the documentation quicker and cheaper. It makes it easier to get the deal done in a confidential manner. But it also means that direct lenders have to do more credit work upfront, because they cannot rely on a syndicate to pressure them to be careful. And it means that if something goes wrong, the direct lender has no one to hide behind.
+
+Let me move now to the specific structures used in direct lending, because understanding these is essential to understanding how the market works.
+
+THE HIERARCHY: SENIOR, MEZZANINE, UNITRANCHE
+
+In syndicated lending, the hierarchy is clear. You have a revolver, a term loan A, a term loan B, perhaps a term loan C. Each tranche has its own pricing, its own amortization, its own covenant package. The hierarchy is contractually documented and the waterfall of payments is specified down to the penny.
+
+In direct lending, the hierarchy is often less clear, and the terminology is more varied. But the basic building blocks are consistent.
+
+Senior direct lending is the most straightforward. A direct lending fund provides a first lien facility to a sponsor-backed borrower. The facility is secured by substantially all the assets of the borrower (and typically the borrower's subsidiaries). It is typically sized at 3.0x to 4.5x EBITDA for middle-market transactions, sometimes higher for smaller deals. The pricing is typically 500 to 700 basis points over LIBOR or SOFR, depending on the credit quality and the competitive landscape. The facility has a tenor of five to seven years, with no mandatory amortization (or minimal amortization), and a bullet maturity at the end.
+
+The senior direct loan is typically the most expensive layer of capital from the sponsor's perspective, because it has priority in the waterfall and the direct lender can enforce the covenants. But it is often cheaper than syndicated leverage, because the direct lender is willing to accept a less liquid asset in exchange for the premium pricing.
+
+Mezzanine financing, in the direct lending context, is subordinated debt financing. It sits below the senior direct loan but above the equity. Mezzanine financing typically has a coupon of 10 to 14 per cent per annum (or higher in tight markets), with payment in kind (PIK) toggle features. The tenor is typically the same as the senior layer or longer. The mezzanine layer is typically used when the sponsor wants to minimize equity contribution and maximize debt financing, or when the senior direct lender wants to be more conservative in sizing its facility.
+
+In a traditional leveraged buyout, the sponsor would use bank debt and high-yield bonds. The mezzanine layer would be provided by a mezzanine specialist firm or by the equity sponsor itself. In direct lending, the mezzanine layer is often provided by a different direct lending fund, or by the same fund in a separate vehicle. This is one of the key ways that direct lending capital has become more equity-like—pension funds and insurance companies are investing in mezzanine tranches of direct lending structures, effectively taking junior capital risk in pursuit of higher returns.
+
+Now we come to the structure that has become most common in the direct lending market: the unitranche.
+
+A unitranche facility is a single tranche of debt that sits in the first lien position but is funded by multiple investors with different return expectations. The unitranche is a hybrid instrument—it has characteristics of senior debt (first lien, senior in the capital structure) and characteristics of mezzanine debt (lower returns than senior, higher returns than equity, more equity-like risk).
+
+Here is how it works. A direct lending fund or a consortium of direct lenders agrees to provide a unitranche facility to a sponsor. The facility is, say, £200 million. It is secured by first liens on substantially all the assets of the borrower. But the investors in the facility are split into two (or more) groups. The "senior" portion of the unitranche, let's say £120 million, is funded by risk-averse investors—insurance companies, pension funds—who want a lower coupon and more protection. The "junior" or "mezzanine" portion, say £80 million, is funded by more aggressive investors who are willing to accept a higher coupon and less protective covenants in exchange for higher returns.
+
+The beauty of the unitranche from the sponsor's perspective is that it simplifies the capital structure. There is one tranche, one set of documentation, one security package. The sponsor does not have to deal with the complexity of managing a senior lender and a mezzanine lender. From the lender's perspective, the unitranche allows them to fund a deal that might otherwise be too large or too risky for a single investor, by splitting the risk among multiple investors.
+
+The challenge with the unitranche is that it creates a fundamental conflict of interest within the investor base. The senior unitranche investors want conservative covenants, tight controls on leverage, and the ability to enforce their rights. The junior unitranche investors want loose covenants, high financial flexibility, and the ability to see the company succeed and refinance. These two objectives are in tension with each other.
+
+This tension is managed through the "agreement among lenders" (AAL).
+
+THE AGREEMENT AMONG LENDERS (AAL)
+
+The AAL is a document that governs the relationship between the different tranches of debt in a unitranche structure. It is not a document that appears in syndicated leverage—or if it does, it is rarely this complicated. But in direct lending, especially in unitranche structures, the AAL is critical.
+
+Here is what the AAL does. It specifies the rights of the senior tranche holders relative to the junior tranche holders. It specifies how amendments to the facility agreement can be made—typically, the senior tranche can approve certain amendments without the consent of the junior tranche, but amendments that would dilute the junior tranche's returns require the consent of a supermajority of junior tranche holders.
+
+The AAL also specifies how defaults are handled. If a covenant is breached, the AAL typically gives the senior tranche holder the right to waive the breach unilaterally, without the consent of the junior tranche. This protects the junior tranche from having their investment cut off by a unilateral action of the senior tranche. But it also means that the senior tranche effectively controls the credit—they can waive defaults, they can extend the maturity, they can amend the financial covenants.
+
+The AAL also typically specifies provisions around refinancing. If the borrower refinances the unitranche with a traditional syndicated facility, the AAL will specify how the proceeds are allocated between the senior and junior tranches. This is particularly important in a scenario where the credit quality has improved and the borrower can refinance at better terms. The AAL will ensure that the junior tranche cannot be squeezed out in favour of the senior tranche.
+
+I have spent countless hours negotiating AALs. They are some of the most contentious negotiations in direct lending. The senior tranche holders always want maximum flexibility to manage the credit and protect their downside. The junior tranche holders always want maximum protection against being squeezed. And the sponsor is caught in the middle, wanting to keep both groups happy because they control the refinancing risk.
+
+One of the most important provisions in the AAL is the "standstill" provision. A standstill provision prevents the senior tranche from exercising enforcement rights (acceleration, foreclosure) without the consent of the junior tranche, provided that the junior tranche is not in default. This protects the junior tranche from having their investment liquidated by a unilateral decision of the senior tranche to foreclose on the collateral.
+
+Another important provision is the "amend and pretend" restriction. This prevents the senior tranche from amending the financial covenants or the other protective provisions of the facility in a way that would dilute the value of the junior tranche, without the consent of the junior tranche holders. This is crucial, because otherwise the senior tranche could simply amend away all the protections and leave the junior tranche with an unsecured equity-like investment.
+
+FIRST-OUT, LAST-OUT: AN ALTERNATIVE STRUCTURE
+
+An alternative to the unitranche structure is the "first-out, last-out" or "FILO" structure. This is less common than the unitranche, but it appears in some deals, particularly in Europe.
+
+In a FILO structure, there are two separate facilities: a first-out facility and a last-out facility. The first-out facility has priority in the cash waterfall—all available cash goes to paying down the first-out facility before any goes to the last-out. The last-out facility sits behind the first-out facility in the waterfall.
+
+The appeal of the FILO structure is that it creates a clear economic incentive for each class of investor. The first-out investors have protected their downside—they will get paid before the last-out investors. The last-out investors are taking junior risk, but they have a clear picture of what their return looks like if the deal performs.
+
+The challenge with the FILO structure is the execution risk. If the borrower is generating cash, the cash flows to the first-out facility until it is paid down. Then the cash flows to the last-out. This can create perverse incentives. If the last-out investors are worried about the credit, they may want the borrower to retain cash rather than pay down debt. But the borrower and the first-out lender may want to pay down the first-out facility to improve the leverage ratio. These conflicting objectives can lead to friction and disputes.
+
+I have seen FILO structures work well when the first-out and last-out investors are aligned on the overall strategy. I have seen them break down when the two groups have conflicting views on the credit.
+
+One variation on the FILO structure is the "tiered PIK" structure. In this structure, the junior tranche has a step-up coupon or a PIK toggle. As long as the credit is performing, the junior coupon is paid in cash and is relatively low. If the credit deteriorates or certain covenants are breached, the junior coupon steps up or moves to PIK, giving the junior investors a higher effective return in exchange for accepting more risk.
+
+This kind of structure can work well, but it requires very clear documentation of the trigger events and the consequences. I have seen situations where the sponsor disputes whether a trigger event has occurred, leading to disputes with the junior investors about whether the coupon should step up.
+
+THE SYNDICATION QUESTION: WHY SOME DIRECT LENDING DEALS GET SYNDICATED ANYWAY
+
+This is where the lines between direct lending and syndicated lending start to blur.
+
+The largest direct lending facilities—say, £250 million and above—often exceed the capacity of a single direct lending fund or even a consortium of direct lending funds. In these situations, the direct lending fund may decide to syndicate portions of the facility to other investors, including banks, other credit funds, or even retail debt funds.
+
+When this happens, you have a hybrid structure: a direct lending facility that has been partially syndicated. The result is that you have a lead direct lending investor who is maintaining a close relationship with the borrower and managing the credit, and a broader syndicate of investors who are, in effect, passive lenders.
+
+This can work, but it creates complexity. The direct lending lead investor has to manage the interests of the broader syndicate, while also maintaining the flexibility that attracted the sponsor to direct lending in the first place. Syndicate agreements have to specify how covenant waivers work, how amendments are approved, how the collateral is managed.
+
+I have also seen situations where a direct lending deal is originally structured to be held by a single fund, but as the fund grows and raises more capital, the fund decides to syndicate portions of the facility to other funds in its family, or to external parties. This can create a situation where what started as a direct lending relationship becomes a quasi-syndicated relationship.
+
+The key point is that direct lending is not always as simple as "one lender, one borrower." The largest direct lending deals have syndication in them, which brings with it some of the complexity and coordination challenges of the syndicated market.
+
+THE COMPETITIVE DYNAMICS: DIRECT LENDING VERSUS BROADLY SYNDICATED MARKET
+
+Let me now step back and look at the bigger picture: how direct lending competes with syndicated lending, and what that means for pricing, structure, and execution.
+
+The traditional syndicated market has some fundamental advantages. Banks have infrastructure for underwriting, documentation, and loan syndication that has evolved over decades. Banks have relationships with investors across the globe. The syndicated market has transparency—loans trade in the secondary market, and there is market pricing for any given credit quality and leverage profile. The syndicated market has standardized terms. If you are a bank underwriting a syndicated facility, you know roughly what the terms are going to be, because there is a market standard for each credit quality level.
+
+Direct lending has different advantages. Direct lending funds have the ability to move quickly. They can fund confidential processes where the borrower does not want the market to know a refinancing is happening. Direct lending funds have capital that is stable—investors have committed capital for five or ten years, so the fund does not have to worry about the market suddenly shutting down. Direct lending funds can be flexible on structure, pricing, and terms, because they do not have to syndicate to a broad base of investors.
+
+The question that every sponsor, every debt advisor, and every arranger has to answer on every transaction is: should we go syndicated or direct lending? And increasingly, the answer is: both.
+
+The typical execution in a large middle-market or lower mid-market deal now looks like this. The sponsor hires a debt advisor. The debt advisor simultaneously runs a syndication process and a direct lending process. The syndication process involves the traditional investment banks—the usual suspects. The direct lending process involves the major direct lending funds and credit platforms. The sponsor (or the debt advisor on behalf of the sponsor) receives bids from both processes. The sponsor then negotiates with the winner(s).
+
+In many cases, the direct lending bid is more aggressive on terms—shorter maturity, less restrictive covenants, maybe a higher coupon to offset the risk the direct lender is taking by funding a larger transaction. The syndication bid is often more conservative on terms, but the syndicated pricing might be better because there is a competitive bid situation with multiple banks.
+
+Sometimes the sponsor chooses the direct lending route. Sometimes they choose the syndicated route. Increasingly, they choose a hybrid—a core direct lending investor funding the larger portion, with a syndication to other investors for portions of the facility.
+
+I have seen this play out dozens of times. The pattern is fairly consistent. The direct lending funds have become more competitive as they have grown in size and capability. The syndicated banks have had to adapt—some have launched in-house direct lending platforms, or they have partnered with credit funds. The market has become less of a binary choice and more of a spectrum.
+
+Here are the key dimensions of competition between direct lending and syndication.
+
+CERTAINTY OF EXECUTION
+
+Direct lending funds pride themselves on certainty of execution. They have committed capital, they can move quickly, and they do not have to syndicate. A sponsor can get a term sheet from a direct lending fund in days, not weeks. The sponsor can sign the facility agreement and have the fund ready to fund in weeks, not months.
+
+Syndication, by contrast, is slower. An investment bank has to prepare an information memorandum, arrange management meetings, conduct a market roadshow, syndicate to investors. The process can take three months or more, particularly if the credit quality is questionable or the market is tight.
+
+This speed differential is enormously valuable in certain situations. If a sponsor is trying to close a deal in a particular calendar year, the speed of direct lending can be decisive. If a borrower is in crisis and needs cash quickly, direct lending is often the only option.
+
+But I would argue that the "certainty" narrative around direct lending is somewhat oversold. Yes, direct lending is faster. But direct lending funds also have diligence and underwriting requirements. If the credit is suspect, a direct lending fund will not just fund it out of capital preservation instinct. And a sponsor that chooses direct lending based purely on speed, without making sure the terms are right, often lives to regret it.
+
+PRICING ADVANTAGE
+
+This is where the comparison becomes more nuanced.
+
+In a straightforward credit situation—a growth buyout or a dividend recapitalization of an established business with strong cash flow—the syndicated market can typically offer better pricing than direct lending. Syndicated pricing is driven by competition among banks, and large banks have capital and investor relationships that allow them to price aggressively.
+
+But in situations where the credit is more complex, or the leverage is higher, or the covenant package needs to be more flexible, direct lending often offers better terms. Direct lenders are comfortable with less conservative covenants and tighter spreads because they understand the credit and are willing to live with less protective provisions.
+
+I have also seen situations where direct lending is cheaper purely because the direct lender is desperate to deploy capital. Credit funds are on the hook to investors to deploy capital within certain timeframes. If a fund is near the end of its deployment period and has dry powder sitting on the balance sheet, the fund's economics change—suddenly, the fund is willing to price more aggressively to get a deal done.
+
+SPEED AND CONFIDENTIALITY
+
+These are two separate but related factors.
+
+Speed: I have already touched on this. Direct lending is faster. A sponsor can go from signing a term sheet to receiving funding in weeks. Syndication takes months.
+
+Confidentiality: This is more subtle. In a syndicated process, the information memorandum goes to dozens or hundreds of potential investors. The risk of information leakage is real. In a direct lending process, the number of investors is smaller, and the fund has stronger incentives to keep the process confidential because the fund is often taking a significant check and does not want competitors to know.
+
+I have worked on deals where confidentiality was absolutely critical. A private company being sold by a founder who did not want the employees to know the deal was happening. A borrower doing a dividend recapitalization where the news could disrupt customer relationships. A company undergoing a strategic review. In these situations, direct lending is often preferred because it can be done quietly.
+
+But again, I would note that confidentiality is only an advantage if the terms are good. I have seen situations where a sponsor chose direct lending for confidentiality and got mediocre or poor terms as a result of having limited competitive tension.
+
+RELATIONSHIP LENDING
+
+There is a narrative in the direct lending market that it represents a return to "relationship banking" of the sort that characterized the pre-financial crisis era. The idea is that the direct lender gets to know the management team, understands the business, is willing to be flexible on covenants if there is a legitimate reason for covenant breaches. This is contrasted with the impersonal nature of the syndicated market, where the loan might be held by dozens of different investors with no direct relationship with the borrower.
+
+There is something to this narrative, but I would urge caution. Yes, the direct lender has a closer relationship with the borrower than the syndicated lenders typically do. But the direct lender is also taking all the risk. When the relationship is tested—when the company is struggling and needs covenant relief—the dynamics change. The direct lender is not going to be flexible because of the relationship; the direct lender is going to be motivated by the need to protect its investment.
+
+I have seen direct lending situations where the relationship is indeed collaborative and flexible. I have also seen direct lending situations where the lender has taken a hammer and forced the borrower to sell the business because the credit is deteriorating. The "relationship" only works if both parties are performing.
+
+DOCUMENTATION IN DIRECT LENDING
+
+Let me now shift focus to how direct lending deals are documented, because this is where some of the most important differences between direct lending and syndicated lending emerge.
+
+In a syndicated loan, the documentation is driven by syndication market standards. The lead arranger wants the documentation to be attractive to syndicate investors, so it tends towards market-standard terms. There is a fairly limited range of variation—you have conservative, market, and aggressive documentation standards, and any given bank knows what those are.
+
+In direct lending, the documentation is more variable because there is no syndicate to please. A direct lending fund can write covenants that are aggressive, bespoke, and tailored to the specific credit. Conversely, if the sponsor is tough enough, the sponsor can negotiate sponsor-friendly terms that would never survive in a syndication.
+
+Let me walk through some of the key differences.
+
+FINANCIAL COVENANTS
+
+In syndicated lending, the most common financial covenant is the leverage ratio (total debt / EBITDA). This is usually an incurrence test—the company has to satisfy the ratio at the time of a permitted event (like an acquisition or a dividend). Many syndicated deals have no maintenance covenant at all.
+
+In direct lending, maintenance financial covenants have made a comeback. A direct lending deal is likely to include a leverage maintenance covenant—say, total leverage cannot exceed 4.5x as of each quarter end. There might also be an interest coverage covenant—EBITDA / interest expense must be at least 2.0x.
+
+These maintenance covenants are much more restrictive than incurrence tests. An incurrence test only matters when the company is doing something. A maintenance covenant is always in effect. If the company's leverage creeps up because EBITDA has declined, the company will breach the covenant.
+
+I have had sponsors tell me that maintenance covenants are a dealbreaker for them—they want the flexibility to see how the business performs without worrying about constant covenant compliance. And yet many sponsors have accepted maintenance covenants in direct lending deals because the covenants are written loosely enough that they are unlikely to be triggered.
+
+The art of writing financial covenants is getting the covenant "right" such that it is protective for the lender but not so tight that it effectively limits the borrower's operating flexibility. A 4.5x leverage maintenance covenant that is calculated quarterly sounds tight, but if the EBITDA definition is broad and includes add-backs for certain one-time items, the covenant can be quite loose in practice.
+
+OPERATING COVENANTS
+
+This is where direct lending diverges most sharply from syndication.
+
+In a syndicated deal, operating covenants are typically minimal. The company can operate its business as it sees fit, subject to some baseline restrictions (no asset sales above a certain threshold, no capital expenditure above a certain threshold, no major acquisitions without lender consent). The lender's recourse is through the financial covenants and the incurrence tests—if the company is not performing, the financial covenants will be triggered at some point.
+
+In direct lending, the operating covenant package can be much more restrictive. A direct lending agreement might include covenants around:
+
+- Maintenance of business and assets. The company must maintain its business in substantially the same form and continue to operate in its historical lines of business.
+- Maintenance of insurance. The company must maintain insurance on its material assets.
+- Maintenance of accounting records and financial reporting. The company must prepare quarterly and annual financial statements.
+- Maintenance of key personnel. The company cannot lose key members of management without the lender's consent.
+- Restrictions on capital expenditure. The company cannot make capital expenditures above certain thresholds without the lender's consent.
+- Restrictions on acquisitions. The company cannot acquire other businesses above certain thresholds without the lender's consent, and any acquisitions must meet certain financial criteria.
+- Restrictions on dividends and distributions. The company cannot pay dividends to equity sponsors, except in certain limited circumstances.
+- Restrictions on asset sales. The company cannot sell material assets without the lender's consent.
+- Restrictions on new debt. The company cannot incur new debt except as permitted in the facility agreement.
+- Restrictions on liens. The company cannot grant new liens on its assets except as permitted in the facility agreement.
+
+These operating covenants are particularly common when the direct lending fund is investing in a lower mid-market company or a company in a cyclical business where the lender wants more control over operating decisions.
+
+The question that always arises is: how closely can a lender monitor these covenants? In theory, the lender is entitled to inspect the borrower's books and records and to make sure the company is complying. In practice, most direct lending funds have a team of one or two people managing the credit, and they are not going to spend all their time monitoring covenant compliance.
+
+What the operating covenants really do is establish a baseline of expectations. If something goes wrong—if the company's performance deteriorates or if management makes a major decision that the lender disagrees with—the lender can point to the covenant and use it as a basis for negotiating with the sponsor. The covenant is leverage.
+
+PERMITTED ACTIVITIES
+
+Another dimension where direct lending is different is the scope of "permitted" activities. In a syndicated deal, the covenants are typically written to restrict specific activities. In a direct lending deal, the philosophy is often reversed—the company is not permitted to do anything unless it is explicitly permitted in the agreement.
+
+This shows up particularly clearly in the "permitted liens" and "permitted debt" provisions. In a syndicated deal, the permitted debt definition is long and includes many baskets and exceptions. In a direct lending deal, the permitted debt might simply be: "the senior secured facility documented hereunder, and such other debt as the lender may approve in writing, such approval not to be unreasonably withheld."
+
+This is much more restrictive. The company basically cannot incur any new debt without the lender's consent.
+
+TIGHTER BASKETS
+
+The same philosophy applies to the various baskets and exceptions throughout the agreement. In a syndicated deal, the baskets are typically relatively generous—for example, the capex basket might be set at 100% of capex in the prior year, or at some percentage of EBITDA, allowing for significant flexibility in capex spending.
+
+In a direct lending deal, the baskets are often tighter. The capex basket might be a fixed amount—say, £5 million per year—with no flexibility.
+
+SPONSOR-FRIENDLY FEATURES THAT SURVIVE
+
+That said, there are some sponsor-friendly features that appear even in direct lending deals, and I want to highlight these because they show that direct lending is not a one-sided proposition.
+
+First, there is the question of "freely available amounts." In a leveraged loan, there are baskets for things like capex, acquisitions, and dividends. But the company can only use these baskets if it satisfies certain financial tests—typically, the leverage ratio has to be below a certain level. If leverage rises above that level, the baskets are no longer available.
+
+In some direct lending deals, the direct lender has agreed to "freely available" baskets. This means the company can use the basket regardless of the leverage level. This is a significant concession to the sponsor, because it allows the company to spend money on growth initiatives even if the credit is deteriorating.
+
+Second, there is the treatment of EBITDA add-backs. In a syndicated deal, the definition of EBITDA typically includes some add-backs for unusual or non-recurring items. In a direct lending deal, the EBITDA definition can be much broader, including add-backs for management fees paid to the sponsor, restructuring charges, severance, and so on.
+
+These add-backs can be significant. I have seen situations where a company's EBITDA under the facility agreement is 20% or 30% higher than its "run-rate" or "pro forma" EBITDA reported to investors. This can have a material impact on the company's ability to pass the leverage covenant.
+
+Third, there is the treatment of the equity raise at closing. In a syndicated deal, the equity committed at closing counts toward the upfront cash contribution by the sponsor. In many direct lending deals, the agreement allows the sponsor to reduce the equity contribution as long as certain conditions are met—the company meets certain EBITDA targets, or the leverage ratio is below a certain level.
+
+This is sometimes called a "delayed equity" or "earn-in" structure. It allows the sponsor to minimize upfront equity contribution and increase the return on equity, with the risk that if the company does not perform, the sponsor will have to contribute the equity anyway.
+
+THE NEGOTIATION DYNAMIC: BILATERAL VERSUS MULTILATERAL
+
+The negotiation dynamic in direct lending is fundamentally different from syndication because it is bilateral. The sponsor is negotiating with a single direct lending fund (or a consortium of direct lending funds acting in concert). There is no arranger acting as an intermediary. There is no broader syndicate waiting in the wings.
+
+This can work in the sponsor's favour or against it. If the sponsor is strong and the direct lending fund is hungry for deals, the sponsor can negotiate very aggressive terms. If the sponsor is weak or the deal is not attractive, the direct lending fund can impose tough terms and the sponsor has limited recourse.
+
+I have negotiated many direct lending facilities on behalf of sponsors. The successful negotiations are the ones where both sides are clear about what they want and are willing to agree on a set of terms that both can live with. The difficult negotiations are the ones where one side is trying to squeeze the other, or where the two sides have fundamentally different views on the risk profile of the credit.
+
+One particular dynamic that appears in direct lending negotiations is the tension between the fund's return requirements and the sponsor's expectations. A direct lending fund might tell a sponsor that the fund's return hurdle is 12% IRR or 20% MOIC. The sponsor thinks that is a high return requirement and pushes back. But the fund is taking concentration risk and liquidity risk that a syndicated lender is not taking, so the fund's return requirement is not unreasonable.
+
+Getting to a deal often requires the sponsor to accept that the direct lender's economics are what they are, and then to optimize the other terms—the covenant package, the financial flexibility, the size of the facility—around that return requirement.
+
+THE INVESTOR LANDSCAPE: WHO FUNDS DIRECT LENDING
+
+Let me now turn to the supply side of the direct lending market: who is providing the capital, and what do they want?
+
+The investor base for direct lending is quite different from the investor base for syndicated loans. In syndicated loans, the investors are primarily banks and a handful of specialist credit investors (like credit funds, collateralised loan obligations, and insurance companies). In direct lending, the investor base is more diverse and includes some very large institutional investors.
+
+Here are the main categories of investors in direct lending.
+
+DIRECT LENDING CREDIT FUNDS
+
+The most obvious investors are dedicated direct lending credit funds. These are funds that have been raised specifically to invest in direct lending. The largest of these funds—and I am thinking of funds like Ares Direct Lending, Apollo Direct Lending, KKR Direct Lending, Blackstone Direct Lending—manage billions of pounds or euros.
+
+These funds are typically structured as either open-ended or closed-ended vehicles. An open-ended fund accepts capital from investors on an ongoing basis and continues to invest in new deals. A closed-ended fund has a fixed life—typically 10 or 12 years—and is expected to return capital to investors at the end of that life.
+
+The typical fee structure for a direct lending fund is 1.5% to 2% of capital under management per annum, plus 20% carry (carried interest, or the fund manager's share of profits above a specified hurdle rate). Some funds charge higher fees—up to 2.5% in some cases—if they are providing more than just capital, such as operational support or industry expertise.
+
+The return expectations for these funds have been compressed over the past few years as capital has flooded into the direct lending market. Where funds were expecting to achieve 12-15% IRR five or six years ago, many funds are now targeting 10-12% IRR. This compression is due to competitive tension and the relative abundance of capital.
+
+INSURANCE COMPANIES
+
+Insurance companies are a major source of capital for direct lending. Life insurance companies, in particular, have a liability structure that makes direct lending attractive. Insurance companies have long-dated liabilities—pension obligations, insurance claims—that can stretch out 10, 20, or 30 years. They want long-duration assets that match those liabilities.
+
+Direct lending is attractive to insurance companies for several reasons. It generates higher returns than public credit markets (bonds, for instance). It is less volatile than equities. And it allows insurance companies to deploy capital in a way that is relatively straightforward to understand and manage.
+
+Insurance companies typically invest in direct lending through one of two routes. The first is by committing capital to dedicated direct lending funds. The second is by making direct investments alongside the fund managers, or by seeding new direct lending strategies with capital.
+
+The largest insurance company investors in European direct lending include companies like Allianz, AXA, Munich Re, and others. Their capital commitments to direct lending funds can be substantial—hundreds of millions of euros.
+
+PENSION FUNDS
+
+Pension funds, particularly large public pension funds and large corporate pension funds, have also become major investors in direct lending. Pension funds have liabilities that span decades, which makes long-dated credit instruments attractive.
+
+Pension funds approach direct lending slightly differently than insurance companies. Many pension funds do not have the internal expertise to underwrite direct lending investments on their own, so they commit capital to dedicated funds and trust the fund managers to make the investment decisions. Some of the largest pension fund investors in direct lending are the large Nordic pension funds (like ATP and PensionDanmark in Denmark, and similar funds in Sweden and Norway), the Dutch pension funds (like APG), and the UK pension funds.
+
+BANKS AND BANK-AFFILIATED CREDIT PLATFORMS
+
+This is an interesting category. Many of the largest commercial and investment banks have launched direct lending platforms. These include Bank of America's BancorpCorp platform, JPMorgan Chase's specialty finance group, and others.
+
+These bank platforms are typically structured as separate vehicles that manage capital on behalf of bank clients and external investors. The appeal for the bank is that it can generate fees and returns while holding loans that might not fit on the bank's balance sheet (because of capital constraints or regulatory requirements).
+
+SOVEREIGN WEALTH FUNDS AND FAMILY OFFICES
+
+The largest and most sophisticated investors are starting to allocate capital directly to direct lending platforms. Some sovereign wealth funds have committed billions to direct lending vehicles. Some very large family offices manage their own direct lending investments internally, without using dedicated funds.
+
+These investors bring a different perspective to direct lending. They typically have very long time horizons (decades, or perpetual in the case of endowments and sovereign wealth funds). They are comfortable with illiquid investments. And they are large enough that they can negotiate favourable terms with fund managers and sponsors.
+
+BDCS AND OTHER SPECIALTY FINANCE VEHICLES
+
+Business development companies (BDCs) are a unique feature of the US market, but they are also becoming a source of capital in Europe. A BDC is a type of investment company that can leverage its capital at favorable rates and invest in middle-market private companies. BDCs are typically publicly listed and are required to distribute at least 90% of earnings to shareholders in the form of dividends.
+
+BDCs have become major participants in the direct lending market. Ares, Golub, and other managers operate large BDC platforms. The structure allows these vehicles to offer equity investors exposure to direct lending with publicly traded liquidity.
+
+FUND OF FUNDS AND ALLOCATION MANAGERS
+
+Finally, there are institutional allocators and fund-of-funds that manage capital on behalf of smaller investors. These entities do not make direct investments themselves; rather, they allocate capital to various direct lending funds and monitor the investment performance.
+
+THE FUND ECONOMICS: FEES, LEVERAGE, AND RETURNS
+
+Understanding how direct lending funds make money is critical to understanding how the market works.
+
+A typical direct lending fund will raise, say, £500 million of committed capital from investors. The fund will charge a management fee of 1.75% per annum on committed capital in the first few years, and then gradually scale that fee down as capital is deployed and the fund enters its harvest phase.
+
+The fund is expected to deploy the capital over a period of three to five years. During deployment, the fund will make 20 to 50 individual investments, depending on the fund's size and strategy. Each investment will generate interest income (the coupon on the loan), origination fees, and potentially exit gains if the investment is sold at a premium.
+
+At the end of the deployment period, the fund stops making new investments and focuses on harvesting the existing portfolio. As loans are repaid or refinanced, the fund returns capital to investors and the management fee declines accordingly.
+
+The economics work like this. A £500 million fund charging 1.75% fee generates £8.75 million in annual fees. If the fund makes 25 investments of £20 million each, and each investment is generating 500 basis points of interest income, the annual interest income is £50 million. The costs of operating the fund (staff, compliance, reporting, etc.) are typically £2-3 million per annum. So the fund is generating £55-56 million in annual cash flow (fees plus interest minus expenses). Out of that, the fund is paying distributions to investors and reinvesting the remainder to cover losses or to invest in new deals.
+
+The fund's investors expect to earn a return on their invested capital. A typical return expectation is 10-12% IRR net of fees. If the portfolio companies are paying 500-600 basis points of interest on a first-lien facility, plus origination fees and potential exit gains, the fund should be able to generate the expected returns.
+
+But this all assumes that the portfolio companies are performing as expected. If a significant portion of the fund's portfolio is underperforming or in default, the returns will be much lower.
+
+LEVERAGE AT THE FUND LEVEL
+
+Some direct lending funds, particularly insurance company capital platforms and bank-affiliated platforms, use leverage at the fund level. This means the fund borrows capital on behalf of its investors to increase the amount of capital available for investment.
+
+A typical leverage structure might be a direct lending fund that has raised £500 million of equity capital and £300 million of debt capital (from banks or other lenders). This creates a 3.75x leverage ratio at the fund level. The fund can now invest £800 million in portfolio companies.
+
+The benefit of this leverage is that it amplifies returns for equity investors. If the fund generates a 10% return on its portfolio, that return is on £800 million of invested capital. The equity investors have contributed £500 million but are participating in 10% of £800 million (assuming the debt tranche gets a lower, fixed return). This increases the return to equity significantly.
+
+The downside is that leverage at the fund level creates risk. If the portfolio companies underperform, the fund has to pay the debt tranche a fixed return, which reduces the return to equity investors. And if the portfolio deteriorates significantly, the fund might face liquidity pressure if the debt investors demand repayment.
+
+I have seen direct lending funds use leverage aggressively, particularly in the post-2008 era when debt was cheap and plentiful. Some funds have taken leverage to 1.5x or 2x, which is more conservative. Others have gone to 3x or higher, which is more aggressive.
+
+The regulatory environment has become tighter on leverage. After the financial crisis, European regulators introduced rules that limit the amount of leverage that alternative investment fund managers can take at the fund level. But insurance company capital platforms and bank platforms are often subject to different rules, and they have more flexibility on leverage.
+
+RETURN EXPECTATIONS
+
+I want to close this section by talking about what returns are actually achievable in direct lending.
+
+The headline return expectation is 10-15% IRR. But this has multiple components. The first component is the coupon on the loan—the annual interest income. In the current market (as of 2026), the coupon on a first-lien direct lending facility is typically 450-550 basis points over SOFR, which translates to roughly 6-7% coupon on a facility priced at SOFR plus 475 basis points.
+
+The second component is the origination fees. Direct lending deals typically involve fees paid at closing—typically 2-4% of the facility amount. These fees are usually reinvested by the fund (rather than distributed to investors), which boosts the IRR.
+
+The third component is the exit gain. If the portfolio company is refinanced at better terms, or if it is sold at a higher valuation, the direct lender may realize gains beyond the coupon and origination fees.
+
+So the typical components of a 12% IRR might look like: 6% from coupon, 2-3% from origination fees and reinvestment, 3-4% from refinancing gains, and 1-2% from other sources.
+
+If the portfolio company underperforms and does not refinance or exit as expected, the IRR will be lower—maybe 8-10%.
+
+If the portfolio company goes into default and the lender has to take a loss, the IRR could be significantly lower, or even negative.
+
+This is why portfolio diversification is so important for direct lending funds. A single loan that goes bad can cost a fund hundreds of basis points of IRR if the fund's portfolio is concentrated. A fund with a diversified portfolio of 30-40 loans can absorb a few failures without a material impact on fund returns.
+
+THE EUROPEAN PRIVATE CREDIT MARKET
+
+I want now to shift focus to the European market specifically, because the evolution of direct lending in Europe has been somewhat different from the US market.
+
+THE EVOLUTION FROM BANK LENDING
+
+In Europe, the direct lending market evolved out of the traditional bank lending market. When the financial crisis hit in 2008, European banks were forced to deleverage. Regulators pushed banks to reduce their risk-weighted assets and improve their capital ratios. The effect was that banks could no longer sustain their role as the primary source of financing for middle-market companies.
+
+At the same time, large institutional investors in Europe—particularly insurance companies and pension funds—were looking for yield-generating assets. The natural evolution was for these investors to step in and fill the gap left by the banks. They did so by raising dedicated direct lending funds.
+
+The first wave of European direct lending funds were relatively small—€100 million to €300 million—and focused on lower mid-market transactions. Over the past 10 years, the funds have grown dramatically in size. Today, the largest European direct lending platforms manage €5 billion, €10 billion, or even more.
+
+This evolution from bank lending to direct lending has fundamentally changed the market. Whereas bank lending was concentrated among a handful of major European banks—Deutsche Bank, BNP Paribas, Credit Suisse, Barclays, HSBC—direct lending is more fragmented, with capital coming from multiple institutional investors.
+
+KEY PLAYERS AND MARKET SIZE
+
+The largest European direct lending platforms are a mix of specialist credit managers and bank-affiliated or insurance-affiliated platforms.
+
+On the specialist side, managers like Ares, Golub, Permira (which has a credit platform), and Dyal (which is affiliated with Brookfield) manage substantial amounts of European direct lending capital. On the bank and insurance side, platforms affiliated with BNP Paribas, Société Générale, and insurance companies like Allianz and Munich Re have launched significant direct lending vehicles.
+
+The market size is difficult to pin down exactly, but estimates suggest that there is somewhere between £300-500 billion of European direct lending capital under management. This is a very large market, and it is growing at double-digit rates per annum.
+
+The market is most developed in the UK, Germany, and the Nordic countries. These are countries with deep capital markets, large institutional investor bases, and strong regulatory frameworks. The market is less developed in Southern Europe and Eastern Europe, though it is growing.
+
+REGULATORY ENVIRONMENT: AIFMD, SOLVENCY II
+
+European direct lending is subject to a complex web of regulations. The most important of these are the Alternative Investment Fund Managers Directive (AIFMD) and Solvency II.
+
+The AIFMD is a European regulation that governs the management of alternative investment funds, including direct lending funds. The AIFMD requires fund managers to be authorised by regulators, to follow strict rules on leverage, transparency, and risk management, and to comply with rules on depositary arrangements and investor protection.
+
+For many direct lending fund managers, obtaining AIFMD authorization has been a significant operational undertaking. The regulation requires managers to have robust compliance frameworks, risk management systems, and governance structures. Fund managers have had to hire compliance officers and risk managers to ensure compliance.
+
+Solvency II is a European regulation that governs insurance company capital requirements. Solvency II requires insurance companies to hold capital against their investments, and it imposes rules on what kinds of investments insurance companies can make.
+
+Direct lending investments are subject to specific risk-weighting under Solvency II. Because direct lending investments are less liquid and more risky than public credit markets, Solvency II imposes higher capital requirements. This has affected the appetite of insurance companies for direct lending. Some insurance companies have decided that the capital requirements are too onerous and have reduced their allocation to direct lending.
+
+Other insurance companies have found ways to structure their direct lending investments to reduce capital requirements. For example, by investing through a fund structure rather than making direct investments, or by investing in senior tranches of unitranches rather than mezzanine tranches, insurance companies can reduce the Solvency II capital hit.
+
+THE ROLE OF THE EUROPEAN INVESTMENT FUND
+
+The European Investment Fund (EIF) is a development bank that is focused on providing financing to SMEs (small and medium enterprises) in Europe. The EIF has become a significant investor in direct lending funds that focus on smaller transactions.
+
+The EIF's strategy is to co-invest alongside private direct lending fund managers, typically taking a minority stake in the fund. This has several effects. First, it provides capital to funds that might otherwise struggle to raise capital. Second, it signals to other investors that the fund is viable, because the EIF has done its own diligence. Third, the EIF's involvement often brings with it preferred regulatory treatment for certain investors.
+
+The EIF has been particularly active in launching guarantees and support mechanisms for middle-market direct lending. This has enabled direct lending to reach somewhat smaller transactions than might otherwise be viable.
+
+RISKS IN DIRECT LENDING
+
+Now let me turn to the risks that are inherent in direct lending, because it is important for both investors and sponsors to understand these risks clearly.
+
+CONCENTRATION RISK
+
+The first and most obvious risk is concentration risk. A direct lending fund typically makes 20 to 50 investments, depending on the fund's size. Each investment might represent 1% to 5% of the fund's total capital. If one of those investments goes bad, the impact on the fund's overall returns can be significant.
+
+But the concentration risk goes beyond the number of investments. A direct lending fund might have multiple investments in the same sector. A fund focused on industrials and manufacturing might have investments in five or six different manufacturing companies. If there is a downturn in the manufacturing sector, multiple portfolio companies might be affected simultaneously.
+
+I have seen direct lending funds where the top 10 investments represent 30% or more of the fund's committed capital. This means that if one of the top 10 investments has to be significantly written down, it will have a material impact on the fund's returns.
+
+Concentration risk is particularly acute in lower mid-market direct lending. The transactions are smaller, so the funds need to make more investments to deploy capital. But the investor base for lower mid-market credit is smaller, so the funds end up competing for the same deals and the same sectors. This can lead to a situation where several funds have invested in the same sector and are all exposed to the same risks.
+
+VALUATION RISK AND MARK-TO-MODEL
+
+Here is a fundamental challenge in direct lending: valuing the investments. Unlike public credit markets, where loans trade and there is market pricing, direct lending loans are illiquid and do not trade. So how do funds value them?
+
+The standard approach is "mark-to-model." The fund's management company will use a model that values the loan based on similar transactions, or based on assumptions about the portfolio company's EBITDA, leverage, and the coupon. But this is inherently subjective. Two different fund managers might value the same loan very differently based on their assumptions.
+
+I have seen situations where a direct lending fund has marked a loan at par (100% of its invested amount) even though the underlying company is clearly distressed. The fund's management company will argue that the loan is still earning its coupon and that there is no evidence of default, so the valuation is justified. But an objective observer might think that the loan should be written down to 80 or 90 cents on the dollar based on the underlying credit quality.
+
+This valuation risk is a significant issue for investors in direct lending funds. When a fund reports that it has generated a 12% return in a given year, it is important to understand how much of that return is coming from actual cash received (coupon, origination fees) and how much is coming from valuation movements (mark-ups of the underlying portfolio).
+
+In a market downturn, when portfolio companies start to underperform and direct lending funds are forced to mark their portfolios down to more realistic valuations, the reported returns can deteriorate sharply.
+
+LIQUIDITY MISMATCH
+
+The second major risk is liquidity mismatch. Direct lending funds are investing capital in illiquid assets (private loans) with long maturities (five to seven years or more). But the funds might have raised capital from investors with shorter time horizons or greater liquidity needs.
+
+This creates a risk that an investor might need to redeem capital before the fund's underlying investments mature. How does the fund handle this?
+
+Some direct lending funds are closed-ended vehicles with a fixed term (typically 10-12 years) and no redemption rights. This eliminates liquidity mismatch because investors know they will not be able to redeem until the end of the fund's life (or until the fund is liquidated).
+
+Other direct lending funds are open-ended vehicles that accept capital on an ongoing basis and allow investors to redeem. These funds are more exposed to liquidity mismatch. If multiple investors redeem at the same time, the fund might not have enough cash on hand to meet all the redemptions, forcing the fund to either liquidate portfolio investments at unfavorable prices, or to borrow money to meet the redemptions.
+
+The 2020 COVID crisis exposed some of the liquidity risks in the direct lending market. When the market shut down and investors got nervous, some direct lending funds experienced redemption requests from investors. The funds had to decide whether to allow the redemptions or to suspend them. Some funds suspended redemptions, effectively locking investors' capital in the fund until the market stabilized.
+
+VINTAGE RISK
+
+Vintage risk is the risk that returns vary significantly depending on when a fund was raised and when it deployed its capital.
+
+A direct lending fund raised in 2018 and deploying capital in 2018-2019 would have been deploying into a market where there was significant competition for deals and pricing was tight. The fund might be targeting 11-12% returns. A fund raised in 2020 and deploying in 2020-2022 would have been deploying into a market where valuations had been reset lower and there was more attractive pricing. That fund might be targeting 13-15% returns.
+
+A fund that deployed capital in 2022-2023 and is still holding most of its portfolio is likely to face headwinds. Refinancing becomes more difficult when interest rates have risen. Portfolio companies that were generating comfortable returns with low interest rates will be under more pressure with higher interest rates.
+
+Vintage risk is important for investors to understand. An investor committing capital to a direct lending fund in 2019 might not achieve the same returns as an investor committing capital in 2022, even if both are investing in the same fund strategy with the same manager.
+
+THE "DENOMINATOR EFFECT"
+
+This is a somewhat technical risk, but it is worth mentioning because it has become increasingly important in the post-2020 era.
+
+The denominator effect refers to the situation where the value of an institutional investor's overall portfolio declines (because equity markets have fallen), and the investor needs to rebalance their allocation. If the investor has allocated, say, 5% of its portfolio to alternatives, and equity markets fall by 20%, then alternatives will represent a higher percentage of the total portfolio (because the denominator has shrunk). To maintain the 5% allocation, the investor will need to reduce its exposure to alternatives and redeem capital.
+
+This creates a situation where direct lending funds experience redemption pressure precisely at the moment when the underlying portfolio companies are struggling (because the market downturn is affecting corporate profitability). The fund might be forced to sell portfolio companies at distressed prices to meet redemptions, crystallizing losses.
+
+WHEN DIRECT LENDING GOES WRONG: CASE STUDIES AND DISTRESSED SITUATIONS
+
+Let me now walk through some case studies of direct lending situations that have gone wrong. These are drawn from deals I have worked on or observed over the past five years.
+
+CASE STUDY 1: THE MANUFACTURING COMPANY WITH CYCLICAL CASH FLOW
+
+A direct lending fund invested £40 million in a first-lien facility for a manufacturing company. The company was owned by a mid-market sponsor and was in a cyclical sector (mechanical parts for automotive and industrial applications).
+
+The fund's underwriting was based on the company generating £20 million of EBITDA. The facility was sized at 2.0x leverage. The coupon was 550 basis points over SOFR. The facility had a five-year maturity and minimal amortization.
+
+For the first two years, everything was fine. The company was generating the expected EBITDA, was paying its coupon on time, and was in compliance with financial covenants. The fund was taking a coupon of roughly 7% per annum, which combined with some origination fees meant the fund was on track for a 12-13% IRR.
+
+In year three, the automotive cycle turned downward. The company's customers reduced their orders. The company's EBITDA dropped to £16 million. The leverage ratio moved from 2.0x to 2.5x. The company was still in compliance with the leverage covenant, but it was approaching the limit.
+
+The direct lender reached out to the sponsor and suggested that the company needed to do something—either reduce costs, raise additional equity, or refinance at a higher leverage level. The sponsor did not want to raise additional equity (the sponsor was not interested in putting more capital into the business). The sponsor proposed a refinancing that would increase the leverage limit to 3.0x and extend the maturity to six years. The direct lender, facing the prospect of the loan being in default in six months when EBITDA might decline further, agreed to the refinancing.
+
+But the refinancing was a mistake. The company's EBITDA continued to decline. By year four, EBITDA was down to £14 million and leverage was at 3.0x (the maximum). The company was barely generating enough cash to pay the coupon, and there was no cash left for capex or debt repayment.
+
+The direct lender was now stuck. If the lender demanded that the company pay down the facility, the company would have to sell assets or lay off employees, both of which would hurt EBITDA further. If the lender just sat tight and collected the coupon, the lender was hoping that the cycle would turn. But hope is not a strategy.
+
+Eventually, the company did a restructuring in year five. The sponsor and the direct lender agreed to a waiver of the covenant breach and a plan to restructure the company. The plan involved right-sizing the cost base to match the new lower EBITDA level, and extending the maturity of the facility by another two years.
+
+The direct lender ended up holding the loan to near maturity at a higher-than-expected leverage level for much of the term. The IRR on the investment was probably 8-9%, well below the original expectation. And the lender spent significant management time and resources dealing with the credit.
+
+The lesson here is that direct lending funds cannot just assume that a company's EBITDA is stable over the life of the facility. Cyclical businesses go through cycles. A direct lender underwriting a cyclical business needs to model both upside and downside scenarios, and price accordingly.
+
+CASE STUDY 2: THE ACQUISITION THAT WENT WRONG
+
+A direct lending fund invested £80 million in a first-lien facility for a software company. The company was backed by a growth-focused sponsor and was pursuing an aggressive acquisition strategy. The company's EBITDA at the time of the facility was £30 million, and the leverage was 2.7x.
+
+The facility documentation included an acquisition basket that allowed the company to acquire other software companies up to a certain size without the lender's consent, provided that the pro forma leverage post-acquisition did not exceed 3.25x.
+
+In year two, the company identified a target acquisition of a European software company with £15 million of EBITDA. The company proposed acquiring the target for a purchase price that would result in pro forma leverage of 3.2x. The direct lender approved the acquisition.
+
+But the acquisition did not go as planned. The target company's management team left shortly after the acquisition closed. The client relationships that the target company had counted on did not materialize. Within a year, the target company's EBITDA had declined to £10 million (from the projected £15 million).
+
+The pro forma EBITDA of the combined group declined, and the leverage ratio moved from 3.2x to 3.5x. The company was in breach of the leverage covenant.
+
+The direct lender now had to decide: should the lender demand that the company fix the leverage breach, or should the lender waive the breach and hope that the company's performance improved? If the lender demanded that the company fix the breach, the company would have to lay off a significant portion of its employees or sell off a business unit. If the lender waived the breach, the lender was betting that the combined entity could stabilize and grow into the leverage level.
+
+The direct lender chose to waive the breach and work with the company on a turnaround plan. The plan involved putting new management in place, refocusing the company on its core business, and reducing costs. After two years of effort, the company stabilized and EBITDA grew to £35 million. The leverage ratio came down to 3.0x. The direct lender's investment ended up being satisfactory (not great, but not a loss).
+
+The lesson here is that direct lending funds need to understand the sponsor's acquisition strategy and to think carefully about what happens if an acquisition does not perform as planned. Simply approving acquisitions as long as the pro forma leverage is within limits is not sufficient.
+
+CASE STUDY 3: THE DISTRESSED SITUATION AND THE WORKOUT
+
+A direct lending fund invested £100 million in a first-lien facility for a services company. The company was performing fine for the first three years. But in year four, a key contract was lost to a competitor. The company's revenue and EBITDA declined sharply. The company was in breach of both the leverage covenant and the interest coverage covenant.
+
+At this point, the direct lender faced a choice: enforce the covenants and demand that the company do something about the breach, or work with the company on a workout.
+
+The direct lender chose to work on a workout. The lender worked with the sponsor to develop a plan. The plan involved:
+
+1. Reducing costs through layoffs and overhead reduction.
+2. Raising additional capital from the sponsor to pay down leverage.
+3. Extending the maturity of the facility by three years and reducing the coupon to PIK (payment in kind).
+4. Putting a new CFO in place and giving the lender a seat at the board level to monitor the turnaround.
+
+The restructuring took two years to execute. The company stabilized, the lost revenue was partially replaced by new business development, and the company's EBITDA recovered to near its pre-crisis level.
+
+The direct lender's investment did okay. The lender did not realize a loss, but the IRR was probably 6-7%, well below the 12% target. And the lender spent enormous amounts of time managing the restructuring.
+
+The lesson here is that direct lending is not a passive investment. When a credit is in distress, the lender has to be actively involved in the turnaround. This requires resources and expertise, and it is not a given that the lender will succeed.
+
+WORKOUT DYNAMICS WITH A SINGLE LENDER
+
+These case studies highlight some important points about the workout dynamics when there is a single lender.
+
+In a syndicated situation, when a company is in distress, the lead bank has to manage a complex negotiation with multiple syndicate lenders who have different interests and different tolerance for loss. The lead bank has to try to keep the syndicate together and get agreement on a restructuring plan. This is difficult, but it can sometimes lead to a more conservative approach.
+
+In a direct lending situation, the direct lender is the sole decision-maker. The lender does not have to negotiate with other lenders. The lender can decide unilaterally whether to waive covenants, extend the maturity, or foreclose on collateral.
+
+This can work in the borrower's favour—the direct lender might be more willing to work with the borrower on a flexible restructuring because the lender is not constrained by syndicate dynamics. But it can also work against the borrower—the direct lender might decide to enforce aggressively, knowing that there is no syndicate to push back.
+
+I have seen direct lending situations where the lender took a very flexible approach and worked closely with the sponsor to restructure the debt and save the business. I have also seen direct lending situations where the lender took a very rigid approach and forced the sponsor into a corner, demanding either massive equity injections or asset sales.
+
+THE "AMEND AND PRETEND" TEMPTATION
+
+One temptation that direct lending funds face is the "amend and pretend" approach. The idea is simple: if a company is in breach of a covenant and the lender does not think the company is going to fix the breach in the near term, the lender can amend the covenant to a higher level, thereby eliminating the breach.
+
+From the direct lender's perspective, the logic is: "The company has a structural issue, and the company is going to need more time to fix it. Rather than impose a default on the company (which would tank the stock price and make it harder for the company to recruit talent and do business), we can amend the covenant and give the company more time."
+
+From an investor's perspective in the direct lending fund, the "amend and pretend" approach is a red flag. It suggests that the fund's management company is using accounting or covenant changes to hide problems in the portfolio. If a company is in breach of a covenant, that is material news that should be disclosed to investors. If the lender is amending the covenant to eliminate the breach, the lender is effectively hiding that news.
+
+I have been on the side of funds that have done this—amending covenants to help a portfolio company through a rough patch. And I have been on the side of investors in funds where this has happened, and I was not happy about it. My view is that amend and pretend is appropriate in limited circumstances (when the company has a clear plan to improve and the amendment is temporary), but it can become a slippery slope where funds are constantly amending covenants to hide deteriorating credits.
+
+HOW PRIVATE CREDIT RESTRUCTURINGS DIFFER FROM SYNDICATED
+
+In a syndicated loan, a restructuring typically involves a formal process. The lead bank initiates a formal workout with the syndicate. The bank tries to get syndicate agreement on a restructuring plan. If the syndicate cannot agree, there might be a formal exchange offer or a consent vote. The process is rigorous and there are clear precedents.
+
+In a direct lending restructuring, the process is more ad hoc. The direct lender and the sponsor have bilateral discussions. They work out a deal. Sometimes the deal is documented as a formal amendment to the credit agreement. Sometimes it is just a side letter. The process is more flexible and faster, but it also means there is less documentation and less clarity about what has been agreed.
+
+I have seen direct lending restructurings where the terms were not clearly documented, leading to disputes later about what the lender and the borrower had agreed to. I have also seen direct lending restructurings where the lender and borrower worked very collaboratively and reached creative solutions that probably would not have been possible in a syndicated context.
+
+THE FUTURE: CONVERGENCE OR DIVERGENCE?
+
+Let me now step back and think about where the direct lending market is headed.
+
+ARE THE MARKETS CONVERGING?
+
+There is a narrative in the market that direct lending and syndicated lending are "converging"—that the distinctions between them are breaking down and that they are becoming more similar.
+
+I think there is some truth to this narrative. I have seen direct lending deals where there is syndication of the initial facility. I have seen syndicated deals where the lead bank has maintained a very close relationship with the sponsor and has significant flexibility on covenants. I have seen deals where the line between "direct lending" and "syndicated" is almost impossible to draw.
+
+But I also think the narrative of convergence is overstated. There are some fundamental differences between the two markets that are unlikely to disappear.
+
+First, there is a fundamental difference in risk allocation. A syndicated lender, even the lead arranger, knows that the risk is being distributed across a broad investor base. A direct lender knows that it is taking all the risk. This affects pricing, underwriting standards, and covenant packages.
+
+Second, there is a difference in investor base. Syndicated lenders are primarily banks. Direct lenders are primarily non-bank institutional investors. These investors have different time horizons, different return requirements, and different risk tolerances. Banks want to get deals off their balance sheet and move on. Insurance companies and pension funds want to hold the investments and collect coupons.
+
+Third, there is a difference in scale. The largest syndicated deals are significantly larger than the largest direct lending deals. A syndicated deal for a large sponsor can be £1 billion or more. Direct lending deals are typically £50 million to £300 million. This size difference means the two markets serve somewhat different segments of the middle market.
+
+So I think the two markets will continue to coexist, with some convergence at the margins but also continued differentiation.
+
+HYBRID STRUCTURES
+
+One way that convergence is happening is through hybrid structures. Increasingly, we are seeing deals that are structured as a core direct lending facility with a syndication of the facility to other investors.
+
+For example, a large sponsor might approach a direct lending fund and say: "We want to do this £300 million facility with you as the lead. But we also want you to syndicate £150 million to other investors, so the lead fund is only putting in £150 million."
+
+This structure allows the sponsor to get the benefit of direct lending relationships and speed, while also getting some syndication to reduce the concentration risk and potentially improve pricing.
+
+From the direct lender's perspective, the appeal is that the lender can continue to act as the lead investor and maintain the relationship, but can reduce its commitment. From the syndicate investors' perspective, the appeal is that they are investing with a credible lead lender who has done the underwriting and is maintaining ongoing relationships.
+
+ROLE OF RATING AGENCIES
+
+Rating agencies are playing an increasingly important role in the direct lending market. Some of the larger direct lending funds are now getting their portfolios rated by the rating agencies. This is a significant development because it brings rating agency scrutiny to direct lending.
+
+Historically, direct lending was opaque—investors did not know much about the underlying portfolio because there was no public rating or disclosure. Now, with ratings, there is more transparency.
+
+Ratings also affect the cost of capital for some direct lending funds. If a fund can achieve an investment-grade rating for its portfolio, the fund can access cheaper funding (through debt markets) to leverage its investment returns.
+
+But ratings can also be a double-edged sword. If a fund's portfolio starts to deteriorate and the rating agency downgrades the portfolio, it can become difficult for the fund to raise new capital or to access debt markets for leverage.
+
+REGULATORY TRENDS
+
+The regulatory environment for direct lending is evolving. In Europe, regulators are increasingly focused on the systemically important role that direct lending has come to play in financing of middle-market companies.
+
+Some of the regulatory themes I am seeing:
+
+1. Capital requirements. Some regulators are raising questions about whether banks and insurance companies should be holding more capital against direct lending investments, given the risks.
+
+2. Leverage. There is increased scrutiny on leverage at the fund level, particularly for funds that are using significant leverage to amplify returns.
+
+3. Liquidity. Regulators are asking questions about the liquidity profile of direct lending portfolios and whether there are sufficient buffers for a market stress scenario.
+
+4. Disclosure. There is pressure for more standardised disclosure of portfolio companies, asset quality, and performance.
+
+5. Stress testing. Some regulators are requiring direct lending fund managers to conduct stress tests on their portfolios to see how they would perform in adverse market scenarios.
+
+These regulatory trends are likely to continue. My view is that over the next five to ten years, the regulatory framework for direct lending will become more similar to the framework for bank lending. This will increase compliance costs for direct lending fund managers, but it should also increase stability and reduce systemic risk.
+
+WHAT TWENTY YEARS TEACHES
+
+Let me conclude this chapter with some reflections on what twenty years in leveraged finance has taught me about direct lending.
+
+The first thing is that direct lending is real and is here to stay. The market has now reached a scale where it is impossible to ignore. Sponsors are using direct lending routinely. Large institutional investors have significant allocations to direct lending. Regulators are paying attention.
+
+The second thing is that direct lending has not solved the fundamental problems of leveraged finance. Direct lending looks like it might be a better way to do things—faster, simpler, more flexible. But the fundamental tensions remain: how much leverage is too much? How do you balance the needs of junior and senior investors? What happens when a portfolio company is in distress?
+
+The third thing is that direct lending has created new risks, particularly around concentration, valuation, and liquidity. These are not small risks. A portfolio company in a direct lending fund that is in distress is really in distress, because there is no syndicate to absorb losses and no secondary market to sell the position. The direct lender has to deal with the situation directly.
+
+The fourth thing is that the quality of direct lending underwriting is highly variable. Some direct lending fund managers are sophisticated, do rigorous underwriting, and manage their portfolios very carefully. Others are less rigorous and are willing to take on excessive leverage or risk to hit their return targets. This is true in every market (syndicated lending has the same issue), but it is particularly important to pay attention to in direct lending because there is no syndicate to provide a check on aggressive underwriting.
+
+The fifth thing is that the cost of capital for direct lending is compressing as more capital floods into the market. Five years ago, a first-lien direct lending facility might have been priced at 450 basis points over LIBOR, which would give the fund an IRR of 14-15%. Today, the pricing is more like 475 basis points over SOFR, which is a significantly lower return in absolute terms (because base rates have moved up, but credit spreads have compressed). This means that direct lending fund managers have to be even more disciplined in their underwriting, because the margin for error is smaller.
+
+The sixth thing is that technology and data are going to continue to improve the way that direct lending is underwritten and managed. Direct lending fund managers are increasingly using software platforms to monitor cash flow, to alert them to early warning signs of deterioration, and to aggregate data across the portfolio. This should improve the quality of underwriting and risk management over time.
+
+PRACTITIONER'S CHECKLIST FOR DIRECT LENDING
+
+For sponsors considering direct lending:
+
+□ Have you considered whether direct lending or syndication is right for your situation? Consider speed, certainty, pricing, and covenant flexibility.
+
+□ Have you evaluated the direct lending fund's experience in your sector and size category? Track record matters.
+
+□ Do you understand the covenant package? Maintenance covenants are more restrictive than incurrence tests. Operating covenants can significantly limit your flexibility.
+
+□ Have you run sensitivity analyses on the leverage ratio under stressed scenarios? What if EBITDA declines by 15% or 20%?
+
+□ Are you comfortable with the covenant amendments and the amendment process? If leverage rises, will you be able to amend the covenants without the lender's consent?
+
+□ Have you understood the maturity profile? Direct lending facilities often have no amortization—all the repayment risk is in the bullet at maturity.
+
+□ Have you negotiated sponsor-friendly features? Equity raise flexibility, EBITDA add-backs, freely available baskets?
+
+For investors in direct lending funds:
+
+□ Have you understood the fund's target return and how that maps to portfolio company IRRs? What coupon, origination fees, and exit gains are baked into that 12% IRR target?
+
+□ Have you assessed the fund manager's underwriting quality? Look at historical performance of prior funds, look at realized returns on exits, not just mark-to-model valuations.
+
+□ Have you understood the concentration risk in the portfolio? How many investments are there? What is the size distribution? Are there sector concentrations?
+
+□ Have you considered portfolio diversification across vintage years? Funds that have been deploying continuously might have a diversified portfolio. Funds that deployed all their capital in 2020-2022 might have vintage risk.
+
+□ Have you understood the leverage at the fund level? If the fund is leveraged, what is the impact if portfolio valuations decline? What is the refinancing risk?
+
+□ Have you considered what happens in a liquidity stress scenario? If you need to redeem, can the fund redeem without forcing a portfolio company sale?
+
+□ Have you talked to the fund manager about their approach to distressed situations? How do they handle covenant breaches? What is their philosophy on amend and pretend?
+
+For lenders and arrangers in the direct lending market:
+
+□ Have you thought about your positioning in the market—are you competing with direct lenders on all deals, or are you focusing on deals where syndication is the right solution?
+
+□ Have you hired or partnered with direct lending expertise? If you are only doing syndication, you are missing market opportunity.
+
+□ Are you using appropriate underwriting standards for direct lending? Remember that concentration risk is not syndicated away.
+
+□ Are you thinking about exit scenarios early? How does the portfolio company refinance or exit in year four or five?
+
+□ Are you building out the technology infrastructure to monitor and manage direct lending portfolios? This is as important as the credit decision.
+
+□ Are you being honest with yourself about the risks in your portfolio? Mark-to-model valuations can obscure problems.
+
+---
+
+End of Chapter: Direct Lending and Private Credit — The New Paradigm

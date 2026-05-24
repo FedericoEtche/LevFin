@@ -1,0 +1,768 @@
+EUROPEAN VS. US DOCUMENTATION COMPARISON
+A Practitioner's Comprehensive Guide to Two Markets, Two Philosophies
+
+INTRODUCTION: TWO MARKETS, TWO PHILOSOPHIES
+
+The conference room in New York overlooked Park Avenue, the mahogany table reflecting the pale winter light. A client sat across from me—an American sponsor who had just acquired a mid-market company and was financing the acquisition with what they assumed would be a straightforward leveraged loan. I had spent the previous fifteen years in the US market, closing deals on both coasts, and I thought I understood every variation of documentation that the syndicated market could produce. Then the client's London counsel joined the call, and everything changed.
+
+"We'll need to work from an LMA template," the London lawyer said with absolute certainty, referencing the Loan Market Association documentation that dominated European practice. I pulled up the document expecting something familiar, perhaps a slightly modified version of the LSTA agreement my teams had been using for years. Instead, I found myself scrolling through provisions that seemed to invert the logic I had lived and breathed for a decade and a half. The certainty of funds concept. The agreed security principles with hard caps on guarantees. The intercreditor agreement as a standalone document that was somehow simultaneously critical and entirely absent from American practice. The notion that conditions precedent could be truly "clean"—not riddled with what we called "sunglass provisions" that let borrowers peer out at economic conditions and walk away if they didn't like what they saw.
+
+That moment, nearly eight years ago now, crystallized something I had begun to notice but hadn't fully articulated: the US and European leveraged finance markets speak the same language—English—but construct fundamentally different documentations. They reflect different philosophies, different legal traditions, different market participants, and ultimately different assumptions about the purpose of credit documentation itself.
+
+This chapter is written from the perspective of someone who has spent the past two decades in leveraged finance across both markets, watching those philosophies collide and occasionally converge. I've closed transactions in the US market under New York law and English law both, worked with American sponsors and British sponsors and European financial institutions, and helped navigate the increasingly complex world where transactions are structured across both continents. I have seen what works in one market fail spectacularly in another, and I have also seen smart practitioners from each market learning to speak the other's language.
+
+The fundamental difference can be expressed in a single phrase: the US market is built on the principle of "trust but verify through dense documentation," while the European market historically functioned on "negotiate carefully upfront and then trust the relationship." This creates cascading differences throughout the documentation architecture. In the US, we write comprehensive covenants and then build dense exceptions for permitted activities. In Europe, they specify what is explicitly permitted and treat everything else as prohibited. In the US, conditions precedent are written to reflect economic reality and sometimes to give sponsors an exit if circumstances change. In Europe, conditions precedent are designed to state irrefutable facts, with any uncertainty delegated to a separate arrange-to-lend agreement or certainty of funds letter. In the US, a parent guarantees its subsidiaries' debt up to the practical limits of corporate law. In Europe, guarantees are explicitly limited to what the guarantor can legally provide, and that limitation is written into the credit agreement itself, often with a hard cap of around 80% of net assets.
+
+These differences exist for reasons rooted in legal tradition, regulatory environment, and the way each market developed. American documentation reflects the jurisprudence of New York law, the sophistication of the American institutional investor base, and the general principle that parties should be able to contract freely and comprehensively. European documentation, especially as codified in the LMA templates, reflects English common law, the regulatory constraints of EU company law (which restricts financial assistance and places hard caps on guarantees), and the tradition that documentation should be a framework for a business relationship rather than an exhaustive legal code anticipating every possible variation.
+
+For the modern leveraged finance practitioner, understanding both markets is no longer optional. The largest sponsors operate globally. The most important deals increasingly involve investors from both sides of the Atlantic. The documentation that governs a transaction increasingly reflects a synthesis of both traditions, and the practitioner who only understands one market is essentially operating with half a toolkit. Yet the convergence is incomplete. There remain fundamental differences that cannot be bridged, differences rooted in legal structures that are immovable. These differences require active management and clear thinking about what actually matters in a credit agreement and what is mere preference or convention.
+
+What twenty years teaches is this: documentation exists in service of the underlying transaction and the participants' legitimate interests. When you truly understand both markets, you stop treating each as the obviously correct approach and start asking harder questions. Why do we need this condition precedent? What risk is this covenant actually addressing? What does this guarantee really protect? These questions, asked with genuine curiosity rather than market convention, often yield better documentation and more efficient transactions. But they also require deep familiarity with both markets. You cannot skip that step by simply applying US sensibilities to a European template or vice versa.
+
+STRUCTURAL AND HISTORICAL CONTEXT: HOW THE TWO MARKETS EVOLVED SEPARATELY
+
+The separation of the US and European leveraged finance markets was neither planned nor inevitable. It emerged gradually through the 1980s and 1990s as a combination of geography, regulation, and the decisions of a few key market participants who established conventions that became self-reinforcing. Understanding these markets today requires understanding how they diverged.
+
+The US syndicated loan market as we know it today emerged in the 1980s, driven by the wave of leveraged buyouts that defined that decade. The sponsors of that era—Kohlberg Kravis Roberts, Clayton Dubilier & Rice, Forstmann Little—needed substantial amounts of debt, and the American banking system, with its particular combination of money-center banks and regional players, developed the infrastructure to syndicate that debt broadly. The documentation that governed these early deals drew on bank lending traditions but evolved to accommodate a new kind of lender: the institutional investor who was not primarily a bank but a life insurance company, a pension fund, or an investment manager.
+
+The Loan Syndications and Trading Association, formed in 1995, emerged in part to standardize documentation for this market. But before that, there was already a market convention, and that convention was to write comprehensive credit agreements that anticipated virtually every possible scenario and addressed it through covenants, baskets, carve-outs, and conditions. These agreements reflected the particular genius of the American legal tradition and the particular needs of American sponsors and lenders. They permitted freedom of action through the mechanism of detailed baskets and carve-outs rather than through explicit prohibition of specific acts. The LSTA template, when it was ultimately released, largely codified conventions that had already emerged in the market rather than creating them.
+
+The European market developed somewhat differently. The London loan market had always been important—the Euromarket itself emerged as a way to do dollar lending outside the United States—but it was initially more relationship-oriented and less dependent on comprehensive documentation. The market was dominated by international banks, many of them headquartered in Europe, and the ethos was more Continental. As the leveraged finance market grew in Europe in the 1990s, there was an opportunity for someone to codify documentation conventions, and that opportunity was seized by the Loan Market Association, which published its first standard documentation templates for European syndicated loans in 1996.
+
+The crucial decision was this: the LMA chose English law as the governing law for most of its templates. This was natural, given that London was the center of the Euromarket and many international transactions. But English law, while flexible and sophisticated, carries with it the regulatory constraints of UK company law. Most importantly, Section 678 of the Companies Act 2006 (and its predecessors) prohibited "financial assistance," a term of art in English law that essentially prevented companies from providing security or guarantees in certain circumstances, particularly for the purpose of financing the acquisition of shares in themselves or their holding company. This created a structural constraint that American documentation did not face.
+
+Additionally, European jurisdictions had (and have) laws limiting the amount of assets that a company can pledge or guarantee. These are typically expressed as a percentage of net assets, often around 80%. Germany has particularly strict rules about guarantees. France has concerns about upstream guarantees. Italy and Spain have their own particular constraints. These are not merely contractual concerns; they are matters of corporate law that no amount of documentation sophistication can overcome. A guarantee that violates local law simply does not exist, and a creditor who accepts one has a worthless piece of paper.
+
+Faced with these constraints, European market participants made different documentation choices than their American counterparts. Rather than assuming that you could get a guarantee from any entity in the group, you started from the assumption that you might not be able to, and you documented the security package you actually expected to get, with explicit carve-outs for taxes, corporate benefit concerns, and financial assistance issues. Rather than writing covenants as dense exceptions to general principles, you specified what was explicitly permitted and treated everything else as prohibited. Rather than including conditions precedent that allowed the lender to assess economic conditions, you attempted to make conditions precedent be purely objective factual statements.
+
+The London law tradition also influenced the approach to certainty of funds. American sponsors and lenders were comfortable with conditions precedent that gave both parties maximum flexibility. "Financing condition" clauses were common in early US LBOs. The lender could walk away if it got nervous. The sponsor could walk away if the economics got worse. The documentation was a tool for managing that optionality. But English law has a concept of "time for performance," and there is a tradition that if you make a commitment, you must perform it. This led to the development of the "certainty of funds" language in European documentation, which required not just a commitment to lend but actual certainty that the funds would be available—typically evidenced by an arrangement letter from the lender or lenders committing the funds and stating that there were no conditions to funding beyond those in the facility agreement itself.
+
+The LMA, as it developed its templates and market practice, essentially codified these approaches into a consistent framework. The templates became the baseline for most European transactions, just as the LSTA template (and the various LMA / LSTA hybrid templates for larger deals) became the baseline in the US. But the baseline was fundamentally different. It reflected different legal constraints, different regulatory environments, and different market philosophies. By the early 2000s, the two markets were quite far apart in their documentation approaches, even though the underlying economics and deal structures were often similar.
+
+A crucial point to understand is that neither approach is obviously superior. The US approach offers flexibility and breadth of covenant protection. The European approach offers clarity and a framework that respects legal constraints. American sponsors loved the comprehensive approach because it gave them room to negotiate baskets and carve-outs. American lenders loved it because they felt they had captured their risks in detailed documentation. European sponsors came to appreciate the clarity of knowing what was and was not permitted. European lenders appreciated that the documentation stayed within the bounds of what was actually enforceable under law. European investors, particularly institutional investors like insurance companies, appreciated that the terms were stable and did not depend on constant amendments and amendments to amendments.
+
+The role of New York law versus English law is important here. Most US transactions are governed by New York law, with certain administrative provisions potentially governed by other state laws where there are jurisdictional issues. English law, as the common law of England and Wales, is essentially the lingua franca of international contracts. It is flexible, sophisticated, and well-established through centuries of case law. But it is not the only option. Many US transactions could theoretically be governed by English law—and some international sponsors prefer this—but the market convention is New York law. Conversely, European transactions are usually governed by English law, even when the borrower is a German company or a French one. This is because English law provides the framework for international syndication and most of the investors in a European loan syndicate feel more comfortable with English law than with the law of whatever country the borrower happens to be domiciled in.
+
+However, this is changing somewhat, and here I should note something I have observed over the past several years: there is increasing comfort with local law documentation in European markets, particularly for very large transactions where the borrower is a substantial local company. Germany has seen the emergence of German law LBO documentation. France has its own conventions. But the default, particularly for cross-border transactions or where there is significant institutional investor participation, remains English law.
+
+Why do London and New York dominate? This is partly historical accident and partly structural. London is the center of international banking. New York is the center of US finance. Both cities have deep capital markets, sophisticated legal practices, and critical mass of market participants. But it is also something else: both New York law and English law are extremely flexible and well-established. A New York lawyer can draft almost any concept you can imagine and have confidence that it will be enforced. Similarly, English law provides incredible flexibility. Parties can structure their transaction however they want, as long as they do not violate a handful of fundamental principles (no rewriting contracts willy-nilly, good faith in performance, no fraud, no illegality). This flexibility is enormously valuable in complex international transactions. The legal systems and practices of London and New York have developed specifically to accommodate this kind of sophisticated commercial activity. That is a major reason why they remain the centers of leveraged finance practice, despite the global nature of capital markets and the emergence of other financial centers.
+
+The separation of the two markets was reinforced by the emergence of the LMA and the LSTA as distinct organizations with distinct templates. By the early 2000s, if you were closing an American leveraged loan, you were almost certainly working from an LSTA template, perhaps modified by market practice and the particular sponsor's preferences. If you were closing a European leveraged loan, you were almost certainly working from an LMA template. These templates embodied the different philosophies, and the templates became the expected baseline. Deviation from the template, either direction, required business justification and careful negotiation. Over time, this reinforced the differences: lenders expected LMA documentation in Europe and LSTA documentation in the US, and anyone departing from that expectation faced questions and pushback.
+
+This situation persisted through the 1990s and 2000s with remarkable consistency. There were occasional hybrid transactions, particularly very large deals involving substantial US and European participation, where the parties tried to create a middle ground. These were almost never happy compromises. They typically borrowed the worst features of each market—the complexity of US documentation combined with the constraints of European law. Smart sponsors and lenders learned to simply pick a market and work within its conventions.
+
+What changed the picture was the financial crisis of 2008 and, in particular, the period afterwards when large institutional investors with global reach became increasingly important participants in leveraged finance. Certain global investment managers became dominant players in both US and European leveraged loans. These investors pushed for more consistent documentation across both markets. Additionally, the emergence of the direct lending market (private credit) created a new set of market participants who were not primarily working within the LMA or LSTA frameworks and who were instead creating their own documentation conventions, often drawing from both traditions.
+
+Still, fundamental differences persist, and understanding those differences is essential to anyone working in leveraged finance today. The legal constraints that created those differences have not gone away. English law still limits guarantees and financial assistance. German law still has strict guarantee limitations. French law still has concerns about upstream guarantees. And the regulatory environment remains different. These are not things that can be wished away through clever documentation. They have to be worked within, understood, and managed.
+
+THE CREDIT AGREEMENT STRUCTURE: TWO ARCHITECTURES, FUNDAMENTALLY DIFFERENT
+
+The moment you open a US syndicated loan agreement and a European facilities agreement side by side, you immediately encounter a structural difference that ripples through everything that follows. The US agreement is written as a comprehensive statement of the borrower's obligations and the lender's rights. The European agreement is written as a framework that specifies what is permitted and what is not, with the understanding that the framework exists within the constraints of applicable law.
+
+This difference manifests in the sheer volume of text. A comprehensive US credit agreement for a typical leveraged buyout of a mid-market company might run 150 to 200 pages, with another 50 to 100 pages of schedules. The schedules include detailed schedules of parties, of permitted liens, of organizational documents, and of other matters that the agreement cross-references continuously. A European facilities agreement for a similar transaction might run 120 to 150 pages with 30 to 50 pages of schedules. This is not because Europeans are more concise writers, though some might argue that point. It is because the architecture is different.
+
+The US credit agreement is organized around the concept of a comprehensive grant of authority and then layers of restrictions and carve-outs. The typical structure is this: The borrower represents that it has full power and authority to execute the agreement (Article II, Representations and Warranties). The borrower covenants to maintain compliance with the agreement's terms throughout the loan period (Article IV, Affirmative Covenants and Article V, Negative Covenants). The negative covenants are organized as broad prohibitions on activities, followed by detailed carve-outs specifying activities that are permitted (the "baskets"). A typical negative covenant on capital expenditures might state: "The Borrower shall not make any capital expenditures in any fiscal year exceeding (a) $[X] (the 'Annual CapEx Cap'), plus (b) an amount equal to depreciation and amortization in excess of capital expenditures in the prior year (the 'CapEx Rollover'), plus (c) an amount equal to 5% of Consolidated Assets, plus (d) capital expenditures financed with proceeds of asset sales, plus (e) capital expenditures financed with equity contributions, plus..." and so on. Each carve-out is carefully defined, cross-referenced against other defined terms, and applies subject to further conditions that may be specified in the definition of the basket itself.
+
+The European approach is more direct. A typical negative covenant might simply state: "The Borrower may undertake capital expenditures not exceeding (a) $[X] per annum, plus (b) such further amounts as are permitted under the Cash Flow Test." This is cleaner on the surface, but it requires that the Cash Flow Test be meticulously defined and that all the financial definitions be correct. It also requires that participants in the syndicate have confidence that the sponsor will not attempt to game the test.
+
+Why the difference? The answer lies partly in the attitude toward litigation and enforcement. The US market has historically assumed that disagreements will be resolved through recourse to court interpretation of the documents. Therefore, documentation must be extraordinarily precise and comprehensive, anticipating every conceivable argument. The parties know that a judge or jury will read the language as written, apply canons of construction that are established in case law, and make a determination. Given this assumption, it is crucial to have documentation that is as precise as possible.
+
+The European market, particularly the English law market, has historically assumed that disagreements will be resolved through negotiation between sophisticated commercial parties, possibly with recourse to arbitration for particularly difficult disputes, and that the documentation provides the framework for that negotiation rather than being a substitute for it. This is a generalization, and it is less true now than it was ten or fifteen years ago, but it remains influential in how European documentation is approached.
+
+The European facilities agreement typically begins with Conditions Precedent (Article II or III in the typical LMA structure), which are the conditions that must be satisfied before the lender is obligated to advance funds. This is followed by Representations and Warranties that the borrower makes, which typically are structured as ongoing representations (reps made at closing and at each borrowing and potentially at amendment) rather than one-time representations. Then comes the Covenants section, which is divided into Affirmative Covenants (what the borrower must do) and Negative Covenants (what the borrower must not do). The structure parallels the US structure, but the content is different.
+
+One of the most important structural differences relates to conditions precedent. In a US credit agreement, conditions precedent are often written to give optionality to participants. This is particularly true of financing conditions. The classic formulation is something like: "The closing shall be subject to, among other things, (a) the commitment of lenders to fund the Facility shall not have been terminated or materially modified, (b) there shall have been no Material Adverse Effect, (c) all representations and warranties shall be true and correct in all material respects, and (d) the credit agreement shall have been executed and delivered." The brilliant part of this formulation is how much wiggle room it provides. What is a Material Adverse Effect? That term is usually defined, but the definition invariably includes subjective components like "having a material adverse effect on the business, properties, financial condition, or results of operations of the Company, taken as a whole." A lender who is nervous can point to any number of developments and argue that they constitute a Material Adverse Effect. Similarly, "true and correct in all material respects" is interpreted in context: if a representation is qualified by "material" or "in all material respects," then minor breaches are not defaults, but the borderline is inevitably fuzzy.
+
+These kinds of conditions precedent exist in US documentation because lenders value the option value they provide. Particularly in equity sponsors' transactions, the lender is not expecting to call on the condition (that would be bad for the sponsor and thus bad for the deal dynamics), but the condition is there if circumstances really do deteriorate. The conditions precedent serve as a backstop against catastrophic risk.
+
+European market documentation, particularly in its most doctrinally pure form, takes a different approach. Conditions precedent should be, in theory, simply factual statements that are either true or false. Either the credit agreement was executed, or it was not. Either the borrower's representations and warranties were true and correct, or they were not. Either there is no material adverse effect, or there is. The difficulty is that making these conditions truly objective is nearly impossible in complex transactions. How do you test whether representations are "true and correct"? The answer is typically that you do not test the condition at all; you rely on the arranger or the lender's counsel to do a reasonable investigation, and if you do not find a problem, you assume none exists.
+
+This is where the "certain funds" concept comes in. In European documentation, and this is a crucial point that has very few equivalents in US practice, the arranger typically provides a "certain funds letter" or there is language in the facility agreement stating that "the Arrangers are certain that funds will be available to satisfy the financial condition to this Facility Agreement." This language essentially says: we are going to lend you money according to the terms of this facility agreement, and the only conditions precedent to funding are the conditions in the facility agreement itself. Any other commitment we make is not a condition precedent; it is a separate obligation that we may have, but it does not affect the credit facility itself.
+
+The purpose of this language is to prevent a sponsor from having their financing pulled away at the last minute. In a US context, if a financing condition is breached, the lender can simply decline to fund, and the sponsor has to scramble. In a European context, the certain funds language says: no, that is not going to happen. We are committed to funding, and the only question is whether the conditions in the facility agreement have been satisfied. This has profound implications for how European deals close, because the sponsor has more certainty, but the lender has less flexibility.
+
+American practices around what we call "sunglass provisions" do not really exist in European documentation in the same way. A sunglass provision is a condition precedent that allows a party to look out at the world and pull away if it does not like what it sees. The term comes from an old case where someone argued that they should be able to breach an agreement because they did not like looking at it anymore—a trivial argument, but it captured the idea that subjective conditions of satisfaction are problematic. US market participants developed increasingly sophisticated ways to include optionality in financing conditions while still claiming them to be objective. The material adverse effect condition became a kind of art form. Is a 5% decline in EBITDA a material adverse effect? What about a 10% decline? What about a 5% decline in revenue with stable margins? These questions became subject to intense negotiation in US deals, and the MAE definition in a large transaction often runs to ten or twenty pages, including specific carve-outs for events in the industry, changes in law, loss of customers, and other circumstances that the parties agreed would not constitute a material adverse effect.
+
+European documentation, by contrast, rarely includes MAE conditions in the financing terms. The certain funds concept is incompatible with a right to walk away based on material adverse changes in the business. The two markets made a deliberate choice here: the US prioritized optionality and the ability for both sponsor and lender to reassess before money changed hands. Europe prioritized certainty of funding and the ability to proceed with the transaction without last-minute surprises.
+
+This difference carries through to the rest of the agreement. In US documentation, covenants are typically written to require ongoing compliance throughout the life of the loan. A covenant violation is a default, period. There are typically default cure periods (usually three to five business days for most covenant defaults, though financial covenant defaults might have longer cure periods), but the covenant is binding from day one.
+
+In European documentation, particularly in deals involving institutional investors or larger sponsors, there is often a "Certain Funds Period" or "Availability Period" during which financial covenants do not apply. This might be six months, a year, or even two years after closing. The idea is that immediately after closing, the sponsor is focused on integration, synergies, and the core restructuring of the acquired business. Financial covenants that require the company to maintain certain leverage ratios or interest coverage ratios during this period would be counterproductive, because the sponsor's actions during this period (investment in working capital, integration expenses, restructuring charges) might temporarily depress financial metrics. The covenant holiday allows the sponsor to focus on core business activities without worrying about technical defaults.
+
+A truly "clean" condition precedent in European documentation, under the purest interpretation of the philosophy, would contain no subjectivity whatsoever. It would be something like: "the Facility Agreement has been executed by all parties" or "the Borrower's Certificate [a document prepared by the borrower confirming specified facts] has been delivered and is complete." In practice, most European facility agreements do include some element of judgment, particularly around representations and warranties (where the condition states that reps must be "true and correct in all material respects as of [date]"). But the spirit of the approach is to make conditions as objective as possible.
+
+The contrast with US practice is sharp. Consider how a US agreement handles the representation and warranty condition precedent: "The representations and warranties of the Loan Parties shall be true and correct in all material respects (or, if already qualified by materiality or Material Adverse Effect, as written) as of the date of the Facility Agreement and as of each Borrowing Date, with the same effect as if made on such date." Then, separately, there will be a Bring-Down Certificate that the borrower delivers stating that the representations are true and correct. The lender's counsel reviews the Bring-Down Certificate and the underlying facts and documents, and if they are satisfied, closing proceeds. The condition precedent is written in the agreement, but it is tested through a process of due diligence and the issuance of the Bring-Down Certificate.
+
+In European documentation, the Bring-Down Certificate is also present, but the condition precedent itself is often simpler: "The Borrower shall deliver a Certificate in the form attached as Schedule [X] confirming, among other things, that all representations and warranties which are deemed to be repeated are true and correct as of the relevant time." The condition is met if the certificate is delivered; the credit group is responsible for investigating whether what is stated in the certificate is true.
+
+Both approaches work, but they reflect different assumptions. The US approach assumes that you will do your own investigation and that the condition precedent provides a framework for that investigation. The European approach assumes that the sponsor and its advisors will deliver certificates that are themselves reliable representations of the truth, and the lender will rely on those representations rather than conducting a completely independent investigation.
+
+The implications of this structural difference are significant. In a US transaction, if something is wrong with the borrower's representations, the lender has a grounds for not funding (failure of a condition precedent) and also has a right to terminate the facility agreement post-funding if the misrepresentation is material (a representation breach default). In a European transaction, the process is typically more streamlined: the sponsor delivers the certificates, the lender and its counsel review them, and if the lender is satisfied, funding proceeds. Post-closing, breaches of representation and warranties are typically available as a default, but they do not automatically trigger immediate enforcement; instead, they require the lender to take affirmative action (delivering a default notice, moving to enforcement if the breach is not cured, etc.).
+
+The SunGard decision, which emerged in 1993 and has influenced US documentation ever since, essentially ruled that conditions precedent that are subjective or that depend on a party's satisfaction cannot be enforced. If you have a condition like "upon lender's satisfaction that [X]," the court will imply an obligation of good faith and reasonableness, and the lender cannot unreasonably withhold satisfaction. This decision made US market participants even more careful about how they drafted conditions precedent, and it drove the development of the extremely detailed MAE definitions and other conditions that are now standard in the market. European documentation, which developed with different assumptions about how agreements would be interpreted, never developed the same level of complexity in this area.
+
+GUARANTOR AND SECURITY PACKAGES: WHERE LEGAL CONSTRAINT MEETS DOCUMENTATION REALITY
+
+The guarantor and security package represents one of the clearest points of divergence between US and European documentation, and it is a divergence rooted not in preference but in law. Any practitioner working across both markets must understand this difference viscerally, because getting it wrong has real consequences: a security package that looks good on paper but violates German law will leave you with a worthless piece of paper, and a guarantee that breaches the financial assistance rules under English law might be recharacterized or even unenforceable.
+
+In a typical US leveraged loan transaction, the sponsor's goal is to put as much debt at the holding company level as possible. The holding company is the entity that is acquired and that holds the equity stakes in the operating company and any intermediate holding companies. The operating company and intermediate companies are the ones that actually run the businesses, generate the revenues, and produce the cash flow. If you can put debt at the holding company level and have it guaranteed by the operating companies and intermediate companies, you have achieved several things: you have accessed the cash flow of the entire group, you have simplified the cash management and the flow of cash up to the holding company to service debt, and you have created a situation where the holding company's equity is more junior to all the group's debt, which is favorable for the sponsors.
+
+To accomplish this, you need guarantees from the operating companies and intermediate companies. In US documentation, the starting point is that all material subsidiaries of the borrower shall be guarantors of the loan. There are exceptions for certain entities (foreign subsidiaries, entities that would violate local law, entities with business restrictions that would be triggered by becoming a guarantor), but the baseline is that you want universal guarantees.
+
+To make these guarantees effective, you also need security. The guarantor subsidiary should pledge all of its assets (subject to the exceptions mentioned above). The holding company, which is the primary borrower, should pledge its assets, which typically consist of the equity stakes in the subsidiaries (and thus the guarantor subsidiary is pledging the equity stakes it owns). You end up with a security structure where essentially the entire group is pledged as collateral for the debt.
+
+The security documentation in a US transaction typically includes a UCC-1 financing statement (for pledges of assets subject to Article 9 of the Uniform Commercial Code) that is filed with the Secretary of State of Delaware (if the company is Delaware incorporated, which is the case for most US holding companies) or the Secretary of State of the relevant state. There are also security agreements that grant the lender security interests in intangible assets like intellectual property, accounts receivable, and equipment. For equity interests, there is typically an equity pledge agreement. If the company has real property, there might be mortgage. The result is that when you are done, you have a comprehensive security package covering essentially all of the group's assets.
+
+Now compare this to a European context. Let's say you have a German target company being acquired by a UK holding company (Acquisition Vehicle Ltd), which is itself a subsidiary of a Luxembourg holding company (LuxCo), which is a subsidiary of a Cayman Islands holding company (Cayman LuxCo). The sponsor is a US-based fund with its own general partner.
+
+The first constraint is the financial assistance rule. Under Section 678 of the Companies Act 2006, a UK company is prohibited from providing "financial assistance" for the purpose of acquiring shares in itself or its holding company. The classic LBO structure—where you acquire the target, put the debt at the holding company level, and have the target guarantee that holding company debt—potentially violates the financial assistance rules. This is because the target is providing security (through its guarantee and security pledge) for the purpose of financing the holding company's acquisition of its shares (the equity stake in the target company). Financial assistance is interpreted broadly in UK law. It includes not just direct assistance but also indirect assistance: the loan might not be to the holding company directly, but if the proceeds are used to finance a share acquisition, and the company being acquired provides security, you might have a problem.
+
+The way European market participants solved this problem was to restructure the transaction so that the main borrower is at the operating company level, not the holding company level. Instead of having Acquisition Vehicle Ltd borrow and having the target guarantee, you have the target itself (or a subsidiary of the target) borrow, and the acquisition is structured with the target acquiring its own holding company (which does not really make sense, so instead you have the target refinance existing debt, or you have a subsidiary of the target borrow). This is clunky, but it avoids the financial assistance issues.
+
+Alternatively, and this became more common, the parties accept that the target and other European companies in the group will not provide guarantees. Instead, you have the holding company (Acquisition Vehicle Ltd) borrow the money, and only the holding company and other non-European entities guarantee. The European operating companies do not guarantee. This means that the lender only has recourse to the assets of the entities that have provided guarantees and security. The cash flow of the operating company is accessed through distributions (dividends) upward through the group to the holding company, which then uses that cash to service debt. This is less efficient than having the operating company directly liable, but it is legally compliant.
+
+The guarantee that is provided by the entities that do guarantee is subject to other constraints. German law has strict limitations on guarantees. A German company generally cannot guarantee the obligations of another group entity unless there is a "legitimate business purpose" and the guarantee is in the company's commercial interest. This is a much higher bar than the US concept of corporate benefit. Additionally, German law limits guarantees to a percentage of the company's net assets, often stated as 80% or even lower depending on interpretation.
+
+France has concerns about upstream guarantees (where a subsidiary guarantees the debt of a parent company). These are permitted, but they must be structured carefully and there must be a legitimate business purpose. Spain has similar concerns. Italy's approach varies, but there is generally caution about guarantees where the beneficiary is not a company in the same group.
+
+Enter the "Agreed Security Principles" (ASP), which is one of the most important concepts in European leveraged finance documentation. The Agreed Security Principles is a section of the facility agreement (or, in some cases, a separate document) that specifies exactly which entities in the group will give guarantees and security, and more importantly, it specifies what limitations are placed on those guarantees and security. A typical formulation would be something like this:
+
+"Guarantees shall be limited to Obligors which are not subject to the financial assistance restrictions under the Companies Act 2006 and which are subject to a cap equal to 80% of the Net Assets of the relevant Obligor. Security shall be created only over assets of Obligors and shall be subject to limitations under local law relating to guarantees, financial assistance, and other matters. Each Obligor's guarantee and security shall be subject to exclusions relating to assets that cannot legally be pledged."
+
+This language is doing several things at once. First, it is acknowledging that certain entities cannot be guarantors due to legal constraints. Second, it is placing a hard cap on the amount of the guarantee (80% of net assets is a common figure; the exact percentage is subject to negotiation and legal advice from local counsel). Third, it is acknowledging that security can only be created over assets that can legally be pledged. Fourth, it is creating a mechanism for tracking and limiting the guarantee cap.
+
+To implement the Agreed Security Principles, the credit agreement typically includes what is called a "limitation language" or "financial assistance language." This language appears in the definition of "Obligor" or in a separate section of the guarantees and covenants articles. A typical formulation might be:
+
+"Each guarantee and security is limited so as to ensure that the amount of the guarantee and security provided by each Obligor shall not exceed 80% of the Net Assets of the Obligor, and shall not include any assets that the Obligor is prohibited from pledging or guaranteeing by law or regulation. The Obligor shall provide updated financial information to the lenders annually, and if at any time the net assets decline such that the guarantee would exceed 80% of net assets, the parties shall amend the guarantee on terms agreed by the lenders."
+
+This is a remarkable statement if you really parse it, because what it is saying is: the guarantee that you gave us is only good to the extent that it complies with law, and we acknowledge that it might shrink if your net assets shrink. For a US lender, this is somewhat disorienting. In a US transaction, a guarantee is either good or it is not. You do not typically include language that says "the guarantee is valid only to the extent permitted by law"—that is implied. But in European documentation, these limitations are explicitly stated because the legal constraints are so significant and because the lender wants to be clear about what it is getting and what it is not getting.
+
+The hard cap is also important. In a US transaction, if a company is worth $100 million in net assets, it will generally guarantee 100% of the debt (subject to corporate law concerns in certain states, but those are relatively minor). In a European transaction with an 80% cap, the company will only guarantee $80 million of its net assets. If net assets decline to $50 million, the guarantee declines to $40 million (80% of $50 million). This is not a default; it is how the arrangement is structured from the beginning.
+
+Why an 80% cap? The cap is driven by two concerns. First, the lender wants to leave some headroom so that the guarantor company does not have all of its assets pledged as collateral. This is partly for practical reasons (the company needs some unpledged assets to conduct operations) and partly for legal reasons (in some jurisdictions, creditors can challenge guarantees where the guarantor has pledged all or substantially all of its assets). Second, the 80% figure is a market convention that emerged from practice. In some jurisdictions and some deals, the cap is 75%, in others it is 90%, but 80% is the most common. It is a number that all parties understand and that provides a reasonable balance between lender protection and guarantor flexibility.
+
+The guarantee cap is typically calculated based on "Net Assets," which is usually defined as total assets minus total liabilities, with various carve-outs. The definition can be quite complex, because the lender wants to make sure that the guarantee cap is calibrated based on a reliable measure of the company's financial condition. If you define net assets as book value calculated on a US GAAP basis, you get one number. If you define it as a calculation under IFRS, you might get a different number. If you allow the company to make adjustments for certain non-recurring items or extraordinary items, you get yet another number. The definition of Net Assets is one of the key negotiation points in a European facility agreement, and it is worth spending time getting it right, because it directly affects how much of the guarantee the lender will actually get.
+
+A trap that US practitioners sometimes fall into is thinking that the guarantee cap is something that can be negotiated away if you have the right leverage. It cannot. The cap is not a market preference; it is often a legal requirement. German counsel will tell you that a guarantee exceeding 80% of net assets might be unenforceable. English counsel will have concerns about financial assistance if the guarantee is too large. You can have 100% of what is legally available, but you cannot have 150% just because the loan agreement says so.
+
+The security package in a European transaction reflects the same principles. Security is typically created over the assets of the guarantor, but with explicit carve-outs. A typical security package might include:
+
+1. A security interest in equity shares held by the guarantor (typically the equity in operating subsidiaries).
+
+2. A security interest in amounts due to the guarantor from group companies (typically inter-company loans or amounts due on accounts).
+
+3. Bank account security, creating a charge over designated bank accounts of the guarantor.
+
+4. In some cases, security over material contracts or intellectual property, though this is less common and requires careful drafting to ensure that contractual restrictions are not violated.
+
+What is typically excluded:
+
+1. Real property, particularly if the guarantor uses it in its business. There are exceptions for real property owned by the guarantor but not used in the business, which can sometimes be pledged.
+
+2. Assets that the guarantor is prohibited from pledging by law or contract.
+
+3. Assets subject to third-party restrictions (like equipment leases with restrictions on pledging).
+
+The benefit of this approach is that it is honest. You are describing what you actually get, rather than claiming to have rights over assets that might be unavailable to you. The drawback, from a lender's perspective, is that it might be less comprehensive than what would be available in a US transaction.
+
+The whitewash procedure is another concept particular to European transactions. A whitewash is a process by which the guarantor company confirms, through a statement from its directors, that the guarantee will not cause the company to become unable to pay its debts. The statement is typically based on solvency analysis and a projection of cash flows. The idea is that even though the guarantee expands the company's liabilities (by making it contingently liable for the acquisition debt), the company remains solvent and able to pay its debts as they become due.
+
+In a typical transaction, this whitewash statement is obtained from the guarantor company's directors (or from local counsel who are advising the guarantor) and is provided to the lender as a condition precedent to closing. The directors are making a statement that in their judgment, the company is solvent after giving effect to the guarantee. This is important because if the company later becomes insolvent and goes into insolvency proceedings, the company's insolvency administrators might attempt to unwind the guarantee on the grounds that the directors breached their fiduciary duty by guaranteeing an obligation that rendered the company insolvent.
+
+The whitewash statement does not eliminate the risk, but it does establish that the directors considered the question at the time of the guarantee and made a reasoned judgment that the company would remain solvent. This is a form of protection that is unique to European practice and that reflects the concern about director liability that is particularly acute in jurisdictions like Germany, France, and the UK.
+
+From a practical perspective, what all of this means is that in a European transaction, your guarantee and security package is shaped by legal constraints that are real and binding. You cannot negotiate around them. What you can do is:
+
+1. Structure the group so that the most secure entities (those with significant net assets, those not subject to financial assistance restrictions, those not in civil law jurisdictions with restrictive guarantee laws) are the ones providing the guarantee.
+
+2. Define the guarantee cap carefully so that you maximize the guarantee that is available within legal constraints.
+
+3. Conduct thorough legal due diligence upfront to identify the legal constraints in each jurisdiction where you have material guarantor entities.
+
+4. Plan for potential changes in the guarantee over time (e.g., if a guarantor company's net assets shrink due to business conditions, the guarantee cap will shrink accordingly, and this is not a default or an amendment; it is how the arrangement works).
+
+5. Consider whether upstream security from operating companies (the companies actually generating cash flow) is available, and if so, structure it carefully to stay within legal limits.
+
+This is fundamentally different from US practice, where the question is not "what can we legally get as a guarantee?" but rather "how much guarantee do we want to get, and what is our negotiating strategy to obtain it?" The framing is backwards, and practitioners who have spent their careers in the US market need to retrain their brains to think in European terms.
+
+COVENANT FRAMEWORKS: FROM COVENANT-HEAVY TO COVENANT-LITE, AND THE TRANSATLANTIC CONVERGENCE
+
+The covenant framework is perhaps the most visible point of difference between US and European leveraged finance documentation, and it is also the area where the convergence between the two markets has been most dramatic over the past fifteen years. Understanding covenant structures in both markets requires understanding not just the technical definitions but the philosophy behind them.
+
+For most of the history of US leveraged finance, covenants were viewed as the lender's primary tool for understanding and monitoring the borrower's financial condition and for intervening quickly if conditions deteriorated. A typical US covenant package in a traditional bank loan from the 1990s and 2000s would include:
+
+1. Financial maintenance covenants requiring the borrower to maintain maximum leverage ratios and minimum interest coverage ratios, typically tested quarterly.
+
+2. A cash flow sweep, requiring excess cash to be applied to pay down debt under specified conditions.
+
+3. A capex basket, limiting the borrower's ability to make capital expenditures.
+
+4. A restricted payments covenant, limiting the ability to pay dividends, make distributions, or repurchase stock.
+
+5. Debt incurrence covenants, limiting the ability to take on additional debt unless certain conditions are met (typically that the pro forma leverage ratio does not exceed a specified level).
+
+6. Asset sale provisions, requiring that proceeds from asset sales be applied to debt paydown unless reinvested or certain conditions are met.
+
+7. A basket of affirmative covenants requiring the company to maintain insurance, keep books and records, comply with law, and so forth.
+
+These covenants were tested throughout the life of the loan. If the company missed a financial covenant test (e.g., leverage rose above the specified maximum), the loan would be in technical default. The lender could then either grant a waiver (often for a fee) or demand immediate repayment. For most companies, the covenant waivers would be routine—the company would request it and the bank would grant it for a fee that was usually 25 to 50 basis points (or sometimes more if the breach was material). But the existence of the covenant provided the lender with a lever: if the company wanted to continue operating and needed money, it had to stay (or get back to) compliance.
+
+This system worked well when banks were the primary holders of corporate debt. Banks had ongoing relationships with their borrowers, they conducted regular financial reviews, they wanted the business relationship to continue, and they were comfortable with ongoing amendments and modifications. But as leveraged finance evolved in the 2000s and especially after the 2008 financial crisis, institutional investors became increasingly important holders of loan debt. These investors (mutual funds, insurance companies, hedge funds, collateralized loan obligations) wanted simpler, less relationship-intensive debt. They wanted to own a debt instrument that had fixed terms and that they could trade. The consequence was the emergence and growth of "cov-lite" or "covenant-lite" loans.
+
+A cov-lite loan in the US typically has the following characteristics:
+
+1. No financial maintenance covenants. The loan includes a condition precedent that if leverage exceeds a specified level (typically 5.5x to 6.5x), the lender has the right to call the loan or impose a default rate on the revolving facility (turning it from a term loan into a more expensive revolving facility). But the borrower does not have to be in compliance with the leverage ratio throughout the life of the loan; the only consequence of exceeding the level is that the lender can call the loan or impose default rates.
+
+2. Incurrence-only covenants. Covenants around restricted payments (dividends), asset sales, debt incurrence, and capex are structured as "incurrence" covenants. This means that if the company wants to take the action (pay a dividend, incur debt, make a capital expenditure), it has to satisfy certain financial tests at that moment. But if the company does not want to take the action, it does not have to be in compliance. For example, a restricted payments covenant might state: "The Borrower may pay dividends and make distributions if, after giving pro forma effect to the distribution, the Leverage Ratio does not exceed 3.0x." The company does not have to maintain compliance with this ratio throughout the quarter; it only has to test compliance if it wants to pay a dividend.
+
+3. A modified financial covenant, often called a "springing" covenant. This might state: "If average availability under the revolver is less than $[X] (typically $100-200 million, or 10-12.5% of the revolver commitment), then the company must maintain leverage below [X]." This creates a financial covenant that only "springs" into effect if liquidity gets tight. The idea is that if the company's liquidity is adequate, the lender does not care about leverage. But if liquidity is declining, the lender wants the assurance that leverage is under control.
+
+The first cov-lite loans in the US market emerged in the mid-2000s, and they became dominant by the late 2000s. By 2007-2008, most sponsored leveraged loans were cov-lite. Then came the financial crisis, and suddenly many sponsors discovered that they preferred covenants after all, because covenants gave them more certainty about what the lender would do. When you have a company with deteriorating financial performance and technical covenant defaults every quarter, at least you know where you stand: the lender will demand a waiver and get paid a fee. When you have cov-lite, with no maintenance covenants but a springing leverage test that you might trigger, you are not sure whether you are in default until you try to take some action and find out the test applies.
+
+The market settled into a middle ground: many traditional sponsors still prefer some financial covenants, because they want clarity. But institutional investors still strongly prefer cov-lite. The result is that the market bifurcated into "cov-lite" loans for institutional investors and "cov-full" or "covenant-heavy" loans for bank financings.
+
+Over in Europe, the covenant philosophy was somewhat different. The traditional European approach was to include financial maintenance covenants, but the covenant testing was often done on an annual basis rather than quarterly. The idea was that the company was tested once a year, typically shortly after year-end when full-year financial statements were available. This gave the company visibility into its financial condition and the lender a clear checkpoint once a year. Covenants were typically less aggressive than in the US: leverage ratios might be tested at levels like 4.5x or 5.0x rather than 3.5x or 4.0x. Interest coverage might be tested at levels like 2.5x rather than 3.0x. The baskets for restricted payments and other covenants were typically tighter.
+
+This reflected a different assumption about how the loan would be managed. The expectation was that the loan would amend once a year at the time of financial testing. If leverage went above the covenant level, you amended the covenant, usually for a modest fee. The amendment would be a standard piece of business.
+
+Starting in the early 2010s, European sponsors and lenders began moving toward cov-lite structures, similar to what had happened in the US market. The drivers were similar: institutional investors were growing in importance, there was more trading in the European secondary loan market, and investors wanted simpler, more transparent debt instruments. But the implementation was somewhat different. European cov-lite often meant slightly relaxed maintenance covenants rather than complete elimination of them. A typical European cov-lite might include:
+
+1. Maintenance covenants tested quarterly, but at relaxed levels (leverage at 5.0x or 5.5x rather than 4.0x).
+
+2. Incurrence covenants on restricted payments and certain other items, tested at the time the action is taken.
+
+3. A covenant holiday (typically 12-24 months) during which no financial covenants apply at all.
+
+By the mid-2010s, the US and European covenant philosophies had moved somewhat closer together. Many deals in both markets were cov-lite. Many deals in both markets had incurrence covenants on restricted payments. Many deals in both markets had relaxed leverage tests. But the implementation details remained different.
+
+At the heart of these differences is the definition of EBITDA, because every covenant test is ultimately testing some version of EBITDA (whether it is leverage, which is total debt divided by EBITDA, or interest coverage, which is EBITDA divided by interest expense, or other variations). The US market historically took a very expansive approach to EBITDA addbacks. The classic LSTA template, and every US facility agreement descended from it, includes a definition of EBITDA something like:
+
+"EBITDA means, with respect to any fiscal period, Net Income plus (a) in the case of a non-cash charge, depreciation and amortization, (b) interest expense, (c) taxes, (d) non-recurring or one-time charges (to the extent not to exceed X% of operating revenues), (e) charges related to restructuring, business optimization, or severance (to the extent such charges are actually incurred and not deferred), (f) one-time charges related to integration, (g) non-recurring equipment rental or service charges, (h) and such other items as agreed by the Company and the Required Lenders (to the extent not to exceed Y% of operating revenues)."
+
+This is a remarkably permissive definition. The borrower has several opportunities to add things back: restructuring charges, severance, integration charges, and then a catch-all basket for other items. The net result is that for a company in the midst of an acquisition integration, EBITDA as calculated can be substantially higher than operating earnings.
+
+The European approach was traditionally tighter. An LMA facility agreement would define EBITDA more narrowly, with fewer addbacks. The philosophy was that EBITDA should represent the company's actual run-rate operating earnings, not inflated earnings that include temporary adjustments. This reflected the assumption that the covenant test was meant to ensure the company's financial health, not to game the numbers to stay in compliance.
+
+However, this is one area where convergence has clearly happened. By the 2010s, US-style addbacks had migrated into many European facility agreements, particularly for sponsored transactions. Sponsors argued that they needed flexibility to restructure and integrate, and lenders accepted this argument, particularly when the sponsor had good repayment prospects. By 2020, an LMA template facility agreement might include EBITDA addbacks very similar to what you would see in a US facility agreement.
+
+The "Certain Funds Period" is a concept that is relatively unique to European transactions, though it has spread somewhat into US practice over the years. During the Certain Funds Period (typically 12-24 months after initial closing), no financial covenants apply. The idea is that immediately after an acquisition closes, the sponsor is focused on integration, and financial covenants that require the company to maintain specific leverage or interest coverage ratios would be counterproductive during this period. After the Certain Funds Period expires, financial covenants begin to apply.
+
+The Certain Funds Period is a concession by the lender to the sponsor's need for flexibility immediately post-close. It reflects the understanding that the first 12-24 months of ownership are particularly challenging and that imposing strict financial tests during this period could force technical defaults that would require amendments and waivers. By building in a covenant holiday, the parties acknowledge that this is temporary, and after the holiday expires, the company needs to be in compliance with financial covenants.
+
+In US transactions, the equivalent is typically achieved through unusually loose covenant testing in year one or through a "springing" covenant that does not become effective until a specified date. But the principle is similar: both markets recognize that immediately post-close, the company needs some flexibility.
+
+The restricted payments covenant (also called "distributions" or "dividends" covenant) is another area where philosophy has shifted over time. Historically, restricted payments covenants were quite tight. The borrower could not pay dividends, make distributions, or buy back stock unless the company was in compliance with financial covenants and had built up an "available amount" through a basket of permitted uses (like equity contributions from sponsors, proceeds from asset sales, retained earnings).
+
+The "J. Crew blocker" (named after the 2017 near-default of J. Crew Group, which was highly leveraged and made a dividend payment shortly before financial performance deteriorated) emerged as a key negotiation point. Sponsors argued that they should be able to make management distributions (dividends to shareholders, fees to sponsors for monitoring, and similar items) without being subject to restrictive tests. Lenders wanted to ensure that the company was in good financial condition before allowing distributions to sponsors.
+
+The compromise that emerged was typically something like: "The Borrower may pay management fees, preferred dividends, and similar distributions in an amount not to exceed [X]% of Consolidated EBITDA, without regard to financial covenant tests, but any distribution exceeding that amount must satisfy the restricted payments covenant basket." This gives sponsors certainty about a baseline level of distributions while protecting lenders by not allowing unlimited distributions if the company is struggling.
+
+In European deals, the restricted payments framework is often simpler: you specify what distributions are permitted (typically management fees up to a certain amount and dividends to shareholders up to a certain percentage of net income) and what distributions are not permitted without testing (acquisitions, sponsor distributions above the permitted level, etc.). The testing itself often looks at a cash flow or leverage metric: "You can pay this dividend if leverage is below 3.0x" or "You can pay this dividend if covenant liquidity exceeds $50 million."
+
+The convergence in covenant structures has been substantial, but differences remain. One key remaining difference is the approach to equity cures. In a US transaction, many leverage-based covenants include an "equity cure" provision: if the company breaches the leverage covenant, the sponsor can contribute equity to the company, and the equity is deemed to be a reduction in debt for purposes of calculating the leverage ratio. This gives the sponsor an out if financial performance deteriorates. For example, if the company has $300 million of debt and $200 million of EBITDA, and the leverage covenant is 4.0x, the company would be in breach (leverage is 1.5x). But the sponsor could contribute $150 million of equity, which would count as a debt reduction, reducing debt to $150 million and bringing leverage to 0.75x, well within the covenant.
+
+Equity cures are less common in European transactions, and the few that do exist are more restricted in scope. The concern is that equity cures defeat the purpose of covenants: if the sponsor can always cure a leverage breach by contributing equity, then the covenant is not really constraining. Also, equity cures are expensive for the sponsor (they reduce upside), so in a stressed situation, the sponsor might resist contributing equity, leaving the lender with a breach anyway.
+
+What twenty years teaches about covenants is this: the covenant structure should reflect the actual monitoring and oversight that the lender intends to perform and the actual constraints that matter for the transaction. If you have a large institutional investor base that is going to own the loan on a buy-and-hold basis, tight financial covenants might be counterproductive, because they will just generate amendments and waivers rather than real discipline. If you have a bank that intends to actively manage the credit, financial covenants make sense and should be calibrated to reflect what the bank intends to monitor. The worst situation is one where covenant tests are aggressive but the lender has no real ability to monitor compliance or willingness to enforce: this just sets up inevitable breaches and amendments.
+
+RESTRICTED PAYMENTS AND DISTRIBUTIONS: BASKETS, CAPACITY, AND THE FLOW OF CASH UPWARD
+
+The restricted payments covenant is one of the most negotiated sections of any leveraged finance facility agreement, and it is also one where the US and European approaches have remained most divergent, though convergence is happening here too.
+
+In a typical LBO, the sponsor is making a significant equity investment but expects to receive cash returns on that investment through distributions (dividends) from the acquired company. These distributions come from cash generated by the company's operations, after the company has paid interest, principal, and taxes, and after the company has made necessary capital expenditures and working capital investments. If the sponsor never received distributions, there would be no return on the equity investment, and sponsors would not do LBOs.
+
+However, lenders are concerned that if the sponsor can take unlimited distributions, the company's equity cushion and financial flexibility will erode. The restricted payments covenant is meant to balance these two concerns: allowing sponsors to take some distributions (and some cash for management fees) while ensuring that the company maintains adequate financial capacity.
+
+In a US transaction, the typical approach is to give the borrower a "restricted payments capacity" or "available amount" that accumulates through the life of the loan. The restricted payments covenant might be structured like this:
+
+"The Borrower may make restricted payments (including dividends, distributions, management fees, and similar items) in the aggregate amount not to exceed the sum of:
+
+(a) Cumulative Net Income (all positive net income since the closing date, with certain adjustments);
+
+(b) Cumulative non-restricted payments (like the cash actually paid out in connection with permitted debt paydown or other non-restricted activities);
+
+(c) A fixed dollar amount (often $[X] or an amount equal to a percentage of purchase price);
+
+(d) Amounts contributed to the company as equity;
+
+(e) Proceeds from asset sales to the extent not required to be applied to debt paydown;
+
+(f) An equity cure contribution (the sponsor can contribute equity, and that is counted as available capacity).
+
+Minus:
+
+(g) All restricted payments previously made.
+
+The result is that there is a growing pool of available capacity as the company earns profits, as the company pays down debt, and as the sponsor contributes equity. The sponsor can draw down this capacity to fund distributions."
+
+This is a flexible structure that encourages the company to improve financially (improvement in net income increases available capacity) and encourages the sponsor to pay down debt (debt paydown increases available capacity). It also requires ongoing monitoring: the sponsor needs to track the available amount and ensure it does not exceed it.
+
+In a European transaction, the approach has historically been more static. The facility agreement would specify what distributions are permitted without any financial testing, and what distributions require a financial test. A typical formulation:
+
+"The Borrower may pay dividends and other distributions to shareholders (a) in an amount not to exceed [currency] [amount] in any fiscal year (for management distributions, dividend on preferred stock, etc.), provided that no default has occurred, and (b) any other distributions only if, after giving pro forma effect to the distribution, the Leverage Ratio does not exceed [X] and Consolidated Cash Flow Test is satisfied."
+
+This approach is simpler: there is an unconstrained basket for specified distributions, and a tested basket for everything else. The financial test (leverage and cash flow) is applied at the time the distribution is proposed, not over time.
+
+The difference in approach reflects different philosophies. The US approach treats distributions as something that accumulate over time based on financial performance. The European approach treats distributions as something that is either permitted at the moment or not permitted. Both work, but they require different financial tracking and different approaches to amendments.
+
+In the past several years, there has been convergence toward hybrid approaches. Sponsors increasingly want the certainty of a baseline distribution capacity (like the US approach) combined with the simplicity of financial tests (like the European approach). So you see facility agreements that specify:
+
+"The Borrower may pay dividends and distributions up to [currency] [amount] per annum plus, in addition, any amounts required to be paid as taxes on the earnings of the equity holders, without regard to financial tests. Any distributions in excess of this amount shall be subject to the leverage and cash flow tests."
+
+This is a sensible compromise: it guarantees the sponsor a baseline distribution without requiring continuous monitoring of available capacity, but it preserves lender protection through testing for distributions above the baseline.
+
+Management fees and monitoring fees are a particular category of restricted payments that has become increasingly important as sponsor involvement in portfolio companies has become more formalized. These fees (often 2-3% of purchase price annually) are paid to the sponsor as compensation for board service, monitoring, and strategic assistance. They are often treated as operating expenses of the company (like consulting fees) rather than as distributions, which means they reduce EBITDA rather than being paid out of available distribution capacity.
+
+The question of whether management fees are operating expenses or distributions is actually quite important, because if they are operating expenses, they reduce the leverage ratio (because leverage is debt divided by EBITDA, and EBITDA is lower if you deduct management fees), but they also reduce the cash available for distributions (because the cash was paid to the sponsor). If they are distributions, they are not deducted from EBITDA (so leverage looks better) but they do count against the restricted payments basket.
+
+The LMA approach, reflected in most European transactions, tends to treat reasonable management fees (typically up to 2% of purchase price annually) as permitted operating expenses that are deducted from EBITDA. The LSTA approach is more variable: some agreements treat them as operating expenses, others treat them as restricted payments subject to a carve-out.
+
+The "J. Crew blocker" reference I mentioned earlier reflects an actual issue that became prominent in 2017. J. Crew Group was a heavily leveraged apparel company that had been acquired in an LBO. Over time, the company's financial performance deteriorated due to changes in retail markets, shifts in consumer preferences, and general economic conditions. By 2016-2017, the company was struggling, and the leverage ratio was approaching the maximum permitted level. However, the company was still able to pay dividends to the sponsor and manage fees, because the restricted payments covenant had a basket that did not require leverage testing for specified types of distributions. The company paid significant distributions to the sponsor just before financial performance deteriorated further, and the company came close to default. When that news became public, it sparked a conversation in the market about whether sponsors should be able to take cash out of struggling portfolio companies.
+
+The response in the market was to impose tighter restrictions on management and sponsor distributions when leverage is elevated. Many sponsors began negotiating "J. Crew blockers" explicitly: provisions stating that if leverage exceeds a certain level (often 4.5x or 5.0x), sponsor and management distributions are prohibited or severely restricted. This forces sponsors to retain cash in the company to improve leverage, rather than taking cash out.
+
+This is an interesting example of how market events drive documentation changes. Ten years earlier, the idea that sponsors would be prohibited from taking management fees or sponsor distributions would have been unacceptable. But after J. Crew, it became market standard.
+
+The holdco structure (where the real estate company or other substantially different assets are held at a different level in the capital structure than the operating business) creates particular complications for restricted payments covenants. If the target company has significant real estate that is held in a separate subsidiary or in a separate structure (REIT, for example), then the cashflow from the real estate (rents, capital appreciation, etc.) does not flow through the borrower/guarantor entities in the same way. The restricted payments covenant needs to account for this: you typically can make distributions of dividends from subsidiaries, so the real estate cashflow can flow upward.
+
+What twenty years teaches about restricted payments is that the covenant should reflect the parties' actual expectations about sponsor distributions. If the sponsor expects to take meaningful distributions during the life of the loan, the covenant should accommodate that, but with protection for the lender in the form of leverage tests or other financial metrics. If the sponsor is taking a more mezzanine approach and expects limited distributions in the early years, the covenant can be tighter. And if you are in a market crisis or the company is struggling, tighter sponsor distribution limitations are absolutely appropriate. But documenting the restricted payments covenant should be a conversation about what actually makes sense financially, not just applying templates or market standards.
+
+PERMITTED DEBT AND LIEN BASKETS: THE ARCHITECTURE OF LEVERAGE IN TWO MARKETS
+
+The permitted debt and permitted liens provisions are the skeletal structure of the capital structure, telling you where leverage can and cannot sit in the group, and what other debt or liens (outside of the loan being documented) can exist. These provisions show the fundamental differences between US and European approaches as clearly as almost anything else in the documentation.
+
+In a US transaction, the debt incurrence covenant is typically structured as a "grower" basket with a "size of the test" size provision. The concept is that if the company can satisfy certain financial tests, it has the right to incur additional debt. The typical formulation:
+
+"The Borrower may incur additional indebtedness if, after giving pro forma effect to the incurrence and the use of proceeds, the Leverage Ratio does not exceed 3.5x (or some other ratio specified in the agreement) and certain other conditions are satisfied."
+
+The test is a ratio: as long as you can still demonstrate that pro forma leverage is below the test level, you can incur more debt. If your EBITDA is growing or if you are paying down existing debt, your pro forma leverage ratio improves, and you gain more capacity to incur new debt. This is called a "grower" basket because the basket "grows" as the company improves.
+
+Additionally, US facility agreements typically include baskets for specific types of debt that are either not tested or subject to reduced testing:
+
+1. A "ratio debt" basket, typically equal to some multiple (like 0.5x or 1.0x) of EBITDA, for debt that does not have to meet the leverage test;
+
+2. A "refinancing" basket for debt incurred to refinance existing debt, as long as the refinancing debt is not significantly larger or longer-dated;
+
+3. An "incremental facility" basket, giving the lender the right to offer additional financing (typically revolvers or term loans) that does not count against debt baskets, as long as certain conditions are satisfied (maintenance leverage is tested at a lower level, the incremental facility is either pari passu or junior, etc.);
+
+4. Specified permitted debt, like capitalized leases (within limits), purchase price adjustments, earnouts, and similar items.
+
+The net result is that the borrower has significant flexibility to incur additional debt, as long as it is meeting financial tests and staying within baskets. Over the life of a leveraged loan, it is not uncommon for the borrower to incur a significant amount of additional debt under these baskets.
+
+In a European transaction, the approach is traditionally more constrained. The permitted financial indebtedness is often structured as a series of permitted baskets, each specifying what debt is allowed and in what amount. A typical structure:
+
+"The Borrower may incur or permit to be outstanding the following financial indebtedness:
+
+(a) The facilities provided under this agreement;
+
+(b) Trade payables in the ordinary course of business;
+
+(c) Debt to the extent it results from the guarantee of third-party debt (like a customer commitment where the Borrower guarantees the customer's obligation);
+
+(d) Debt incurred to refinance existing debt, provided the amount does not exceed [amount] and certain refinancing conditions are met;
+
+(e) Acquisition debt (for the purchase of new businesses or material assets), provided that [leverage test is met / amount is limited];
+
+(f) Debt arising from the deferral of management fees or similar items;
+
+(g) Debt arising from finance leases, provided that [test] is met.
+
+That's it. Everything else is prohibited."
+
+This is a much simpler approach, but it offers less flexibility to the borrower. The borrower cannot unilaterally incur debt that does not fit into one of the specified baskets. Any new type of debt requires an amendment.
+
+However, the incremental debt concept has migrated into European documentation in recent years, driven by sponsors who wanted more flexibility. Many European facility agreements now include something called an "incremental facility" that is not subject to the same limitations as other debt. This typically allows the lender (or other lenders) to provide additional financing (usually super senior revolving facilities) that does not count against the borrower's existing debt covenants, subject to certain tests being satisfied.
+
+The super senior revolving facility concept is particularly interesting because it is unique to European practice. A typical transaction might have first-lien term debt and guarantees at a holding company level, combined with a super senior revolving facility at the operating company level that is outside of the intercreditor agreement framework and that sits atop the first-lien debt in the capital structure. This creates a three-tier structure: the sponsor equity at the bottom, the first-lien term debt in the middle, and the super senior revolver at the top.
+
+The benefit of this structure is that the company has flexibility to draw on the super senior revolver for working capital needs without violating covenants tied to the first-lien term debt. For example, if the facility agreement restricts additional debt, the super senior revolver is often carved out and not counted. If the agreement requires leverage tests, the super senior revolver is often excluded from the definition of debt for purposes of the test (because it is "super senior" and sits atop everything else anyway, the lender is comfortable with it not being included in the test).
+
+The permitted liens provisions are parallel to the permitted debt provisions, specifying what liens (security interests) can exist on the company's assets, and what assets can be pledged. In a US transaction, the typical approach is to state that the company's assets are not subject to any liens except for:
+
+(a) The liens created by the credit agreement itself;
+
+(b) Liens that are permitted under the credit agreement (like liens for taxes, liens for utilities, liens in the ordinary course of business, etc.);
+
+(c) Liens that existed before closing, to the extent disclosed in a schedule;
+
+(d) Liens arising from refinancing debt, as long as the refinancing meets the refinancing basket requirements.
+
+In a European transaction, the approach is similar, but it tends to be more explicit about what is not permitted. Rather than saying "liens as permitted," the European facility typically says "liens which do not materially interfere with the operation of the business" or "liens which arise in the ordinary course of business."
+
+One important distinction in European practice is between the "Obligor" concept and the broader group. The Obligor entities are typically the entities that are party to the facility agreement or that have provided guarantees. The Obligor entities are subject to detailed restrictions on liens. Other entities in the group might not be Obligors (for example, if they are foreign subsidiaries or their assets are not pledged as collateral), and they might be subject to less restrictive lien covenants. This allows the borrower to operate non-core subsidiaries with less constraint, even if the main operating entities and the holding company have restrictive lien covenants.
+
+The intercreditor framework in both markets determines how multiple layers of debt interact. In the US market, first-lien and second-lien debt are common, with the first-lien lenders having priority in enforcement and distribution from proceeds of collateral. This is typically addressed in the credit agreement itself through a security agreement and various intercreditor mechanics. In some cases, particularly where there is institutional second-lien debt, the intercreditor arrangement is addressed in a separate intercreditor agreement.
+
+In European practice, the intercreditor framework is almost always documented in a separate European Intercreditor Agreement (EIA), which is a dedicated document addressing the interaction between secured creditors (typically first-lien lenders and second-lien holders, or first-lien lenders and mezzanine debt holders). The EIA specifies who has priority, how enforcement works, what happens if one of the creditors wants to enforce collateral, and how proceeds are distributed.
+
+TRANSFER AND ASSIGNMENT PROVISIONS: TRADING AND SYNDICATION IN BOTH MARKETS
+
+The transfer and assignment provisions are the rules governing how the loan can be sold, traded, or otherwise transferred from one holder to another. These provisions are crucial because they determine the universe of people who can own the loan, and they also have direct implications for the secondary market, the trading activity that happens in the years after the loan closes, and the ultimate recovery for all creditors if the company gets into trouble.
+
+In a US transaction, the standard is that lenders can "assign" their commitment and their loans to other lenders and market participants, subject to certain restrictions. The restrictions typically include:
+
+1. A minimum hold requirement: the lender must hold the loan for a minimum period before being able to assign (typically 2-4 years);
+
+2. A minimum loan size: if a lender is assigning, the assignment must be for at least a specified amount, often $5 million or $10 million;
+
+3. Consent requirements: the borrower and the administrative lender consent to the assignment, though this consent cannot be unreasonably withheld (there are exceptions for certain groups of bad actors);
+
+4. Pro-rata requirements for revolvers: if there is a revolving facility, assignments are generally pro-rata, meaning all lenders in the revolver must participate in assignments.
+
+Additionally, there are important provisions around defaults: a lender cannot assign to a competitor of the borrower without consent, and there are restrictions on assignment to "affiliates" and other parties that might be problematic.
+
+The concept of "permitted transferees" emerges in both markets, particularly in larger deals where there is significant institutional investor participation. A permitted transferee might include mutual funds, insurance companies, credit funds, and similar institutional investors. Certain parties (competitors of the borrower, direct competitors of the sponsors, hostile investors) might be on a "bad actor" list and might not be permitted transferees.
+
+European practice is somewhat similar, but the language is different and historically the approach was more conservative. In an LMA facility agreement, transfers typically use the language of "transfer by novation," which is an English law concept meaning that the original lender is replaced by a new lender who takes on all the original lender's rights and obligations. This is different from an assignment in US law, where the original lender assigns its rights to a new lender but might remain liable to the borrower in certain contexts.
+
+The LMA standard documentation includes a novation provision that requires:
+
+1. A transfer agreement to be signed by the transferring lender, the transferee, and the borrower;
+
+2. The transferee to become a party to the facility agreement in place of the transferor;
+
+3. The transferor to be completely released from any further liability.
+
+Additionally, there are restrictions on transfer to:
+
+1. Entities in financial distress;
+
+2. Entities without appropriate regulatory standing;
+
+3. Competitors of the borrower (absent consent);
+
+4. Bad actors (sovereign wealth funds from certain countries, entities on sanctions lists, etc.).
+
+The CLO (collateralized loan obligation) market, which became significant in the 2010s, created particular challenges for transfer provisions. CLOs are investment vehicles that buy portfolios of leveraged loans and repay investors through the cash flows from those loans. The CLO manager needs to be able to trade loans in the portfolio, buying and selling them to optimize the CLO's performance. Many facility agreements were not friendly to CLO ownership, and CLO managers pushed back on restrictions on transfer.
+
+The response in the market was the emergence of "CLO-friendly" documentation, which includes specific carve-outs for CLO transfers. These carve-outs typically state that transfers to "qualified lenders" (which includes CLOs, loan fund managers, and similar participants) are subject to fewer restrictions than transfers to other parties. A typical CLO carve-out might state:
+
+"Notwithstanding any other provision of this agreement, transfers to qualified institutional lenders (including loan funds, CLOs, hedge funds, and similar institutional debt investors) are subject to the pro-rata requirement, minimum hold, and minimum loan size requirements, but the borrower's consent is not required, and the competitor restriction does not apply, provided that such qualified lender provides the facility agent with evidence of its status as a qualified lender."
+
+This preserves some protection for the borrower and the remaining lenders, but it opens up the secondary market significantly.
+
+Subcredits and sub-participations are another technique that emerged to allow lenders to reduce their exposure without formally assigning their loan. In a sub-participation, the original lender retains legal liability to the facility, but transfers its economic interest in a portion of the loan to another party. The sub-participant has no direct contractual relationship with the borrower; instead, it has a relationship with the original lender. This is less disruptive than an assignment, because it does not require the borrower's consent and does not trigger changes in the lender group. However, it creates complexity in the event of default or distress, because the original lender remains liable to the facility while having sold off its economic interest to sub-participants.
+
+In both the US and European markets, sub-participations have become less common over the years as syndication has become more standardized and as CLO and other institutional investors have created larger secondary markets for actual assignments. But they remain available as a technique when a lender wants to reduce its exposure without formally assigning and dealing with consent issues.
+
+Borrower consent rights around assignment and transfer vary significantly. Some facility agreements give the borrower the right to prohibit assignment to certain parties (competitors, bad actors, etc.). Other facility agreements give the borrower no consent rights beyond what is necessary to prevent legal or regulatory violations. The more restrictive the borrower consent rights, the more valuable the loan is to potential transferees, because transferees have assurance that they can be part of the lender group. But overly restrictive borrower consent rights can paralyze the secondary market, making it hard for lenders to exit their positions.
+
+The practical effect of transfer and assignment provisions is to create a spectrum from "illiquid" loans (where transfers are very restricted) to "liquid" loans (where transfers are easy and permitted to a broad universe of potential transferees). Very sponsored loans tend to be less liquid, because the sponsor wants to maintain control over who the lenders are and does not want hostile investors becoming members of the lender group. Large institutional loans tend to be more liquid, because the lenders anticipate that there will be secondary market trading and price the loan accordingly.
+
+AMENDMENT AND WAIVER MECHANICS: VOTING AND CONTROL IN THE LENDER SYNDICATE
+
+The amendment and waiver provisions determine how the lender syndicate makes decisions and changes the terms of the loan. These provisions have enormous practical importance, because over the life of a leveraged loan, there are almost always amendments and waivers. The company might violate a covenant and need a waiver. The company might want to incur additional debt and need a waiver to the permitted debt covenant. The company might want to make an acquisition and need a waiver to the permitted liens or asset sale covenants. The lender syndicate needs a mechanism to make these decisions without requiring unanimity (which would be impossible) but also without allowing a single lender to block changes that the rest of the syndicate wants.
+
+In a US facility agreement, the voting thresholds are typically structured around the concept of "Required Lenders," which is usually defined as lenders holding 50.1% of the outstanding loans. This means that if the Required Lenders agree, most changes to the facility agreement can be made. However, there are "sacred rights" or "carvebacks" that cannot be amended without the consent of all lenders, even if Required Lenders want to. These typically include:
+
+1. Reduction in the principal amount of the loan;
+
+2. Reduction in the interest rate or extension of the maturity of the loan without new consideration;
+
+3. Reduction in the proportion of principal or interest that must be repaid to any lender;
+
+4. Alteration of the rights or obligations of any individual lender with respect to its participation;
+
+5. Reduction in the Required Lender percentage itself (so you cannot amend the amendment threshold).
+
+Additionally, there are often "super-majority" items that require the consent of lenders holding a higher percentage (often 75% or sometimes a specified majority like "all lenders except the two largest") for changes. These might include major covenant modifications, changes to financial testing, and modifications to key representations.
+
+The logic of this system is clear: you want most decisions to be made by a majority (Required Lenders), but you want to protect individual lenders against having their economics diluted. If you are a lender and you negotiated for a certain interest rate, you do not want the Required Lenders to be able to reduce that rate and have you be bound by it. On the other hand, the Required Lender system allows the deal to proceed and be modified even if a few lenders are problematic or difficult to reach.
+
+The "yank-a-bank" provision is a colorful name for a provision that allows the Required Lenders to reduce the participation of non-participating lenders to zero if those lenders are not cooperating. The idea is that if you have a lender that is refusing to agree to a necessary waiver or amendment and is holding up the deal, the Required Lenders can force that lender out and distribute its pro-rata share to the remaining lenders. This is a nuclear option that is rarely used, but it is available, and its existence creates pressure on recalcitrant lenders to cooperate.
+
+In a European facility agreement, the voting threshold is typically structured around "Majority Lenders" or "Lending Group," which is usually defined as lenders holding 66.67% of the outstanding loans (note: a higher threshold than the US 50.1%). There are also sacred rights that cannot be amended without all lender consent, though the specific items might be different from the US:
+
+1. The amounts of the facilities or the proportion that must be repaid;
+
+2. The interest rate or the currency of payments;
+
+3. The maturity date;
+
+4. The rights of any individual lender.
+
+Additionally, European agreements often include "super-majority" thresholds (often 90% or a specified percentage) for major changes. But the baseline Majority threshold is higher than in the US.
+
+The "snooze you lose" provision is a provision particular to European facility agreements that addresses lender notification and silence. The typical formulation is: "If the Facility Agent sends a notice to all lenders seeking consent to an amendment or waiver, and a lender does not respond within a specified time period (often 5-10 business days), the lender's silence is deemed to be consent (or, alternatively, the lender is deemed to be a non-consenting lender but can be outvoted by Majority Lenders)." This provision is meant to prevent individual lenders from indefinitely delaying amendments by simply not responding to requests for consent.
+
+The "Open" amendment concept, which is specific to European practice, allows the Facility Agent or Majority Lenders to make certain routine changes without requiring consent from all lenders. These typically include amendments to addresses, definitions that need to be updated, and references that need to be corrected. The idea is that some changes are so administrative that requiring consent from everyone would be impractical.
+
+The voting mechanics in practice can be quite important in a distressed situation. If a company is struggling and needs significant covenant modifications or principal reductions, the process of obtaining lender consent becomes crucial. With the US 50.1% threshold, it is often possible to put together a plan that a clear majority of lenders support, even if some lenders resist. With the European 66.67% threshold, it is harder but still often possible. But if you have a very fragmented lender group with many small lenders, getting to 66.67% or even getting to 50.1% can be challenging.
+
+The role of the Administrative Agent or Facility Agent becomes important here. The Agent is responsible for calling lender meetings, distributing amendment proposals, and tracking lender votes. A proactive, capable Agent can facilitate amendments and help move deals forward. A passive or difficult Agent can create delays.
+
+What twenty years teaches about amendment mechanics is that the voting threshold should reflect the deal's structure and the likely lender base. For very large deals with deep, sophisticated institutional lender bases, a higher threshold (like the European 66.67%) can work, because lenders expect to be treated professionally and to make decisions collaboratively. For deals with more fragmented lender bases or where there might be distressed situations, a lower threshold (like the US 50.1%) often makes more sense, because you need the flexibility to move forward without universal consent.
+
+EVENTS OF DEFAULT AND REMEDIES: TRIGGERS AND ENFORCEMENT MECHANICS
+
+The events of default and remedies provisions are the lender's ultimate enforcement toolkit. These provisions specify what constitutes a default and what the lender can do if there is a default. The events of default are the triggers; the remedies are the enforcement mechanisms.
+
+In both US and European facility agreements, the events of default are similar in substance, though the language and structure might differ. Typical events of default include:
+
+1. Failure to pay principal or interest when due;
+
+2. Failure to comply with covenants (with cure periods for some covenant defaults);
+
+3. Breach of representations and warranties;
+
+4. Cross-default (default under other material debt);
+
+5. Insolvency or bankruptcy;
+
+6. Judgment default (unsatisfied judgments exceeding a certain amount);
+
+7. Change of control;
+
+8. Material adverse effect (in some agreements);
+
+9. Loss of material permits or licenses.
+
+The US approach typically structures defaults with references to the magnitude of the breach. For example, a covenant default might be stated as: "Failure to comply with any covenant in Article IV (Affirmative Covenants) except as otherwise specified; or failure to comply with any covenant in Article V (Negative Covenants) except as otherwise specified, and such failure continues for 5 business days after written notice (or for financial covenant defaults, 3 business days after the company discovers the default, or 10 days after notice if the company is diligently attempting to cure)."
+
+The European approach might be more direct: "Failure to comply with any of the terms of this agreement, and such failure continues for 15 business days after notice (unless notice is not required, in which case immediately)."
+
+The cure period is important. The US market generally allows cure periods for most covenant defaults (3-5 business days for operational covenants, sometimes longer for financial covenants). The European market is less generous with cure periods; a typical cure period is 5-15 business days, but there are often events (like cross-default) where no cure period is provided.
+
+Cross-default is a default clause that says: if the borrower is in default under any other material debt (above a specified threshold, often $10-25 million), then it is in default under this facility agreement as well. The purpose is to prevent the borrower from defaulting under another facility while claiming compliance with this facility. In the US market, cross-default clauses are standard and are carefully drafted to specify what other debt is covered and what constitutes a default under that other debt (i.e., does a waived default count?). In the European market, cross-default is also standard, but it is often less detailed, with a simpler formulation like "default under other debt in excess of [amount]."
+
+Cross-acceleration is related to cross-default: it specifies that if the borrower defaults under other material debt and the maturity of that debt is accelerated, then the maturity of this facility is also accelerated. Cross-acceleration is more common in European agreements; it is less common in US agreements, where lenders typically want to avoid being forced to accelerate if another lender accelerates, preferring instead to make their own decisions about enforcement.
+
+The material adverse effect event of default is controversial. Some facility agreements (particularly sponsored deals in the US market) include a general MAE default clause stating that the occurrence of a material adverse effect is a default. The problem is that material adverse effect is inherently subjective, and if lenders can declare a default whenever they believe there has been an MAE, it gives lenders too much optionality. Consequently, most facility agreements avoid including an MAE default and instead rely on specific defaults (covenant defaults, cross-default, financial covenant breaches). Some agreements do include MAE-like language but qualify it carefully (e.g., "Material Adverse Effect affecting the business in an amount greater than $[X]").
+
+The remedies available to the lender upon default vary depending on the jurisdiction and the type of default. In a US transaction governed by New York law, the lender has contractual rights to terminate the facility and accelerate the loan (make all outstanding principal immediately due). Additionally, if the lender has security interests in collateral (which is typical), the lender can exercise remedies under the Uniform Commercial Code and applicable security agreements.
+
+The remedies under UCC include taking possession of collateral and selling it. If the collateral is personal property (equipment, inventory, accounts receivable), the lender can physically take possession and sell it through a public sale or a private sale, as long as the sale is conducted in a "commercially reasonable manner." If there is a shortfall (i.e., the collateral sale does not generate enough money to pay off the loan), the lender can pursue a deficiency judgment against the borrower for the shortfall.
+
+In a European transaction governed by English law, the remedies are somewhat different. If the lender has a charge (the English term for a security interest) over collateral, the lender can take possession of the collateral and sell it, subject to statutory protections for the borrower. These protections require that the sale be conducted in a manner that is not unconscionable and that generates a reasonable price (not necessarily the best possible price). The lender can also exercise a power of attorney granted in the security documents to execute documents on behalf of the borrower.
+
+The role of the Security Trustee in European documentation is important. In many European facility agreements, particularly those with multiple layers of secured debt (first lien and second lien, or first lien and mezzanine), there is a Security Trustee that holds the security on behalf of the lenders. The Security Trustee is responsible for enforcing the security and managing the collateral sale process. This creates an additional layer of governance: the Security Trustee has to decide when to enforce and how to proceed. In theory, the Security Trustee is neutral and acts on instructions from lenders; in practice, the Security Trustee is often a subsidiary of the Administrative Agent and works closely with it.
+
+The standstill provisions in European intercreditor agreements are a crucial part of the default and enforcement framework. A standstill provision typically states that if a default occurs, the second-lien creditors agree not to accelerate or enforce their security for a specified period (often 90 days to 6 months). The idea is that the first-lien lenders get a period in which to attempt to work out the default and pursue remedies without interference from second-lien creditors. This allows an orderly workout process.
+
+In a US transaction, standstill provisions are sometimes included in intercreditor agreements between first-lien and second-lien lenders, but they are not as standard as in European transactions. Many US deals proceed with first-lien and second-lien lenders moving forward on parallel tracks, each enforcing its own security interest.
+
+What twenty years teaches about defaults and remedies is that the provisions should be clear and mechanical to the extent possible. Subjective defaults (like MAE defaults) create optionality and uncertainty. Specific defaults (covenant failures, cross-default, inability to pay) are clearer. The remedies should match the lender's actual enforcement capabilities and intentions. If the lender is not prepared to take physical possession of collateral and conduct sales, then extensive personal property collateral is less valuable. If the lender is prepared to work out troubled situations collaboratively with the sponsor, then provisions that prevent standstill or parallel enforcement by multiple creditors might be counterproductive.
+
+THE INTERCREDITOR AGREEMENT: THE HIDDEN INFRASTRUCTURE OF EUROPEAN DEALS
+
+The intercreditor agreement is perhaps the single most important document in European leveraged finance that does not actually appear to US practitioners until they encounter it. There is no direct equivalent to the European intercreditor agreement in US practice. This is both because English law provides different frameworks for dealing with multiple creditors, and because European market practice developed independently and created dedicated structures for managing interactions between lenders.
+
+A typical European leveraged finance transaction has at least two layers of debt. At the first-lien level, you have secured term debt provided by banks and/or loan funds. Above that, you have either second-lien debt, mezzanine debt, or junior debt (unsecured or provided by subordinated lenders). The intercreditor agreement is the contract between the first-lien lenders and the second-lien / mezzanine lenders that determines how these two layers interact.
+
+The structure of the intercreditor agreement differs fundamentally from the approach in US transactions. In the US, the relationship between first-lien and second-lien lenders is typically addressed through either (a) a separate intercreditor agreement that is negotiated apart from the credit agreements, or (b) provisions within the credit agreements themselves that address priorities and enforcement mechanics. The US market has also developed the concept of "super senior" secured debt that sits ahead of all other secured debt in the capital structure. A typical US leveraged transaction might have a "first lien" term loan that is secured by all company assets, a "second lien" term loan that is secured by the same assets but with second priority, and possibly a super-senior secured revolver that has first priority on assets and is available to provide liquidity.
+
+In contrast, the European market has standardized on a different approach. First-lien debt and second-lien / mezzanine debt are typically in a subordination relationship, with the intercreditor agreement specifying that first-lien lenders have priority. The intercreditor agreement includes detailed mechanics for how enforcement works, what happens in an insolvency, and how proceeds are distributed if assets are sold.
+
+The typical structure of a European intercreditor agreement includes:
+
+1. Payment Subordination: Mezzanine lenders subordinate their claims to first-lien lenders and agree not to receive payment on their debt unless the first-lien debt is paid in full and all defaults are cured.
+
+2. Turnover: If the borrower makes a payment to mezzanine creditors that should have gone to first-lien creditors (either because it violates the subordination, or because it occurs during a standstill period), the mezzanine creditors agree to turn over that payment to the first-lien creditors.
+
+3. Enforcement Standstill: If a default occurs, mezzanine creditors agree not to enforce their security or accelerate their debt for a specified standstill period (often 90 days, sometimes up to 180 days or longer), giving first-lien creditors time to work out the default.
+
+4. Collateral Sharing: If both first-lien and mezzanine creditors have security interests in the same collateral, the intercreditor agreement specifies how the collateral is valued, how proceeds are distributed, and what happens if collateral is sold or written down.
+
+5. Voting and Amendment: The intercreditor agreement often specifies how decisions are made if both creditor classes have to vote on amendments to the underlying facility agreements.
+
+6. Insolvency / Bankruptcy Protections: The intercreditor agreement addresses what happens in an insolvency proceeding, who gets to vote, and how claims are treated in the insolvency process.
+
+A crucial concept in the intercreditor agreement is the "standstill period." The typical scenario is:
+
+1. A default occurs under the first-lien facility agreement (e.g., a covenant breach, an event of default).
+
+2. First-lien creditors send notice of the default to mezzanine creditors.
+
+3. Mezzanine creditors agree not to accelerate or enforce for a specified period (the standstill period), allowing first-lien creditors to attempt to cure the default or work out with the borrower.
+
+4. If the first-lien creditors do not cure within the standstill period, mezzanine creditors then have the right to accelerate and enforce.
+
+The logic of the standstill is that the first-lien creditors have priority, so they should have the first opportunity to address defaults and pursue remedies. If the first-lien creditors choose not to enforce or if they cannot resolve the default, mezzanine creditors then have their opportunity.
+
+The turnover provision is straightforward: if the borrower pays mezzanine creditors while the subordination is in effect (either because the subordination has been triggered by a default, or during a standstill period), the mezzanine creditors agree to pay over that amount to the first-lien creditors. This prevents the borrower from attempting to play creditor groups against each other by paying one group while ignoring another.
+
+The "super senior" concept in European transactions is subtly different from the US concept. In the US, "super senior" typically means that a lender (often providing a revolving facility) has first priority security over all assets, ahead of term debt. In European transactions, "super senior" typically means that a debt has priority in the insolvency distribution, even ahead of "first lien" term debt. The mechanics of this are specified in the intercreditor agreement. A typical structure might be:
+
+- Super Senior Revolver: secured by specific assets (usually bank accounts and receivables), has priority in enforcement and in insolvency;
+- First Lien Term Debt: secured by remaining assets and subordinated to super senior revolver, but has priority over mezzanine debt;
+- Mezzanine / Second Lien Debt: subordinated to both super senior revolver and first-lien term debt.
+
+In a distressed scenario where the company is being sold or is going into insolvency, the proceeds are distributed first to the super senior lenders (up to their claim amount), then to the first-lien lenders, then to mezzanine lenders. This ordering provides clarity about who has priority and eliminates disputes about claims.
+
+The practical effect of the intercreditor agreement is to create a clear pecking order in the capital structure and to prevent inefficient creditor conflicts. Without an intercreditor agreement, if the borrower defaults, both first-lien and mezzanine creditors might rush to enforce their security, potentially damaging the collateral or creating confusion about rights. With an intercreditor agreement, there is an orderly process: first-lien creditors have the first period to work out the default; if they do not, mezzanine creditors can then enforce.
+
+The Adler case is a useful illustration of how intercreditor mechanics can affect outcomes in a real restructuring. Adler is a prominent German fashion and textiles company that became distressed and eventually restructured. The company had multiple layers of debt and a complicated intercreditor structure. In the restructuring, the interaction between secured creditors (following the intercreditor agreement) and equity holders became crucial in determining who got paid and in what order. The case illustrates both the value of a clear intercreditor agreement (it provided a framework for decision-making) and the complexity that can arise when multiple creditor classes have to coordinate.
+
+From a practical perspective, negotiating the intercreditor agreement is often the most technically complex part of a European leveraged financing. The document is long (often 50-100+ pages), contains cross-references to both the first-lien and mezzanine facility agreements, and requires careful drafting to ensure that it actually achieves what the parties intend. A poorly drafted intercreditor agreement can create ambiguities that become problematic in a workout situation.
+
+For US practitioners encountering a European intercreditor agreement for the first time, the document can seem remarkably complex. It specifies mechanics that US practitioners often assume are implicit or that are left to be worked out in a distressed situation. But the complexity exists for a reason: it provides clarity upfront about how multi-layer debts will interact, which reduces conflict and facilitates orderly workouts.
+
+HIGH YIELD BOND DOCUMENTATION DIFFERENCES: WHERE EQUITY SPONSORS AND CAPITAL MARKETS MEET
+
+High yield bond documentation represents a different category of leveraged finance documentation, one where capital markets practices meet private credit practices. High yield bonds are unsecured (or sometimes secured) debt issued by companies, usually with longer maturities (7-10 years) than leveraged loans (3-5 years), and with coupons (interest rates) that are set based on market demand rather than negotiated bilaterally.
+
+In a US transaction, high yield bonds are typically either SEC-registered (filed with the SEC and sold publicly to a broad audience) or issued pursuant to Rule 144A (sold to "qualified institutional buyers" and not registered with the SEC). Regardless of which registration path is used, US high yield bonds are governed by the Trust Indenture Act of 1939 (the "TIA"), a federal statute that establishes baseline rights and protections for bondholders.
+
+The TIA is crucial to understanding US high yield documentation. It requires, among other things:
+
+1. That there be a trustee who represents the interests of the bondholders;
+
+2. That the indenture (the contract governing the bonds) be written in clear language and include specified provisions;
+
+3. That certain rights of bondholders cannot be waived or amended without consent of a specified percentage of bondholders (usually 50% for most amendments, but higher percentages for amendments affecting payment rights);
+
+4. That the trustee have certain duties to monitor compliance and take action if the issuer defaults.
+
+The Trust Indenture Act fundamentally changes the dynamics of bond documentation compared to loan documentation. With a loan, you can have Required Lender provisions requiring only 50.1% approval for amendments. With bonds, the TIA requires specific amendment thresholds, and those thresholds generally cannot be changed. Additionally, the TIA creates a public record of debt (SEC filings) that is not present with private loans.
+
+In the US high yield market, the typical covenant package includes:
+
+1. Financial covenants that are "incurrence-only," meaning they only apply if the company wants to take certain actions (like paying dividends or incurring debt);
+
+2. Operating covenants that restrict asset sales, liens, business combinations, and similar actions;
+
+3. Event of default provisions that are somewhat similar to loan defaults but tailored for the bond context.
+
+A key concept in US high yield bonds is the "investment grade trigger" or "covenant suspension." Many high yield bonds include language that states: if the issuer obtains an investment-grade rating from specified rating agencies, then certain covenants suspend, allowing the issuer more operational flexibility. This is attractive to sponsors who are planning to use high yield bonds as a financing step, with the expectation that the company will improve over time and eventually obtain an investment-grade rating, at which point the restrictive covenants become irrelevant.
+
+In a European transaction, high yield bonds are typically listed on the Irish Stock Exchange or Luxembourg Stock Exchange (both are major centers for bond issuance). European high yield bonds are not subject to the Trust Indenture Act (which only applies to US debt) or to SEC registration requirements. Instead, they are governed by English law (in most cases) and are listed under the rules of the relevant exchange.
+
+The covenant package in European high yield bonds tends to be more restrictive than in US bonds, with more maintenance covenants and fewer loopholes. Additionally, European high yield bonds rarely include investment grade triggers, reflecting different assumptions about the path to refinancing.
+
+One concept that is relatively unique to European high yield bonds is "portability." This is the ability to move security from one tranche of debt to another in a refinancing. For example, if a company has first-lien term debt and a high yield bond, both secured, and the company refinances, the security package can be reallocated so that some or all of it secures the new debt instead of the old. This flexibility is particularly valuable in refinancing situations and reflects the greater sophistication of European capital markets in structuring multiple layers of secured and unsecured debt.
+
+Change of control provisions are standard in both US and European high yield bonds, but they operate somewhat differently. In a US bond, a change of control typically allows bondholders to "put" their bonds (require the issuer to repurchase them at par or at a premium) if a specified change occurs (like an LBO where the sponsor is replaced). In a European bond, change of control provisions might allow bondholders to require repayment or might allow them to impose an additional coupon step-up (increasing the interest rate) if a change occurs.
+
+The portability concept is related to and sometimes confused with "assignment" or "transfer" rights. But portability is distinct: it refers to the ability to move security between different tranches of debt, typically in a refinancing. Transfer, by contrast, refers to the ability to sell your position to another investor.
+
+The covenant suspension upon investment grade is a reflection of the US market's assumption that companies will improve over time and that sponsors will eventually refinance the debt with less restrictive terms. This is a reasonable assumption in a healthy economic environment, but it creates risk if the company does not improve or if markets dislocate. During the pandemic, many companies that expected to reach investment grade found themselves unable to refinance, stranded in what had become an unfriendly market environment.
+
+DIRECT LENDING AND PRIVATE CREDIT DOCUMENTATION: THE RISE OF ALTERNATIVE STRUCTURES
+
+The direct lending market (also called "private credit" when provided by non-bank lenders) has exploded since the 2010s and has created a new category of leveraged finance documentation that borrows from both traditional bank lending and high yield bond approaches.
+
+Direct lenders are typically investment managers (like credit funds) or insurance companies that lend directly to borrowers, typically in amounts from $50 million to $500+ million, with typical maturities of 5-7 years. They are not banks, they do not participate in syndicated market, and they are not subject to bank capital and liquidity requirements. This gives them flexibility to structure debt in ways that banks and syndicated lenders cannot.
+
+The typical direct lending transaction involves a relatively small group of lenders (often just one primary lender and a few co-investors) who remain as ongoing creditors throughout the life of the debt. There is no expectation of secondary market trading. This fundamentally changes the documentation approach.
+
+Direct lending documentation typically starts with either an LSTA-style term loan agreement or an LMA-style facilities agreement, but heavily modified to reflect the direct lending context. Key characteristics of direct lending documentation include:
+
+1. Covenant packages that are more bespoke and tailored to the specific company and transaction, rather than following template conventions;
+
+2. Flexibility around amendments and modifications, with lower amendment thresholds because there are fewer lenders;
+
+3. Detailed financial covenant testing, because the lenders intend to actively monitor the company's financial performance;
+
+4. Longer terms (5-7 years, often with multiple tranches maturing at different times);
+
+5. Pricing that is higher than syndicated loans (often 400-600 basis points above SOFR) to compensate for illiquidity and the intensive monitoring required.
+
+The unitranche structure emerged in both US and European markets as a response to the desire for simpler capital structures. In a unitranche deal, there is a single tranche of debt that shares security and risk pro-rata, rather than first-lien and second-lien layers. All investors are holders of the same debt, subordinated to nothing but senior equity. This simplifies documentation and decision-making because there is no intercreditor agreement and no need to coordinate between multiple debt layers.
+
+US unitranche documentation typically draws from the LSTA template and includes detailed financial covenants and incurrence-based covenants. European unitranche documentation typically draws from the LMA template and includes somewhat different covenant structures.
+
+The Agreement Among Lenders (AAL) has become increasingly important in direct lending. The AAL is a side letter that the lenders sign, detailing how they will interact with each other, how decisions will be made, how distributions will be coordinated, and how the relationship will work if the company gets into distress. The AAL is not part of the credit agreement (the borrower does not see it), but it governs the lenders' relationship. The AAL is particularly important in situations with multiple direct lenders, because it provides a framework for decision-making without requiring constant amendments to the main credit agreement.
+
+Super senior RCF structures are particularly common in European direct lending. The typical structure is a super senior revolving credit facility that sits atop first-lien term debt and is available for working capital needs. The super senior RCF has first priority on liquidity and key receivables, allowing the company to have access to liquidity even if the first-lien term debt is stressed. This structure provides the company with certainty that it can access liquidity for working capital needs, even if financial covenants on the term debt are tight.
+
+The practical effect of direct lending documentation is to create a middle ground between highly documented syndicated loans (which are structured with the assumption that there will be trading and a wide range of investors) and private equity-style debt (where there is a single lender who is essentially an extension of the sponsor). Direct lending documentation provides flexibility and the ability to tailor terms to specific situations, but it also requires sophisticated lenders who can take on the risk of being the only source of financing to the company.
+
+RESTRUCTURING AND ENFORCEMENT DIFFERENCES: CHAPTER 11 VS. SCHEMES OF ARRANGEMENT
+
+The documentation discussed in this chapter largely assumes that the company is going to continue as a going concern and service the debt. But what happens if the company cannot? How do the two markets' documentations affect outcomes in a restructuring or insolvency?
+
+In the United States, the primary restructuring tool is Chapter 11 of the Bankruptcy Code. A company in financial distress can file for Chapter 11, and under the protection of the bankruptcy court, it can restructure its debts, modify creditor rights, and attempt to continue business. The bankruptcy court has the power to "cram down" a restructuring plan on unwilling creditors if the plan is fair and equitable (meaning that creditors receive at least what they would get in a liquidation scenario, or that senior creditors accept less in favor of junior creditors).
+
+The Chapter 11 process is well-established and has developed over decades through case law. Creditors have well-understood rights and processes for asserting their interests. The automatic stay, which stops collection efforts and litigation the moment the bankruptcy petition is filed, applies to all creditors and gives the debtor breathing room to reorganize.
+
+In the United Kingdom and many European jurisdictions, the primary restructuring tools have historically been informal workouts or liquidations. There was no direct equivalent to Chapter 11. However, this changed significantly with the introduction of Part 26A of the UK Insolvency Act 2006 (through the Corporate Insolvency and Governance Act 2020), which introduced the "Scheme of Arrangement" as a formal restructuring tool.
+
+A Scheme of Arrangement is a contractual arrangement between a company and its creditors (and/or members) that modifies their rights. Under the Part 26A procedure, the company can propose a scheme to creditors, the creditors vote on the scheme, and if the scheme is approved by a specified majority (often 75% by value of claims in each class), the scheme binds all creditors, even those who voted against it. This is similar to the cram-down mechanism in Chapter 11, but the procedural path is different.
+
+The Scheme of Arrangement is not triggered by a filing like a bankruptcy petition. Instead, the company proposes a scheme, there is a period for creditor discussion and voting, and if approved, the scheme becomes binding. The company does not get an automatic stay, so creditors can continue to pursue collection efforts. However, once the scheme is approved, creditors are bound by its terms.
+
+Additionally, there are other restructuring tools available in different European jurisdictions. Many countries have introduced "out-of-court restructuring" frameworks that allow companies to restructure without formal insolvency proceedings. Germany has the Reorganization Framework (Sanierungsrahmengesetz). France has the Sapin Act. These frameworks typically allow a company to propose a restructuring plan to creditors, and if approved, the plan binds all creditors. The EU Restructuring Directive (Directive (EU) 2019/1023) harmonized many of these approaches across EU member states.
+
+The key difference between Chapter 11 and Schemes of Arrangement is the involuntary stay and the role of a court. In Chapter 11, the moment the petition is filed, an automatic stay applies and all collection efforts stop. The company gets a breathing room. The bankruptcy court supervises the reorganization. Creditors have to assert their interests within the bankruptcy process.
+
+With a Scheme of Arrangement, there is no automatic stay (though the company might apply for an injunction to prevent creditor actions). The restructuring is primarily contractual and negotiated. Creditors have to be persuaded to vote for the scheme based on their assessment of their alternatives (what they would get in a liquidation, what they would get if they pursue collection, etc.).
+
+In practice, this means that Chapter 11 gives debtors more leverage in restructuring: creditors know they cannot get more than they would in a Chapter 11 plan, so they are motivated to negotiate. Schemes of Arrangement require more candid negotiations because there is no artificial floor imposed by the bankruptcy code.
+
+For documentation purposes, the implications are significant. In a US transaction, documentation is written with the assumption that if the company cannot service debt, Chapter 11 is likely. Lenders include cross-default provisions and other provisions that will trigger enforcement rights, because they know they will likely need to file a claim in the bankruptcy. The documentation also includes provisions about "adequate protection" and other bankruptcy-related concepts.
+
+In a European transaction, documentation has historically assumed that restructuring would be negotiated informally or that the company would enter into a formal procedure like administration or liquidation. With the introduction of Schemes of Arrangement, the dynamic is changing, but the documentation is still often written from the perspective of negotiated workouts rather than formal insolvency proceedings.
+
+Additionally, Chapter 15 of the US Bankruptcy Code provides a mechanism for recognizing foreign insolvency proceedings in the United States. If a UK company enters into a Scheme of Arrangement under UK law, it can apply for recognition under Chapter 15, and the US court will recognize the scheme and any discharges of debt that occurred under the scheme. This allows a single restructuring proceeding to span multiple jurisdictions.
+
+CONVERGENCE AND DIVERGENCE: WHERE THE MARKETS ARE MOVING
+
+After nearly two decades of watching these markets interact and evolve, I want to address directly the question of convergence. Are the two markets merging into a single global standard? Or are the differences structural and permanent?
+
+The answer is nuanced. There has been significant convergence in some areas, and the two markets are becoming more aware of each other's approaches. Many practitioners now routinely work in both markets, sponsors want consistent documentation across their global portfolio, and there is a recognition that documentation that works across both markets is valuable. But the convergence is incomplete, and certain differences are structural and unlikely to disappear.
+
+The areas where I have seen the most convergence:
+
+1. Covenant-lite has become standard in both markets. The US cov-lite movement of the 2000s and 2010s influenced European lenders, who came to accept that institutional investors wanted simpler covenant structures. Now, most large sponsored deals in both markets have some version of cov-lite.
+
+2. EBITDA addbacks have become more generous in Europe. What was once a major point of distinction (restrictive addbacks in Europe, generous addbacks in the US) has largely disappeared as European lenders have become comfortable with the US approach to adjustments.
+
+3. Incurrence covenants have become standard in both markets for items like restricted payments and debt incurrence. Both markets now recognize that ongoing compliance is less important than the ability to test at the time you want to take an action.
+
+4. Documentation generally has become more standardized. The emergence of global sponsors and global investors has created demand for more consistent language and terms.
+
+5. Credit agreement documentation in Europe has increasingly borrowed from US templates, particularly for larger, more institutionalized deals.
+
+The areas where I have seen persistent divergence:
+
+1. The certain funds concept remains unique to European deals. The idea of a commitment that carries no economic condition (only administrative conditions in the credit agreement) is fundamentally at odds with US practice, where optionality and conditions are viewed as normal.
+
+2. The agreed security principles and the hard caps on guarantees remain a structural difference rooted in European law. This cannot be negotiated away; it is law.
+
+3. The intercreditor agreement as a standalone document remains distinctive to European practice. While US deals have intercreditor mechanics, they are typically embedded in the credit agreement or in a separate first lien / second lien agreement. The comprehensive European intercreditor agreement is a unique construct.
+
+4. The voting thresholds remain different. US deals still typically use 50.1% Required Lenders as the baseline; European deals still typically use 66.67% Majority Lenders. This reflects different assumptions about lender relationships and market practice.
+
+5. The role of the Security Trustee in European deals remains a distinctive feature that has no real equivalent in the US market.
+
+6. The transfer mechanics differ. US practice uses "assignment," English practice uses "novation." This reflects different contract law traditions.
+
+The impact of COVID-19 on documentation standards is worth noting. During the pandemic, many companies faced covenant breaches. Both markets saw extensive amendments as lenders and borrowers renegotiated terms. In some cases, the pandemic accelerated convergence: it became clear that both markets needed more flexibility, and some standardized approaches to covenant relief emerged. But it also reinforced some differences: European sponsors appreciated the certainty of the intercreditor agreement framework and the standstill mechanics during the period of financial uncertainty. US lenders appreciated the flexibility of incurrence-only covenants that did not require continuous compliance.
+
+Looking forward, I expect the convergence trend to continue but at a slower pace than in the past decade. The largest deals, particularly those with global sponsors and global investor bases, will continue to move toward hybrid documentation that borrows from both traditions. But sponsors and lenders who are focused primarily on a single market will continue to use market-standard documentation for that market. The cost of truly harmonizing documentation across markets is significant, and unless there is a clear business benefit, most deals will continue to follow their home market's conventions.
+
+The key insight is this: the fundamental differences in the two markets reflect different legal traditions, different regulatory environments, and different market philosophies. These are not arbitrary differences that can be negotiated away. A US sponsor can insist on certain funds language in a European facility agreement, but that language will need to be adapted to be compatible with English law and European regulatory constraints. An English lender can insist on traditional LMA covenants in a US deal, but those covenants will need to be adapted for US law and US lender practices. The practitioner who understands both markets can do this adaptation intelligently. The practitioner who only knows one market will struggle.
+
+CONCLUSION: WHAT TWENTY YEARS TEACHES
+
+When I made the transition from full-time US practice to becoming regularly involved in European transactions, I initially made the mistake of thinking that the differences between the markets were primarily stylistic—the way you organized covenants, the terms you used, the conventions you followed. After several deals, it became clear that the differences went much deeper. They reflected different philosophies about what documentation is for, different regulatory constraints, different market participants, and different assumptions about how disputes would be resolved.
+
+Over nearly twenty years since then, I have watched these markets interact, influence each other, and gradually move closer without ever fully converging. I have closed deals that tried to be all-things-to-all-people with documentation that was neither fully US nor fully European, and I watched them struggle because they tried to bridge unbridgeable gaps. I have also closed deals that committed firmly to one market's conventions, made the necessary adaptations for the other market's legal constraints, and worked smoothly because the parties understood the framework and operated within it.
+
+The lessons I have learned are worth stating clearly for anyone entering this field or trying to understand how modern leveraged finance documentation actually works:
+
+First, understand the legal constraints that shape each market. The financial assistance rules in English law, the guarantee limitations in European jurisdictions, the security perfection requirements under the UCC in the US, the regulatory concerns of different lenders and investors—these constraints are not negotiable. When you encounter them, you work within them. You do not try to negotiate around them.
+
+Second, understand the philosophy behind each market's approach. The US market has developed toward comprehensive, dense documentation that attempts to anticipate every scenario and provide a contractual solution. This reflects a comfort with litigation, a belief in freedom of contract, and an assumption that you can draft your way around problems. The European market has developed toward frameworks that specify what is permitted, work within legal constraints, and rely on relationship management for edge cases. Neither approach is obviously better; they reflect different assumptions about how commercial relationships work.
+
+Third, recognize that the participants in each market have different priorities and different concerns. US institutional investors are comfortable with cov-lite because they are comfortable with trading debt and exiting positions. European institutional investors are comfortable with tighter covenants because they expect to hold positions longer and want active monitoring. These are not random preferences; they reflect the different structures of capital markets on each side of the Atlantic.
+
+Fourth, understand that convergence is happening in some areas but not others. Both markets are moving toward incurrence-only covenants, toward more generous EBITDA addbacks, toward covenant-lite as a standard option. But the fundamental structures—the certain funds concept in Europe, the comprehensive UCC perfection system in the US, the different insolvency frameworks—are not converging. They cannot converge without massive legal changes.
+
+Fifth, appreciate the value of understanding both markets not because you will regularly encounter transactions that bridge both, but because it forces you to think more deeply about documentation. When you understand why Europe does something differently, you start to question whether the US approach is truly necessary or whether it is just convention. When you understand the constraints the Europeans operate under, you start to appreciate the flexibility you have in the US market. This critical thinking makes you a better documentation practitioner regardless of which market you primarily practice in.
+
+Sixth, recognize that the details matter enormously. The difference between a 50.1% Required Lenders threshold and a 66.67% Majority Lenders threshold has profound implications for how deals get amended in a workout. The difference between an incurrence covenant and a maintenance covenant determines when you can take action and when you need to wait. The difference between personal property security under the UCC and a charge under English law determines how you actually enforce in a default. These are not minor points; they are the substance of how credit agreements work in practice.
+
+What I have learned over twenty years is that documentation is both more important and less important than people sometimes think. It is important because it provides the framework within which the transaction operates, and bad documentation can create problems that are expensive and time-consuming to fix. It is less important because most transactions work out fine through a combination of business common sense, ongoing relationships, and willingness to address issues as they arise rather than trying to document every scenario in advance.
+
+The transactions that have worked best have been those where the parties focused on getting the fundamental structure right (the certainty of funds, the financial covenants, the guarantee package) and were less concerned about perfecting every detail of every covenant basket. The transactions that have been most problematic have been those where the parties focused on technical documentation perfection at the expense of thinking about what actually mattered economically.
+
+For a practitioner working across both markets, the goal should be to achieve clarity about what each side is trying to accomplish, understand the legal and market constraints you are operating under, and then document it as cleanly and efficiently as possible. Do not try to make European documentation look like US documentation. Do not try to make US documentation follow European conventions. Instead, start with an understanding of the transaction's economics and the parties' legitimate interests, pick a jurisdiction and market convention that best serves those interests, and then operate fully within that framework.
+
+The modern leveraged finance practitioner needs to speak both languages, understand both markets, and know which framework makes sense for which situation. That is a more complex skill than it was twenty years ago, but it is also a more valuable one. The compensation for that complexity is the ability to structure transactions that actually work, that align the interests of sponsors and lenders, and that provide the financing that companies need to grow and investors need to allocate capital efficiently.
+
+That, in the end, is what leveraged finance documentation is for. Not for endless negotiation and documentation perfectionism. Not for protecting one party against every conceivable risk while imposing no constraints on the other party. But for creating a framework within which capital can flow efficiently from lenders who have it to borrowers who need it, with clear understanding on both sides about what they are agreeing to and what each party's rights and responsibilities are.
+
+The fact that this framework looks different in New York than it does in London is not a problem to be solved. It is a feature that reflects deep legal and market traditions. Work within those traditions, understand them thoroughly, and you will be a better practitioner. Try to ignore them or paper over them, and you will find yourself in unnecessary complications.
+
+After nearly twenty years on both sides of the Atlantic, watching deals close and deals restructure, watching documentation serve its purpose well and serve it poorly, that is the core lesson I would impart to anyone entering this field or trying to understand how modern leveraged finance actually works.

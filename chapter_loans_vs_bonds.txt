@@ -1,0 +1,514 @@
+Chapter 7
+
+Loans vs. Bonds
+
+Introduction
+
+Understanding the differences between leveraged loans and high-yield bonds is fundamental to working in leveraged finance. At first glance, they might seem like interchangeable ways to raise debt capital—both provide funding, both sit in the capital structure, both have covenants. Yet comparing a credit agreement to an indenture is, as practitioners often say, like comparing apples to oranges.
+
+This chapter examines the structural, economic, and documentary differences between these instruments. These differences matter enormously: they determine which creditors control enforcement, how amendments get approved, what happens in a restructuring, and ultimately who bears losses when things go wrong.
+
+In Europe, the distinction has become more nuanced. While U.S. loans and bonds maintain significant structural differences, European leveraged loans have increasingly adopted "bond-style" covenant packages, creating more direct comparability. Yet even in Europe, critical differences in security, guarantees, and amendment mechanics remain. Understanding both the U.S. baseline and European variations is essential for any practitioner working in the market.
+
+5.1 Fundamental Characteristics
+
+The Basic Economic Proposition
+
+Leveraged Loans are typically:
+
+-   Senior secured (first lien on assets)
+
+-   Floating rate (SOFR/EURIBOR + margin)
+
+-   Shorter dated (5-7 years)
+
+-   Freely prepayable (minimal call protection)
+
+-   Held by banks and institutional investors (CLOs, loan funds)
+
+High-Yield Bonds are typically:
+
+-   Senior unsecured (or second lien)
+
+-   Fixed rate
+
+-   Longer dated (7-10 years)
+
+-   Non-callable for initial years (robust call protection)
+
+-   Held by mutual funds, insurance companies, hedge funds
+
+These fundamental differences drive much of the documentary and structural variation between the instruments.
+
+Documentary Architecture
+
+Credit agreements govern loans and are negotiated bilateral contracts between borrower and lenders, administered by an agent. They can be amended by the parties directly, typically requiring majority lender consent for most changes.
+
+Indentures govern bonds and are contracts between issuer and a trustee acting on behalf of bondholders. The trustee is a passive fiduciary—it cannot negotiate, cannot consent to amendments, and acts only at bondholder direction. Amendments require bondholder consent through formal consent solicitations.
+
+This architectural difference has profound implications. Credit agreement amendments can happen quickly through direct lender negotiations. Indenture amendments require identifying dispersed bondholders, launching formal solicitations, and managing securities law compliance. The difficulty of amending bonds creates both protection (harder for borrowers to weaken terms) and risk (harder to implement consensual restructurings).
+
+5.2 Security and Guarantees
+
+Collateral: Who Controls the Assets?
+
+In most leveraged capital structures, loans are secured and bonds are unsecured—creating an obvious hierarchy. But even when bonds are secured on a pari passu basis with loans, critical differences remain.
+
+Enforcement Control: Even where loans and bonds share first-lien security, the intercreditor agreement typically gives the credit agreement agent control over enforcement until the loans are repaid. Bondholders may have pari passu liens, but they're along for the ride during enforcement.
+
+Collateral Release: Bond indentures commonly provide that if the credit agreement releases liens on certain collateral (other than through repayment), such liens are automatically released under the indenture. This means lenders effectively control what remains in the collateral pool, even though bondholders share that security.
+
+Super Senior Facilities: European capital structures commonly include "super senior" revolving credit facilities. Both the revolver and bonds may be secured first-lien, but the intercreditor agreement provides that enforcement proceeds repay the revolver first. The bonds contractually agree to this lien subordination, meaning their nominal first-ranking security is economically junior to the super senior debt.
+
+Advantage: Loans, by virtue of enforcement control and collateral release mechanics.
+
+Guarantees: Following the Loan's Lead
+
+Initial guarantors for a new bond issue typically mirror those guaranteeing the credit agreement in the capital structure. More importantly, bond indentures commonly provide that guarantee releases under the credit agreement trigger automatic releases under the indenture.
+
+This creates asymmetric risk:
+
+-   Lenders negotiate guarantee coverage and release terms
+
+-   Bondholders automatically inherit those terms
+
+-   If lenders release a guarantor, bondholders lose that credit support
+
+-   Bondholders have no independent voice in guarantee decisions
+
+Guarantor Coverage Tests: European loans typically require guarantors representing 80% of Consolidated EBITDA. But the denominator excludes entities exempted under Agreed Security Principles (foreign subs, immaterial subs, legally restricted entities). The "80%" may actually represent a much smaller percentage of the total group.
+
+Advantage: Loans, as they control guarantee terms that bonds must follow.
+
+5.3 Covenant Architecture
+
+One Covenant vs. Many
+
+The most fundamental structural difference between bond and loan documentation is how they regulate borrower behavior.
+
+High-Yield Indentures: One master "Restricted Payments" covenant does the work of governing dividends, stock repurchases, investments, and junior debt prepayments. All these actions draw from a single pool of capacity.
+
+Traditional Credit Agreements: Separate covenants regulate each activity—Restricted Payments covenant (dividends/buybacks), Investments covenant, and Junior Debt Prepayments covenant. In LMA-style European loans, this fragments further into potentially seven distinct covenants: Dividends, Acquisitions, Joint Ventures, Loans, Guarantees, Unrestricted Subsidiaries, and Junior Debt Prepayments.
+
+Bond-Style Loans: European loans have increasingly adopted bond-style covenant architecture, with a single Restricted Payments covenant mirroring indenture structure. This "convergence" facilitates apples-to-apples comparison.
+
+The Debt Covenant
+
+Both instruments regulate debt incurrence through similar mechanisms: a combination of Ratio Debt (subject to coverage or leverage tests) and Permitted Debt baskets (specific carve-outs).
+
+Key Differences:
+
+| Element | Loans | Bonds |
+
+|---------|-------|-------|
+
+| Credit Facilities Basket | Covers the specific facility | Broadly defined—can include new loans or bonds |
+
+| Accordion/Incremental | Permits additional facilities under same agreement | Typically no direct equivalent |
+
+| Ratio Test Structure | Often "wedding cake" (different ratios for secured/unsecured) | Typically 2x interest coverage or leverage test |
+
+| Non-Guarantor Debt | More tightly restricted | Greater structural subordination risk |
+
+The critical difference: A bond's Credit Facilities basket typically permits new debt in the form of either loans or bonds to be incurred and secured—meaning the bonds can be primed by subsequent debt. A loan's corresponding provision only permits the specific loans under that credit agreement.
+
+The Liens Covenant
+
+High-Yield Bonds (Unsecured): Negative pledge approach—any debt can be secured if the bonds are equally and ratably secured, plus a list of Permitted Liens that can secure debt without securing the bonds. Since the bonds are unsecured, this creates substantial priming risk.
+
+High-Yield Bonds (Secured): "True" liens covenant—flat prohibition on securing debt except through Permitted Liens carve-outs. However, the Credit Facilities basket is typically permitted to be secured, potentially on a super senior basis.
+
+Leveraged Loans: Flat prohibition plus carve-outs. The key difference is that loans only permit the specific loan facility to be secured; new pari passu secured debt comes through the accordion, which has its own limitations.
+
+Basket Build: The Growth Engine
+
+"Basket build" is cumulative capacity based primarily on operating performance that increases over time, providing flexibility for dividends, investments, and other restricted payments.
+
+Typical Components:
+
+-   Starter amount (increasingly common in loans, less so in bonds)
+
+-   50% of Consolidated Net Income (standard in bonds and bond-style loans)
+
+-   100% of Retained Excess Cash Flow (common in loans)
+
+-   Equity contributions and capital contributions
+
+-   Returns on investments
+
+-   Declined mandatory prepayment amounts (loans only)
+
+Key Differences:
+
+| Element | Loans | Bonds |
+
+|---------|-------|-------|
+
+| Growth Component | Often 50% CNI or 100% Retained ECF | Typically 50% CNI only |
+
+| Starter Amount | Increasingly common | Exception rather than rule |
+
+| Declined Prepayments | Builds capacity | Rarely included |
+
+| Ratio Condition | Often none for investments | Must be able to incur €1 of Ratio Debt |
+
+Slight Advantage: Bonds on basket build conditionality, though loans are typically more permissive on growth components.
+
+5.4 Specific Covenant Comparisons
+
+Restricted Payments (Dividends/Distributions)
+
+The carve-outs for dividends and distributions are substantially similar between instruments. Both provide:
+
+-   General RP basket (fixed amount)
+
+-   Leverage-based RP capacity
+
+-   Post-IPO dividend baskets
+
+-   Management equity purchase baskets
+
+The key difference is how these interact with other covenants. In bonds, all RP carve-outs can also be used for investments and junior debt prepayments. In traditional loan structures, capacity is siloed to specific covenants (though sharing provisions are increasingly common).
+
+Investments
+
+"Free Flow of Value": This is the critical difference. Typical bond indentures contain a Permitted Investments carve-out allowing unlimited investments from the issuer and guarantors into non-guarantor Restricted Subsidiaries. This permits substantial value transfer outside the credit support structure.
+
+Loans typically cap investments in non-loan parties, limiting structural subordination risk.
+
+Advantage: Loans, by virtue of tighter restrictions on value leakage to non-guarantors.
+
+Asset Sales
+
+Both instruments regulate asset dispositions through similar requirements: fair market value consideration, 75% cash consideration, and application of proceeds.
+
+Key Difference: Bond Asset Sales covenants typically allow proceeds to be used to repay any effectively senior debt (including the credit agreement) or reinvest in the business. Loan Asset Sales covenants typically require proceeds to be applied under the mandatory prepayment mechanism or reinvested—not used to repay other debt.
+
+This reflects the economic reality: loans are senior secured and want their collateral proceeds; bonds are typically unsecured and are satisfied if senior secured debt gets paid down (reducing competition for assets).
+
+Advantage: Loans, as proceeds must be applied to the loans rather than other debt.
+
+Change of Control
+
+Loans: Change of Control is typically an Event of Default requiring par repayment. The company must repay or face acceleration.
+
+Bonds: Change of Control triggers a put option—bondholders have the right (not obligation) to require repurchase at 101%. They can choose to stay invested if they believe the new owner will create value.
+
+The bond structure creates optionality:
+
+-   If the change of control is positive: bondholders can retain their bonds
+
+-   If negative: bondholders can put at 101%
+
+-   If the issuer can't consummate within covenant constraints: bondholders may get make-whole redemption
+
+Advantage: Bonds, due to the optionality and 1% premium.
+
+Financial Maintenance Covenants
+
+This was historically the clearest distinction between loans and bonds:
+
+Bonds: Never have maintenance covenants. All covenants are incurrence-based—tested only when taking specific actions.
+
+Loans: Traditionally included maintenance covenants tested quarterly regardless of actions taken.
+
+Cov-Lite Convergence: The rise of covenant-lite structures has largely eliminated this distinction. Most institutional term loans now have no maintenance covenants (or only springing maintenance covenants benefiting revolver lenders). The markets have converged on incurrence-only testing.
+
+Slight Advantage: Loans, as revolvers may still have springing maintenance protection.
+
+Cross-Default vs. Cross-Acceleration
+
+This seemingly technical distinction has major practical implications.
+
+Loans: Typically include cross-default provisions—an event of default under other debt (including bonds) triggers an event of default under the loan if the default would entitle acceleration.
+
+Bonds: Typically include cross-acceleration provisions—an event of default under other debt only triggers an event of default under the bonds if that other debt is actually accelerated or if there's a payment default at maturity.
+
+Practical Impact: In a capital structure with both loans and bonds:
+
+-   A covenant breach under the bonds that ripens into an Event of Default automatically triggers an Event of Default under the loans
+
+-   A covenant breach under the loans only triggers an Event of Default under the bonds if the lenders actually accelerate
+
+This gives lenders a "free look" at bond covenants—they benefit from bond restrictions even though they didn't negotiate them.
+
+Advantage: Loans, as they benefit from bond covenants without reciprocal obligation.
+
+5.5 Economic Terms
+
+Call Protection
+
+High-Yield Bonds: Robust call protection, typically structured as "NC" periods:
+
+-   7NC3 or 8NC3: Non-callable for first 3 years
+
+-   After NC period: Callable at declining premiums (par + 50% coupon → par + 25% coupon → par)
+
+-   During NC period: Make-whole redemption available at Treasury + 50bps premium
+
+-   Equity claw: Up to 40% redeemable at par + coupon from equity offering proceeds
+
+Leveraged Loans: Minimal call protection:
+
+-   Soft call (Term B loans): 1% premium for repricing transactions in first 6-12 months
+
+-   Hard call (Second lien/distressed): 2%/1% premium for prepayments in years 1-2
+
+-   Freely prepayable after call period expires
+
+The difference is substantial. A borrower who wants to refinance into lower rates:
+
+-   Must pay make-whole premium to redeem bonds during NC period
+
+-   Can refinance loans with minimal soft call payment
+
+-   This drives preference for loan-heavy capital structures in falling rate environments
+
+Advantage: Bonds, as call protection preserves investor returns.
+
+Mandatory Prepayments
+
+Loans: Comprehensive mandatory prepayment regime:
+
+-   Excess cash flow sweep (typically 50-75%, with step-downs)
+
+-   Asset sale proceeds (net of reinvestment)
+
+-   Debt proceeds (from prohibited debt)
+
+-   Insurance/condemnation proceeds
+
+Bonds: No mandatory prepayment equivalent. Asset Sale proceeds must be offered to bondholders at par (not 101%), but bondholders can decline, and those proceeds often build RP capacity.
+
+Advantage: Loans, as mandatory prepayments de-lever the structure.
+
+MFN (Most Favored Nation) Protection
+
+Loans: Incremental facilities typically subject to MFN protection—if new debt has higher yield than existing loans, existing loans get repriced (subject to cushion, typically 50bps).
+
+Bonds: No MFN equivalent. Existing bondholders have no pricing protection against higher-yielding subsequent issuances.
+
+In practice, MFN is riddled with loopholes (primary purpose limitations, material transaction carve-outs, narrow refinancing parameters), but it provides some pricing floor that bonds lack.
+
+Advantage: Loans, by virtue of MFN pricing protection.
+
+5.6 Amendment and Transfer Mechanics
+
+Amendments and Waivers
+
+Loans: Relatively easy to amend:
+
+-   Administrative agent maintains lender registry
+
+-   Direct contact with known lender group
+
+-   Majority lender consent (typically 50% or 66⅔%) for most changes
+
+-   "Sacred rights" require all-lender or affected-lender consent
+
+Bonds: Difficult to amend:
+
+-   Bondholders are dispersed and anonymous (held through DTC)
+
+-   Requires formal consent solicitation
+
+-   Trustee cannot negotiate
+
+-   European HY: Typically 90% threshold for material changes
+
+-   U.S. HY: Each-affected-holder consent for payment terms
+
+The difficulty of bond amendments creates leverage for holdouts but also makes consensual restructurings harder.
+
+Transferability
+
+Bonds: Securities—freely tradeable subject to securities law compliance (144A, Reg S). Liquid secondary market. Anonymous trading through clearing systems.
+
+Loans: Not securities—assigned or participated. Transfer typically requires:
+
+-   Administrative agent consent (for assignments)
+
+-   "Qualified purchaser" status
+
+-   Often, borrower consent (unless Event of Default)
+
+-   Entry into credit agreement as direct party
+
+The loan market is less liquid than the bond market, with higher transaction costs and longer settlement times.
+
+Advantage: Bonds, due to superior liquidity and transferability.
+
+Buybacks
+
+Bonds: Issuers can freely repurchase bonds in open market without restriction. Affiliates (including sponsors) can similarly purchase without limitation under indenture terms.
+
+Loans: Credit agreements restrict borrower and affiliate purchases:
+
+-   Aggregate caps on amount purchased
+
+-   Voting restrictions on affiliate-held loans
+
+-   Information requirements
+
+-   Pro rata offer requirements in some cases
+
+Advantage: Loans, as restrictions limit manipulative purchases.
+
+5.7 European Specificities
+
+Bond-Style vs. LMA-Style Loans
+
+European leveraged loans come in two flavors:
+
+Bond-Style Loans: Adopt high-yield covenant architecture wholesale. Single Restricted Payments covenant, bond-defined terms, similar basket structures. Enables direct comparison with bonds.
+
+LMA-Style Loans: Follow Loan Market Association recommended forms. Multiple separate covenants (seven vs. one), different definitions, traditional loan structures. Harder to compare with bonds.
+
+The market has shifted decisively toward bond-style documentation, particularly for larger deals, though LMA-style terms persist in middle-market and certain jurisdictions.
+
+Super Senior Structures
+
+European capital structures commonly layer in super senior revolving credit facilities:
+
+Structure:
+
+-   Super senior RCF: First-lien security, first-ranking in enforcement waterfall
+
+-   Term loans: First-lien security, second-ranking in enforcement waterfall
+
+-   Bonds: First-lien security (or unsecured), third-ranking in enforcement waterfall
+
+Intercreditor Treatment: The ranking is established through the intercreditor agreement's application of proceeds waterfall, not through actual lien priority. All three instruments may have "first-lien" security, but super senior gets paid first.
+
+Bond indentures explicitly permit this subordination, often from day one. Loan documentation may permit future super senior elevation only if term lenders are offered the opportunity to exit or roll into the new structure.
+
+The Intercreditor Agreement as European Safeguard
+
+European intercreditor agreements provide structural protections largely absent in U.S. documentation:
+
+All-Lender Consent for Ranking Changes: Unlike U.S. credit agreements (where majority consent can subordinate minorities), European ICAs typically require unanimous consent to change ranking or payment priorities.
+
+Enforcement Control Provisions: Detailed provisions governing who can enforce, when, and how proceeds are distributed.
+
+Instructing Group Mechanics: Requirements for coordinated creditor action.
+
+These structural protections help explain why Serta-style uptier transactions have been less common in Europe—the ICA provides a contractual defense against aggressive liability management.
+
+5.8 Comparative Summary
+
+| Dimension | Advantage | Notes |
+
+|-----------|-----------|-------|
+
+| Collateral | Loans | Enforcement control, release mechanics |
+
+| Guarantees | Loans | Control terms that bonds follow |
+
+| Debt/Liens | Slight: Loans | Credit Facilities basket priming risk for bonds |
+
+| Basket Build | Slight: Bonds | Better ratio conditionality in loans |
+
+| Investments | Loans | No free flow of value |
+
+| Asset Sales | Loans | Proceeds must prepay loans |
+
+| Change of Control | Bonds | Put option with premium |
+
+| Financial Covenants | Slight: Loans | Springing maintenance for RCF |
+
+| Cross-Default | Loans | Benefits from bond covenants |
+
+| Call Protection | Bonds | Make-whole vs. soft call |
+
+| Mandatory Prepayment | Loans | ECF sweep, asset sale prepayment |
+
+| MFN | Loans | Pricing protection on incremental |
+
+| Amendments | Loans | Easier to modify |
+
+| Transferability | Bonds | Superior liquidity |
+
+| Buybacks | Loans | Restrictions limit manipulation |
+
+5.9 Strategic Implications
+
+For Issuers/Borrowers
+
+Prefer Loans When:
+
+-   Expecting to refinance (minimal call protection)
+
+-   Wanting amendment flexibility
+
+-   Interest rate environment is favorable for floating rate
+
+-   Needing to maintain collateral control
+
+Prefer Bonds When:
+
+-   Wanting certainty of fixed-rate funding
+
+-   Seeking longer tenors
+
+-   Capital markets conditions are favorable
+
+-   Needing to diversify investor base
+
+For Lenders/Investors
+
+Loan Advantages:
+
+-   Senior secured position
+
+-   Enforcement control
+
+-   Cross-default protection
+
+-   Mandatory prepayment deleveraging
+
+-   MFN protection
+
+Bond Advantages:
+
+-   Call protection preserves returns
+
+-   Change of control put option
+
+-   Better liquidity
+
+-   Fixed income certainty
+
+-   Anonymous trading
+
+In Distress
+
+When trouble arrives, the differences become stark:
+
+-   Loans control enforcement timeline and collateral disposition
+
+-   Loans benefit from bond covenant breaches without reciprocal exposure
+
+-   Bonds are harder to amend, creating holdout leverage
+
+-   Bonds may trade at deeper discounts, creating LMT opportunities
+
+-   The intercreditor agreement becomes the governing document for who gets what
+
+Understanding these dynamics before the crisis arrives is the mark of an experienced practitioner.
+
+5.10 What Twenty Years Teaches
+
+[This section intentionally left for the author to complete based on professional experience.]
+
+Summary: Loans vs. Bonds
+
+The Structural Reality: Loans and bonds serve different purposes in a capital structure. Loans provide secured, floating-rate funding with maximum borrower flexibility and lender control. Bonds provide longer-term, fixed-rate funding with greater investor protections but less structural seniority.
+
+The Convergence Story: European markets have seen significant convergence through bond-style loan documentation, making comparison easier. Yet fundamental differences in security, enforcement, and amendment mechanics persist.
+
+The Distress Reality: When things go wrong, loans control the restructuring process. Enforcement rights, cross-default benefits, and amendment flexibility give lenders substantial advantages. Bonds have their leverage—call protection, amendment difficulty, holdout potential—but structural position matters most.
+
+The Practitioner's Task: Understanding both instruments deeply—their similarities and differences, their strengths and weaknesses, their interaction in the same capital structure—is essential. The best deals optimize across both instruments; the worst expose investors to risks they didn't understand.
+
+Next: Part III examines the covenant architecture in detail, beginning with Chapter 7's overview of Covenant Fundamentals and proceeding through the specific protections that govern leveraged finance transactions.
+
