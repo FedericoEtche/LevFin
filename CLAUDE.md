@@ -27,7 +27,12 @@ deliverable set; it also contains older book-manuscript material (`chapter_*.txt
 
 Supporting analysis: `Grifols_Actuals_Reference.xlsx` (8-quarter audited-actuals backbone),
 `Grifols_Option_Layer_CrossCheck.docx`, `Grifols_Model_v6_Assessment.docx` (v6-vintage).
-Superseded models: `Grifols_Model_v6.xlsx`, `v7.xlsx`; v1–v5 are in `Archive/`.
+v8 tie-out (2026-05-24): `Grifols_v8_Reconciliation_20260524.xlsx` (line-by-line model→audited
+workpaper — PASS), `Grifols_Model_v8_TieOut_Memo_20260524.docx` (narrative tie-out; documents the
+historical-CF min-cash-sweep simplification), and `Grifols_Financial_Statements_v8_20260524.xlsx`
+(FY2024A–FY2030E IFRS statement package).
+Superseded models: `Grifols_Model_v6.xlsx`, `v7.xlsx`; v1–v5 are in `Archive/`. The pre-v8 tie-out
+memo is superseded: `Archive/Grifols_Model_TieOut_Memo_20260524_PRE-V8_SUPERSEDED.docx`.
 
 **RULE: any change to the model's figures must be re-anchored across all six deliverables.**
 They currently all cite v8. The six chapters/slides quote the same numbers — do not let them drift.
