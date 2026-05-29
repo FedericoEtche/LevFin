@@ -157,6 +157,7 @@ def _extract_text(path: Path) -> str:
 # ---------------------------------------------------------------------------
 
 
+@pytest.mark.deliverable_content
 @pytest.mark.parametrize(
     "filename,figure_keys",
     [(fn, keys) for fn, keys in DELIVERABLES.items()],

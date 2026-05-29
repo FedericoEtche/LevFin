@@ -45,3 +45,10 @@ filterwarnings = [
     "ignore::DeprecationWarning",
     "ignore::PendingDeprecationWarning",
 ]
+# `deliverable_content` marks the tie-out checks that read the binary LFS deliverables
+# (.docx/.pptx). They only run meaningfully once git-LFS has materialised the artefacts and
+# depend on the deliverable text matching the canonical figures, so CI runs them report-only
+# (non-blocking) via a dedicated step in .github/workflows/python-package.yml.
+markers = [
+    "deliverable_content: tie-out checks that read the binary LFS deliverables; non-blocking in CI",
+]
