@@ -1,0 +1,4 @@
+[flake8]
+exclude = .git,__pycache__,build,dist,*Options*,*Quant*,*Legal Research*,*9fin*,LevFin,GAAP,Archive,*mcp_massive*,*mstr_*,*databento*
+max-line-length = 127
+max-complexity = 10
