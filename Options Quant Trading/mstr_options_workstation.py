@@ -1480,7 +1480,7 @@ class MstrOptionsWorkstation:
                 result = func()
                 self.root.after(0, lambda: self._finish_load(result))
             except Exception as exc:
-                self.root.after(0, lambda: self._show_error(exc))
+                self.root.after(0, lambda exc=exc: self._show_error(exc))
 
         threading.Thread(target=worker, daemon=True).start()
 
@@ -1702,7 +1702,7 @@ class MstrOptionsWorkstation:
                 )
                 self.root.after(0, lambda: self._on_pdf_ready(dist))
             except Exception as exc:
-                self.root.after(0, lambda: self._on_pdf_error(exc))
+                self.root.after(0, lambda exc=exc: self._on_pdf_error(exc))
 
         threading.Thread(target=worker, daemon=True).start()
 
@@ -1736,7 +1736,7 @@ class MstrOptionsWorkstation:
                 res = calibrate_heston(self.chain, spot=spot, rate=rate, as_of=date.today())
                 self.root.after(0, lambda: self._on_heston_calibrated(res))
             except Exception as exc:
-                self.root.after(0, lambda: self._on_heston_error(exc))
+                self.root.after(0, lambda exc=exc: self._on_heston_error(exc))
 
         threading.Thread(target=worker, daemon=True).start()
 
