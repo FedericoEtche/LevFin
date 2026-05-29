@@ -33,6 +33,7 @@ class TestIBHelpers(unittest.TestCase):
         self.assertEqual(_safe_float(0.0), 0.0)
 
 
+@unittest.skipUnless(IB_INSYNC_AVAILABLE, "ib_insync not installed (optional broker SDK)")
 class TestIBKRClientImport(unittest.TestCase):
     def test_ib_insync_available(self):
         self.assertTrue(IB_INSYNC_AVAILABLE, "ib_insync should be importable for this test environment")
