@@ -1,0 +1,47 @@
+# Root pytest configuration.
+#
+# The repo has two halves:
+#   - The LevFin book project (Word / PowerPoint / Excel deliverables at the root).
+#   - The Options Quant Trading Python codebase (mstr_options_lab, options_quant_desktop,
+#     plus the vendored mcp_massive-master / databento-python-main sub-projects which carry
+#     their own packaging and are excluded here).
+#
+# Test surface picked up by `pytest` from the repo root:
+#   - tests/                                          → LevFin deliverable tie-out checks
+#   - Options Quant Trading/mstr_options_lab/tests/   → option-pricing library
+#   - Options Quant Trading/test_*.py                 → top-level script regression tests
+#
+# `pythonpath` puts the "Options Quant Trading" folder on sys.path so the legacy top-level
+# modules (`options_core`, `databento_options`, `options_quant_desktop`, `mstr_options_lab`)
+# are importable without a per-test sys.path shim.
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+testpaths = [
+    "tests",
+    "Options Quant Trading/mstr_options_lab/tests",
+    "Options Quant Trading/test_options_core.py",
+    "Options Quant Trading/test_databento_options.py",
+    "Options Quant Trading/test_options_quant_desktop.py",
+]
+pythonpath = ["Options Quant Trading"]
+norecursedirs = [
+    ".git",
+    "Archive",
+    "GAAP",
+    "Legal Research Index (9fin)",
+    "LevFin",
+    "Options",
+    "files",
+    "files2",
+    "files3",
+    "files4",
+    "files5",
+    "files6",
+    "Options Quant Trading/databento-python-main",
+    "Options Quant Trading/mcp_massive-master",
+]
+filterwarnings = [
+    "ignore::DeprecationWarning",
+    "ignore::PendingDeprecationWarning",
+]
