@@ -3,7 +3,8 @@
 # This workflow now exercises three things that the original config silently
 # skipped:
 #   1. The mstr_options_lab math/pricing tests (needed numpy/pandas/scipy installed).
-#   2. The new tests/ tie-out checks for the LevFin v8 deliverables (needs LFS).
+#   2. The new tests/ tie-out checks for the LevFin v8 deliverables. LFS is fetched
+#      best-effort; if the deliverables don't materialise the tie-out cases skip.
 #   3. The top-level options_core / databento_options / options_quant_desktop tests.
 
 name: Python package
@@ -60,16 +61,10 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics \
           --exclude=databento-python-main,mcp_massive-master,Archive,.git
 
-    - name: Test with pytest (gating)
-      # Everything except the deliverable-content tie-out checks must pass.
+    - name: Test with pytest
+      # Full suite gates CI, including the deliverable tie-out checks. Those read the
+      # LFS-materialised .docx/.pptx; if LFS is unavailable they skip (see the
+      # best-effort fetch above), so the build is never blocked by a missing artefact —
+      # only by a real figure mismatch.
       run: |
-        pytest -v -m "not deliverable_content"
-
-    - name: Deliverable tie-out check (report-only)
-      # The deliverable-content tie-out depends on the binary LFS artefacts and on
-      # the deliverable text matching the canonical v8 figures. Run it for visibility
-      # but do not gate the suite on it — a drifted figure or unavailable LFS endpoint
-      # is surfaced in the log without blocking the PR.
-      continue-on-error: true
-      run: |
-        pytest -v -m "deliverable_content"
+        pytest -v
